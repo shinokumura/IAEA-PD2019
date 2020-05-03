@@ -1,0 +1,467 @@
+ Process ENDF/B Double Differential Data - MF=6 (SIXPAK 2019-1)
+ ==============================================================================
+ ENDF/B Input Data Filename
+ SIXPAK.IN                                                               
+ ------------------------------------------------------------------------------
+ Requested Ranges
+ ------------------------------------------------------------------------------
+    Minimum    Maximum   
+    MAT  MT    MAT  MT
+ ------------------------------------------------------------------------------
+      1   1   9999 999
+ ==============================================================================
+ Terminology
+ ------------------------------------------------------------------------------
+ LCT  = Reference System (Lab or Center-of-Mass)
+ LIP  = Product Modifier, e.g., for Isomeric States
+ LAW  = Representation of Data - see, List at End of Output
+ LANG = 1     = Legendre     (LAW 1)
+      = 2     = Kalbach-Mann (LAW 1)
+      = 11-15 = Tabulated    (LAW 1)
+      = 0     = Legendre     (LAW 2)
+      = 11-15 = Tabulated    (LAW 2)
+ LTP  = 1-2   = Legendre     (LAW 5)
+      = 11-15 = Tabulated    (LAW 5)
+ LEP  = Secondary Energy Interpolation Type(1 to 5)
+ ==============================================================================
+ Tape Label
+ ------------------------------------------------------------------------------
+  JENDL/PD-2016.1  Mo- 92                                             1
+ ------------------------------------------------------------------------------
+ WARNING: MT=5 is ALLOWED in MF=6, but NOT in MF=4 or 5.
+          see ENDF-102 - Strictly for diagnostic purposes
+          this code will Translate MF=6 Data - but be
+          WARNED - the results should not be used in ANY          APPLICATIONS.
+ ------------------------------------------------------------------------------
+ ==============================================================================
+ Projectile   Target    Emitted    MAT  MT LCT LIP LAW LANG  LEP  ENDF/B
+                                                        LTP       Output
+ ==============================================================================
+  Photon     42-Mo-92   Neutron   4225   5 cm    0   1    1    2      
+  Photon     42-Mo-92    1-H -1   4225   5 cm    0   1    1    2      
+  Photon     42-Mo-92    1-H -2   4225   5 cm    0   1    1    2      
+  Photon     42-Mo-92    1-H -3   4225   5 cm    0   1    1    2      
+  Photon     42-Mo-92    2-He-3   4225   5 cm    0   1    1    2      
+  Photon     42-Mo-92    2-He-4   4225   5 cm    0   1    1    2      
+  Photon     42-Mo-92   22-Ti-54  4225   5 cm    0   0                
+  Photon     42-Mo-92   23-V -55  4225   5 cm    0   0                
+  Photon     42-Mo-92   23-V -56  4225   5 cm    0   0                
+  Photon     42-Mo-92   23-V -57  4225   5 cm    0   0                
+  Photon     42-Mo-92   24-Cr-56  4225   5 cm    0   0                
+  Photon     42-Mo-92   24-Cr-57  4225   5 cm    0   0                
+  Photon     42-Mo-92   24-Cr-58  4225   5 cm    0   0                
+  Photon     42-Mo-92   24-Cr-59  4225   5 cm    0   0                
+  Photon     42-Mo-92   24-Cr-60  4225   5 cm    0   0                
+  Photon     42-Mo-92   25-Mn-57  4225   5 cm    0   0                
+  Photon     42-Mo-92   25-Mn-58  4225   5 cm    0   0                
+  Photon     42-Mo-92   25-Mn-58  4225   5 cm    1   0                
+  Photon     42-Mo-92   25-Mn-59  4225   5 cm    0   0                
+  Photon     42-Mo-92   25-Mn-60  4225   5 cm    0   0                
+  Photon     42-Mo-92   25-Mn-60  4225   5 cm    1   0                
+  Photon     42-Mo-92   25-Mn-61  4225   5 cm    0   0                
+  Photon     42-Mo-92   25-Mn-62  4225   5 cm    0   0                
+  Photon     42-Mo-92   25-Mn-63  4225   5 cm    0   0                
+  Photon     42-Mo-92   26-Fe-58  4225   5 cm    0   0                
+  Photon     42-Mo-92   26-Fe-59  4225   5 cm    0   0                
+  Photon     42-Mo-92   26-Fe-60  4225   5 cm    0   0                
+  Photon     42-Mo-92   26-Fe-61  4225   5 cm    0   0                
+  Photon     42-Mo-92   26-Fe-62  4225   5 cm    0   0                
+  Photon     42-Mo-92   26-Fe-63  4225   5 cm    0   0                
+  Photon     42-Mo-92   26-Fe-64  4225   5 cm    0   0                
+  Photon     42-Mo-92   26-Fe-65  4225   5 cm    0   0                
+  Photon     42-Mo-92   26-Fe-66  4225   5 cm    0   0                
+  Photon     42-Mo-92   27-Co-59  4225   5 cm    0   0                
+  Photon     42-Mo-92   27-Co-60  4225   5 cm    0   0                
+  Photon     42-Mo-92   27-Co-60  4225   5 cm    1   0                
+  Photon     42-Mo-92   27-Co-61  4225   5 cm    0   0                
+  Photon     42-Mo-92   27-Co-62  4225   5 cm    0   0                
+  Photon     42-Mo-92   27-Co-62  4225   5 cm    1   0                
+  Photon     42-Mo-92   27-Co-63  4225   5 cm    0   0                
+  Photon     42-Mo-92   27-Co-64  4225   5 cm    0   0                
+  Photon     42-Mo-92   27-Co-65  4225   5 cm    0   0                
+  Photon     42-Mo-92   27-Co-66  4225   5 cm    0   0                
+  Photon     42-Mo-92   27-Co-67  4225   5 cm    0   0                
+  Photon     42-Mo-92   27-Co-68  4225   5 cm    0   0                
+  Photon     42-Mo-92   27-Co-68  4225   5 cm    1   0                
+  Photon     42-Mo-92   27-Co-69  4225   5 cm    0   0                
+  Photon     42-Mo-92   28-Ni-60  4225   5 cm    0   0                
+  Photon     42-Mo-92   28-Ni-61  4225   5 cm    0   0                
+  Photon     42-Mo-92   28-Ni-62  4225   5 cm    0   0                
+  Photon     42-Mo-92   28-Ni-63  4225   5 cm    0   0                
+  Photon     42-Mo-92   28-Ni-64  4225   5 cm    0   0                
+  Photon     42-Mo-92   28-Ni-65  4225   5 cm    0   0                
+  Photon     42-Mo-92   28-Ni-66  4225   5 cm    0   0                
+  Photon     42-Mo-92   28-Ni-67  4225   5 cm    0   0                
+  Photon     42-Mo-92   28-Ni-68  4225   5 cm    0   0                
+  Photon     42-Mo-92   28-Ni-69  4225   5 cm    0   0                
+  Photon     42-Mo-92   28-Ni-70  4225   5 cm    0   0                
+  Photon     42-Mo-92   28-Ni-71  4225   5 cm    0   0                
+  Photon     42-Mo-92   28-Ni-72  4225   5 cm    0   0                
+  Photon     42-Mo-92   29-Cu-61  4225   5 cm    0   0                
+  Photon     42-Mo-92   29-Cu-62  4225   5 cm    0   0                
+  Photon     42-Mo-92   29-Cu-63  4225   5 cm    0   0                
+  Photon     42-Mo-92   29-Cu-64  4225   5 cm    0   0                
+  Photon     42-Mo-92   29-Cu-65  4225   5 cm    0   0                
+  Photon     42-Mo-92   29-Cu-66  4225   5 cm    0   0                
+  Photon     42-Mo-92   29-Cu-67  4225   5 cm    0   0                
+  Photon     42-Mo-92   29-Cu-68  4225   5 cm    0   0                
+  Photon     42-Mo-92   29-Cu-68  4225   5 cm    1   0                
+  Photon     42-Mo-92   29-Cu-69  4225   5 cm    0   0                
+  Photon     42-Mo-92   29-Cu-70  4225   5 cm    0   0                
+  Photon     42-Mo-92   29-Cu-70  4225   5 cm    1   0                
+  Photon     42-Mo-92   29-Cu-71  4225   5 cm    0   0                
+  Photon     42-Mo-92   29-Cu-72  4225   5 cm    0   0                
+  Photon     42-Mo-92   29-Cu-73  4225   5 cm    0   0                
+  Photon     42-Mo-92   29-Cu-74  4225   5 cm    0   0                
+  Photon     42-Mo-92   29-Cu-75  4225   5 cm    0   0                
+  Photon     42-Mo-92   30-Zn-62  4225   5 cm    0   0                
+  Photon     42-Mo-92   30-Zn-63  4225   5 cm    0   0                
+  Photon     42-Mo-92   30-Zn-64  4225   5 cm    0   0                
+  Photon     42-Mo-92   30-Zn-65  4225   5 cm    0   0                
+  Photon     42-Mo-92   30-Zn-66  4225   5 cm    0   0                
+  Photon     42-Mo-92   30-Zn-67  4225   5 cm    0   0                
+  Photon     42-Mo-92   30-Zn-68  4225   5 cm    0   0                
+  Photon     42-Mo-92   30-Zn-69  4225   5 cm    0   0                
+  Photon     42-Mo-92   30-Zn-69  4225   5 cm    1   0                
+  Photon     42-Mo-92   30-Zn-70  4225   5 cm    0   0                
+  Photon     42-Mo-92   30-Zn-71  4225   5 cm    0   0                
+  Photon     42-Mo-92   30-Zn-71  4225   5 cm    1   0                
+  Photon     42-Mo-92   30-Zn-72  4225   5 cm    0   0                
+  Photon     42-Mo-92   30-Zn-73  4225   5 cm    0   0                
+  Photon     42-Mo-92   30-Zn-74  4225   5 cm    0   0                
+  Photon     42-Mo-92   30-Zn-75  4225   5 cm    0   0                
+  Photon     42-Mo-92   30-Zn-76  4225   5 cm    0   0                
+  Photon     42-Mo-92   30-Zn-77  4225   5 cm    0   0                
+  Photon     42-Mo-92   30-Zn-77  4225   5 cm    1   0                
+  Photon     42-Mo-92   30-Zn-78  4225   5 cm    0   0                
+  Photon     42-Mo-92   31-Ga-63  4225   5 cm    0   0                
+  Photon     42-Mo-92   31-Ga-64  4225   5 cm    0   0                
+  Photon     42-Mo-92   31-Ga-65  4225   5 cm    0   0                
+  Photon     42-Mo-92   31-Ga-66  4225   5 cm    0   0                
+  Photon     42-Mo-92   31-Ga-67  4225   5 cm    0   0                
+  Photon     42-Mo-92   31-Ga-68  4225   5 cm    0   0                
+  Photon     42-Mo-92   31-Ga-69  4225   5 cm    0   0                
+  Photon     42-Mo-92   31-Ga-70  4225   5 cm    0   0                
+  Photon     42-Mo-92   31-Ga-71  4225   5 cm    0   0                
+  Photon     42-Mo-92   31-Ga-72  4225   5 cm    0   0                
+  Photon     42-Mo-92   31-Ga-73  4225   5 cm    0   0                
+  Photon     42-Mo-92   31-Ga-74  4225   5 cm    0   0                
+  Photon     42-Mo-92   31-Ga-75  4225   5 cm    0   0                
+  Photon     42-Mo-92   31-Ga-76  4225   5 cm    0   0                
+  Photon     42-Mo-92   31-Ga-77  4225   5 cm    0   0                
+  Photon     42-Mo-92   31-Ga-78  4225   5 cm    0   0                
+  Photon     42-Mo-92   31-Ga-79  4225   5 cm    0   0                
+  Photon     42-Mo-92   31-Ga-80  4225   5 cm    0   0                
+  Photon     42-Mo-92   32-Ge-64  4225   5 cm    0   0                
+  Photon     42-Mo-92   32-Ge-65  4225   5 cm    0   0                
+  Photon     42-Mo-92   32-Ge-66  4225   5 cm    0   0                
+  Photon     42-Mo-92   32-Ge-67  4225   5 cm    0   0                
+  Photon     42-Mo-92   32-Ge-68  4225   5 cm    0   0                
+  Photon     42-Mo-92   32-Ge-69  4225   5 cm    0   0                
+  Photon     42-Mo-92   32-Ge-70  4225   5 cm    0   0                
+  Photon     42-Mo-92   32-Ge-71  4225   5 cm    0   0                
+  Photon     42-Mo-92   32-Ge-72  4225   5 cm    0   0                
+  Photon     42-Mo-92   32-Ge-73  4225   5 cm    0   0                
+  Photon     42-Mo-92   32-Ge-73  4225   5 cm    1   0                
+  Photon     42-Mo-92   32-Ge-74  4225   5 cm    0   0                
+  Photon     42-Mo-92   32-Ge-75  4225   5 cm    0   0                
+  Photon     42-Mo-92   32-Ge-75  4225   5 cm    1   0                
+  Photon     42-Mo-92   32-Ge-76  4225   5 cm    0   0                
+  Photon     42-Mo-92   32-Ge-77  4225   5 cm    0   0                
+  Photon     42-Mo-92   32-Ge-77  4225   5 cm    1   0                
+  Photon     42-Mo-92   32-Ge-78  4225   5 cm    0   0                
+  Photon     42-Mo-92   32-Ge-79  4225   5 cm    0   0                
+  Photon     42-Mo-92   32-Ge-79  4225   5 cm    1   0                
+  Photon     42-Mo-92   32-Ge-80  4225   5 cm    0   0                
+  Photon     42-Mo-92   32-Ge-81  4225   5 cm    0   0                
+  Photon     42-Mo-92   32-Ge-81  4225   5 cm    1   0                
+  Photon     42-Mo-92   33-As-65  4225   5 cm    0   0                
+  Photon     42-Mo-92   33-As-66  4225   5 cm    0   0                
+  Photon     42-Mo-92   33-As-67  4225   5 cm    0   0                
+  Photon     42-Mo-92   33-As-68  4225   5 cm    0   0                
+  Photon     42-Mo-92   33-As-69  4225   5 cm    0   0                
+  Photon     42-Mo-92   33-As-70  4225   5 cm    0   0                
+  Photon     42-Mo-92   33-As-71  4225   5 cm    0   0                
+  Photon     42-Mo-92   33-As-72  4225   5 cm    0   0                
+  Photon     42-Mo-92   33-As-73  4225   5 cm    0   0                
+  Photon     42-Mo-92   33-As-74  4225   5 cm    0   0                
+  Photon     42-Mo-92   33-As-75  4225   5 cm    0   0                
+  Photon     42-Mo-92   33-As-76  4225   5 cm    0   0                
+  Photon     42-Mo-92   33-As-77  4225   5 cm    0   0                
+  Photon     42-Mo-92   33-As-78  4225   5 cm    0   0                
+  Photon     42-Mo-92   33-As-79  4225   5 cm    0   0                
+  Photon     42-Mo-92   33-As-80  4225   5 cm    0   0                
+  Photon     42-Mo-92   33-As-81  4225   5 cm    0   0                
+  Photon     42-Mo-92   33-As-82  4225   5 cm    0   0                
+  Photon     42-Mo-92   33-As-82  4225   5 cm    1   0                
+  Photon     42-Mo-92   34-Se-67  4225   5 cm    0   0                
+  Photon     42-Mo-92   34-Se-68  4225   5 cm    0   0                
+  Photon     42-Mo-92   34-Se-69  4225   5 cm    0   0                
+  Photon     42-Mo-92   34-Se-70  4225   5 cm    0   0                
+  Photon     42-Mo-92   34-Se-71  4225   5 cm    0   0                
+  Photon     42-Mo-92   34-Se-72  4225   5 cm    0   0                
+  Photon     42-Mo-92   34-Se-73  4225   5 cm    0   0                
+  Photon     42-Mo-92   34-Se-73  4225   5 cm    1   0                
+  Photon     42-Mo-92   34-Se-74  4225   5 cm    0   0                
+  Photon     42-Mo-92   34-Se-75  4225   5 cm    0   0                
+  Photon     42-Mo-92   34-Se-76  4225   5 cm    0   0                
+  Photon     42-Mo-92   34-Se-77  4225   5 cm    0   0                
+  Photon     42-Mo-92   34-Se-77  4225   5 cm    1   0                
+  Photon     42-Mo-92   34-Se-78  4225   5 cm    0   0                
+  Photon     42-Mo-92   34-Se-79  4225   5 cm    0   0                
+  Photon     42-Mo-92   34-Se-79  4225   5 cm    1   0                
+  Photon     42-Mo-92   34-Se-80  4225   5 cm    0   0                
+  Photon     42-Mo-92   34-Se-81  4225   5 cm    0   0                
+  Photon     42-Mo-92   34-Se-81  4225   5 cm    1   0                
+  Photon     42-Mo-92   34-Se-82  4225   5 cm    0   0                
+  Photon     42-Mo-92   34-Se-83  4225   5 cm    0   0                
+  Photon     42-Mo-92   34-Se-83  4225   5 cm    1   0                
+  Photon     42-Mo-92   34-Se-84  4225   5 cm    0   0                
+  Photon     42-Mo-92   35-Br-68  4225   5 cm    0   0                
+  Photon     42-Mo-92   35-Br-69  4225   5 cm    0   0                
+  Photon     42-Mo-92   35-Br-70  4225   5 cm    0   0                
+  Photon     42-Mo-92   35-Br-70  4225   5 cm    1   0                
+  Photon     42-Mo-92   35-Br-71  4225   5 cm    0   0                
+  Photon     42-Mo-92   35-Br-72  4225   5 cm    0   0                
+  Photon     42-Mo-92   35-Br-72  4225   5 cm    1   0                
+  Photon     42-Mo-92   35-Br-73  4225   5 cm    0   0                
+  Photon     42-Mo-92   35-Br-74  4225   5 cm    0   0                
+  Photon     42-Mo-92   35-Br-74  4225   5 cm    1   0                
+  Photon     42-Mo-92   35-Br-75  4225   5 cm    0   0                
+  Photon     42-Mo-92   35-Br-76  4225   5 cm    0   0                
+  Photon     42-Mo-92   35-Br-76  4225   5 cm    1   0                
+  Photon     42-Mo-92   35-Br-77  4225   5 cm    0   0                
+  Photon     42-Mo-92   35-Br-77  4225   5 cm    1   0                
+  Photon     42-Mo-92   35-Br-78  4225   5 cm    0   0                
+  Photon     42-Mo-92   35-Br-79  4225   5 cm    0   0                
+  Photon     42-Mo-92   35-Br-79  4225   5 cm    1   0                
+  Photon     42-Mo-92   35-Br-80  4225   5 cm    0   0                
+  Photon     42-Mo-92   35-Br-80  4225   5 cm    1   0                
+  Photon     42-Mo-92   35-Br-81  4225   5 cm    0   0                
+  Photon     42-Mo-92   35-Br-82  4225   5 cm    0   0                
+  Photon     42-Mo-92   35-Br-82  4225   5 cm    1   0                
+  Photon     42-Mo-92   35-Br-83  4225   5 cm    0   0                
+  Photon     42-Mo-92   35-Br-84  4225   5 cm    0   0                
+  Photon     42-Mo-92   35-Br-84  4225   5 cm    1   0                
+  Photon     42-Mo-92   35-Br-85  4225   5 cm    0   0                
+  Photon     42-Mo-92   36-Kr-70  4225   5 cm    0   0                
+  Photon     42-Mo-92   36-Kr-71  4225   5 cm    0   0                
+  Photon     42-Mo-92   36-Kr-72  4225   5 cm    0   0                
+  Photon     42-Mo-92   36-Kr-73  4225   5 cm    0   0                
+  Photon     42-Mo-92   36-Kr-74  4225   5 cm    0   0                
+  Photon     42-Mo-92   36-Kr-75  4225   5 cm    0   0                
+  Photon     42-Mo-92   36-Kr-76  4225   5 cm    0   0                
+  Photon     42-Mo-92   36-Kr-77  4225   5 cm    0   0                
+  Photon     42-Mo-92   36-Kr-78  4225   5 cm    0   0                
+  Photon     42-Mo-92   36-Kr-79  4225   5 cm    0   0                
+  Photon     42-Mo-92   36-Kr-79  4225   5 cm    1   0                
+  Photon     42-Mo-92   36-Kr-80  4225   5 cm    0   0                
+  Photon     42-Mo-92   36-Kr-81  4225   5 cm    0   0                
+  Photon     42-Mo-92   36-Kr-81  4225   5 cm    1   0                
+  Photon     42-Mo-92   36-Kr-82  4225   5 cm    0   0                
+  Photon     42-Mo-92   36-Kr-83  4225   5 cm    0   0                
+  Photon     42-Mo-92   36-Kr-83  4225   5 cm    1   0                
+  Photon     42-Mo-92   36-Kr-84  4225   5 cm    0   0                
+  Photon     42-Mo-92   36-Kr-85  4225   5 cm    0   0                
+  Photon     42-Mo-92   36-Kr-85  4225   5 cm    1   0                
+  Photon     42-Mo-92   36-Kr-86  4225   5 cm    0   0                
+  Photon     42-Mo-92   37-Rb-72  4225   5 cm    0   0                
+  Photon     42-Mo-92   37-Rb-73  4225   5 cm    0   0                
+  Photon     42-Mo-92   37-Rb-74  4225   5 cm    0   0                
+  Photon     42-Mo-92   37-Rb-75  4225   5 cm    0   0                
+  Photon     42-Mo-92   37-Rb-76  4225   5 cm    0   0                
+  Photon     42-Mo-92   37-Rb-77  4225   5 cm    0   0                
+  Photon     42-Mo-92   37-Rb-78  4225   5 cm    0   0                
+  Photon     42-Mo-92   37-Rb-78  4225   5 cm    1   0                
+  Photon     42-Mo-92   37-Rb-79  4225   5 cm    0   0                
+  Photon     42-Mo-92   37-Rb-80  4225   5 cm    0   0                
+  Photon     42-Mo-92   37-Rb-81  4225   5 cm    0   0                
+  Photon     42-Mo-92   37-Rb-81  4225   5 cm    1   0                
+  Photon     42-Mo-92   37-Rb-82  4225   5 cm    0   0                
+  Photon     42-Mo-92   37-Rb-82  4225   5 cm    1   0                
+  Photon     42-Mo-92   37-Rb-83  4225   5 cm    0   0                
+  Photon     42-Mo-92   37-Rb-84  4225   5 cm    0   0                
+  Photon     42-Mo-92   37-Rb-84  4225   5 cm    1   0                
+  Photon     42-Mo-92   37-Rb-85  4225   5 cm    0   0                
+  Photon     42-Mo-92   37-Rb-86  4225   5 cm    0   0                
+  Photon     42-Mo-92   37-Rb-86  4225   5 cm    1   0                
+  Photon     42-Mo-92   37-Rb-87  4225   5 cm    0   0                
+  Photon     42-Mo-92   38-Sr-74  4225   5 cm    0   0                
+  Photon     42-Mo-92   38-Sr-75  4225   5 cm    0   0                
+  Photon     42-Mo-92   38-Sr-76  4225   5 cm    0   0                
+  Photon     42-Mo-92   38-Sr-77  4225   5 cm    0   0                
+  Photon     42-Mo-92   38-Sr-78  4225   5 cm    0   0                
+  Photon     42-Mo-92   38-Sr-79  4225   5 cm    0   0                
+  Photon     42-Mo-92   38-Sr-80  4225   5 cm    0   0                
+  Photon     42-Mo-92   38-Sr-81  4225   5 cm    0   0                
+  Photon     42-Mo-92   38-Sr-82  4225   5 cm    0   0                
+  Photon     42-Mo-92   38-Sr-83  4225   5 cm    0   0                
+  Photon     42-Mo-92   38-Sr-83  4225   5 cm    1   0                
+  Photon     42-Mo-92   38-Sr-84  4225   5 cm    0   0                
+  Photon     42-Mo-92   38-Sr-85  4225   5 cm    0   0                
+  Photon     42-Mo-92   38-Sr-85  4225   5 cm    1   0                
+  Photon     42-Mo-92   38-Sr-86  4225   5 cm    0   0                
+  Photon     42-Mo-92   38-Sr-87  4225   5 cm    0   0                
+  Photon     42-Mo-92   38-Sr-87  4225   5 cm    1   0                
+  Photon     42-Mo-92   38-Sr-88  4225   5 cm    0   0                
+  Photon     42-Mo-92   39-Y -76  4225   5 cm    0   0                
+  Photon     42-Mo-92   39-Y -77  4225   5 cm    0   0                
+  Photon     42-Mo-92   39-Y -78  4225   5 cm    0   0                
+  Photon     42-Mo-92   39-Y -79  4225   5 cm    0   0                
+  Photon     42-Mo-92   39-Y -80  4225   5 cm    0   0                
+  Photon     42-Mo-92   39-Y -80  4225   5 cm    1   0                
+  Photon     42-Mo-92   39-Y -81  4225   5 cm    0   0                
+  Photon     42-Mo-92   39-Y -82  4225   5 cm    0   0                
+  Photon     42-Mo-92   39-Y -83  4225   5 cm    0   0                
+  Photon     42-Mo-92   39-Y -83  4225   5 cm    1   0                
+  Photon     42-Mo-92   39-Y -84  4225   5 cm    0   0                
+  Photon     42-Mo-92   39-Y -84  4225   5 cm    1   0                
+  Photon     42-Mo-92   39-Y -85  4225   5 cm    0   0                
+  Photon     42-Mo-92   39-Y -85  4225   5 cm    1   0                
+  Photon     42-Mo-92   39-Y -86  4225   5 cm    0   0                
+  Photon     42-Mo-92   39-Y -86  4225   5 cm    1   0                
+  Photon     42-Mo-92   39-Y -87  4225   5 cm    0   0                
+  Photon     42-Mo-92   39-Y -87  4225   5 cm    1   0                
+  Photon     42-Mo-92   39-Y -88  4225   5 cm    0   0                
+  Photon     42-Mo-92   39-Y -89  4225   5 cm    0   0                
+  Photon     42-Mo-92   39-Y -89  4225   5 cm    1   0                
+  Photon     42-Mo-92   40-Zr-78  4225   5 cm    0   0                
+  Photon     42-Mo-92   40-Zr-79  4225   5 cm    0   0                
+  Photon     42-Mo-92   40-Zr-80  4225   5 cm    0   0                
+  Photon     42-Mo-92   40-Zr-81  4225   5 cm    0   0                
+  Photon     42-Mo-92   40-Zr-82  4225   5 cm    0   0                
+  Photon     42-Mo-92   40-Zr-83  4225   5 cm    0   0                
+  Photon     42-Mo-92   40-Zr-84  4225   5 cm    0   0                
+  Photon     42-Mo-92   40-Zr-85  4225   5 cm    0   0                
+  Photon     42-Mo-92   40-Zr-86  4225   5 cm    0   0                
+  Photon     42-Mo-92   40-Zr-87  4225   5 cm    0   0                
+  Photon     42-Mo-92   40-Zr-87  4225   5 cm    1   0                
+  Photon     42-Mo-92   40-Zr-88  4225   5 cm    0   0                
+  Photon     42-Mo-92   40-Zr-89  4225   5 cm    0   0                
+  Photon     42-Mo-92   40-Zr-89  4225   5 cm    1   0                
+  Photon     42-Mo-92   40-Zr-90  4225   5 cm    0   0                
+  Photon     42-Mo-92   40-Zr-90  4225   5 cm    1   0                
+  Photon     42-Mo-92   41-Nb-81  4225   5 cm    0   0                
+  Photon     42-Mo-92   41-Nb-82  4225   5 cm    0   0                
+  Photon     42-Mo-92   41-Nb-83  4225   5 cm    0   0                
+  Photon     42-Mo-92   41-Nb-84  4225   5 cm    0   0                
+  Photon     42-Mo-92   41-Nb-85  4225   5 cm    0   0                
+  Photon     42-Mo-92   41-Nb-86  4225   5 cm    0   0                
+  Photon     42-Mo-92   41-Nb-86  4225   5 cm    1   0                
+  Photon     42-Mo-92   41-Nb-87  4225   5 cm    0   0                
+  Photon     42-Mo-92   41-Nb-87  4225   5 cm    1   0                
+  Photon     42-Mo-92   41-Nb-88  4225   5 cm    0   0                
+  Photon     42-Mo-92   41-Nb-88  4225   5 cm    1   0                
+  Photon     42-Mo-92   41-Nb-89  4225   5 cm    0   0                
+  Photon     42-Mo-92   41-Nb-89  4225   5 cm    1   0                
+  Photon     42-Mo-92   41-Nb-90  4225   5 cm    0   0                
+  Photon     42-Mo-92   41-Nb-90  4225   5 cm    1   0                
+  Photon     42-Mo-92   41-Nb-91  4225   5 cm    0   0                
+  Photon     42-Mo-92   41-Nb-91  4225   5 cm    1   0                
+  Photon     42-Mo-92   42-Mo-83  4225   5 cm    0   0                
+  Photon     42-Mo-92   42-Mo-84  4225   5 cm    0   0                
+  Photon     42-Mo-92   42-Mo-85  4225   5 cm    0   0                
+  Photon     42-Mo-92   42-Mo-86  4225   5 cm    0   0                
+  Photon     42-Mo-92   42-Mo-87  4225   5 cm    0   0                
+  Photon     42-Mo-92   42-Mo-88  4225   5 cm    0   0                
+  Photon     42-Mo-92   42-Mo-89  4225   5 cm    0   0                
+  Photon     42-Mo-92   42-Mo-89  4225   5 cm    1   0                
+  Photon     42-Mo-92   42-Mo-90  4225   5 cm    0   0                
+  Photon     42-Mo-92   42-Mo-91  4225   5 cm    0   0                
+  Photon     42-Mo-92   42-Mo-91  4225   5 cm    1   0                
+  Photon     42-Mo-92   42-Mo-92  4225   5 cm    0   0                
+  Photon     42-Mo-92   Photon    4225   5 cm    0   1    1    2      
+ ------------------------------------------------------------------------------
+ All Cross Sections Read. Maximum Tabulated Energy =  200000000. eV
+ ------------------------------------------------------------------------------
+ ==============================================================================
+ Laws by Incident Particle
+ ------------------------------------------------------------------------------
+ Law Number and Definition   Photon    n     p     d     t  He-3  He-4 Other
+ ------------------------------------------------------------------------------
+ (0) Unknown................   327     0     0     0     0     0     0     0
+ (1) Continuum Energy-Angle
+      Legendre..............     7     0     0     0     0     0     0     0
+      Kalbach-Mann..........     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (2) Discrete 2 Body
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (3) Isotropic Discrete.....     0     0     0     0     0     0     0     0
+ (4) Discrete 2 Body Recoil.     0     0     0     0     0     0     0     0
+ (5) Charged Particle Elastic
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (6) n-Body Phase-Space.....     0     0     0     0     0     0     0     0
+ (7) Laboratory Angle-Energy     0     0     0     0     0     0     0     0
+ Not 0 to 7 (WARNING if Any)     0     0     0     0     0     0     0     0
+ ==============================================================================
+ Laws by Emitted Particle
+ ------------------------------------------------------------------------------
+ Law Number and Definition   Photon    n     p     d     t  He-3  He-4 Other
+ ------------------------------------------------------------------------------
+ (0) Unknown................     0     0     0     0     0     0     0   327
+ (1) Continuum Energy-Angle
+      Legendre..............     1     1     1     1     1     1     1     0
+      Kalbach-Mann..........     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (2) Discrete 2 Body
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (3) Isotropic Discrete.....     0     0     0     0     0     0     0     0
+ (4) Discrete 2 Body Recoil.     0     0     0     0     0     0     0     0
+ (5) Charged Particle Elastic
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (6) n-Body Phase-Space.....     0     0     0     0     0     0     0     0
+ (7) Laboratory Angle-Energy     0     0     0     0     0     0     0     0
+ Not 0 to 7 (WARNING if Any)     0     0     0     0     0     0     0     0
+ ------------------------------------------------------------------------------
+ Summary of Emitted Particle Yields
+ ------------------------------------------------------------------------------
+ Energy Independent.........     0     0     0     0     0     0     0     0
+ Energy Dependent...........     1     1     1     1     1     1     1   327
+ ------------------------------------------------------------------------------
+ Summary of Angular Distributions
+ ------------------------------------------------------------------------------
+ Isotropic..................     1     0     0     0     0     0     0     0
+ Nonisotropic...............     0     1     0     1     0     0     0     0
+ Mixed......................     0     0     1     0     1     1     1     0
+ ------------------------------------------------------------------------------
+ Maximum Legendre Order.....     0    10    10    10    10    10    10     0
+ Maximum Number of Cosines..     0     0     0     0     0     0     0     0
+ ------------------------------------------------------------------------------
+ Summary of Energy Distributions
+ ------------------------------------------------------------------------------
+ Continuous.................     1     1     1     1     1     1     1     0
+ Discrete...................     0     0     0     0     0     0     0     0
+ Mixed......................     0     0     0     0     0     0     0     0
+ ------------------------------------------------------------------------------
+ ==============================================================================
+ Summary of Incident Neutron with Photon or Neutron Emitted Data
+ ------------------------------------------------------------------------------
+ Law Number and Definition   Output        Not Output 
+ ------------------------------------------------------------------------------
+                             Photon    n   Photon    n
+ ------------------------------------------------------------------------------
+ (0) Unknown................     0     0       0     0
+ (1) Continuum Energy-Angle
+      Legendre..............     0     0       0     0
+      Kalbach-Mann..........     0     0       0     0
+      Tabulated.............     0     0       0     0
+ (2) Discrete 2 Body
+      Legendre..............     0     0       0     0
+      Tabulated.............     0     0       0     0
+ (3) Isotropic Discrete.....     0     0       0     0
+ (4) Discrete 2 Body Recoil.     0     0       0     0
+ (5) Charged Particle Elastic
+      Legendre..............     0     0       0     0
+      Tabulated.............     0     0       0     0
+ (6) n-Body Phase-Space.....     0     0       0     0
+ (7) Laboratory Angle-Energy     0     0       0     0
+ Not 0 to 7 (WARNING if Any)     0     0       0     0
+ ==============================================================================
+ End of Run
+ ===============================================================================
+ SIXPAK   Total Execution Time                0.13 Seconds
+ ===============================================================================

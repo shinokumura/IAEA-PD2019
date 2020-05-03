@@ -1,0 +1,231 @@
+ Process ENDF/B Double Differential Data - MF=6 (SIXPAK 2019-1)
+ ==============================================================================
+ ENDF/B Input Data Filename
+ SIXPAK.IN                                                               
+ ------------------------------------------------------------------------------
+ Requested Ranges
+ ------------------------------------------------------------------------------
+    Minimum    Maximum   
+    MAT  MT    MAT  MT
+ ------------------------------------------------------------------------------
+      1   1   9999 999
+ ==============================================================================
+ Terminology
+ ------------------------------------------------------------------------------
+ LCT  = Reference System (Lab or Center-of-Mass)
+ LIP  = Product Modifier, e.g., for Isomeric States
+ LAW  = Representation of Data - see, List at End of Output
+ LANG = 1     = Legendre     (LAW 1)
+      = 2     = Kalbach-Mann (LAW 1)
+      = 11-15 = Tabulated    (LAW 1)
+      = 0     = Legendre     (LAW 2)
+      = 11-15 = Tabulated    (LAW 2)
+ LTP  = 1-2   = Legendre     (LAW 5)
+      = 11-15 = Tabulated    (LAW 5)
+ LEP  = Secondary Energy Interpolation Type(1 to 5)
+ ==============================================================================
+ Tape Label
+ ------------------------------------------------------------------------------
+                                                                      1
+ ==============================================================================
+ Projectile   Target    Emitted    MAT  MT LCT LIP LAW LANG  LEP  ENDF/B
+                                                        LTP       Output
+ ==============================================================================
+  Photon      7-N -14   Neutron    725  16 cm    0   1    1    1      
+  Photon      7-N -14    7-N -12   725  16 cm    0   1    1    1      
+  Photon      7-N -14   Neutron    725  23 cm    0   1    1    1      
+  Photon      7-N -14    1-H -1    725  23 cm    0   1    1    1      
+  Photon      7-N -14    2-He-4    725  23 cm    0   1    1    1      
+  Photon      7-N -14   Neutron    725  28 cm    0   1    1    1      
+  Photon      7-N -14    1-H -1    725  28 cm    0   1    1    1      
+  Photon      7-N -14    6-C -12   725  28 cm    0   1    1    1      
+  Photon      7-N -14   Neutron    725  32 cm    0   1    1    1      
+  Photon      7-N -14    1-H -2    725  32 cm    0   1    1    1      
+  Photon      7-N -14    6-C -11   725  32 cm    0   1    1    1      
+  Photon      7-N -14   Neutron    725  34 cm    0   1    1    1      
+  Photon      7-N -14    2-He-3    725  34 cm    0   1    1    1      
+  Photon      7-N -14    5-B -10   725  34 cm    0   1    1    1      
+  Photon      7-N -14   Neutron    725  35 cm    0   1    1    1      
+  Photon      7-N -14    1-H -1    725  35 cm    0   1    1    1      
+  Photon      7-N -14    1-H -2    725  35 cm    0   1    1    1      
+  Photon      7-N -14    5-B -10   725  35 cm    0   1    1    1      
+  Photon      7-N -14    1-H -2    725  36 cm    0   1    1    1      
+  Photon      7-N -14    5-B -10   725  36 cm    0   1    1    1      
+  Photon      7-N -14   Neutron    725  44 cm    0   1    1    1      
+  Photon      7-N -14    1-H -1    725  44 cm    0   1    1    1      
+  Photon      7-N -14    5-B -11   725  44 cm    0   1    1    1      
+  Photon      7-N -14   Neutron    725  50 cm    0   2    0           
+  Photon      7-N -14    7-N -13   725  50 cm    0   4                
+  Photon      7-N -14    2-He-4    725 108 cm    0   1    1    1      
+  Photon      7-N -14    3-Li-6    725 108 cm    0   1    1    1      
+  Photon      7-N -14    2-He-3    725 109 cm    0   1    1    1      
+  Photon      7-N -14    2-He-4    725 109 cm    0   1    1    1      
+  Photon      7-N -14    3-Li-7    725 109 cm    0   1    1    1      
+  Photon      7-N -14    1-H -1    725 111 cm    0   1    1    1      
+  Photon      7-N -14    5-B -12   725 111 cm    0   1    1    1      
+  Photon      7-N -14    2-He-4    725 112 cm    0   1    1    1      
+  Photon      7-N -14    5-B -12   725 112 cm    0   1    1    1      
+  Photon      7-N -14    4-Be-9    725 112 cm    0   1    1    1      
+  Photon      7-N -14    2-He-3    725 113 cm    0   1    1    1      
+  Photon      7-N -14    1-H -3    725 113 cm    0   1    1    1      
+  Photon      7-N -14    2-He-4    725 113 cm    0   1    1    1      
+  Photon      7-N -14    1-H -2    725 114 cm    0   1    1    1      
+  Photon      7-N -14    2-He-4    725 114 cm    0   1    1    1      
+  Photon      7-N -14    1-H -1    725 115 cm    0   1    1    1      
+  Photon      7-N -14    1-H -2    725 115 cm    0   1    1    1      
+  Photon      7-N -14    5-B -11   725 115 cm    0   1    1    1      
+  Photon      7-N -14    1-H -1    725 116 cm    0   1    1    1      
+  Photon      7-N -14    1-H -3    725 116 cm    0   1    1    1      
+  Photon      7-N -14    5-B -10   725 116 cm    0   1    1    1      
+  Photon      7-N -14    2-He-4    725 117 cm    0   1    1    1      
+  Photon      7-N -14    1-H -3    725 117 cm    0   1    1    1      
+  Photon      7-N -14    3-Li-7    725 117 cm    0   1    1    1      
+  Photon      7-N -14    1-H -2    725 118 cm    0   1    1    1      
+  Photon      7-N -14    2-He-4    725 118 cm    0   1    1    1      
+  Photon      7-N -14    1-H -1    725 600 cm    0   2    0           
+  Photon      7-N -14    6-C -13   725 600 cm    0   4                
+  Photon      7-N -14    1-H -1    725 601 cm    0   2    0           
+  Photon      7-N -14    6-C -13   725 601 cm    0   4                
+  Photon      7-N -14    1-H -1    725 602 cm    0   2    0           
+  Photon      7-N -14    6-C -13   725 602 cm    0   4                
+  Photon      7-N -14    1-H -1    725 603 cm    0   2    0           
+  Photon      7-N -14    6-C -13   725 603 cm    0   4                
+  Photon      7-N -14    1-H -2    725 650 cm    0   2    0           
+  Photon      7-N -14    6-C -12   725 650 cm    0   4                
+  Photon      7-N -14    1-H -2    725 651 cm    0   2    0           
+  Photon      7-N -14    6-C -12   725 651 cm    0   4                
+  Photon      7-N -14    1-H -2    725 700 cm    0   2    0           
+  Photon      7-N -14    6-C -12   725 700 cm    0   4                
+  Photon      7-N -14    1-H -2    725 701 cm    0   2    0           
+  Photon      7-N -14    6-C -12   725 701 cm    0   4                
+  Photon      7-N -14    1-H -2    725 702 cm    0   2    0           
+  Photon      7-N -14    6-C -12   725 702 cm    0   4                
+  Photon      7-N -14    1-H -2    725 703 cm    0   2    0           
+  Photon      7-N -14    6-C -12   725 703 cm    0   4                
+  Photon      7-N -14    1-H -2    725 704 cm    0   2    0           
+  Photon      7-N -14    6-C -12   725 704 cm    0   4                
+  Photon      7-N -14    1-H -2    725 705 cm    0   2    0           
+  Photon      7-N -14    6-C -12   725 705 cm    0   4                
+  Photon      7-N -14    1-H -2    725 706 cm    0   2    0           
+  Photon      7-N -14    6-C -12   725 706 cm    0   4                
+  Photon      7-N -14    1-H -2    725 707 cm    0   2    0           
+  Photon      7-N -14    6-C -12   725 707 cm    0   4                
+  Photon      7-N -14    2-He-3    725 750 cm    0   2    0           
+  Photon      7-N -14    5-B -11   725 750 cm    0   4                
+  Photon      7-N -14    2-He-3    725 751 cm    0   2    0           
+  Photon      7-N -14    5-B -11   725 751 cm    0   4                
+  Photon      7-N -14    2-He-3    725 752 cm    0   2    0           
+  Photon      7-N -14    5-B -11   725 752 cm    0   4                
+  Photon      7-N -14    2-He-3    725 753 cm    0   2    0           
+  Photon      7-N -14    5-B -11   725 753 cm    0   4                
+  Photon      7-N -14    2-He-3    725 754 cm    0   2    0           
+  Photon      7-N -14    5-B -11   725 754 cm    0   4                
+  Photon      7-N -14    2-He-3    725 755 cm    0   2    0           
+  Photon      7-N -14    5-B -11   725 755 cm    0   4                
+  Photon      7-N -14    2-He-3    725 756 cm    0   2    0           
+  Photon      7-N -14    5-B -11   725 756 cm    0   4                
+  Photon      7-N -14    2-He-3    725 757 cm    0   2    0           
+  Photon      7-N -14    5-B -11   725 757 cm    0   4                
+  Photon      7-N -14    2-He-3    725 758 cm    0   2    0           
+  Photon      7-N -14    5-B -11   725 758 cm    0   4                
+  Photon      7-N -14    2-He-4    725 800 cm    0   2    0           
+  Photon      7-N -14    5-B -10   725 800 cm    0   4                
+  Photon      7-N -14    2-He-4    725 801 cm    0   2    0           
+  Photon      7-N -14    5-B -10   725 801 cm    0   4                
+  Photon      7-N -14    2-He-4    725 802 cm    0   2    0           
+  Photon      7-N -14    5-B -10   725 802 cm    0   4                
+  Photon      7-N -14    2-He-4    725 803 cm    0   2    0           
+  Photon      7-N -14    5-B -10   725 803 cm    0   4                
+  Photon      7-N -14    2-He-4    725 804 cm    0   2    0           
+  Photon      7-N -14    5-B -10   725 804 cm    0   4                
+ ==============================================================================
+ Laws by Incident Particle
+ ------------------------------------------------------------------------------
+ Law Number and Definition   Photon    n     p     d     t  He-3  He-4 Other
+ ------------------------------------------------------------------------------
+ (0) Unknown................     0     0     0     0     0     0     0     0
+ (1) Continuum Energy-Angle
+      Legendre..............    49     0     0     0     0     0     0     0
+      Kalbach-Mann..........     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (2) Discrete 2 Body
+      Legendre..............    29     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (3) Isotropic Discrete.....     0     0     0     0     0     0     0     0
+ (4) Discrete 2 Body Recoil.    29     0     0     0     0     0     0     0
+ (5) Charged Particle Elastic
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (6) n-Body Phase-Space.....     0     0     0     0     0     0     0     0
+ (7) Laboratory Angle-Energy     0     0     0     0     0     0     0     0
+ Not 0 to 7 (WARNING if Any)     0     0     0     0     0     0     0     0
+ ==============================================================================
+ Laws by Emitted Particle
+ ------------------------------------------------------------------------------
+ Law Number and Definition   Photon    n     p     d     t  He-3  He-4 Other
+ ------------------------------------------------------------------------------
+ (0) Unknown................     0     0     0     0     0     0     0     0
+ (1) Continuum Energy-Angle
+      Legendre..............     0     7     7     6     3     3     8    15
+      Kalbach-Mann..........     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (2) Discrete 2 Body
+      Legendre..............     0     1     4    10     0     9     5     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (3) Isotropic Discrete.....     0     0     0     0     0     0     0     0
+ (4) Discrete 2 Body Recoil.     0     0     0     0     0     0     0    29
+ (5) Charged Particle Elastic
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (6) n-Body Phase-Space.....     0     0     0     0     0     0     0     0
+ (7) Laboratory Angle-Energy     0     0     0     0     0     0     0     0
+ Not 0 to 7 (WARNING if Any)     0     0     0     0     0     0     0     0
+ ------------------------------------------------------------------------------
+ Summary of Emitted Particle Yields
+ ------------------------------------------------------------------------------
+ Energy Independent.........     0     8    11    16     3    12    13    44
+ Energy Dependent...........     0     0     0     0     0     0     0     0
+ ------------------------------------------------------------------------------
+ Summary of Angular Distributions
+ ------------------------------------------------------------------------------
+ Isotropic..................     0     7     7     6     3     3     8    15
+ Nonisotropic...............     0     0     0     0     0     0     0     0
+ Mixed......................     0     0     0     0     0     0     0     0
+ ------------------------------------------------------------------------------
+ Maximum Legendre Order.....     0     2     2     2     0     2     2     0
+ Maximum Number of Cosines..     0     0     0     0     0     0     0     0
+ ------------------------------------------------------------------------------
+ Summary of Energy Distributions
+ ------------------------------------------------------------------------------
+ Continuous.................     0     7     7     6     3     3     8    15
+ Discrete...................     0     0     0     0     0     0     0     0
+ Mixed......................     0     0     0     0     0     0     0     0
+ ------------------------------------------------------------------------------
+ ==============================================================================
+ Summary of Incident Neutron with Photon or Neutron Emitted Data
+ ------------------------------------------------------------------------------
+ Law Number and Definition   Output        Not Output 
+ ------------------------------------------------------------------------------
+                             Photon    n   Photon    n
+ ------------------------------------------------------------------------------
+ (0) Unknown................     0     0       0     0
+ (1) Continuum Energy-Angle
+      Legendre..............     0     0       0     0
+      Kalbach-Mann..........     0     0       0     0
+      Tabulated.............     0     0       0     0
+ (2) Discrete 2 Body
+      Legendre..............     0     0       0     0
+      Tabulated.............     0     0       0     0
+ (3) Isotropic Discrete.....     0     0       0     0
+ (4) Discrete 2 Body Recoil.     0     0       0     0
+ (5) Charged Particle Elastic
+      Legendre..............     0     0       0     0
+      Tabulated.............     0     0       0     0
+ (6) n-Body Phase-Space.....     0     0       0     0
+ (7) Laboratory Angle-Energy     0     0       0     0
+ Not 0 to 7 (WARNING if Any)     0     0       0     0
+ ==============================================================================
+ End of Run
+ ===============================================================================
+ SIXPAK   Total Execution Time                0.27 Seconds
+ ===============================================================================

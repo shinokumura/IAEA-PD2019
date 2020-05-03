@@ -1,0 +1,270 @@
+ Process ENDF/B Double Differential Data - MF=6 (SIXPAK 2019-1)
+ ==============================================================================
+ ENDF/B Input Data Filename
+ SIXPAK.IN                                                               
+ ------------------------------------------------------------------------------
+ Requested Ranges
+ ------------------------------------------------------------------------------
+    Minimum    Maximum   
+    MAT  MT    MAT  MT
+ ------------------------------------------------------------------------------
+      1   1   9999 999
+ ==============================================================================
+ Terminology
+ ------------------------------------------------------------------------------
+ LCT  = Reference System (Lab or Center-of-Mass)
+ LIP  = Product Modifier, e.g., for Isomeric States
+ LAW  = Representation of Data - see, List at End of Output
+ LANG = 1     = Legendre     (LAW 1)
+      = 2     = Kalbach-Mann (LAW 1)
+      = 11-15 = Tabulated    (LAW 1)
+      = 0     = Legendre     (LAW 2)
+      = 11-15 = Tabulated    (LAW 2)
+ LTP  = 1-2   = Legendre     (LAW 5)
+      = 11-15 = Tabulated    (LAW 5)
+ LEP  = Secondary Energy Interpolation Type(1 to 5)
+ ==============================================================================
+ Tape Label
+ ------------------------------------------------------------------------------
+ Retrieved by E4-util: 2019/11/11,14:57:20                            1
+ ------------------------------------------------------------------------------
+ WARNING: MT=5 is ALLOWED in MF=6, but NOT in MF=4 or 5.
+          see ENDF-102 - Strictly for diagnostic purposes
+          this code will Translate MF=6 Data - but be
+          WARNED - the results should not be used in ANY          APPLICATIONS.
+ ------------------------------------------------------------------------------
+ ==============================================================================
+ Projectile   Target    Emitted    MAT  MT LCT LIP LAW LANG  LEP  ENDF/B
+                                                        LTP       Output
+ ==============================================================================
+  Photon     30-Zn-64   Neutron   3025   5 cm    0   1    2    1      
+ ------------------------------------------------------------------------------
+ Projectile=      0 Emitted=      1 Cannot Define Kalbach-Mann
+ Parameters for this Combination - Will use Neutron Parameters
+ ------------------------------------------------------------------------------
+  Photon     30-Zn-64    1-H -1   3025   5 cm    0   1    2    1      
+ ------------------------------------------------------------------------------
+ Projectile=      0 Emitted=   1001 Cannot Define Kalbach-Mann
+ Parameters for this Combination - Will use Neutron Parameters
+ ------------------------------------------------------------------------------
+  Photon     30-Zn-64    1-H -2   3025   5 cm    0   1    2    1      
+ ------------------------------------------------------------------------------
+ Projectile=      0 Emitted=   1002 Cannot Define Kalbach-Mann
+ Parameters for this Combination - Will use Neutron Parameters
+ ------------------------------------------------------------------------------
+  Photon     30-Zn-64    1-H -3   3025   5 cm    0   1    2    1      
+ ------------------------------------------------------------------------------
+ Projectile=      0 Emitted=   1003 Cannot Define Kalbach-Mann
+ Parameters for this Combination - Will use Neutron Parameters
+ ------------------------------------------------------------------------------
+  Photon     30-Zn-64    2-He-3   3025   5 cm    0   1    2    1      
+ ------------------------------------------------------------------------------
+ Projectile=      0 Emitted=   2003 Cannot Define Kalbach-Mann
+ Parameters for this Combination - Will use Neutron Parameters
+ ------------------------------------------------------------------------------
+  Photon     30-Zn-64    2-He-4   3025   5 cm    0   1    2    1      
+ ------------------------------------------------------------------------------
+ Projectile=      0 Emitted=   2004 Cannot Define Kalbach-Mann
+ Parameters for this Combination - Will use Neutron Parameters
+ ------------------------------------------------------------------------------
+  Photon     30-Zn-64   20-Ca-38  3025   5 cm    0   0                
+  Photon     30-Zn-64   20-Ca-39  3025   5 cm    0   0                
+  Photon     30-Zn-64   20-Ca-40  3025   5 cm    0   0                
+  Photon     30-Zn-64   20-Ca-41  3025   5 cm    0   0                
+  Photon     30-Zn-64   20-Ca-42  3025   5 cm    0   0                
+  Photon     30-Zn-64   20-Ca-43  3025   5 cm    0   0                
+  Photon     30-Zn-64   20-Ca-44  3025   5 cm    0   0                
+  Photon     30-Zn-64   20-Ca-45  3025   5 cm    0   0                
+  Photon     30-Zn-64   20-Ca-46  3025   5 cm    0   0                
+  Photon     30-Zn-64   21-Sc-40  3025   5 cm    0   0                
+  Photon     30-Zn-64   21-Sc-41  3025   5 cm    0   0                
+  Photon     30-Zn-64   21-Sc-42  3025   5 cm    0   0                
+  Photon     30-Zn-64   21-Sc-42  3025   5 cm    1   0                
+  Photon     30-Zn-64   21-Sc-43  3025   5 cm    0   0                
+  Photon     30-Zn-64   21-Sc-44  3025   5 cm    0   0                
+  Photon     30-Zn-64   21-Sc-44  3025   5 cm    1   0                
+  Photon     30-Zn-64   21-Sc-45  3025   5 cm    0   0                
+  Photon     30-Zn-64   21-Sc-46  3025   5 cm    0   0                
+  Photon     30-Zn-64   21-Sc-46  3025   5 cm    1   0                
+  Photon     30-Zn-64   21-Sc-47  3025   5 cm    0   0                
+  Photon     30-Zn-64   21-Sc-48  3025   5 cm    0   0                
+  Photon     30-Zn-64   22-Ti-42  3025   5 cm    0   0                
+  Photon     30-Zn-64   22-Ti-43  3025   5 cm    0   0                
+  Photon     30-Zn-64   22-Ti-44  3025   5 cm    0   0                
+  Photon     30-Zn-64   22-Ti-45  3025   5 cm    0   0                
+  Photon     30-Zn-64   22-Ti-46  3025   5 cm    0   0                
+  Photon     30-Zn-64   22-Ti-47  3025   5 cm    0   0                
+  Photon     30-Zn-64   22-Ti-48  3025   5 cm    0   0                
+  Photon     30-Zn-64   22-Ti-48  3025   5 cm    1   0                
+  Photon     30-Zn-64   22-Ti-49  3025   5 cm    0   0                
+  Photon     30-Zn-64   22-Ti-50  3025   5 cm    0   0                
+  Photon     30-Zn-64   23-V -44  3025   5 cm    0   0                
+  Photon     30-Zn-64   23-V -45  3025   5 cm    0   0                
+  Photon     30-Zn-64   23-V -46  3025   5 cm    0   0                
+  Photon     30-Zn-64   23-V -47  3025   5 cm    0   0                
+  Photon     30-Zn-64   23-V -48  3025   5 cm    0   0                
+  Photon     30-Zn-64   23-V -49  3025   5 cm    0   0                
+  Photon     30-Zn-64   23-V -50  3025   5 cm    0   0                
+  Photon     30-Zn-64   23-V -51  3025   5 cm    0   0                
+  Photon     30-Zn-64   23-V -52  3025   5 cm    0   0                
+  Photon     30-Zn-64   24-Cr-47  3025   5 cm    0   0                
+  Photon     30-Zn-64   24-Cr-48  3025   5 cm    0   0                
+  Photon     30-Zn-64   24-Cr-49  3025   5 cm    0   0                
+  Photon     30-Zn-64   24-Cr-50  3025   5 cm    0   0                
+  Photon     30-Zn-64   24-Cr-51  3025   5 cm    0   0                
+  Photon     30-Zn-64   24-Cr-52  3025   5 cm    0   0                
+  Photon     30-Zn-64   24-Cr-53  3025   5 cm    0   0                
+  Photon     30-Zn-64   24-Cr-54  3025   5 cm    0   0                
+  Photon     30-Zn-64   24-Cr-55  3025   5 cm    0   0                
+  Photon     30-Zn-64   25-Mn-49  3025   5 cm    0   0                
+  Photon     30-Zn-64   25-Mn-50  3025   5 cm    0   0                
+  Photon     30-Zn-64   25-Mn-50  3025   5 cm    1   0                
+  Photon     30-Zn-64   25-Mn-51  3025   5 cm    0   0                
+  Photon     30-Zn-64   25-Mn-52  3025   5 cm    0   0                
+  Photon     30-Zn-64   25-Mn-52  3025   5 cm    1   0                
+  Photon     30-Zn-64   25-Mn-53  3025   5 cm    0   0                
+  Photon     30-Zn-64   25-Mn-54  3025   5 cm    0   0                
+  Photon     30-Zn-64   25-Mn-55  3025   5 cm    0   0                
+  Photon     30-Zn-64   25-Mn-56  3025   5 cm    0   0                
+  Photon     30-Zn-64   25-Mn-57  3025   5 cm    0   0                
+  Photon     30-Zn-64   25-Mn-58  3025   5 cm    0   0                
+  Photon     30-Zn-64   25-Mn-58  3025   5 cm    1   0                
+  Photon     30-Zn-64   26-Fe-51  3025   5 cm    0   0                
+  Photon     30-Zn-64   26-Fe-52  3025   5 cm    0   0                
+  Photon     30-Zn-64   26-Fe-52  3025   5 cm    1   0                
+  Photon     30-Zn-64   26-Fe-53  3025   5 cm    0   0                
+  Photon     30-Zn-64   26-Fe-53  3025   5 cm    1   0                
+  Photon     30-Zn-64   26-Fe-54  3025   5 cm    0   0                
+  Photon     30-Zn-64   26-Fe-55  3025   5 cm    0   0                
+  Photon     30-Zn-64   26-Fe-56  3025   5 cm    0   0                
+  Photon     30-Zn-64   26-Fe-57  3025   5 cm    0   0                
+  Photon     30-Zn-64   26-Fe-58  3025   5 cm    0   0                
+  Photon     30-Zn-64   26-Fe-59  3025   5 cm    0   0                
+  Photon     30-Zn-64   27-Co-53  3025   5 cm    0   0                
+  Photon     30-Zn-64   27-Co-54  3025   5 cm    0   0                
+  Photon     30-Zn-64   27-Co-54  3025   5 cm    1   0                
+  Photon     30-Zn-64   27-Co-55  3025   5 cm    0   0                
+  Photon     30-Zn-64   27-Co-56  3025   5 cm    0   0                
+  Photon     30-Zn-64   27-Co-57  3025   5 cm    0   0                
+  Photon     30-Zn-64   27-Co-58  3025   5 cm    0   0                
+  Photon     30-Zn-64   27-Co-58  3025   5 cm    1   0                
+  Photon     30-Zn-64   27-Co-59  3025   5 cm    0   0                
+  Photon     30-Zn-64   27-Co-60  3025   5 cm    0   0                
+  Photon     30-Zn-64   27-Co-60  3025   5 cm    1   0                
+  Photon     30-Zn-64   27-Co-61  3025   5 cm    0   0                
+  Photon     30-Zn-64   28-Ni-55  3025   5 cm    0   0                
+  Photon     30-Zn-64   28-Ni-56  3025   5 cm    0   0                
+  Photon     30-Zn-64   28-Ni-57  3025   5 cm    0   0                
+  Photon     30-Zn-64   28-Ni-58  3025   5 cm    0   0                
+  Photon     30-Zn-64   28-Ni-59  3025   5 cm    0   0                
+  Photon     30-Zn-64   28-Ni-60  3025   5 cm    0   0                
+  Photon     30-Zn-64   28-Ni-61  3025   5 cm    0   0                
+  Photon     30-Zn-64   28-Ni-62  3025   5 cm    0   0                
+  Photon     30-Zn-64   29-Cu-57  3025   5 cm    0   0                
+  Photon     30-Zn-64   29-Cu-58  3025   5 cm    0   0                
+  Photon     30-Zn-64   29-Cu-59  3025   5 cm    0   0                
+  Photon     30-Zn-64   29-Cu-60  3025   5 cm    0   0                
+  Photon     30-Zn-64   29-Cu-61  3025   5 cm    0   0                
+  Photon     30-Zn-64   29-Cu-62  3025   5 cm    0   0                
+  Photon     30-Zn-64   29-Cu-63  3025   5 cm    0   0                
+  Photon     30-Zn-64   30-Zn-59  3025   5 cm    0   0                
+  Photon     30-Zn-64   30-Zn-60  3025   5 cm    0   0                
+  Photon     30-Zn-64   30-Zn-61  3025   5 cm    0   0                
+  Photon     30-Zn-64   30-Zn-62  3025   5 cm    0   0                
+  Photon     30-Zn-64   30-Zn-63  3025   5 cm    0   0                
+  Photon     30-Zn-64   30-Zn-64  3025   5 cm    0   0                
+  Photon     30-Zn-64   Photon    3025   5 cm    0   1    1    1      
+ ------------------------------------------------------------------------------
+ All Cross Sections Read. Maximum Tabulated Energy =  200000000. eV
+ ------------------------------------------------------------------------------
+ ==============================================================================
+ Laws by Incident Particle
+ ------------------------------------------------------------------------------
+ Law Number and Definition   Photon    n     p     d     t  He-3  He-4 Other
+ ------------------------------------------------------------------------------
+ (0) Unknown................   106     0     0     0     0     0     0     0
+ (1) Continuum Energy-Angle
+      Legendre..............     1     0     0     0     0     0     0     0
+      Kalbach-Mann..........     6     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (2) Discrete 2 Body
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (3) Isotropic Discrete.....     0     0     0     0     0     0     0     0
+ (4) Discrete 2 Body Recoil.     0     0     0     0     0     0     0     0
+ (5) Charged Particle Elastic
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (6) n-Body Phase-Space.....     0     0     0     0     0     0     0     0
+ (7) Laboratory Angle-Energy     0     0     0     0     0     0     0     0
+ Not 0 to 7 (WARNING if Any)     0     0     0     0     0     0     0     0
+ ==============================================================================
+ Laws by Emitted Particle
+ ------------------------------------------------------------------------------
+ Law Number and Definition   Photon    n     p     d     t  He-3  He-4 Other
+ ------------------------------------------------------------------------------
+ (0) Unknown................     0     0     0     0     0     0     0   106
+ (1) Continuum Energy-Angle
+      Legendre..............     1     0     0     0     0     0     0     0
+      Kalbach-Mann..........     0     1     1     1     1     1     1     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (2) Discrete 2 Body
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (3) Isotropic Discrete.....     0     0     0     0     0     0     0     0
+ (4) Discrete 2 Body Recoil.     0     0     0     0     0     0     0     0
+ (5) Charged Particle Elastic
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (6) n-Body Phase-Space.....     0     0     0     0     0     0     0     0
+ (7) Laboratory Angle-Energy     0     0     0     0     0     0     0     0
+ Not 0 to 7 (WARNING if Any)     0     0     0     0     0     0     0     0
+ ------------------------------------------------------------------------------
+ Summary of Emitted Particle Yields
+ ------------------------------------------------------------------------------
+ Energy Independent.........     0     0     0     0     0     0     0     0
+ Energy Dependent...........     1     1     1     1     1     1     1   106
+ ------------------------------------------------------------------------------
+ Summary of Angular Distributions
+ ------------------------------------------------------------------------------
+ Isotropic..................     1     0     0     0     0     0     0     0
+ Nonisotropic...............     0     1     1     1     1     1     1     0
+ Mixed......................     0     0     0     0     0     0     0     0
+ ------------------------------------------------------------------------------
+ Maximum Legendre Order.....     0     0     0     0     0     0     0     0
+ Maximum Number of Cosines..     0     0     0     0     0     0     0     0
+ ------------------------------------------------------------------------------
+ Summary of Energy Distributions
+ ------------------------------------------------------------------------------
+ Continuous.................     1     1     1     1     1     1     1     0
+ Discrete...................     0     0     0     0     0     0     0     0
+ Mixed......................     0     0     0     0     0     0     0     0
+ ------------------------------------------------------------------------------
+ ==============================================================================
+ Summary of Incident Neutron with Photon or Neutron Emitted Data
+ ------------------------------------------------------------------------------
+ Law Number and Definition   Output        Not Output 
+ ------------------------------------------------------------------------------
+                             Photon    n   Photon    n
+ ------------------------------------------------------------------------------
+ (0) Unknown................     0     0       0     0
+ (1) Continuum Energy-Angle
+      Legendre..............     0     0       0     0
+      Kalbach-Mann..........     0     0       0     0
+      Tabulated.............     0     0       0     0
+ (2) Discrete 2 Body
+      Legendre..............     0     0       0     0
+      Tabulated.............     0     0       0     0
+ (3) Isotropic Discrete.....     0     0       0     0
+ (4) Discrete 2 Body Recoil.     0     0       0     0
+ (5) Charged Particle Elastic
+      Legendre..............     0     0       0     0
+      Tabulated.............     0     0       0     0
+ (6) n-Body Phase-Space.....     0     0       0     0
+ (7) Laboratory Angle-Energy     0     0       0     0
+ Not 0 to 7 (WARNING if Any)     0     0       0     0
+ ==============================================================================
+ End of Run
+ ===============================================================================
+ SIXPAK   Total Execution Time                0.07 Seconds
+ ===============================================================================

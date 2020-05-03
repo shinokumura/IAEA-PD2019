@@ -1,0 +1,329 @@
+ Process ENDF/B Double Differential Data - MF=6 (SIXPAK 2019-1)
+ ==============================================================================
+ ENDF/B Input Data Filename
+ SIXPAK.IN                                                               
+ ------------------------------------------------------------------------------
+ Requested Ranges
+ ------------------------------------------------------------------------------
+    Minimum    Maximum   
+    MAT  MT    MAT  MT
+ ------------------------------------------------------------------------------
+      1   1   9999 999
+ ==============================================================================
+ Terminology
+ ------------------------------------------------------------------------------
+ LCT  = Reference System (Lab or Center-of-Mass)
+ LIP  = Product Modifier, e.g., for Isomeric States
+ LAW  = Representation of Data - see, List at End of Output
+ LANG = 1     = Legendre     (LAW 1)
+      = 2     = Kalbach-Mann (LAW 1)
+      = 11-15 = Tabulated    (LAW 1)
+      = 0     = Legendre     (LAW 2)
+      = 11-15 = Tabulated    (LAW 2)
+ LTP  = 1-2   = Legendre     (LAW 5)
+      = 11-15 = Tabulated    (LAW 5)
+ LEP  = Secondary Energy Interpolation Type(1 to 5)
+ ==============================================================================
+ Tape Label
+ ------------------------------------------------------------------------------
+  JENDL/PD-2016.1  Ti- 46                                             1
+ ------------------------------------------------------------------------------
+ WARNING: MT=5 is ALLOWED in MF=6, but NOT in MF=4 or 5.
+          see ENDF-102 - Strictly for diagnostic purposes
+          this code will Translate MF=6 Data - but be
+          WARNED - the results should not be used in ANY          APPLICATIONS.
+ ------------------------------------------------------------------------------
+ ==============================================================================
+ Projectile   Target    Emitted    MAT  MT LCT LIP LAW LANG  LEP  ENDF/B
+                                                        LTP       Output
+ ==============================================================================
+  Photon     22-Ti-46   Neutron   2225   5 cm    0   1    1    2      
+  Photon     22-Ti-46    1-H -1   2225   5 cm    0   1    1    2      
+  Photon     22-Ti-46    1-H -2   2225   5 cm    0   1    1    2      
+  Photon     22-Ti-46    1-H -3   2225   5 cm    0   1    1    2      
+  Photon     22-Ti-46    2-He-3   2225   5 cm    0   1    1    2      
+  Photon     22-Ti-46    2-He-4   2225   5 cm    0   1    1    2      
+  Photon     22-Ti-46   10-Ne-16  2225   5 cm    0   0                
+  Photon     22-Ti-46   10-Ne-17  2225   5 cm    0   0                
+  Photon     22-Ti-46   10-Ne-18  2225   5 cm    0   0                
+  Photon     22-Ti-46   10-Ne-19  2225   5 cm    0   0                
+  Photon     22-Ti-46   10-Ne-20  2225   5 cm    0   0                
+  Photon     22-Ti-46   10-Ne-21  2225   5 cm    0   0                
+  Photon     22-Ti-46   10-Ne-22  2225   5 cm    0   0                
+  Photon     22-Ti-46   10-Ne-23  2225   5 cm    0   0                
+  Photon     22-Ti-46   10-Ne-24  2225   5 cm    0   0                
+  Photon     22-Ti-46   10-Ne-25  2225   5 cm    0   0                
+  Photon     22-Ti-46   10-Ne-26  2225   5 cm    0   0                
+  Photon     22-Ti-46   10-Ne-27  2225   5 cm    0   0                
+  Photon     22-Ti-46   10-Ne-28  2225   5 cm    0   0                
+  Photon     22-Ti-46   10-Ne-29  2225   5 cm    0   0                
+  Photon     22-Ti-46   10-Ne-30  2225   5 cm    0   0                
+  Photon     22-Ti-46   11-Na-18  2225   5 cm    0   0                
+  Photon     22-Ti-46   11-Na-19  2225   5 cm    0   0                
+  Photon     22-Ti-46   11-Na-20  2225   5 cm    0   0                
+  Photon     22-Ti-46   11-Na-21  2225   5 cm    0   0                
+  Photon     22-Ti-46   11-Na-22  2225   5 cm    0   0                
+  Photon     22-Ti-46   11-Na-23  2225   5 cm    0   0                
+  Photon     22-Ti-46   11-Na-24  2225   5 cm    0   0                
+  Photon     22-Ti-46   11-Na-25  2225   5 cm    0   0                
+  Photon     22-Ti-46   11-Na-26  2225   5 cm    0   0                
+  Photon     22-Ti-46   11-Na-27  2225   5 cm    0   0                
+  Photon     22-Ti-46   11-Na-28  2225   5 cm    0   0                
+  Photon     22-Ti-46   11-Na-29  2225   5 cm    0   0                
+  Photon     22-Ti-46   11-Na-30  2225   5 cm    0   0                
+  Photon     22-Ti-46   11-Na-31  2225   5 cm    0   0                
+  Photon     22-Ti-46   11-Na-32  2225   5 cm    0   0                
+  Photon     22-Ti-46   11-Na-33  2225   5 cm    0   0                
+  Photon     22-Ti-46   12-Mg-19  2225   5 cm    0   0                
+  Photon     22-Ti-46   12-Mg-20  2225   5 cm    0   0                
+  Photon     22-Ti-46   12-Mg-21  2225   5 cm    0   0                
+  Photon     22-Ti-46   12-Mg-22  2225   5 cm    0   0                
+  Photon     22-Ti-46   12-Mg-23  2225   5 cm    0   0                
+  Photon     22-Ti-46   12-Mg-24  2225   5 cm    0   0                
+  Photon     22-Ti-46   12-Mg-25  2225   5 cm    0   0                
+  Photon     22-Ti-46   12-Mg-26  2225   5 cm    0   0                
+  Photon     22-Ti-46   12-Mg-27  2225   5 cm    0   0                
+  Photon     22-Ti-46   12-Mg-28  2225   5 cm    0   0                
+  Photon     22-Ti-46   12-Mg-29  2225   5 cm    0   0                
+  Photon     22-Ti-46   12-Mg-30  2225   5 cm    0   0                
+  Photon     22-Ti-46   12-Mg-31  2225   5 cm    0   0                
+  Photon     22-Ti-46   12-Mg-32  2225   5 cm    0   0                
+  Photon     22-Ti-46   12-Mg-33  2225   5 cm    0   0                
+  Photon     22-Ti-46   12-Mg-34  2225   5 cm    0   0                
+  Photon     22-Ti-46   12-Mg-35  2225   5 cm    0   0                
+  Photon     22-Ti-46   13-Al-21  2225   5 cm    0   0                
+  Photon     22-Ti-46   13-Al-22  2225   5 cm    0   0                
+  Photon     22-Ti-46   13-Al-23  2225   5 cm    0   0                
+  Photon     22-Ti-46   13-Al-24  2225   5 cm    0   0                
+  Photon     22-Ti-46   13-Al-24  2225   5 cm    1   0                
+  Photon     22-Ti-46   13-Al-25  2225   5 cm    0   0                
+  Photon     22-Ti-46   13-Al-26  2225   5 cm    0   0                
+  Photon     22-Ti-46   13-Al-26  2225   5 cm    1   0                
+  Photon     22-Ti-46   13-Al-27  2225   5 cm    0   0                
+  Photon     22-Ti-46   13-Al-28  2225   5 cm    0   0                
+  Photon     22-Ti-46   13-Al-29  2225   5 cm    0   0                
+  Photon     22-Ti-46   13-Al-30  2225   5 cm    0   0                
+  Photon     22-Ti-46   13-Al-31  2225   5 cm    0   0                
+  Photon     22-Ti-46   13-Al-32  2225   5 cm    0   0                
+  Photon     22-Ti-46   13-Al-33  2225   5 cm    0   0                
+  Photon     22-Ti-46   13-Al-34  2225   5 cm    0   0                
+  Photon     22-Ti-46   13-Al-35  2225   5 cm    0   0                
+  Photon     22-Ti-46   13-Al-36  2225   5 cm    0   0                
+  Photon     22-Ti-46   14-Si-22  2225   5 cm    0   0                
+  Photon     22-Ti-46   14-Si-23  2225   5 cm    0   0                
+  Photon     22-Ti-46   14-Si-24  2225   5 cm    0   0                
+  Photon     22-Ti-46   14-Si-25  2225   5 cm    0   0                
+  Photon     22-Ti-46   14-Si-26  2225   5 cm    0   0                
+  Photon     22-Ti-46   14-Si-27  2225   5 cm    0   0                
+  Photon     22-Ti-46   14-Si-28  2225   5 cm    0   0                
+  Photon     22-Ti-46   14-Si-29  2225   5 cm    0   0                
+  Photon     22-Ti-46   14-Si-30  2225   5 cm    0   0                
+  Photon     22-Ti-46   14-Si-31  2225   5 cm    0   0                
+  Photon     22-Ti-46   14-Si-32  2225   5 cm    0   0                
+  Photon     22-Ti-46   14-Si-33  2225   5 cm    0   0                
+  Photon     22-Ti-46   14-Si-34  2225   5 cm    0   0                
+  Photon     22-Ti-46   14-Si-35  2225   5 cm    0   0                
+  Photon     22-Ti-46   14-Si-36  2225   5 cm    0   0                
+  Photon     22-Ti-46   14-Si-37  2225   5 cm    0   0                
+  Photon     22-Ti-46   14-Si-38  2225   5 cm    0   0                
+  Photon     22-Ti-46   15-P -24  2225   5 cm    0   0                
+  Photon     22-Ti-46   15-P -25  2225   5 cm    0   0                
+  Photon     22-Ti-46   15-P -26  2225   5 cm    0   0                
+  Photon     22-Ti-46   15-P -27  2225   5 cm    0   0                
+  Photon     22-Ti-46   15-P -28  2225   5 cm    0   0                
+  Photon     22-Ti-46   15-P -29  2225   5 cm    0   0                
+  Photon     22-Ti-46   15-P -30  2225   5 cm    0   0                
+  Photon     22-Ti-46   15-P -31  2225   5 cm    0   0                
+  Photon     22-Ti-46   15-P -32  2225   5 cm    0   0                
+  Photon     22-Ti-46   15-P -33  2225   5 cm    0   0                
+  Photon     22-Ti-46   15-P -34  2225   5 cm    0   0                
+  Photon     22-Ti-46   15-P -35  2225   5 cm    0   0                
+  Photon     22-Ti-46   15-P -36  2225   5 cm    0   0                
+  Photon     22-Ti-46   15-P -37  2225   5 cm    0   0                
+  Photon     22-Ti-46   15-P -38  2225   5 cm    0   0                
+  Photon     22-Ti-46   15-P -39  2225   5 cm    0   0                
+  Photon     22-Ti-46   16-S -26  2225   5 cm    0   0                
+  Photon     22-Ti-46   16-S -27  2225   5 cm    0   0                
+  Photon     22-Ti-46   16-S -28  2225   5 cm    0   0                
+  Photon     22-Ti-46   16-S -29  2225   5 cm    0   0                
+  Photon     22-Ti-46   16-S -30  2225   5 cm    0   0                
+  Photon     22-Ti-46   16-S -31  2225   5 cm    0   0                
+  Photon     22-Ti-46   16-S -32  2225   5 cm    0   0                
+  Photon     22-Ti-46   16-S -33  2225   5 cm    0   0                
+  Photon     22-Ti-46   16-S -34  2225   5 cm    0   0                
+  Photon     22-Ti-46   16-S -35  2225   5 cm    0   0                
+  Photon     22-Ti-46   16-S -36  2225   5 cm    0   0                
+  Photon     22-Ti-46   16-S -37  2225   5 cm    0   0                
+  Photon     22-Ti-46   16-S -38  2225   5 cm    0   0                
+  Photon     22-Ti-46   16-S -39  2225   5 cm    0   0                
+  Photon     22-Ti-46   16-S -40  2225   5 cm    0   0                
+  Photon     22-Ti-46   17-Cl-28  2225   5 cm    0   0                
+  Photon     22-Ti-46   17-Cl-29  2225   5 cm    0   0                
+  Photon     22-Ti-46   17-Cl-30  2225   5 cm    0   0                
+  Photon     22-Ti-46   17-Cl-31  2225   5 cm    0   0                
+  Photon     22-Ti-46   17-Cl-32  2225   5 cm    0   0                
+  Photon     22-Ti-46   17-Cl-33  2225   5 cm    0   0                
+  Photon     22-Ti-46   17-Cl-34  2225   5 cm    0   0                
+  Photon     22-Ti-46   17-Cl-34  2225   5 cm    1   0                
+  Photon     22-Ti-46   17-Cl-35  2225   5 cm    0   0                
+  Photon     22-Ti-46   17-Cl-36  2225   5 cm    0   0                
+  Photon     22-Ti-46   17-Cl-37  2225   5 cm    0   0                
+  Photon     22-Ti-46   17-Cl-38  2225   5 cm    0   0                
+  Photon     22-Ti-46   17-Cl-38  2225   5 cm    1   0                
+  Photon     22-Ti-46   17-Cl-39  2225   5 cm    0   0                
+  Photon     22-Ti-46   17-Cl-40  2225   5 cm    0   0                
+  Photon     22-Ti-46   17-Cl-41  2225   5 cm    0   0                
+  Photon     22-Ti-46   18-Ar-30  2225   5 cm    0   0                
+  Photon     22-Ti-46   18-Ar-31  2225   5 cm    0   0                
+  Photon     22-Ti-46   18-Ar-32  2225   5 cm    0   0                
+  Photon     22-Ti-46   18-Ar-33  2225   5 cm    0   0                
+  Photon     22-Ti-46   18-Ar-34  2225   5 cm    0   0                
+  Photon     22-Ti-46   18-Ar-35  2225   5 cm    0   0                
+  Photon     22-Ti-46   18-Ar-36  2225   5 cm    0   0                
+  Photon     22-Ti-46   18-Ar-37  2225   5 cm    0   0                
+  Photon     22-Ti-46   18-Ar-38  2225   5 cm    0   0                
+  Photon     22-Ti-46   18-Ar-39  2225   5 cm    0   0                
+  Photon     22-Ti-46   18-Ar-40  2225   5 cm    0   0                
+  Photon     22-Ti-46   18-Ar-41  2225   5 cm    0   0                
+  Photon     22-Ti-46   18-Ar-42  2225   5 cm    0   0                
+  Photon     22-Ti-46   19-K -32  2225   5 cm    0   0                
+  Photon     22-Ti-46   19-K -33  2225   5 cm    0   0                
+  Photon     22-Ti-46   19-K -34  2225   5 cm    0   0                
+  Photon     22-Ti-46   19-K -35  2225   5 cm    0   0                
+  Photon     22-Ti-46   19-K -36  2225   5 cm    0   0                
+  Photon     22-Ti-46   19-K -37  2225   5 cm    0   0                
+  Photon     22-Ti-46   19-K -38  2225   5 cm    0   0                
+  Photon     22-Ti-46   19-K -38  2225   5 cm    1   0                
+  Photon     22-Ti-46   19-K -39  2225   5 cm    0   0                
+  Photon     22-Ti-46   19-K -40  2225   5 cm    0   0                
+  Photon     22-Ti-46   19-K -41  2225   5 cm    0   0                
+  Photon     22-Ti-46   19-K -42  2225   5 cm    0   0                
+  Photon     22-Ti-46   19-K -43  2225   5 cm    0   0                
+  Photon     22-Ti-46   20-Ca-34  2225   5 cm    0   0                
+  Photon     22-Ti-46   20-Ca-35  2225   5 cm    0   0                
+  Photon     22-Ti-46   20-Ca-36  2225   5 cm    0   0                
+  Photon     22-Ti-46   20-Ca-37  2225   5 cm    0   0                
+  Photon     22-Ti-46   20-Ca-38  2225   5 cm    0   0                
+  Photon     22-Ti-46   20-Ca-39  2225   5 cm    0   0                
+  Photon     22-Ti-46   20-Ca-40  2225   5 cm    0   0                
+  Photon     22-Ti-46   20-Ca-41  2225   5 cm    0   0                
+  Photon     22-Ti-46   20-Ca-42  2225   5 cm    0   0                
+  Photon     22-Ti-46   20-Ca-43  2225   5 cm    0   0                
+  Photon     22-Ti-46   20-Ca-44  2225   5 cm    0   0                
+  Photon     22-Ti-46   21-Sc-36  2225   5 cm    0   0                
+  Photon     22-Ti-46   21-Sc-37  2225   5 cm    0   0                
+  Photon     22-Ti-46   21-Sc-38  2225   5 cm    0   0                
+  Photon     22-Ti-46   21-Sc-39  2225   5 cm    0   0                
+  Photon     22-Ti-46   21-Sc-40  2225   5 cm    0   0                
+  Photon     22-Ti-46   21-Sc-41  2225   5 cm    0   0                
+  Photon     22-Ti-46   21-Sc-42  2225   5 cm    0   0                
+  Photon     22-Ti-46   21-Sc-42  2225   5 cm    1   0                
+  Photon     22-Ti-46   21-Sc-43  2225   5 cm    0   0                
+  Photon     22-Ti-46   21-Sc-44  2225   5 cm    0   0                
+  Photon     22-Ti-46   21-Sc-44  2225   5 cm    1   0                
+  Photon     22-Ti-46   21-Sc-45  2225   5 cm    0   0                
+  Photon     22-Ti-46   21-Sc-45  2225   5 cm    1   0                
+  Photon     22-Ti-46   22-Ti-38  2225   5 cm    0   0                
+  Photon     22-Ti-46   22-Ti-39  2225   5 cm    0   0                
+  Photon     22-Ti-46   22-Ti-40  2225   5 cm    0   0                
+  Photon     22-Ti-46   22-Ti-41  2225   5 cm    0   0                
+  Photon     22-Ti-46   22-Ti-42  2225   5 cm    0   0                
+  Photon     22-Ti-46   22-Ti-43  2225   5 cm    0   0                
+  Photon     22-Ti-46   22-Ti-44  2225   5 cm    0   0                
+  Photon     22-Ti-46   22-Ti-45  2225   5 cm    0   0                
+  Photon     22-Ti-46   22-Ti-46  2225   5 cm    0   0                
+  Photon     22-Ti-46   Photon    2225   5 cm    0   1    1    2      
+ ------------------------------------------------------------------------------
+ All Cross Sections Read. Maximum Tabulated Energy =  200000000. eV
+ ------------------------------------------------------------------------------
+ ==============================================================================
+ Laws by Incident Particle
+ ------------------------------------------------------------------------------
+ Law Number and Definition   Photon    n     p     d     t  He-3  He-4 Other
+ ------------------------------------------------------------------------------
+ (0) Unknown................   189     0     0     0     0     0     0     0
+ (1) Continuum Energy-Angle
+      Legendre..............     7     0     0     0     0     0     0     0
+      Kalbach-Mann..........     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (2) Discrete 2 Body
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (3) Isotropic Discrete.....     0     0     0     0     0     0     0     0
+ (4) Discrete 2 Body Recoil.     0     0     0     0     0     0     0     0
+ (5) Charged Particle Elastic
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (6) n-Body Phase-Space.....     0     0     0     0     0     0     0     0
+ (7) Laboratory Angle-Energy     0     0     0     0     0     0     0     0
+ Not 0 to 7 (WARNING if Any)     0     0     0     0     0     0     0     0
+ ==============================================================================
+ Laws by Emitted Particle
+ ------------------------------------------------------------------------------
+ Law Number and Definition   Photon    n     p     d     t  He-3  He-4 Other
+ ------------------------------------------------------------------------------
+ (0) Unknown................     0     0     0     0     0     0     0   189
+ (1) Continuum Energy-Angle
+      Legendre..............     1     1     1     1     1     1     1     0
+      Kalbach-Mann..........     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (2) Discrete 2 Body
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (3) Isotropic Discrete.....     0     0     0     0     0     0     0     0
+ (4) Discrete 2 Body Recoil.     0     0     0     0     0     0     0     0
+ (5) Charged Particle Elastic
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (6) n-Body Phase-Space.....     0     0     0     0     0     0     0     0
+ (7) Laboratory Angle-Energy     0     0     0     0     0     0     0     0
+ Not 0 to 7 (WARNING if Any)     0     0     0     0     0     0     0     0
+ ------------------------------------------------------------------------------
+ Summary of Emitted Particle Yields
+ ------------------------------------------------------------------------------
+ Energy Independent.........     0     0     0     0     0     0     0     0
+ Energy Dependent...........     1     1     1     1     1     1     1   189
+ ------------------------------------------------------------------------------
+ Summary of Angular Distributions
+ ------------------------------------------------------------------------------
+ Isotropic..................     1     0     0     0     0     0     0     0
+ Nonisotropic...............     0     0     0     1     0     0     0     0
+ Mixed......................     0     1     1     0     1     1     1     0
+ ------------------------------------------------------------------------------
+ Maximum Legendre Order.....     0    10    10    10    10    10    10     0
+ Maximum Number of Cosines..     0     0     0     0     0     0     0     0
+ ------------------------------------------------------------------------------
+ Summary of Energy Distributions
+ ------------------------------------------------------------------------------
+ Continuous.................     1     1     1     1     1     1     1     0
+ Discrete...................     0     0     0     0     0     0     0     0
+ Mixed......................     0     0     0     0     0     0     0     0
+ ------------------------------------------------------------------------------
+ ==============================================================================
+ Summary of Incident Neutron with Photon or Neutron Emitted Data
+ ------------------------------------------------------------------------------
+ Law Number and Definition   Output        Not Output 
+ ------------------------------------------------------------------------------
+                             Photon    n   Photon    n
+ ------------------------------------------------------------------------------
+ (0) Unknown................     0     0       0     0
+ (1) Continuum Energy-Angle
+      Legendre..............     0     0       0     0
+      Kalbach-Mann..........     0     0       0     0
+      Tabulated.............     0     0       0     0
+ (2) Discrete 2 Body
+      Legendre..............     0     0       0     0
+      Tabulated.............     0     0       0     0
+ (3) Isotropic Discrete.....     0     0       0     0
+ (4) Discrete 2 Body Recoil.     0     0       0     0
+ (5) Charged Particle Elastic
+      Legendre..............     0     0       0     0
+      Tabulated.............     0     0       0     0
+ (6) n-Body Phase-Space.....     0     0       0     0
+ (7) Laboratory Angle-Energy     0     0       0     0
+ Not 0 to 7 (WARNING if Any)     0     0       0     0
+ ==============================================================================
+ End of Run
+ ===============================================================================
+ SIXPAK   Total Execution Time                0.12 Seconds
+ ===============================================================================

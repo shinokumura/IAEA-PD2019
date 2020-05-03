@@ -1,0 +1,363 @@
+ Process ENDF/B Double Differential Data - MF=6 (SIXPAK 2019-1)
+ ==============================================================================
+ ENDF/B Input Data Filename
+ SIXPAK.IN                                                               
+ ------------------------------------------------------------------------------
+ Requested Ranges
+ ------------------------------------------------------------------------------
+    Minimum    Maximum   
+    MAT  MT    MAT  MT
+ ------------------------------------------------------------------------------
+      1   1   9999 999
+ ==============================================================================
+ Terminology
+ ------------------------------------------------------------------------------
+ LCT  = Reference System (Lab or Center-of-Mass)
+ LIP  = Product Modifier, e.g., for Isomeric States
+ LAW  = Representation of Data - see, List at End of Output
+ LANG = 1     = Legendre     (LAW 1)
+      = 2     = Kalbach-Mann (LAW 1)
+      = 11-15 = Tabulated    (LAW 1)
+      = 0     = Legendre     (LAW 2)
+      = 11-15 = Tabulated    (LAW 2)
+ LTP  = 1-2   = Legendre     (LAW 5)
+      = 11-15 = Tabulated    (LAW 5)
+ LEP  = Secondary Energy Interpolation Type(1 to 5)
+ ==============================================================================
+ Tape Label
+ ------------------------------------------------------------------------------
+  JENDL/PD-2016.1  Ra-226                                             1
+ ------------------------------------------------------------------------------
+ WARNING: MT=5 is ALLOWED in MF=6, but NOT in MF=4 or 5.
+          see ENDF-102 - Strictly for diagnostic purposes
+          this code will Translate MF=6 Data - but be
+          WARNED - the results should not be used in ANY          APPLICATIONS.
+ ------------------------------------------------------------------------------
+ ==============================================================================
+ Projectile   Target    Emitted    MAT  MT LCT LIP LAW LANG  LEP  ENDF/B
+                                                        LTP       Output
+ ==============================================================================
+  Photon     88-Ra-226  Neutron   8834   5 cm    0   1    1    2      
+  Photon     88-Ra-226   1-H -1   8834   5 cm    0   1    1    2      
+  Photon     88-Ra-226   1-H -2   8834   5 cm    0   1    1    2      
+  Photon     88-Ra-226   1-H -3   8834   5 cm    0   1    1    2      
+  Photon     88-Ra-226   2-He-3   8834   5 cm    0   1    1    2      
+  Photon     88-Ra-226   2-He-4   8834   5 cm    0   1    1    2      
+  Photon     88-Ra-226  74-W -194 8834   5 cm    0   0                
+  Photon     88-Ra-226  75-Re-195 8834   5 cm    0   0                
+  Photon     88-Ra-226  75-Re-196 8834   5 cm    0   0                
+  Photon     88-Ra-226  75-Re-197 8834   5 cm    0   0                
+  Photon     88-Ra-226  75-Re-198 8834   5 cm    0   0                
+  Photon     88-Ra-226  76-Os-196 8834   5 cm    0   0                
+  Photon     88-Ra-226  76-Os-197 8834   5 cm    0   0                
+  Photon     88-Ra-226  76-Os-198 8834   5 cm    0   0                
+  Photon     88-Ra-226  76-Os-199 8834   5 cm    0   0                
+  Photon     88-Ra-226  76-Os-200 8834   5 cm    0   0                
+  Photon     88-Ra-226  76-Os-201 8834   5 cm    0   0                
+  Photon     88-Ra-226  76-Os-202 8834   5 cm    0   0                
+  Photon     88-Ra-226  77-Ir-197 8834   5 cm    0   0                
+  Photon     88-Ra-226  77-Ir-197 8834   5 cm    1   0                
+  Photon     88-Ra-226  77-Ir-198 8834   5 cm    0   0                
+  Photon     88-Ra-226  77-Ir-199 8834   5 cm    0   0                
+  Photon     88-Ra-226  77-Ir-200 8834   5 cm    0   0                
+  Photon     88-Ra-226  77-Ir-201 8834   5 cm    0   0                
+  Photon     88-Ra-226  77-Ir-202 8834   5 cm    0   0                
+  Photon     88-Ra-226  77-Ir-203 8834   5 cm    0   0                
+  Photon     88-Ra-226  77-Ir-204 8834   5 cm    0   0                
+  Photon     88-Ra-226  78-Pt-198 8834   5 cm    0   0                
+  Photon     88-Ra-226  78-Pt-199 8834   5 cm    0   0                
+  Photon     88-Ra-226  78-Pt-199 8834   5 cm    1   0                
+  Photon     88-Ra-226  78-Pt-200 8834   5 cm    0   0                
+  Photon     88-Ra-226  78-Pt-201 8834   5 cm    0   0                
+  Photon     88-Ra-226  78-Pt-202 8834   5 cm    0   0                
+  Photon     88-Ra-226  78-Pt-203 8834   5 cm    0   0                
+  Photon     88-Ra-226  78-Pt-204 8834   5 cm    0   0                
+  Photon     88-Ra-226  78-Pt-205 8834   5 cm    0   0                
+  Photon     88-Ra-226  78-Pt-206 8834   5 cm    0   0                
+  Photon     88-Ra-226  79-Au-199 8834   5 cm    0   0                
+  Photon     88-Ra-226  79-Au-200 8834   5 cm    0   0                
+  Photon     88-Ra-226  79-Au-201 8834   5 cm    0   0                
+  Photon     88-Ra-226  79-Au-202 8834   5 cm    0   0                
+  Photon     88-Ra-226  79-Au-203 8834   5 cm    0   0                
+  Photon     88-Ra-226  79-Au-204 8834   5 cm    0   0                
+  Photon     88-Ra-226  79-Au-205 8834   5 cm    0   0                
+  Photon     88-Ra-226  79-Au-206 8834   5 cm    0   0                
+  Photon     88-Ra-226  79-Au-207 8834   5 cm    0   0                
+  Photon     88-Ra-226  79-Au-208 8834   5 cm    0   0                
+  Photon     88-Ra-226  79-Au-209 8834   5 cm    0   0                
+  Photon     88-Ra-226  79-Au-210 8834   5 cm    0   0                
+  Photon     88-Ra-226  80-Hg-200 8834   5 cm    0   0                
+  Photon     88-Ra-226  80-Hg-201 8834   5 cm    0   0                
+  Photon     88-Ra-226  80-Hg-202 8834   5 cm    0   0                
+  Photon     88-Ra-226  80-Hg-203 8834   5 cm    0   0                
+  Photon     88-Ra-226  80-Hg-204 8834   5 cm    0   0                
+  Photon     88-Ra-226  80-Hg-205 8834   5 cm    0   0                
+  Photon     88-Ra-226  80-Hg-206 8834   5 cm    0   0                
+  Photon     88-Ra-226  80-Hg-207 8834   5 cm    0   0                
+  Photon     88-Ra-226  80-Hg-208 8834   5 cm    0   0                
+  Photon     88-Ra-226  80-Hg-209 8834   5 cm    0   0                
+  Photon     88-Ra-226  80-Hg-210 8834   5 cm    0   0                
+  Photon     88-Ra-226  80-Hg-211 8834   5 cm    0   0                
+  Photon     88-Ra-226  80-Hg-212 8834   5 cm    0   0                
+  Photon     88-Ra-226  80-Hg-213 8834   5 cm    0   0                
+  Photon     88-Ra-226  80-Hg-214 8834   5 cm    0   0                
+  Photon     88-Ra-226  80-Hg-215 8834   5 cm    0   0                
+  Photon     88-Ra-226  80-Hg-216 8834   5 cm    0   0                
+  Photon     88-Ra-226  81-Tl-201 8834   5 cm    0   0                
+  Photon     88-Ra-226  81-Tl-202 8834   5 cm    0   0                
+  Photon     88-Ra-226  81-Tl-203 8834   5 cm    0   0                
+  Photon     88-Ra-226  81-Tl-204 8834   5 cm    0   0                
+  Photon     88-Ra-226  81-Tl-205 8834   5 cm    0   0                
+  Photon     88-Ra-226  81-Tl-206 8834   5 cm    0   0                
+  Photon     88-Ra-226  81-Tl-207 8834   5 cm    0   0                
+  Photon     88-Ra-226  81-Tl-207 8834   5 cm    1   0                
+  Photon     88-Ra-226  81-Tl-208 8834   5 cm    0   0                
+  Photon     88-Ra-226  81-Tl-209 8834   5 cm    0   0                
+  Photon     88-Ra-226  81-Tl-210 8834   5 cm    0   0                
+  Photon     88-Ra-226  81-Tl-211 8834   5 cm    0   0                
+  Photon     88-Ra-226  81-Tl-212 8834   5 cm    0   0                
+  Photon     88-Ra-226  81-Tl-213 8834   5 cm    0   0                
+  Photon     88-Ra-226  81-Tl-214 8834   5 cm    0   0                
+  Photon     88-Ra-226  81-Tl-215 8834   5 cm    0   0                
+  Photon     88-Ra-226  81-Tl-216 8834   5 cm    0   0                
+  Photon     88-Ra-226  81-Tl-217 8834   5 cm    0   0                
+  Photon     88-Ra-226  81-Tl-218 8834   5 cm    0   0                
+  Photon     88-Ra-226  82-Pb-202 8834   5 cm    0   0                
+  Photon     88-Ra-226  82-Pb-202 8834   5 cm    1   0                
+  Photon     88-Ra-226  82-Pb-203 8834   5 cm    0   0                
+  Photon     88-Ra-226  82-Pb-203 8834   5 cm    1   0                
+  Photon     88-Ra-226  82-Pb-204 8834   5 cm    0   0                
+  Photon     88-Ra-226  82-Pb-204 8834   5 cm    1   0                
+  Photon     88-Ra-226  82-Pb-205 8834   5 cm    0   0                
+  Photon     88-Ra-226  82-Pb-206 8834   5 cm    0   0                
+  Photon     88-Ra-226  82-Pb-207 8834   5 cm    0   0                
+  Photon     88-Ra-226  82-Pb-207 8834   5 cm    1   0                
+  Photon     88-Ra-226  82-Pb-208 8834   5 cm    0   0                
+  Photon     88-Ra-226  82-Pb-209 8834   5 cm    0   0                
+  Photon     88-Ra-226  82-Pb-210 8834   5 cm    0   0                
+  Photon     88-Ra-226  82-Pb-211 8834   5 cm    0   0                
+  Photon     88-Ra-226  82-Pb-212 8834   5 cm    0   0                
+  Photon     88-Ra-226  82-Pb-213 8834   5 cm    0   0                
+  Photon     88-Ra-226  82-Pb-214 8834   5 cm    0   0                
+  Photon     88-Ra-226  82-Pb-215 8834   5 cm    0   0                
+  Photon     88-Ra-226  82-Pb-216 8834   5 cm    0   0                
+  Photon     88-Ra-226  82-Pb-217 8834   5 cm    0   0                
+  Photon     88-Ra-226  82-Pb-218 8834   5 cm    0   0                
+  Photon     88-Ra-226  82-Pb-219 8834   5 cm    0   0                
+  Photon     88-Ra-226  82-Pb-220 8834   5 cm    0   0                
+  Photon     88-Ra-226  83-Bi-203 8834   5 cm    0   0                
+  Photon     88-Ra-226  83-Bi-203 8834   5 cm    1   0                
+  Photon     88-Ra-226  83-Bi-204 8834   5 cm    0   0                
+  Photon     88-Ra-226  83-Bi-205 8834   5 cm    0   0                
+  Photon     88-Ra-226  83-Bi-206 8834   5 cm    0   0                
+  Photon     88-Ra-226  83-Bi-207 8834   5 cm    0   0                
+  Photon     88-Ra-226  83-Bi-208 8834   5 cm    0   0                
+  Photon     88-Ra-226  83-Bi-209 8834   5 cm    0   0                
+  Photon     88-Ra-226  83-Bi-210 8834   5 cm    0   0                
+  Photon     88-Ra-226  83-Bi-210 8834   5 cm    1   0                
+  Photon     88-Ra-226  83-Bi-211 8834   5 cm    0   0                
+  Photon     88-Ra-226  83-Bi-212 8834   5 cm    0   0                
+  Photon     88-Ra-226  83-Bi-213 8834   5 cm    0   0                
+  Photon     88-Ra-226  83-Bi-214 8834   5 cm    0   0                
+  Photon     88-Ra-226  83-Bi-215 8834   5 cm    0   0                
+  Photon     88-Ra-226  83-Bi-216 8834   5 cm    0   0                
+  Photon     88-Ra-226  83-Bi-216 8834   5 cm    1   0                
+  Photon     88-Ra-226  83-Bi-217 8834   5 cm    0   0                
+  Photon     88-Ra-226  83-Bi-218 8834   5 cm    0   0                
+  Photon     88-Ra-226  83-Bi-219 8834   5 cm    0   0                
+  Photon     88-Ra-226  83-Bi-220 8834   5 cm    0   0                
+  Photon     88-Ra-226  83-Bi-221 8834   5 cm    0   0                
+  Photon     88-Ra-226  84-Po-204 8834   5 cm    0   0                
+  Photon     88-Ra-226  84-Po-205 8834   5 cm    0   0                
+  Photon     88-Ra-226  84-Po-206 8834   5 cm    0   0                
+  Photon     88-Ra-226  84-Po-207 8834   5 cm    0   0                
+  Photon     88-Ra-226  84-Po-207 8834   5 cm    1   0                
+  Photon     88-Ra-226  84-Po-208 8834   5 cm    0   0                
+  Photon     88-Ra-226  84-Po-209 8834   5 cm    0   0                
+  Photon     88-Ra-226  84-Po-210 8834   5 cm    0   0                
+  Photon     88-Ra-226  84-Po-211 8834   5 cm    0   0                
+  Photon     88-Ra-226  84-Po-211 8834   5 cm    1   0                
+  Photon     88-Ra-226  84-Po-212 8834   5 cm    0   0                
+  Photon     88-Ra-226  84-Po-213 8834   5 cm    0   0                
+  Photon     88-Ra-226  84-Po-214 8834   5 cm    0   0                
+  Photon     88-Ra-226  84-Po-215 8834   5 cm    0   0                
+  Photon     88-Ra-226  84-Po-216 8834   5 cm    0   0                
+  Photon     88-Ra-226  84-Po-217 8834   5 cm    0   0                
+  Photon     88-Ra-226  84-Po-218 8834   5 cm    0   0                
+  Photon     88-Ra-226  84-Po-219 8834   5 cm    0   0                
+  Photon     88-Ra-226  84-Po-220 8834   5 cm    0   0                
+  Photon     88-Ra-226  84-Po-221 8834   5 cm    0   0                
+  Photon     88-Ra-226  84-Po-222 8834   5 cm    0   0                
+  Photon     88-Ra-226  85-At-205 8834   5 cm    0   0                
+  Photon     88-Ra-226  85-At-206 8834   5 cm    0   0                
+  Photon     88-Ra-226  85-At-207 8834   5 cm    0   0                
+  Photon     88-Ra-226  85-At-208 8834   5 cm    0   0                
+  Photon     88-Ra-226  85-At-209 8834   5 cm    0   0                
+  Photon     88-Ra-226  85-At-210 8834   5 cm    0   0                
+  Photon     88-Ra-226  85-At-211 8834   5 cm    0   0                
+  Photon     88-Ra-226  85-At-212 8834   5 cm    0   0                
+  Photon     88-Ra-226  85-At-212 8834   5 cm    1   0                
+  Photon     88-Ra-226  85-At-213 8834   5 cm    0   0                
+  Photon     88-Ra-226  85-At-214 8834   5 cm    0   0                
+  Photon     88-Ra-226  85-At-215 8834   5 cm    0   0                
+  Photon     88-Ra-226  85-At-216 8834   5 cm    0   0                
+  Photon     88-Ra-226  85-At-217 8834   5 cm    0   0                
+  Photon     88-Ra-226  85-At-218 8834   5 cm    0   0                
+  Photon     88-Ra-226  85-At-219 8834   5 cm    0   0                
+  Photon     88-Ra-226  85-At-220 8834   5 cm    0   0                
+  Photon     88-Ra-226  85-At-221 8834   5 cm    0   0                
+  Photon     88-Ra-226  85-At-222 8834   5 cm    0   0                
+  Photon     88-Ra-226  85-At-223 8834   5 cm    0   0                
+  Photon     88-Ra-226  86-Rn-206 8834   5 cm    0   0                
+  Photon     88-Ra-226  86-Rn-207 8834   5 cm    0   0                
+  Photon     88-Ra-226  86-Rn-208 8834   5 cm    0   0                
+  Photon     88-Ra-226  86-Rn-209 8834   5 cm    0   0                
+  Photon     88-Ra-226  86-Rn-210 8834   5 cm    0   0                
+  Photon     88-Ra-226  86-Rn-211 8834   5 cm    0   0                
+  Photon     88-Ra-226  86-Rn-212 8834   5 cm    0   0                
+  Photon     88-Ra-226  86-Rn-213 8834   5 cm    0   0                
+  Photon     88-Ra-226  86-Rn-214 8834   5 cm    0   0                
+  Photon     88-Ra-226  86-Rn-215 8834   5 cm    0   0                
+  Photon     88-Ra-226  86-Rn-216 8834   5 cm    0   0                
+  Photon     88-Ra-226  86-Rn-217 8834   5 cm    0   0                
+  Photon     88-Ra-226  86-Rn-218 8834   5 cm    0   0                
+  Photon     88-Ra-226  86-Rn-219 8834   5 cm    0   0                
+  Photon     88-Ra-226  86-Rn-220 8834   5 cm    0   0                
+  Photon     88-Ra-226  86-Rn-221 8834   5 cm    0   0                
+  Photon     88-Ra-226  86-Rn-222 8834   5 cm    0   0                
+  Photon     88-Ra-226  86-Rn-223 8834   5 cm    0   0                
+  Photon     88-Ra-226  86-Rn-224 8834   5 cm    0   0                
+  Photon     88-Ra-226  87-Fr-207 8834   5 cm    0   0                
+  Photon     88-Ra-226  87-Fr-208 8834   5 cm    0   0                
+  Photon     88-Ra-226  87-Fr-209 8834   5 cm    0   0                
+  Photon     88-Ra-226  87-Fr-210 8834   5 cm    0   0                
+  Photon     88-Ra-226  87-Fr-211 8834   5 cm    0   0                
+  Photon     88-Ra-226  87-Fr-212 8834   5 cm    0   0                
+  Photon     88-Ra-226  87-Fr-213 8834   5 cm    0   0                
+  Photon     88-Ra-226  87-Fr-214 8834   5 cm    0   0                
+  Photon     88-Ra-226  87-Fr-215 8834   5 cm    0   0                
+  Photon     88-Ra-226  87-Fr-216 8834   5 cm    0   0                
+  Photon     88-Ra-226  87-Fr-217 8834   5 cm    0   0                
+  Photon     88-Ra-226  87-Fr-218 8834   5 cm    0   0                
+  Photon     88-Ra-226  87-Fr-219 8834   5 cm    0   0                
+  Photon     88-Ra-226  87-Fr-220 8834   5 cm    0   0                
+  Photon     88-Ra-226  87-Fr-221 8834   5 cm    0   0                
+  Photon     88-Ra-226  87-Fr-222 8834   5 cm    0   0                
+  Photon     88-Ra-226  87-Fr-223 8834   5 cm    0   0                
+  Photon     88-Ra-226  87-Fr-224 8834   5 cm    0   0                
+  Photon     88-Ra-226  87-Fr-225 8834   5 cm    0   0                
+  Photon     88-Ra-226  88-Ra-208 8834   5 cm    0   0                
+  Photon     88-Ra-226  88-Ra-209 8834   5 cm    0   0                
+  Photon     88-Ra-226  88-Ra-210 8834   5 cm    0   0                
+  Photon     88-Ra-226  88-Ra-211 8834   5 cm    0   0                
+  Photon     88-Ra-226  88-Ra-212 8834   5 cm    0   0                
+  Photon     88-Ra-226  88-Ra-213 8834   5 cm    0   0                
+  Photon     88-Ra-226  88-Ra-214 8834   5 cm    0   0                
+  Photon     88-Ra-226  88-Ra-215 8834   5 cm    0   0                
+  Photon     88-Ra-226  88-Ra-216 8834   5 cm    0   0                
+  Photon     88-Ra-226  88-Ra-217 8834   5 cm    0   0                
+  Photon     88-Ra-226  88-Ra-218 8834   5 cm    0   0                
+  Photon     88-Ra-226  88-Ra-219 8834   5 cm    0   0                
+  Photon     88-Ra-226  88-Ra-220 8834   5 cm    0   0                
+  Photon     88-Ra-226  88-Ra-221 8834   5 cm    0   0                
+  Photon     88-Ra-226  88-Ra-222 8834   5 cm    0   0                
+  Photon     88-Ra-226  88-Ra-223 8834   5 cm    0   0                
+  Photon     88-Ra-226  88-Ra-224 8834   5 cm    0   0                
+  Photon     88-Ra-226  88-Ra-225 8834   5 cm    0   0                
+  Photon     88-Ra-226  88-Ra-226 8834   5 cm    0   0                
+  Photon     88-Ra-226  Photon    8834   5 cm    0   1    1    2      
+  Photon     88-Ra-226  Neutron   8834  18 cm    0   1    1    2      
+ ------------------------------------------------------------------------------
+ All Cross Sections Read. Maximum Tabulated Energy =  200000000. eV
+ ------------------------------------------------------------------------------
+ ==============================================================================
+ Laws by Incident Particle
+ ------------------------------------------------------------------------------
+ Law Number and Definition   Photon    n     p     d     t  He-3  He-4 Other
+ ------------------------------------------------------------------------------
+ (0) Unknown................   222     0     0     0     0     0     0     0
+ (1) Continuum Energy-Angle
+      Legendre..............     8     0     0     0     0     0     0     0
+      Kalbach-Mann..........     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (2) Discrete 2 Body
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (3) Isotropic Discrete.....     0     0     0     0     0     0     0     0
+ (4) Discrete 2 Body Recoil.     0     0     0     0     0     0     0     0
+ (5) Charged Particle Elastic
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (6) n-Body Phase-Space.....     0     0     0     0     0     0     0     0
+ (7) Laboratory Angle-Energy     0     0     0     0     0     0     0     0
+ Not 0 to 7 (WARNING if Any)     0     0     0     0     0     0     0     0
+ ==============================================================================
+ Laws by Emitted Particle
+ ------------------------------------------------------------------------------
+ Law Number and Definition   Photon    n     p     d     t  He-3  He-4 Other
+ ------------------------------------------------------------------------------
+ (0) Unknown................     0     0     0     0     0     0     0   222
+ (1) Continuum Energy-Angle
+      Legendre..............     1     2     1     1     1     1     1     0
+      Kalbach-Mann..........     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (2) Discrete 2 Body
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (3) Isotropic Discrete.....     0     0     0     0     0     0     0     0
+ (4) Discrete 2 Body Recoil.     0     0     0     0     0     0     0     0
+ (5) Charged Particle Elastic
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (6) n-Body Phase-Space.....     0     0     0     0     0     0     0     0
+ (7) Laboratory Angle-Energy     0     0     0     0     0     0     0     0
+ Not 0 to 7 (WARNING if Any)     0     0     0     0     0     0     0     0
+ ------------------------------------------------------------------------------
+ Summary of Emitted Particle Yields
+ ------------------------------------------------------------------------------
+ Energy Independent.........     0     1     0     0     0     0     0     0
+ Energy Dependent...........     1     1     1     1     1     1     1   222
+ ------------------------------------------------------------------------------
+ Summary of Angular Distributions
+ ------------------------------------------------------------------------------
+ Isotropic..................     1     1     0     0     0     0     0     0
+ Nonisotropic...............     0     0     0     0     0     0     0     0
+ Mixed......................     0     1     1     1     1     1     1     0
+ ------------------------------------------------------------------------------
+ Maximum Legendre Order.....     0    10    10    10    10    10    10     0
+ Maximum Number of Cosines..     0     0     0     0     0     0     0     0
+ ------------------------------------------------------------------------------
+ Summary of Energy Distributions
+ ------------------------------------------------------------------------------
+ Continuous.................     1     2     1     1     1     1     1     0
+ Discrete...................     0     0     0     0     0     0     0     0
+ Mixed......................     0     0     0     0     0     0     0     0
+ ------------------------------------------------------------------------------
+ ==============================================================================
+ Summary of Incident Neutron with Photon or Neutron Emitted Data
+ ------------------------------------------------------------------------------
+ Law Number and Definition   Output        Not Output 
+ ------------------------------------------------------------------------------
+                             Photon    n   Photon    n
+ ------------------------------------------------------------------------------
+ (0) Unknown................     0     0       0     0
+ (1) Continuum Energy-Angle
+      Legendre..............     0     0       0     0
+      Kalbach-Mann..........     0     0       0     0
+      Tabulated.............     0     0       0     0
+ (2) Discrete 2 Body
+      Legendre..............     0     0       0     0
+      Tabulated.............     0     0       0     0
+ (3) Isotropic Discrete.....     0     0       0     0
+ (4) Discrete 2 Body Recoil.     0     0       0     0
+ (5) Charged Particle Elastic
+      Legendre..............     0     0       0     0
+      Tabulated.............     0     0       0     0
+ (6) n-Body Phase-Space.....     0     0       0     0
+ (7) Laboratory Angle-Energy     0     0       0     0
+ Not 0 to 7 (WARNING if Any)     0     0       0     0
+ ==============================================================================
+ End of Run
+ ===============================================================================
+ SIXPAK   Total Execution Time                0.19 Seconds
+ ===============================================================================

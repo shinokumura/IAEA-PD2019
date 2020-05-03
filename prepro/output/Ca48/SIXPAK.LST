@@ -1,0 +1,159 @@
+ Process ENDF/B Double Differential Data - MF=6 (SIXPAK 2019-1)
+ ==============================================================================
+ ENDF/B Input Data Filename
+ SIXPAK.IN                                                               
+ ------------------------------------------------------------------------------
+ Requested Ranges
+ ------------------------------------------------------------------------------
+    Minimum    Maximum   
+    MAT  MT    MAT  MT
+ ------------------------------------------------------------------------------
+      1   1   9999 999
+ ==============================================================================
+ Terminology
+ ------------------------------------------------------------------------------
+ LCT  = Reference System (Lab or Center-of-Mass)
+ LIP  = Product Modifier, e.g., for Isomeric States
+ LAW  = Representation of Data - see, List at End of Output
+ LANG = 1     = Legendre     (LAW 1)
+      = 2     = Kalbach-Mann (LAW 1)
+      = 11-15 = Tabulated    (LAW 1)
+      = 0     = Legendre     (LAW 2)
+      = 11-15 = Tabulated    (LAW 2)
+ LTP  = 1-2   = Legendre     (LAW 5)
+      = 11-15 = Tabulated    (LAW 5)
+ LEP  = Secondary Energy Interpolation Type(1 to 5)
+ ==============================================================================
+ Tape Label
+ ------------------------------------------------------------------------------
+  JENDL/PD-2016.1  Ca- 48                                             1
+ ------------------------------------------------------------------------------
+ WARNING: MT=5 is ALLOWED in MF=6, but NOT in MF=4 or 5.
+          see ENDF-102 - Strictly for diagnostic purposes
+          this code will Translate MF=6 Data - but be
+          WARNED - the results should not be used in ANY          APPLICATIONS.
+ ------------------------------------------------------------------------------
+ ==============================================================================
+ Projectile   Target    Emitted    MAT  MT LCT LIP LAW LANG  LEP  ENDF/B
+                                                        LTP       Output
+ ==============================================================================
+  Photon     20-Ca-48   Neutron   2049   5 cm    0   1    1    2      
+  Photon     20-Ca-48    1-H -1   2049   5 cm    0   1    1    2      
+  Photon     20-Ca-48    1-H -2   2049   5 cm    0   1    1    2      
+  Photon     20-Ca-48    1-H -3   2049   5 cm    0   1    1    2      
+  Photon     20-Ca-48    2-He-3   2049   5 cm    0   1    1    2      
+  Photon     20-Ca-48    2-He-4   2049   5 cm    0   1    1    2      
+  Photon     20-Ca-48   17-Cl-40  2049   5 cm    0   0                
+  Photon     20-Ca-48   17-Cl-41  2049   5 cm    0   0                
+  Photon     20-Ca-48   17-Cl-42  2049   5 cm    0   0                
+  Photon     20-Ca-48   17-Cl-43  2049   5 cm    0   0                
+  Photon     20-Ca-48   17-Cl-44  2049   5 cm    0   0                
+  Photon     20-Ca-48   17-Cl-45  2049   5 cm    0   0                
+  Photon     20-Ca-48   18-Ar-41  2049   5 cm    0   0                
+  Photon     20-Ca-48   18-Ar-42  2049   5 cm    0   0                
+  Photon     20-Ca-48   18-Ar-43  2049   5 cm    0   0                
+  Photon     20-Ca-48   18-Ar-44  2049   5 cm    0   0                
+  Photon     20-Ca-48   18-Ar-45  2049   5 cm    0   0                
+  Photon     20-Ca-48   18-Ar-46  2049   5 cm    0   0                
+  Photon     20-Ca-48   19-K -45  2049   5 cm    0   0                
+  Photon     20-Ca-48   19-K -46  2049   5 cm    0   0                
+  Photon     20-Ca-48   19-K -47  2049   5 cm    0   0                
+  Photon     20-Ca-48   20-Ca-43  2049   5 cm    0   0                
+  Photon     20-Ca-48   20-Ca-44  2049   5 cm    0   0                
+  Photon     20-Ca-48   20-Ca-45  2049   5 cm    0   0                
+  Photon     20-Ca-48   20-Ca-46  2049   5 cm    0   0                
+  Photon     20-Ca-48   20-Ca-47  2049   5 cm    0   0                
+ ------------------------------------------------------------------------------
+ All Cross Sections Read. Maximum Tabulated Energy =  140000000. eV
+ ------------------------------------------------------------------------------
+ ==============================================================================
+ Laws by Incident Particle
+ ------------------------------------------------------------------------------
+ Law Number and Definition   Photon    n     p     d     t  He-3  He-4 Other
+ ------------------------------------------------------------------------------
+ (0) Unknown................    20     0     0     0     0     0     0     0
+ (1) Continuum Energy-Angle
+      Legendre..............     6     0     0     0     0     0     0     0
+      Kalbach-Mann..........     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (2) Discrete 2 Body
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (3) Isotropic Discrete.....     0     0     0     0     0     0     0     0
+ (4) Discrete 2 Body Recoil.     0     0     0     0     0     0     0     0
+ (5) Charged Particle Elastic
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (6) n-Body Phase-Space.....     0     0     0     0     0     0     0     0
+ (7) Laboratory Angle-Energy     0     0     0     0     0     0     0     0
+ Not 0 to 7 (WARNING if Any)     0     0     0     0     0     0     0     0
+ ==============================================================================
+ Laws by Emitted Particle
+ ------------------------------------------------------------------------------
+ Law Number and Definition   Photon    n     p     d     t  He-3  He-4 Other
+ ------------------------------------------------------------------------------
+ (0) Unknown................     0     0     0     0     0     0     0    20
+ (1) Continuum Energy-Angle
+      Legendre..............     0     1     1     1     1     1     1     0
+      Kalbach-Mann..........     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (2) Discrete 2 Body
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (3) Isotropic Discrete.....     0     0     0     0     0     0     0     0
+ (4) Discrete 2 Body Recoil.     0     0     0     0     0     0     0     0
+ (5) Charged Particle Elastic
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (6) n-Body Phase-Space.....     0     0     0     0     0     0     0     0
+ (7) Laboratory Angle-Energy     0     0     0     0     0     0     0     0
+ Not 0 to 7 (WARNING if Any)     0     0     0     0     0     0     0     0
+ ------------------------------------------------------------------------------
+ Summary of Emitted Particle Yields
+ ------------------------------------------------------------------------------
+ Energy Independent.........     0     0     0     0     0     0     0     0
+ Energy Dependent...........     0     1     1     1     1     1     1    20
+ ------------------------------------------------------------------------------
+ Summary of Angular Distributions
+ ------------------------------------------------------------------------------
+ Isotropic..................     0     0     0     0     0     0     0     0
+ Nonisotropic...............     0     0     0     1     0     1     0     0
+ Mixed......................     0     1     1     0     1     0     1     0
+ ------------------------------------------------------------------------------
+ Maximum Legendre Order.....     0    10    10    10    10    10    10     0
+ Maximum Number of Cosines..     0     0     0     0     0     0     0     0
+ ------------------------------------------------------------------------------
+ Summary of Energy Distributions
+ ------------------------------------------------------------------------------
+ Continuous.................     0     1     1     1     1     1     1     0
+ Discrete...................     0     0     0     0     0     0     0     0
+ Mixed......................     0     0     0     0     0     0     0     0
+ ------------------------------------------------------------------------------
+ ==============================================================================
+ Summary of Incident Neutron with Photon or Neutron Emitted Data
+ ------------------------------------------------------------------------------
+ Law Number and Definition   Output        Not Output 
+ ------------------------------------------------------------------------------
+                             Photon    n   Photon    n
+ ------------------------------------------------------------------------------
+ (0) Unknown................     0     0       0     0
+ (1) Continuum Energy-Angle
+      Legendre..............     0     0       0     0
+      Kalbach-Mann..........     0     0       0     0
+      Tabulated.............     0     0       0     0
+ (2) Discrete 2 Body
+      Legendre..............     0     0       0     0
+      Tabulated.............     0     0       0     0
+ (3) Isotropic Discrete.....     0     0       0     0
+ (4) Discrete 2 Body Recoil.     0     0       0     0
+ (5) Charged Particle Elastic
+      Legendre..............     0     0       0     0
+      Tabulated.............     0     0       0     0
+ (6) n-Body Phase-Space.....     0     0       0     0
+ (7) Laboratory Angle-Energy     0     0       0     0
+ Not 0 to 7 (WARNING if Any)     0     0       0     0
+ ==============================================================================
+ End of Run
+ ===============================================================================
+ SIXPAK   Total Execution Time                0.15 Seconds
+ ===============================================================================

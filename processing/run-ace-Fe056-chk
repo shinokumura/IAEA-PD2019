@@ -1,0 +1,29 @@
+#!/bin/sh
+#
+
+while IFS=" " read -r charge elem mass mat
+do
+if [ $elem = "Ca" ]; then
+echo "$file"
+ln -s ace/${elem}${mass} tape31
+echo 'running njoy for '${elem}${mass}
+
+cat > in${elem}${mass}-chk << EOF
+acer
+0 31 33 34 35/
+7 1 1 -1/
+'Ace ${elem}${mass} IAEA-PD2019'/
+viewr
+33 36/
+stop
+EOF
+
+    njoy < in${elem}${mass}-chk
+    mv tape35 graphs/${elem}${mass}chk.ps
+    mv in${elem}${mass}-chk inout-ace/
+    mv output inout-ace/out${elem}${mass}-chk
+    rm tape*
+    echo 'finished' ${elem}${mass}
+fi    
+
+done < iso-mat.iaea-g19

@@ -1,0 +1,325 @@
+ Process ENDF/B Double Differential Data - MF=6 (SIXPAK 2019-1)
+ ==============================================================================
+ ENDF/B Input Data Filename
+ SIXPAK.IN                                                               
+ ------------------------------------------------------------------------------
+ Requested Ranges
+ ------------------------------------------------------------------------------
+    Minimum    Maximum   
+    MAT  MT    MAT  MT
+ ------------------------------------------------------------------------------
+      1   1   9999 999
+ ==============================================================================
+ Terminology
+ ------------------------------------------------------------------------------
+ LCT  = Reference System (Lab or Center-of-Mass)
+ LIP  = Product Modifier, e.g., for Isomeric States
+ LAW  = Representation of Data - see, List at End of Output
+ LANG = 1     = Legendre     (LAW 1)
+      = 2     = Kalbach-Mann (LAW 1)
+      = 11-15 = Tabulated    (LAW 1)
+      = 0     = Legendre     (LAW 2)
+      = 11-15 = Tabulated    (LAW 2)
+ LTP  = 1-2   = Legendre     (LAW 5)
+      = 11-15 = Tabulated    (LAW 5)
+ LEP  = Secondary Energy Interpolation Type(1 to 5)
+ ==============================================================================
+ Tape Label
+ ------------------------------------------------------------------------------
+  EMPEND Processing file : tm169-g.out                                1
+ ------------------------------------------------------------------------------
+ WARNING: MT=5 is ALLOWED in MF=6, but NOT in MF=4 or 5.
+          see ENDF-102 - Strictly for diagnostic purposes
+          this code will Translate MF=6 Data - but be
+          WARNED - the results should not be used in ANY          APPLICATIONS.
+ ------------------------------------------------------------------------------
+ ==============================================================================
+ Projectile   Target    Emitted    MAT  MT LCT LIP LAW LANG  LEP  ENDF/B
+                                                        LTP       Output
+ ==============================================================================
+  Photon     69-Tm-169  Neutron   6925   5 cm    0   1    1    2      
+ ------------------------------------------------------------------------------
+ E= 1.6000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 1.8000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+  Photon     69-Tm-169   1-H -1   6925   5 cm    0   1    1    2      
+ ------------------------------------------------------------------------------
+ E= 8.0000E+07 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 1.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 1.4000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 1.6000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 1.8000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+  Photon     69-Tm-169   1-H -2   6925   5 cm    0   1    1    2      
+ ------------------------------------------------------------------------------
+ E= 9.0000E+07 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 1.2000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+  Photon     69-Tm-169   1-H -3   6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169   2-He-3   6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169   2-He-4   6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  58-Ce-143 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  58-Ce-144 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  59-Pr-144 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  59-Pr-145 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  59-Pr-146 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  59-Pr-147 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  60-Nd-145 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  60-Nd-146 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  60-Nd-147 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  60-Nd-148 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  60-Nd-149 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  60-Nd-150 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  61-Pm-146 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  61-Pm-147 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  61-Pm-148 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  61-Pm-149 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  61-Pm-150 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  61-Pm-151 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  61-Pm-152 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  61-Pm-153 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  62-Sm-148 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  62-Sm-149 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  62-Sm-150 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  62-Sm-151 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  62-Sm-152 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  62-Sm-153 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  62-Sm-154 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  62-Sm-155 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  62-Sm-156 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  63-Eu-149 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  63-Eu-150 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  63-Eu-151 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  63-Eu-152 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  63-Eu-153 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  63-Eu-154 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  63-Eu-155 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  63-Eu-156 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  63-Eu-157 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  63-Eu-158 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  64-Gd-151 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  64-Gd-152 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  64-Gd-153 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  64-Gd-154 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  64-Gd-155 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  64-Gd-156 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  64-Gd-157 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  64-Gd-158 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  64-Gd-159 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  64-Gd-160 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  64-Gd-161 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  65-Tb-153 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  65-Tb-154 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  65-Tb-155 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  65-Tb-156 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  65-Tb-157 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  65-Tb-158 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  65-Tb-159 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  65-Tb-160 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  65-Tb-161 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  65-Tb-162 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  65-Tb-163 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  66-Dy-155 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  66-Dy-156 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  66-Dy-157 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  66-Dy-158 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  66-Dy-159 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  66-Dy-160 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  66-Dy-161 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  66-Dy-162 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  66-Dy-163 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  66-Dy-164 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  66-Dy-165 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  67-Ho-157 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  67-Ho-158 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  67-Ho-159 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  67-Ho-160 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  67-Ho-161 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  67-Ho-162 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  67-Ho-163 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  67-Ho-164 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  67-Ho-165 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  67-Ho-166 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  68-Er-159 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  68-Er-160 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  68-Er-161 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  68-Er-162 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  68-Er-163 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  68-Er-164 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  68-Er-165 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  68-Er-166 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  68-Er-167 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  69-Tm-162 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  69-Tm-163 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  69-Tm-164 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  69-Tm-165 6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  Photon    6925   5 cm    0   1    1    2      
+  Photon     69-Tm-169  Neutron   6925  11 cm    0   1    1    2      
+  Photon     69-Tm-169   1-H -2   6925  11 cm    0   1    1    2      
+  Photon     69-Tm-169  Photon    6925  11 cm    0   1    1    2      
+  Photon     69-Tm-169  Neutron   6925  16 cm    0   1    1    2      
+  Photon     69-Tm-169  69-Tm-167 6925  16 cm    0   1    1    2      
+  Photon     69-Tm-169  Photon    6925  16 cm    0   1    1    2      
+  Photon     69-Tm-169  Neutron   6925  17 cm    0   1    1    2      
+  Photon     69-Tm-169  69-Tm-166 6925  17 cm    0   1    1    2      
+  Photon     69-Tm-169  Photon    6925  17 cm    0   1    1    2      
+  Photon     69-Tm-169  Neutron   6925  22 cm    0   1    1    2      
+  Photon     69-Tm-169   2-He-4   6925  22 cm    0   1    1    2      
+  Photon     69-Tm-169  Photon    6925  22 cm    0   1    1    2      
+  Photon     69-Tm-169  Neutron   6925  28 cm    0   1    1    2      
+  Photon     69-Tm-169   1-H -1   6925  28 cm    0   1    1    2      
+  Photon     69-Tm-169  Neutron   6925  32 cm    0   1    1    2      
+  Photon     69-Tm-169   1-H -2   6925  32 cm    0   1    1    2      
+  Photon     69-Tm-169  Photon    6925  32 cm    0   1    1    2      
+  Photon     69-Tm-169  Neutron   6925  33 cm    0   1    1    2      
+  Photon     69-Tm-169   1-H -3   6925  33 cm    0   1    1    2      
+  Photon     69-Tm-169  Photon    6925  33 cm    0   1    1    2      
+  Photon     69-Tm-169  Neutron   6925  34 cm    0   1    1    2      
+  Photon     69-Tm-169   2-He-3   6925  34 cm    0   1    1    2      
+  Photon     69-Tm-169  Photon    6925  34 cm    0   1    1    2      
+  Photon     69-Tm-169  Neutron   6925  41 cm    0   1    1    2      
+  Photon     69-Tm-169   1-H -1   6925  41 cm    0   1    1    2      
+  Photon     69-Tm-169  Photon    6925  41 cm    0   1    1    2      
+  Photon     69-Tm-169  Neutron   6925  42 cm    0   1    1    2      
+  Photon     69-Tm-169   1-H -1   6925  42 cm    0   1    1    2      
+  Photon     69-Tm-169  Photon    6925  42 cm    0   1    1    2      
+  Photon     69-Tm-169  Neutron   6925  44 cm    0   1    1    2      
+  Photon     69-Tm-169   1-H -1   6925  44 cm    0   1    1    2      
+  Photon     69-Tm-169  Photon    6925  44 cm    0   1    1    2      
+  Photon     69-Tm-169  Neutron   6925  91 cm    0   1    1    2      
+  Photon     69-Tm-169  69-Tm-168 6925  91 cm    0   1    1    2      
+  Photon     69-Tm-169  Photon    6925  91 cm    0   1    1    2      
+  Photon     69-Tm-169  Photon    6925 102 cm    0   1    1    2      
+  Photon     69-Tm-169   1-H -2   6925 104 cm    0   1    1    2      
+  Photon     69-Tm-169  Photon    6925 104 cm    0   1    1    2      
+  Photon     69-Tm-169   1-H -3   6925 105 cm    0   1    1    2      
+  Photon     69-Tm-169  Photon    6925 105 cm    0   1    1    2      
+  Photon     69-Tm-169   2-He-3   6925 106 cm    0   1    1    2      
+  Photon     69-Tm-169  Photon    6925 106 cm    0   1    1    2      
+  Photon     69-Tm-169   1-H -1   6925 111 cm    0   1    1    2      
+  Photon     69-Tm-169  Photon    6925 111 cm    0   1    1    2      
+  Photon     69-Tm-169   1-H -1   6925 112 cm    0   1    1    2      
+  Photon     69-Tm-169   2-He-4   6925 112 cm    0   1    1    2      
+  Photon     69-Tm-169  Photon    6925 112 cm    0   1    1    2      
+  Photon     69-Tm-169   1-H -1   6925 115 cm    0   1    1    2      
+  Photon     69-Tm-169   1-H -2   6925 115 cm    0   1    1    2      
+  Photon     69-Tm-169  Photon    6925 115 cm    0   1    1    2      
+  Photon     69-Tm-169   1-H -1   6925 116 cm    0   1    1    2      
+  Photon     69-Tm-169   1-H -3   6925 116 cm    0   1    1    2      
+  Photon     69-Tm-169  Photon    6925 116 cm    0   1    1    2      
+ ------------------------------------------------------------------------------
+ All Cross Sections Read. Maximum Tabulated Energy =  200000000. eV
+ ------------------------------------------------------------------------------
+ WARNING - The Following MTs Stop below the Maximum Tabulated Energy
+ ------------------------------------------------------------------------------
+  MAT MF  MT  This MT     Maximum E
+ ------------------------------------------------------------------------------
+ 6925  9   5  180000000.  200000000.
+ 6925  9   5  180000000.  200000000.
+ 6925  9   5  180000000.  200000000.
+ 6925  9   5  160000000.  200000000.
+ ------------------------------------------------------------------------------
+ WARNING - Data between 160000000. and  200000000. are NOT Reliable
+ ------------------------------------------------------------------------------
+ ==============================================================================
+ Laws by Incident Particle
+ ------------------------------------------------------------------------------
+ Law Number and Definition   Photon    n     p     d     t  He-3  He-4 Other
+ ------------------------------------------------------------------------------
+ (0) Unknown................     0     0     0     0     0     0     0     0
+ (1) Continuum Energy-Angle
+      Legendre..............   155     0     0     0     0     0     0     0
+      Kalbach-Mann..........     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (2) Discrete 2 Body
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (3) Isotropic Discrete.....     0     0     0     0     0     0     0     0
+ (4) Discrete 2 Body Recoil.     0     0     0     0     0     0     0     0
+ (5) Charged Particle Elastic
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (6) n-Body Phase-Space.....     0     0     0     0     0     0     0     0
+ (7) Laboratory Angle-Energy     0     0     0     0     0     0     0     0
+ Not 0 to 7 (WARNING if Any)     0     0     0     0     0     0     0     0
+ ==============================================================================
+ Laws by Emitted Particle
+ ------------------------------------------------------------------------------
+ Law Number and Definition   Photon    n     p     d     t  He-3  He-4 Other
+ ------------------------------------------------------------------------------
+ (0) Unknown................     0     0     0     0     0     0     0     0
+ (1) Continuum Energy-Angle
+      Legendre..............    20    13     9     5     4     3     3    98
+      Kalbach-Mann..........     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (2) Discrete 2 Body
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (3) Isotropic Discrete.....     0     0     0     0     0     0     0     0
+ (4) Discrete 2 Body Recoil.     0     0     0     0     0     0     0     0
+ (5) Charged Particle Elastic
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (6) n-Body Phase-Space.....     0     0     0     0     0     0     0     0
+ (7) Laboratory Angle-Energy     0     0     0     0     0     0     0     0
+ Not 0 to 7 (WARNING if Any)     0     0     0     0     0     0     0     0
+ ------------------------------------------------------------------------------
+ Summary of Emitted Particle Yields
+ ------------------------------------------------------------------------------
+ Energy Independent.........     0    12     8     4     3     2     2     3
+ Energy Dependent...........    20     1     1     1     1     1     1    95
+ ------------------------------------------------------------------------------
+ Summary of Angular Distributions
+ ------------------------------------------------------------------------------
+ Isotropic..................    20     0     0     0     0     0     0    98
+ Nonisotropic...............     0     0     0     0     0     0     0     0
+ Mixed......................     0    13     9     5     4     3     3     0
+ ------------------------------------------------------------------------------
+ Maximum Legendre Order.....     0     6     6     6     4     6     7     0
+ Maximum Number of Cosines..     0     0     0     0     0     0     0     0
+ ------------------------------------------------------------------------------
+ Summary of Energy Distributions
+ ------------------------------------------------------------------------------
+ Continuous.................    20    13     9     5     4     3     3    98
+ Discrete...................     0     0     0     0     0     0     0     0
+ Mixed......................     0     0     0     0     0     0     0     0
+ ------------------------------------------------------------------------------
+ ==============================================================================
+ Summary of Incident Neutron with Photon or Neutron Emitted Data
+ ------------------------------------------------------------------------------
+ Law Number and Definition   Output        Not Output 
+ ------------------------------------------------------------------------------
+                             Photon    n   Photon    n
+ ------------------------------------------------------------------------------
+ (0) Unknown................     0     0       0     0
+ (1) Continuum Energy-Angle
+      Legendre..............     0     0       0     0
+      Kalbach-Mann..........     0     0       0     0
+      Tabulated.............     0     0       0     0
+ (2) Discrete 2 Body
+      Legendre..............     0     0       0     0
+      Tabulated.............     0     0       0     0
+ (3) Isotropic Discrete.....     0     0       0     0
+ (4) Discrete 2 Body Recoil.     0     0       0     0
+ (5) Charged Particle Elastic
+      Legendre..............     0     0       0     0
+      Tabulated.............     0     0       0     0
+ (6) n-Body Phase-Space.....     0     0       0     0
+ (7) Laboratory Angle-Energy     0     0       0     0
+ Not 0 to 7 (WARNING if Any)     0     0       0     0
+ ==============================================================================
+ End of Run
+ ------------------------------------------------------------------------------
+ WARNING - The ENDF Output is NOT Relialble above 160000000. eV,
+           because it is NOT Consistently Defined for ALL MTs.
+           It is STRONGLY recommended that you NOT use this
+           data above this energy. If you need data up to
+           energies higher than this PLEASE correct the data
+           and only then try re-running this code.
+ ------------------------------------------------------------------------------
+ ===============================================================================
+ SIXPAK   Total Execution Time                0.61 Seconds
+ ===============================================================================

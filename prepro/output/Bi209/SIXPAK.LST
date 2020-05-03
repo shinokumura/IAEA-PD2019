@@ -1,0 +1,312 @@
+ Process ENDF/B Double Differential Data - MF=6 (SIXPAK 2019-1)
+ ==============================================================================
+ ENDF/B Input Data Filename
+ SIXPAK.IN                                                               
+ ------------------------------------------------------------------------------
+ Requested Ranges
+ ------------------------------------------------------------------------------
+    Minimum    Maximum   
+    MAT  MT    MAT  MT
+ ------------------------------------------------------------------------------
+      1   1   9999 999
+ ==============================================================================
+ Terminology
+ ------------------------------------------------------------------------------
+ LCT  = Reference System (Lab or Center-of-Mass)
+ LIP  = Product Modifier, e.g., for Isomeric States
+ LAW  = Representation of Data - see, List at End of Output
+ LANG = 1     = Legendre     (LAW 1)
+      = 2     = Kalbach-Mann (LAW 1)
+      = 11-15 = Tabulated    (LAW 1)
+      = 0     = Legendre     (LAW 2)
+      = 11-15 = Tabulated    (LAW 2)
+ LTP  = 1-2   = Legendre     (LAW 5)
+      = 11-15 = Tabulated    (LAW 5)
+ LEP  = Secondary Energy Interpolation Type(1 to 5)
+ ==============================================================================
+ Tape Label
+ ------------------------------------------------------------------------------
+ Retrieved by E4-util: 2019/11/11,14:58:55                            1
+ ------------------------------------------------------------------------------
+ WARNING: MT=5 is ALLOWED in MF=6, but NOT in MF=4 or 5.
+          see ENDF-102 - Strictly for diagnostic purposes
+          this code will Translate MF=6 Data - but be
+          WARNED - the results should not be used in ANY          APPLICATIONS.
+ ------------------------------------------------------------------------------
+ ==============================================================================
+ Projectile   Target    Emitted    MAT  MT LCT LIP LAW LANG  LEP  ENDF/B
+                                                        LTP       Output
+ ==============================================================================
+  Photon     83-Bi-209  Neutron   8325   5 cm    0   1    2    1      
+ ------------------------------------------------------------------------------
+ Projectile=      0 Emitted=      1 Cannot Define Kalbach-Mann
+ Parameters for this Combination - Will use Neutron Parameters
+ ------------------------------------------------------------------------------
+  Photon     83-Bi-209   1-H -1   8325   5 cm    0   1    2    1      
+ ------------------------------------------------------------------------------
+ Projectile=      0 Emitted=   1001 Cannot Define Kalbach-Mann
+ Parameters for this Combination - Will use Neutron Parameters
+ ------------------------------------------------------------------------------
+  Photon     83-Bi-209   1-H -2   8325   5 cm    0   1    2    1      
+ ------------------------------------------------------------------------------
+ Projectile=      0 Emitted=   1002 Cannot Define Kalbach-Mann
+ Parameters for this Combination - Will use Neutron Parameters
+ ------------------------------------------------------------------------------
+  Photon     83-Bi-209   1-H -3   8325   5 cm    0   1    2    1      
+ ------------------------------------------------------------------------------
+ Projectile=      0 Emitted=   1003 Cannot Define Kalbach-Mann
+ Parameters for this Combination - Will use Neutron Parameters
+ ------------------------------------------------------------------------------
+  Photon     83-Bi-209   2-He-3   8325   5 cm    0   1    2    1      
+ ------------------------------------------------------------------------------
+ Projectile=      0 Emitted=   2003 Cannot Define Kalbach-Mann
+ Parameters for this Combination - Will use Neutron Parameters
+ ------------------------------------------------------------------------------
+  Photon     83-Bi-209   2-He-4   8325   5 cm    0   1    2    1      
+ ------------------------------------------------------------------------------
+ Projectile=      0 Emitted=   2004 Cannot Define Kalbach-Mann
+ Parameters for this Combination - Will use Neutron Parameters
+ ------------------------------------------------------------------------------
+  Photon     83-Bi-209  77-Ir-183 8325   5 cm    0   0                
+  Photon     83-Bi-209  77-Ir-184 8325   5 cm    0   0                
+  Photon     83-Bi-209  78-Pt-184 8325   5 cm    0   0                
+  Photon     83-Bi-209  78-Pt-185 8325   5 cm    0   0                
+  Photon     83-Bi-209  78-Pt-185 8325   5 cm    1   0                
+  Photon     83-Bi-209  78-Pt-186 8325   5 cm    0   0                
+  Photon     83-Bi-209  78-Pt-187 8325   5 cm    0   0                
+  Photon     83-Bi-209  78-Pt-188 8325   5 cm    0   0                
+  Photon     83-Bi-209  79-Au-185 8325   5 cm    0   0                
+  Photon     83-Bi-209  79-Au-185 8325   5 cm    1   0                
+  Photon     83-Bi-209  79-Au-186 8325   5 cm    0   0                
+  Photon     83-Bi-209  79-Au-187 8325   5 cm    0   0                
+  Photon     83-Bi-209  79-Au-187 8325   5 cm    1   0                
+  Photon     83-Bi-209  79-Au-188 8325   5 cm    0   0                
+  Photon     83-Bi-209  79-Au-189 8325   5 cm    0   0                
+  Photon     83-Bi-209  79-Au-189 8325   5 cm    1   0                
+  Photon     83-Bi-209  79-Au-190 8325   5 cm    0   0                
+  Photon     83-Bi-209  79-Au-191 8325   5 cm    0   0                
+  Photon     83-Bi-209  79-Au-192 8325   5 cm    0   0                
+  Photon     83-Bi-209  79-Au-193 8325   5 cm    0   0                
+  Photon     83-Bi-209  79-Au-193 8325   5 cm    1   0                
+  Photon     83-Bi-209  79-Au-194 8325   5 cm    0   0                
+  Photon     83-Bi-209  79-Au-195 8325   5 cm    0   0                
+  Photon     83-Bi-209  79-Au-195 8325   5 cm    1   0                
+  Photon     83-Bi-209  80-Hg-186 8325   5 cm    0   0                
+  Photon     83-Bi-209  80-Hg-187 8325   5 cm    0   0                
+  Photon     83-Bi-209  80-Hg-187 8325   5 cm    1   0                
+  Photon     83-Bi-209  80-Hg-188 8325   5 cm    0   0                
+  Photon     83-Bi-209  80-Hg-189 8325   5 cm    0   0                
+  Photon     83-Bi-209  80-Hg-189 8325   5 cm    1   0                
+  Photon     83-Bi-209  80-Hg-190 8325   5 cm    0   0                
+  Photon     83-Bi-209  80-Hg-191 8325   5 cm    0   0                
+  Photon     83-Bi-209  80-Hg-191 8325   5 cm    1   0                
+  Photon     83-Bi-209  80-Hg-192 8325   5 cm    0   0                
+  Photon     83-Bi-209  80-Hg-193 8325   5 cm    0   0                
+  Photon     83-Bi-209  80-Hg-193 8325   5 cm    1   0                
+  Photon     83-Bi-209  80-Hg-194 8325   5 cm    0   0                
+  Photon     83-Bi-209  80-Hg-195 8325   5 cm    0   0                
+  Photon     83-Bi-209  80-Hg-195 8325   5 cm    1   0                
+  Photon     83-Bi-209  80-Hg-196 8325   5 cm    0   0                
+  Photon     83-Bi-209  80-Hg-197 8325   5 cm    0   0                
+  Photon     83-Bi-209  80-Hg-197 8325   5 cm    1   0                
+  Photon     83-Bi-209  80-Hg-198 8325   5 cm    0   0                
+  Photon     83-Bi-209  80-Hg-199 8325   5 cm    0   0                
+  Photon     83-Bi-209  80-Hg-199 8325   5 cm    1   0                
+  Photon     83-Bi-209  80-Hg-200 8325   5 cm    0   0                
+  Photon     83-Bi-209  80-Hg-201 8325   5 cm    0   0                
+  Photon     83-Bi-209  80-Hg-202 8325   5 cm    0   0                
+  Photon     83-Bi-209  80-Hg-203 8325   5 cm    0   0                
+  Photon     83-Bi-209  80-Hg-204 8325   5 cm    0   0                
+  Photon     83-Bi-209  81-Tl-187 8325   5 cm    0   0                
+  Photon     83-Bi-209  81-Tl-187 8325   5 cm    1   0                
+  Photon     83-Bi-209  81-Tl-188 8325   5 cm    0   0                
+  Photon     83-Bi-209  81-Tl-188 8325   5 cm    1   0                
+  Photon     83-Bi-209  81-Tl-189 8325   5 cm    0   0                
+  Photon     83-Bi-209  81-Tl-189 8325   5 cm    1   0                
+  Photon     83-Bi-209  81-Tl-190 8325   5 cm    0   0                
+  Photon     83-Bi-209  81-Tl-191 8325   5 cm    0   0                
+  Photon     83-Bi-209  81-Tl-191 8325   5 cm    1   0                
+  Photon     83-Bi-209  81-Tl-192 8325   5 cm    0   0                
+  Photon     83-Bi-209  81-Tl-192 8325   5 cm    1   0                
+  Photon     83-Bi-209  81-Tl-193 8325   5 cm    0   0                
+  Photon     83-Bi-209  81-Tl-193 8325   5 cm    1   0                
+  Photon     83-Bi-209  81-Tl-194 8325   5 cm    0   0                
+  Photon     83-Bi-209  81-Tl-194 8325   5 cm    1   0                
+  Photon     83-Bi-209  81-Tl-195 8325   5 cm    0   0                
+  Photon     83-Bi-209  81-Tl-195 8325   5 cm    1   0                
+  Photon     83-Bi-209  81-Tl-196 8325   5 cm    0   0                
+  Photon     83-Bi-209  81-Tl-196 8325   5 cm    1   0                
+  Photon     83-Bi-209  81-Tl-197 8325   5 cm    0   0                
+  Photon     83-Bi-209  81-Tl-198 8325   5 cm    0   0                
+  Photon     83-Bi-209  81-Tl-198 8325   5 cm    1   0                
+  Photon     83-Bi-209  81-Tl-199 8325   5 cm    0   0                
+  Photon     83-Bi-209  81-Tl-200 8325   5 cm    0   0                
+  Photon     83-Bi-209  81-Tl-201 8325   5 cm    0   0                
+  Photon     83-Bi-209  81-Tl-202 8325   5 cm    0   0                
+  Photon     83-Bi-209  81-Tl-203 8325   5 cm    0   0                
+  Photon     83-Bi-209  81-Tl-204 8325   5 cm    0   0                
+  Photon     83-Bi-209  81-Tl-205 8325   5 cm    0   0                
+  Photon     83-Bi-209  81-Tl-206 8325   5 cm    0   0                
+  Photon     83-Bi-209  81-Tl-206 8325   5 cm    1   0                
+  Photon     83-Bi-209  81-Tl-207 8325   5 cm    0   0                
+  Photon     83-Bi-209  81-Tl-207 8325   5 cm    1   0                
+  Photon     83-Bi-209  82-Pb-188 8325   5 cm    0   0                
+  Photon     83-Bi-209  82-Pb-189 8325   5 cm    0   0                
+  Photon     83-Bi-209  82-Pb-189 8325   5 cm    1   0                
+  Photon     83-Bi-209  82-Pb-190 8325   5 cm    0   0                
+  Photon     83-Bi-209  82-Pb-191 8325   5 cm    0   0                
+  Photon     83-Bi-209  82-Pb-191 8325   5 cm    1   0                
+  Photon     83-Bi-209  82-Pb-192 8325   5 cm    0   0                
+  Photon     83-Bi-209  82-Pb-193 8325   5 cm    0   0                
+  Photon     83-Bi-209  82-Pb-193 8325   5 cm    1   0                
+  Photon     83-Bi-209  82-Pb-194 8325   5 cm    0   0                
+  Photon     83-Bi-209  82-Pb-195 8325   5 cm    0   0                
+  Photon     83-Bi-209  82-Pb-195 8325   5 cm    1   0                
+  Photon     83-Bi-209  82-Pb-196 8325   5 cm    0   0                
+  Photon     83-Bi-209  82-Pb-197 8325   5 cm    0   0                
+  Photon     83-Bi-209  82-Pb-197 8325   5 cm    1   0                
+  Photon     83-Bi-209  82-Pb-198 8325   5 cm    0   0                
+  Photon     83-Bi-209  82-Pb-199 8325   5 cm    0   0                
+  Photon     83-Bi-209  82-Pb-199 8325   5 cm    1   0                
+  Photon     83-Bi-209  82-Pb-200 8325   5 cm    0   0                
+  Photon     83-Bi-209  82-Pb-201 8325   5 cm    0   0                
+  Photon     83-Bi-209  82-Pb-201 8325   5 cm    1   0                
+  Photon     83-Bi-209  82-Pb-202 8325   5 cm    0   0                
+  Photon     83-Bi-209  82-Pb-202 8325   5 cm    1   0                
+  Photon     83-Bi-209  82-Pb-203 8325   5 cm    0   0                
+  Photon     83-Bi-209  82-Pb-203 8325   5 cm    1   0                
+  Photon     83-Bi-209  82-Pb-204 8325   5 cm    0   0                
+  Photon     83-Bi-209  82-Pb-204 8325   5 cm    1   0                
+  Photon     83-Bi-209  82-Pb-205 8325   5 cm    0   0                
+  Photon     83-Bi-209  82-Pb-206 8325   5 cm    0   0                
+  Photon     83-Bi-209  82-Pb-207 8325   5 cm    0   0                
+  Photon     83-Bi-209  82-Pb-208 8325   5 cm    0   0                
+  Photon     83-Bi-209  83-Bi-189 8325   5 cm    0   0                
+  Photon     83-Bi-209  83-Bi-190 8325   5 cm    0   0                
+  Photon     83-Bi-209  83-Bi-190 8325   5 cm    1   0                
+  Photon     83-Bi-209  83-Bi-191 8325   5 cm    0   0                
+  Photon     83-Bi-209  83-Bi-192 8325   5 cm    0   0                
+  Photon     83-Bi-209  83-Bi-192 8325   5 cm    1   0                
+  Photon     83-Bi-209  83-Bi-193 8325   5 cm    0   0                
+  Photon     83-Bi-209  83-Bi-193 8325   5 cm    1   0                
+  Photon     83-Bi-209  83-Bi-194 8325   5 cm    0   0                
+  Photon     83-Bi-209  83-Bi-194 8325   5 cm    1   0                
+  Photon     83-Bi-209  83-Bi-194 8325   5 cm    2   0                
+  Photon     83-Bi-209  83-Bi-195 8325   5 cm    0   0                
+  Photon     83-Bi-209  83-Bi-195 8325   5 cm    1   0                
+  Photon     83-Bi-209  83-Bi-196 8325   5 cm    0   0                
+  Photon     83-Bi-209  83-Bi-196 8325   5 cm    1   0                
+  Photon     83-Bi-209  83-Bi-197 8325   5 cm    0   0                
+  Photon     83-Bi-209  83-Bi-197 8325   5 cm    1   0                
+  Photon     83-Bi-209  83-Bi-198 8325   5 cm    0   0                
+  Photon     83-Bi-209  83-Bi-198 8325   5 cm    1   0                
+  Photon     83-Bi-209  83-Bi-198 8325   5 cm    2   0                
+  Photon     83-Bi-209  83-Bi-199 8325   5 cm    0   0                
+  Photon     83-Bi-209  83-Bi-199 8325   5 cm    1   0                
+  Photon     83-Bi-209  83-Bi-200 8325   5 cm    0   0                
+  Photon     83-Bi-209  83-Bi-200 8325   5 cm    1   0                
+  Photon     83-Bi-209  83-Bi-201 8325   5 cm    0   0                
+  Photon     83-Bi-209  83-Bi-201 8325   5 cm    1   0                
+  Photon     83-Bi-209  83-Bi-202 8325   5 cm    0   0                
+  Photon     83-Bi-209  83-Bi-203 8325   5 cm    0   0                
+  Photon     83-Bi-209  83-Bi-204 8325   5 cm    0   0                
+  Photon     83-Bi-209  83-Bi-205 8325   5 cm    0   0                
+  Photon     83-Bi-209  83-Bi-206 8325   5 cm    0   0                
+  Photon     83-Bi-209  83-Bi-207 8325   5 cm    0   0                
+  Photon     83-Bi-209  83-Bi-208 8325   5 cm    0   0                
+  Photon     83-Bi-209  83-Bi-209 8325   5 cm    0   0                
+  Photon     83-Bi-209  Photon    8325   5 cm    0   1    1    1      
+ ------------------------------------------------------------------------------
+ All Cross Sections Read. Maximum Tabulated Energy =  200000000. eV
+ ------------------------------------------------------------------------------
+ ==============================================================================
+ Laws by Incident Particle
+ ------------------------------------------------------------------------------
+ Law Number and Definition   Photon    n     p     d     t  He-3  He-4 Other
+ ------------------------------------------------------------------------------
+ (0) Unknown................   148     0     0     0     0     0     0     0
+ (1) Continuum Energy-Angle
+      Legendre..............     1     0     0     0     0     0     0     0
+      Kalbach-Mann..........     6     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (2) Discrete 2 Body
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (3) Isotropic Discrete.....     0     0     0     0     0     0     0     0
+ (4) Discrete 2 Body Recoil.     0     0     0     0     0     0     0     0
+ (5) Charged Particle Elastic
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (6) n-Body Phase-Space.....     0     0     0     0     0     0     0     0
+ (7) Laboratory Angle-Energy     0     0     0     0     0     0     0     0
+ Not 0 to 7 (WARNING if Any)     0     0     0     0     0     0     0     0
+ ==============================================================================
+ Laws by Emitted Particle
+ ------------------------------------------------------------------------------
+ Law Number and Definition   Photon    n     p     d     t  He-3  He-4 Other
+ ------------------------------------------------------------------------------
+ (0) Unknown................     0     0     0     0     0     0     0   148
+ (1) Continuum Energy-Angle
+      Legendre..............     1     0     0     0     0     0     0     0
+      Kalbach-Mann..........     0     1     1     1     1     1     1     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (2) Discrete 2 Body
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (3) Isotropic Discrete.....     0     0     0     0     0     0     0     0
+ (4) Discrete 2 Body Recoil.     0     0     0     0     0     0     0     0
+ (5) Charged Particle Elastic
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (6) n-Body Phase-Space.....     0     0     0     0     0     0     0     0
+ (7) Laboratory Angle-Energy     0     0     0     0     0     0     0     0
+ Not 0 to 7 (WARNING if Any)     0     0     0     0     0     0     0     0
+ ------------------------------------------------------------------------------
+ Summary of Emitted Particle Yields
+ ------------------------------------------------------------------------------
+ Energy Independent.........     0     0     0     0     0     0     0     0
+ Energy Dependent...........     1     1     1     1     1     1     1   148
+ ------------------------------------------------------------------------------
+ Summary of Angular Distributions
+ ------------------------------------------------------------------------------
+ Isotropic..................     1     0     0     0     0     0     0     0
+ Nonisotropic...............     0     1     1     1     1     1     1     0
+ Mixed......................     0     0     0     0     0     0     0     0
+ ------------------------------------------------------------------------------
+ Maximum Legendre Order.....     0     0     0     0     0     0     0     0
+ Maximum Number of Cosines..     0     0     0     0     0     0     0     0
+ ------------------------------------------------------------------------------
+ Summary of Energy Distributions
+ ------------------------------------------------------------------------------
+ Continuous.................     1     1     1     1     1     1     1     0
+ Discrete...................     0     0     0     0     0     0     0     0
+ Mixed......................     0     0     0     0     0     0     0     0
+ ------------------------------------------------------------------------------
+ ==============================================================================
+ Summary of Incident Neutron with Photon or Neutron Emitted Data
+ ------------------------------------------------------------------------------
+ Law Number and Definition   Output        Not Output 
+ ------------------------------------------------------------------------------
+                             Photon    n   Photon    n
+ ------------------------------------------------------------------------------
+ (0) Unknown................     0     0       0     0
+ (1) Continuum Energy-Angle
+      Legendre..............     0     0       0     0
+      Kalbach-Mann..........     0     0       0     0
+      Tabulated.............     0     0       0     0
+ (2) Discrete 2 Body
+      Legendre..............     0     0       0     0
+      Tabulated.............     0     0       0     0
+ (3) Isotropic Discrete.....     0     0       0     0
+ (4) Discrete 2 Body Recoil.     0     0       0     0
+ (5) Charged Particle Elastic
+      Legendre..............     0     0       0     0
+      Tabulated.............     0     0       0     0
+ (6) n-Body Phase-Space.....     0     0       0     0
+ (7) Laboratory Angle-Energy     0     0       0     0
+ Not 0 to 7 (WARNING if Any)     0     0       0     0
+ ==============================================================================
+ End of Run
+ ===============================================================================
+ SIXPAK   Total Execution Time                0.08 Seconds
+ ===============================================================================

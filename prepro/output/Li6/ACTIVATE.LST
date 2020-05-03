@@ -1,0 +1,27 @@
+ ENDF Activation Cross Sections (ACTIVATE 2019-1)
+ ------------------------------------------------------------------------------
+ ENDF Input and Output Data Filenames
+ ------------------------------------------------------------------------------
+ ACTIVATE.IN                                                             
+ ACTIVATE.OUT                                                            
+ ------------------------------------------------------------------------------
+ ENDF Tape Label
+ ------------------------------------------------------------------------------
+  JENDL/PD-2016.1  Li-  6                                             1
+ ------------------------------------------------------------------------------
+   Material  MAT  MF  MT  ENDF    ZAP Final      Q-Value Points Points
+                          Format      State           eV     In    Out
+ ------------------------------------------------------------------------------
+ ERROR===ERROR===ERROR===ERROR===ERROR===ERROR===ERROR===ERROR===ERROR===ERROR==
+ MAT/MF/MT/N2=  325  9   5       163
+ Interpolation Law (INT) MUST be 2
+      NBT  INT
+        3    3
+      163    5
+ You MUST Linearize this data before using this code.
+ We recommend you use PREPRO/LINEAR to Linearize
+ Cross Sections.
+  Execution Terminated
+ ===============================================================================
+    ERROR Total Execution Time                0.37 Seconds
+ ===============================================================================

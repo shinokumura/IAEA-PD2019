@@ -1,0 +1,423 @@
+ Process ENDF/B Double Differential Data - MF=6 (SIXPAK 2019-1)
+ ==============================================================================
+ ENDF/B Input Data Filename
+ SIXPAK.IN                                                               
+ ------------------------------------------------------------------------------
+ Requested Ranges
+ ------------------------------------------------------------------------------
+    Minimum    Maximum   
+    MAT  MT    MAT  MT
+ ------------------------------------------------------------------------------
+      1   1   9999 999
+ ==============================================================================
+ Terminology
+ ------------------------------------------------------------------------------
+ LCT  = Reference System (Lab or Center-of-Mass)
+ LIP  = Product Modifier, e.g., for Isomeric States
+ LAW  = Representation of Data - see, List at End of Output
+ LANG = 1     = Legendre     (LAW 1)
+      = 2     = Kalbach-Mann (LAW 1)
+      = 11-15 = Tabulated    (LAW 1)
+      = 0     = Legendre     (LAW 2)
+      = 11-15 = Tabulated    (LAW 2)
+ LTP  = 1-2   = Legendre     (LAW 5)
+      = 11-15 = Tabulated    (LAW 5)
+ LEP  = Secondary Energy Interpolation Type(1 to 5)
+ ==============================================================================
+ Tape Label
+ ------------------------------------------------------------------------------
+  JENDL/PD-2016.1  Au-197                                             1
+ ------------------------------------------------------------------------------
+ WARNING: MT=5 is ALLOWED in MF=6, but NOT in MF=4 or 5.
+          see ENDF-102 - Strictly for diagnostic purposes
+          this code will Translate MF=6 Data - but be
+          WARNED - the results should not be used in ANY          APPLICATIONS.
+ ------------------------------------------------------------------------------
+ ==============================================================================
+ Projectile   Target    Emitted    MAT  MT LCT LIP LAW LANG  LEP  ENDF/B
+                                                        LTP       Output
+ ==============================================================================
+  Photon     79-Au-197  Neutron   7925   5 cm    0   1    1    2      
+  Photon     79-Au-197   1-H -1   7925   5 cm    0   1    1    2      
+  Photon     79-Au-197   1-H -2   7925   5 cm    0   1    1    2      
+  Photon     79-Au-197   1-H -3   7925   5 cm    0   1    1    2      
+  Photon     79-Au-197   2-He-3   7925   5 cm    0   1    1    2      
+  Photon     79-Au-197   2-He-4   7925   5 cm    0   1    1    2      
+  Photon     79-Au-197  64-Gd-164 7925   5 cm    0   0                
+  Photon     79-Au-197  64-Gd-165 7925   5 cm    0   0                
+  Photon     79-Au-197  64-Gd-166 7925   5 cm    0   0                
+  Photon     79-Au-197  64-Gd-167 7925   5 cm    0   0                
+  Photon     79-Au-197  64-Gd-168 7925   5 cm    0   0                
+  Photon     79-Au-197  64-Gd-169 7925   5 cm    0   0                
+  Photon     79-Au-197  65-Tb-165 7925   5 cm    0   0                
+  Photon     79-Au-197  65-Tb-166 7925   5 cm    0   0                
+  Photon     79-Au-197  65-Tb-167 7925   5 cm    0   0                
+  Photon     79-Au-197  65-Tb-168 7925   5 cm    0   0                
+  Photon     79-Au-197  65-Tb-169 7925   5 cm    0   0                
+  Photon     79-Au-197  65-Tb-170 7925   5 cm    0   0                
+  Photon     79-Au-197  65-Tb-171 7925   5 cm    0   0                
+  Photon     79-Au-197  66-Dy-166 7925   5 cm    0   0                
+  Photon     79-Au-197  66-Dy-167 7925   5 cm    0   0                
+  Photon     79-Au-197  66-Dy-168 7925   5 cm    0   0                
+  Photon     79-Au-197  66-Dy-169 7925   5 cm    0   0                
+  Photon     79-Au-197  66-Dy-170 7925   5 cm    0   0                
+  Photon     79-Au-197  66-Dy-171 7925   5 cm    0   0                
+  Photon     79-Au-197  66-Dy-172 7925   5 cm    0   0                
+  Photon     79-Au-197  66-Dy-173 7925   5 cm    0   0                
+  Photon     79-Au-197  67-Ho-167 7925   5 cm    0   0                
+  Photon     79-Au-197  67-Ho-168 7925   5 cm    0   0                
+  Photon     79-Au-197  67-Ho-168 7925   5 cm    1   0                
+  Photon     79-Au-197  67-Ho-169 7925   5 cm    0   0                
+  Photon     79-Au-197  67-Ho-170 7925   5 cm    0   0                
+  Photon     79-Au-197  67-Ho-170 7925   5 cm    1   0                
+  Photon     79-Au-197  67-Ho-171 7925   5 cm    0   0                
+  Photon     79-Au-197  67-Ho-172 7925   5 cm    0   0                
+  Photon     79-Au-197  67-Ho-173 7925   5 cm    0   0                
+  Photon     79-Au-197  67-Ho-174 7925   5 cm    0   0                
+  Photon     79-Au-197  67-Ho-175 7925   5 cm    0   0                
+  Photon     79-Au-197  68-Er-168 7925   5 cm    0   0                
+  Photon     79-Au-197  68-Er-169 7925   5 cm    0   0                
+  Photon     79-Au-197  68-Er-170 7925   5 cm    0   0                
+  Photon     79-Au-197  68-Er-171 7925   5 cm    0   0                
+  Photon     79-Au-197  68-Er-172 7925   5 cm    0   0                
+  Photon     79-Au-197  68-Er-173 7925   5 cm    0   0                
+  Photon     79-Au-197  68-Er-174 7925   5 cm    0   0                
+  Photon     79-Au-197  68-Er-175 7925   5 cm    0   0                
+  Photon     79-Au-197  68-Er-176 7925   5 cm    0   0                
+  Photon     79-Au-197  68-Er-177 7925   5 cm    0   0                
+  Photon     79-Au-197  69-Tm-169 7925   5 cm    0   0                
+  Photon     79-Au-197  69-Tm-170 7925   5 cm    0   0                
+  Photon     79-Au-197  69-Tm-171 7925   5 cm    0   0                
+  Photon     79-Au-197  69-Tm-172 7925   5 cm    0   0                
+  Photon     79-Au-197  69-Tm-173 7925   5 cm    0   0                
+  Photon     79-Au-197  69-Tm-174 7925   5 cm    0   0                
+  Photon     79-Au-197  69-Tm-175 7925   5 cm    0   0                
+  Photon     79-Au-197  69-Tm-176 7925   5 cm    0   0                
+  Photon     79-Au-197  69-Tm-177 7925   5 cm    0   0                
+  Photon     79-Au-197  69-Tm-178 7925   5 cm    0   0                
+  Photon     79-Au-197  69-Tm-179 7925   5 cm    0   0                
+  Photon     79-Au-197  70-Yb-170 7925   5 cm    0   0                
+  Photon     79-Au-197  70-Yb-171 7925   5 cm    0   0                
+  Photon     79-Au-197  70-Yb-172 7925   5 cm    0   0                
+  Photon     79-Au-197  70-Yb-173 7925   5 cm    0   0                
+  Photon     79-Au-197  70-Yb-174 7925   5 cm    0   0                
+  Photon     79-Au-197  70-Yb-175 7925   5 cm    0   0                
+  Photon     79-Au-197  70-Yb-176 7925   5 cm    0   0                
+  Photon     79-Au-197  70-Yb-176 7925   5 cm    1   0                
+  Photon     79-Au-197  70-Yb-177 7925   5 cm    0   0                
+  Photon     79-Au-197  70-Yb-177 7925   5 cm    1   0                
+  Photon     79-Au-197  70-Yb-178 7925   5 cm    0   0                
+  Photon     79-Au-197  70-Yb-179 7925   5 cm    0   0                
+  Photon     79-Au-197  70-Yb-180 7925   5 cm    0   0                
+  Photon     79-Au-197  70-Yb-181 7925   5 cm    0   0                
+  Photon     79-Au-197  71-Lu-171 7925   5 cm    0   0                
+  Photon     79-Au-197  71-Lu-171 7925   5 cm    1   0                
+  Photon     79-Au-197  71-Lu-172 7925   5 cm    0   0                
+  Photon     79-Au-197  71-Lu-172 7925   5 cm    1   0                
+  Photon     79-Au-197  71-Lu-173 7925   5 cm    0   0                
+  Photon     79-Au-197  71-Lu-174 7925   5 cm    0   0                
+  Photon     79-Au-197  71-Lu-174 7925   5 cm    1   0                
+  Photon     79-Au-197  71-Lu-175 7925   5 cm    0   0                
+  Photon     79-Au-197  71-Lu-176 7925   5 cm    0   0                
+  Photon     79-Au-197  71-Lu-176 7925   5 cm    1   0                
+  Photon     79-Au-197  71-Lu-177 7925   5 cm    0   0                
+  Photon     79-Au-197  71-Lu-177 7925   5 cm    1   0                
+  Photon     79-Au-197  71-Lu-178 7925   5 cm    0   0                
+  Photon     79-Au-197  71-Lu-178 7925   5 cm    1   0                
+  Photon     79-Au-197  71-Lu-179 7925   5 cm    0   0                
+  Photon     79-Au-197  71-Lu-180 7925   5 cm    0   0                
+  Photon     79-Au-197  71-Lu-181 7925   5 cm    0   0                
+  Photon     79-Au-197  71-Lu-182 7925   5 cm    0   0                
+  Photon     79-Au-197  71-Lu-183 7925   5 cm    0   0                
+  Photon     79-Au-197  71-Lu-184 7925   5 cm    0   0                
+  Photon     79-Au-197  71-Lu-185 7925   5 cm    0   0                
+  Photon     79-Au-197  72-Hf-172 7925   5 cm    0   0                
+  Photon     79-Au-197  72-Hf-173 7925   5 cm    0   0                
+  Photon     79-Au-197  72-Hf-174 7925   5 cm    0   0                
+  Photon     79-Au-197  72-Hf-175 7925   5 cm    0   0                
+  Photon     79-Au-197  72-Hf-176 7925   5 cm    0   0                
+  Photon     79-Au-197  72-Hf-177 7925   5 cm    0   0                
+  Photon     79-Au-197  72-Hf-178 7925   5 cm    0   0                
+  Photon     79-Au-197  72-Hf-178 7925   5 cm    1   0                
+  Photon     79-Au-197  72-Hf-179 7925   5 cm    0   0                
+  Photon     79-Au-197  72-Hf-179 7925   5 cm    1   0                
+  Photon     79-Au-197  72-Hf-180 7925   5 cm    0   0                
+  Photon     79-Au-197  72-Hf-180 7925   5 cm    1   0                
+  Photon     79-Au-197  72-Hf-181 7925   5 cm    0   0                
+  Photon     79-Au-197  72-Hf-182 7925   5 cm    0   0                
+  Photon     79-Au-197  72-Hf-182 7925   5 cm    1   0                
+  Photon     79-Au-197  72-Hf-183 7925   5 cm    0   0                
+  Photon     79-Au-197  72-Hf-184 7925   5 cm    0   0                
+  Photon     79-Au-197  72-Hf-185 7925   5 cm    0   0                
+  Photon     79-Au-197  72-Hf-186 7925   5 cm    0   0                
+  Photon     79-Au-197  72-Hf-187 7925   5 cm    0   0                
+  Photon     79-Au-197  72-Hf-188 7925   5 cm    0   0                
+  Photon     79-Au-197  72-Hf-189 7925   5 cm    0   0                
+  Photon     79-Au-197  73-Ta-173 7925   5 cm    0   0                
+  Photon     79-Au-197  73-Ta-174 7925   5 cm    0   0                
+  Photon     79-Au-197  73-Ta-175 7925   5 cm    0   0                
+  Photon     79-Au-197  73-Ta-176 7925   5 cm    0   0                
+  Photon     79-Au-197  73-Ta-177 7925   5 cm    0   0                
+  Photon     79-Au-197  73-Ta-178 7925   5 cm    0   0                
+  Photon     79-Au-197  73-Ta-178 7925   5 cm    1   0                
+  Photon     79-Au-197  73-Ta-179 7925   5 cm    0   0                
+  Photon     79-Au-197  73-Ta-180 7925   5 cm    0   0                
+  Photon     79-Au-197  73-Ta-180 7925   5 cm    1   0                
+  Photon     79-Au-197  73-Ta-181 7925   5 cm    0   0                
+  Photon     79-Au-197  73-Ta-182 7925   5 cm    0   0                
+  Photon     79-Au-197  73-Ta-182 7925   5 cm    1   0                
+  Photon     79-Au-197  73-Ta-182 7925   5 cm    2   0                
+  Photon     79-Au-197  73-Ta-183 7925   5 cm    0   0                
+  Photon     79-Au-197  73-Ta-184 7925   5 cm    0   0                
+  Photon     79-Au-197  73-Ta-185 7925   5 cm    0   0                
+  Photon     79-Au-197  73-Ta-186 7925   5 cm    0   0                
+  Photon     79-Au-197  73-Ta-187 7925   5 cm    0   0                
+  Photon     79-Au-197  73-Ta-188 7925   5 cm    0   0                
+  Photon     79-Au-197  73-Ta-189 7925   5 cm    0   0                
+  Photon     79-Au-197  73-Ta-190 7925   5 cm    0   0                
+  Photon     79-Au-197  73-Ta-191 7925   5 cm    0   0                
+  Photon     79-Au-197  74-W -174 7925   5 cm    0   0                
+  Photon     79-Au-197  74-W -175 7925   5 cm    0   0                
+  Photon     79-Au-197  74-W -176 7925   5 cm    0   0                
+  Photon     79-Au-197  74-W -177 7925   5 cm    0   0                
+  Photon     79-Au-197  74-W -178 7925   5 cm    0   0                
+  Photon     79-Au-197  74-W -179 7925   5 cm    0   0                
+  Photon     79-Au-197  74-W -179 7925   5 cm    1   0                
+  Photon     79-Au-197  74-W -180 7925   5 cm    0   0                
+  Photon     79-Au-197  74-W -181 7925   5 cm    0   0                
+  Photon     79-Au-197  74-W -182 7925   5 cm    0   0                
+  Photon     79-Au-197  74-W -183 7925   5 cm    0   0                
+  Photon     79-Au-197  74-W -183 7925   5 cm    1   0                
+  Photon     79-Au-197  74-W -184 7925   5 cm    0   0                
+  Photon     79-Au-197  74-W -185 7925   5 cm    0   0                
+  Photon     79-Au-197  74-W -185 7925   5 cm    1   0                
+  Photon     79-Au-197  74-W -186 7925   5 cm    0   0                
+  Photon     79-Au-197  74-W -187 7925   5 cm    0   0                
+  Photon     79-Au-197  74-W -188 7925   5 cm    0   0                
+  Photon     79-Au-197  74-W -189 7925   5 cm    0   0                
+  Photon     79-Au-197  74-W -190 7925   5 cm    0   0                
+  Photon     79-Au-197  74-W -191 7925   5 cm    0   0                
+  Photon     79-Au-197  74-W -192 7925   5 cm    0   0                
+  Photon     79-Au-197  75-Re-175 7925   5 cm    0   0                
+  Photon     79-Au-197  75-Re-176 7925   5 cm    0   0                
+  Photon     79-Au-197  75-Re-177 7925   5 cm    0   0                
+  Photon     79-Au-197  75-Re-178 7925   5 cm    0   0                
+  Photon     79-Au-197  75-Re-179 7925   5 cm    0   0                
+  Photon     79-Au-197  75-Re-180 7925   5 cm    0   0                
+  Photon     79-Au-197  75-Re-181 7925   5 cm    0   0                
+  Photon     79-Au-197  75-Re-182 7925   5 cm    0   0                
+  Photon     79-Au-197  75-Re-182 7925   5 cm    1   0                
+  Photon     79-Au-197  75-Re-183 7925   5 cm    0   0                
+  Photon     79-Au-197  75-Re-184 7925   5 cm    0   0                
+  Photon     79-Au-197  75-Re-184 7925   5 cm    1   0                
+  Photon     79-Au-197  75-Re-185 7925   5 cm    0   0                
+  Photon     79-Au-197  75-Re-186 7925   5 cm    0   0                
+  Photon     79-Au-197  75-Re-186 7925   5 cm    1   0                
+  Photon     79-Au-197  75-Re-187 7925   5 cm    0   0                
+  Photon     79-Au-197  75-Re-188 7925   5 cm    0   0                
+  Photon     79-Au-197  75-Re-188 7925   5 cm    1   0                
+  Photon     79-Au-197  75-Re-189 7925   5 cm    0   0                
+  Photon     79-Au-197  75-Re-190 7925   5 cm    0   0                
+  Photon     79-Au-197  75-Re-191 7925   5 cm    0   0                
+  Photon     79-Au-197  75-Re-192 7925   5 cm    0   0                
+  Photon     79-Au-197  75-Re-193 7925   5 cm    0   0                
+  Photon     79-Au-197  76-Os-176 7925   5 cm    0   0                
+  Photon     79-Au-197  76-Os-177 7925   5 cm    0   0                
+  Photon     79-Au-197  76-Os-178 7925   5 cm    0   0                
+  Photon     79-Au-197  76-Os-179 7925   5 cm    0   0                
+  Photon     79-Au-197  76-Os-180 7925   5 cm    0   0                
+  Photon     79-Au-197  76-Os-181 7925   5 cm    0   0                
+  Photon     79-Au-197  76-Os-181 7925   5 cm    1   0                
+  Photon     79-Au-197  76-Os-182 7925   5 cm    0   0                
+  Photon     79-Au-197  76-Os-183 7925   5 cm    0   0                
+  Photon     79-Au-197  76-Os-183 7925   5 cm    1   0                
+  Photon     79-Au-197  76-Os-184 7925   5 cm    0   0                
+  Photon     79-Au-197  76-Os-185 7925   5 cm    0   0                
+  Photon     79-Au-197  76-Os-186 7925   5 cm    0   0                
+  Photon     79-Au-197  76-Os-187 7925   5 cm    0   0                
+  Photon     79-Au-197  76-Os-188 7925   5 cm    0   0                
+  Photon     79-Au-197  76-Os-189 7925   5 cm    0   0                
+  Photon     79-Au-197  76-Os-189 7925   5 cm    1   0                
+  Photon     79-Au-197  76-Os-190 7925   5 cm    0   0                
+  Photon     79-Au-197  76-Os-190 7925   5 cm    1   0                
+  Photon     79-Au-197  76-Os-191 7925   5 cm    0   0                
+  Photon     79-Au-197  76-Os-191 7925   5 cm    1   0                
+  Photon     79-Au-197  76-Os-192 7925   5 cm    0   0                
+  Photon     79-Au-197  76-Os-193 7925   5 cm    0   0                
+  Photon     79-Au-197  76-Os-194 7925   5 cm    0   0                
+  Photon     79-Au-197  77-Ir-177 7925   5 cm    0   0                
+  Photon     79-Au-197  77-Ir-178 7925   5 cm    0   0                
+  Photon     79-Au-197  77-Ir-179 7925   5 cm    0   0                
+  Photon     79-Au-197  77-Ir-180 7925   5 cm    0   0                
+  Photon     79-Au-197  77-Ir-181 7925   5 cm    0   0                
+  Photon     79-Au-197  77-Ir-182 7925   5 cm    0   0                
+  Photon     79-Au-197  77-Ir-183 7925   5 cm    0   0                
+  Photon     79-Au-197  77-Ir-184 7925   5 cm    0   0                
+  Photon     79-Au-197  77-Ir-185 7925   5 cm    0   0                
+  Photon     79-Au-197  77-Ir-186 7925   5 cm    0   0                
+  Photon     79-Au-197  77-Ir-186 7925   5 cm    1   0                
+  Photon     79-Au-197  77-Ir-187 7925   5 cm    0   0                
+  Photon     79-Au-197  77-Ir-188 7925   5 cm    0   0                
+  Photon     79-Au-197  77-Ir-189 7925   5 cm    0   0                
+  Photon     79-Au-197  77-Ir-190 7925   5 cm    0   0                
+  Photon     79-Au-197  77-Ir-190 7925   5 cm    1   0                
+  Photon     79-Au-197  77-Ir-190 7925   5 cm    2   0                
+  Photon     79-Au-197  77-Ir-191 7925   5 cm    0   0                
+  Photon     79-Au-197  77-Ir-191 7925   5 cm    1   0                
+  Photon     79-Au-197  77-Ir-192 7925   5 cm    0   0                
+  Photon     79-Au-197  77-Ir-192 7925   5 cm    1   0                
+  Photon     79-Au-197  77-Ir-192 7925   5 cm    2   0                
+  Photon     79-Au-197  77-Ir-193 7925   5 cm    0   0                
+  Photon     79-Au-197  77-Ir-193 7925   5 cm    1   0                
+  Photon     79-Au-197  77-Ir-194 7925   5 cm    0   0                
+  Photon     79-Au-197  77-Ir-194 7925   5 cm    1   0                
+  Photon     79-Au-197  77-Ir-195 7925   5 cm    0   0                
+  Photon     79-Au-197  77-Ir-195 7925   5 cm    1   0                
+  Photon     79-Au-197  78-Pt-178 7925   5 cm    0   0                
+  Photon     79-Au-197  78-Pt-179 7925   5 cm    0   0                
+  Photon     79-Au-197  78-Pt-180 7925   5 cm    0   0                
+  Photon     79-Au-197  78-Pt-181 7925   5 cm    0   0                
+  Photon     79-Au-197  78-Pt-182 7925   5 cm    0   0                
+  Photon     79-Au-197  78-Pt-183 7925   5 cm    0   0                
+  Photon     79-Au-197  78-Pt-183 7925   5 cm    1   0                
+  Photon     79-Au-197  78-Pt-184 7925   5 cm    0   0                
+  Photon     79-Au-197  78-Pt-185 7925   5 cm    0   0                
+  Photon     79-Au-197  78-Pt-185 7925   5 cm    1   0                
+  Photon     79-Au-197  78-Pt-186 7925   5 cm    0   0                
+  Photon     79-Au-197  78-Pt-187 7925   5 cm    0   0                
+  Photon     79-Au-197  78-Pt-188 7925   5 cm    0   0                
+  Photon     79-Au-197  78-Pt-189 7925   5 cm    0   0                
+  Photon     79-Au-197  78-Pt-190 7925   5 cm    0   0                
+  Photon     79-Au-197  78-Pt-191 7925   5 cm    0   0                
+  Photon     79-Au-197  78-Pt-192 7925   5 cm    0   0                
+  Photon     79-Au-197  78-Pt-193 7925   5 cm    0   0                
+  Photon     79-Au-197  78-Pt-193 7925   5 cm    1   0                
+  Photon     79-Au-197  78-Pt-194 7925   5 cm    0   0                
+  Photon     79-Au-197  78-Pt-195 7925   5 cm    0   0                
+  Photon     79-Au-197  78-Pt-195 7925   5 cm    1   0                
+  Photon     79-Au-197  78-Pt-196 7925   5 cm    0   0                
+  Photon     79-Au-197  79-Au-179 7925   5 cm    0   0                
+  Photon     79-Au-197  79-Au-180 7925   5 cm    0   0                
+  Photon     79-Au-197  79-Au-181 7925   5 cm    0   0                
+  Photon     79-Au-197  79-Au-182 7925   5 cm    0   0                
+  Photon     79-Au-197  79-Au-183 7925   5 cm    0   0                
+  Photon     79-Au-197  79-Au-184 7925   5 cm    0   0                
+  Photon     79-Au-197  79-Au-184 7925   5 cm    1   0                
+  Photon     79-Au-197  79-Au-185 7925   5 cm    0   0                
+  Photon     79-Au-197  79-Au-185 7925   5 cm    1   0                
+  Photon     79-Au-197  79-Au-186 7925   5 cm    0   0                
+  Photon     79-Au-197  79-Au-187 7925   5 cm    0   0                
+  Photon     79-Au-197  79-Au-187 7925   5 cm    1   0                
+  Photon     79-Au-197  79-Au-188 7925   5 cm    0   0                
+  Photon     79-Au-197  79-Au-189 7925   5 cm    0   0                
+  Photon     79-Au-197  79-Au-189 7925   5 cm    1   0                
+  Photon     79-Au-197  79-Au-190 7925   5 cm    0   0                
+  Photon     79-Au-197  79-Au-190 7925   5 cm    1   0                
+  Photon     79-Au-197  79-Au-191 7925   5 cm    0   0                
+  Photon     79-Au-197  79-Au-191 7925   5 cm    1   0                
+  Photon     79-Au-197  79-Au-192 7925   5 cm    0   0                
+  Photon     79-Au-197  79-Au-192 7925   5 cm    1   0                
+  Photon     79-Au-197  79-Au-193 7925   5 cm    0   0                
+  Photon     79-Au-197  79-Au-194 7925   5 cm    0   0                
+  Photon     79-Au-197  79-Au-195 7925   5 cm    0   0                
+  Photon     79-Au-197  79-Au-195 7925   5 cm    1   0                
+  Photon     79-Au-197  79-Au-196 7925   5 cm    0   0                
+  Photon     79-Au-197  79-Au-196 7925   5 cm    1   0                
+  Photon     79-Au-197  79-Au-197 7925   5 cm    0   0                
+  Photon     79-Au-197  79-Au-197 7925   5 cm    1   0                
+  Photon     79-Au-197  Photon    7925   5 cm    0   1    1    2      
+  Photon     79-Au-197  Neutron   7925  18 cm    0   1    1    2      
+ ------------------------------------------------------------------------------
+ All Cross Sections Read. Maximum Tabulated Energy =  200000000. eV
+ ------------------------------------------------------------------------------
+ ==============================================================================
+ Laws by Incident Particle
+ ------------------------------------------------------------------------------
+ Law Number and Definition   Photon    n     p     d     t  He-3  He-4 Other
+ ------------------------------------------------------------------------------
+ (0) Unknown................   282     0     0     0     0     0     0     0
+ (1) Continuum Energy-Angle
+      Legendre..............     8     0     0     0     0     0     0     0
+      Kalbach-Mann..........     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (2) Discrete 2 Body
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (3) Isotropic Discrete.....     0     0     0     0     0     0     0     0
+ (4) Discrete 2 Body Recoil.     0     0     0     0     0     0     0     0
+ (5) Charged Particle Elastic
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (6) n-Body Phase-Space.....     0     0     0     0     0     0     0     0
+ (7) Laboratory Angle-Energy     0     0     0     0     0     0     0     0
+ Not 0 to 7 (WARNING if Any)     0     0     0     0     0     0     0     0
+ ==============================================================================
+ Laws by Emitted Particle
+ ------------------------------------------------------------------------------
+ Law Number and Definition   Photon    n     p     d     t  He-3  He-4 Other
+ ------------------------------------------------------------------------------
+ (0) Unknown................     0     0     0     0     0     0     0   282
+ (1) Continuum Energy-Angle
+      Legendre..............     1     2     1     1     1     1     1     0
+      Kalbach-Mann..........     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (2) Discrete 2 Body
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (3) Isotropic Discrete.....     0     0     0     0     0     0     0     0
+ (4) Discrete 2 Body Recoil.     0     0     0     0     0     0     0     0
+ (5) Charged Particle Elastic
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (6) n-Body Phase-Space.....     0     0     0     0     0     0     0     0
+ (7) Laboratory Angle-Energy     0     0     0     0     0     0     0     0
+ Not 0 to 7 (WARNING if Any)     0     0     0     0     0     0     0     0
+ ------------------------------------------------------------------------------
+ Summary of Emitted Particle Yields
+ ------------------------------------------------------------------------------
+ Energy Independent.........     0     1     0     0     0     0     0     0
+ Energy Dependent...........     1     1     1     1     1     1     1   282
+ ------------------------------------------------------------------------------
+ Summary of Angular Distributions
+ ------------------------------------------------------------------------------
+ Isotropic..................     1     1     0     0     0     0     0     0
+ Nonisotropic...............     0     0     0     0     0     1     0     0
+ Mixed......................     0     1     1     1     1     0     1     0
+ ------------------------------------------------------------------------------
+ Maximum Legendre Order.....     0    10    10    10    10    10    10     0
+ Maximum Number of Cosines..     0     0     0     0     0     0     0     0
+ ------------------------------------------------------------------------------
+ Summary of Energy Distributions
+ ------------------------------------------------------------------------------
+ Continuous.................     1     2     1     1     1     1     1     0
+ Discrete...................     0     0     0     0     0     0     0     0
+ Mixed......................     0     0     0     0     0     0     0     0
+ ------------------------------------------------------------------------------
+ ==============================================================================
+ Summary of Incident Neutron with Photon or Neutron Emitted Data
+ ------------------------------------------------------------------------------
+ Law Number and Definition   Output        Not Output 
+ ------------------------------------------------------------------------------
+                             Photon    n   Photon    n
+ ------------------------------------------------------------------------------
+ (0) Unknown................     0     0       0     0
+ (1) Continuum Energy-Angle
+      Legendre..............     0     0       0     0
+      Kalbach-Mann..........     0     0       0     0
+      Tabulated.............     0     0       0     0
+ (2) Discrete 2 Body
+      Legendre..............     0     0       0     0
+      Tabulated.............     0     0       0     0
+ (3) Isotropic Discrete.....     0     0       0     0
+ (4) Discrete 2 Body Recoil.     0     0       0     0
+ (5) Charged Particle Elastic
+      Legendre..............     0     0       0     0
+      Tabulated.............     0     0       0     0
+ (6) n-Body Phase-Space.....     0     0       0     0
+ (7) Laboratory Angle-Energy     0     0       0     0
+ Not 0 to 7 (WARNING if Any)     0     0       0     0
+ ==============================================================================
+ End of Run
+ ===============================================================================
+ SIXPAK   Total Execution Time                0.16 Seconds
+ ===============================================================================

@@ -1,0 +1,490 @@
+ Process ENDF/B Double Differential Data - MF=6 (SIXPAK 2019-1)
+ ==============================================================================
+ ENDF/B Input Data Filename
+ SIXPAK.IN                                                               
+ ------------------------------------------------------------------------------
+ Requested Ranges
+ ------------------------------------------------------------------------------
+    Minimum    Maximum   
+    MAT  MT    MAT  MT
+ ------------------------------------------------------------------------------
+      1   1   9999 999
+ ==============================================================================
+ Terminology
+ ------------------------------------------------------------------------------
+ LCT  = Reference System (Lab or Center-of-Mass)
+ LIP  = Product Modifier, e.g., for Isomeric States
+ LAW  = Representation of Data - see, List at End of Output
+ LANG = 1     = Legendre     (LAW 1)
+      = 2     = Kalbach-Mann (LAW 1)
+      = 11-15 = Tabulated    (LAW 1)
+      = 0     = Legendre     (LAW 2)
+      = 11-15 = Tabulated    (LAW 2)
+ LTP  = 1-2   = Legendre     (LAW 5)
+      = 11-15 = Tabulated    (LAW 5)
+ LEP  = Secondary Energy Interpolation Type(1 to 5)
+ ==============================================================================
+ Tape Label
+ ------------------------------------------------------------------------------
+  EMPEND Processing file : ho165-g.out                                1
+ ------------------------------------------------------------------------------
+ WARNING: MT=5 is ALLOWED in MF=6, but NOT in MF=4 or 5.
+          see ENDF-102 - Strictly for diagnostic purposes
+          this code will Translate MF=6 Data - but be
+          WARNED - the results should not be used in ANY          APPLICATIONS.
+ ------------------------------------------------------------------------------
+ ==============================================================================
+ Projectile   Target    Emitted    MAT  MT LCT LIP LAW LANG  LEP  ENDF/B
+                                                        LTP       Output
+ ==============================================================================
+  Photon     67-Ho-165  Neutron   6725   5 cm    0   1    1    2      
+ ------------------------------------------------------------------------------
+ E= 9.0000E+07 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 1.0010E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 1.4000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 1.6000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 1.8000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 2.0010E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+  Photon     67-Ho-165   1-H -1   6725   5 cm    0   1    1    2      
+ ------------------------------------------------------------------------------
+ E= 9.0000E+07 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 1.0010E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 1.2000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 1.4000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 1.8000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 1.8000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 2.0010E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+  Photon     67-Ho-165   1-H -2   6725   5 cm    0   1    1    2      
+ ------------------------------------------------------------------------------
+ E= 1.0010E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 2.0010E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+  Photon     67-Ho-165   1-H -3   6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165   2-He-3   6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165   2-He-4   6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  56-Ba-137 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  56-Ba-138 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  56-Ba-139 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  57-La-138 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  57-La-139 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  57-La-140 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  57-La-141 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  57-La-142 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  57-La-143 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  58-Ce-139 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  58-Ce-140 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  58-Ce-141 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  58-Ce-142 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  58-Ce-143 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  58-Ce-144 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  58-Ce-145 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  58-Ce-146 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  59-Pr-140 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  59-Pr-141 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  59-Pr-142 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  59-Pr-143 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  59-Pr-144 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  59-Pr-145 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  59-Pr-146 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  59-Pr-147 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  59-Pr-148 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  59-Pr-149 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  60-Nd-142 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  60-Nd-143 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  60-Nd-144 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  60-Nd-145 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  60-Nd-146 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  60-Nd-147 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  60-Nd-148 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  60-Nd-149 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  60-Nd-150 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  60-Nd-151 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  61-Pm-143 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  61-Pm-144 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  61-Pm-145 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  61-Pm-146 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  61-Pm-147 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  61-Pm-148 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  61-Pm-149 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  61-Pm-150 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  61-Pm-151 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  61-Pm-152 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  61-Pm-153 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  62-Sm-145 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  62-Sm-146 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  62-Sm-147 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  62-Sm-148 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  62-Sm-149 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  62-Sm-150 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  62-Sm-151 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  62-Sm-152 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  62-Sm-153 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  62-Sm-154 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  62-Sm-155 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  62-Sm-156 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  63-Eu-147 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  63-Eu-148 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  63-Eu-149 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  63-Eu-150 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  63-Eu-151 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  63-Eu-152 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  63-Eu-153 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  63-Eu-154 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  63-Eu-155 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  63-Eu-156 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  63-Eu-157 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  63-Eu-158 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  64-Gd-149 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  64-Gd-150 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  64-Gd-151 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  64-Gd-152 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  64-Gd-153 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  64-Gd-154 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  64-Gd-155 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  64-Gd-156 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  64-Gd-157 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  64-Gd-158 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  64-Gd-159 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  64-Gd-160 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  64-Gd-161 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  65-Tb-151 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  65-Tb-152 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  65-Tb-153 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  65-Tb-154 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  65-Tb-155 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  65-Tb-156 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  65-Tb-157 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  65-Tb-158 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  65-Tb-159 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  65-Tb-160 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  65-Tb-161 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  65-Tb-162 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  66-Dy-153 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  66-Dy-154 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  66-Dy-155 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  66-Dy-156 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  66-Dy-157 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  66-Dy-158 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  66-Dy-159 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  66-Dy-160 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  66-Dy-161 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  66-Dy-162 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  66-Dy-163 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  67-Ho-157 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  67-Ho-158 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  67-Ho-159 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  67-Ho-160 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  67-Ho-161 6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  Photon    6725   5 cm    0   1    1    2      
+  Photon     67-Ho-165  Neutron   6725  11 cm    0   1    1    2      
+  Photon     67-Ho-165   1-H -2   6725  11 cm    0   1    1    2      
+  Photon     67-Ho-165  Photon    6725  11 cm    0   1    1    2      
+  Photon     67-Ho-165  Neutron   6725  16 cm    0   1    1    2      
+  Photon     67-Ho-165  67-Ho-163 6725  16 cm    0   1    1    2      
+  Photon     67-Ho-165  Photon    6725  16 cm    0   1    1    2      
+  Photon     67-Ho-165  Neutron   6725  17 cm    0   1    1    2      
+  Photon     67-Ho-165  67-Ho-162 6725  17 cm    0   1    1    2      
+  Photon     67-Ho-165  Photon    6725  17 cm    0   1    1    2      
+  Photon     67-Ho-165  Neutron   6725  22 cm    0   1    1    2      
+  Photon     67-Ho-165   2-He-4   6725  22 cm    0   1    1    2      
+  Photon     67-Ho-165  Photon    6725  22 cm    0   1    1    2      
+  Photon     67-Ho-165  Neutron   6725  28 cm    0   1    1    2      
+  Photon     67-Ho-165   1-H -1   6725  28 cm    0   1    1    2      
+  Photon     67-Ho-165  Neutron   6725  32 cm    0   1    1    2      
+  Photon     67-Ho-165   1-H -2   6725  32 cm    0   1    1    2      
+  Photon     67-Ho-165  Photon    6725  32 cm    0   1    1    2      
+  Photon     67-Ho-165  Neutron   6725  33 cm    0   1    1    2      
+  Photon     67-Ho-165   1-H -3   6725  33 cm    0   1    1    2      
+  Photon     67-Ho-165  Photon    6725  33 cm    0   1    1    2      
+  Photon     67-Ho-165  Neutron   6725  34 cm    0   1    1    2      
+ ------------------------------------------------------------------------------
+ E= 1.0010E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 1.2000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 1.6000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 1.8000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+  Photon     67-Ho-165   2-He-3   6725  34 cm    0   1    1    2      
+ ------------------------------------------------------------------------------
+ E= 2.0010E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+  Photon     67-Ho-165  Photon    6725  34 cm    0   1    1    2      
+  Photon     67-Ho-165  Neutron   6725  41 cm    0   1    1    2      
+  Photon     67-Ho-165   1-H -1   6725  41 cm    0   1    1    2      
+  Photon     67-Ho-165  Photon    6725  41 cm    0   1    1    2      
+  Photon     67-Ho-165  Neutron   6725  42 cm    0   1    1    2      
+  Photon     67-Ho-165   1-H -1   6725  42 cm    0   1    1    2      
+  Photon     67-Ho-165  Photon    6725  42 cm    0   1    1    2      
+  Photon     67-Ho-165  Neutron   6725  44 cm    0   1    1    2      
+ ------------------------------------------------------------------------------
+ E= 1.2000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+  Photon     67-Ho-165   1-H -1   6725  44 cm    0   1    1    2      
+ ------------------------------------------------------------------------------
+ E= 1.8000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 2.0010E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+  Photon     67-Ho-165  Photon    6725  44 cm    0   1    1    2      
+  Photon     67-Ho-165  Neutron   6725  91 cm    0   1    1    2      
+ ------------------------------------------------------------------------------
+ E= 2.0010E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 2.0010E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 2.0010E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 2.0010E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 2.0010E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 2.0010E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+  Photon     67-Ho-165  67-Ho-164 6725  91 cm    0   1    1    2      
+  Photon     67-Ho-165  Photon    6725  91 cm    0   1    1    2      
+  Photon     67-Ho-165  Photon    6725 102 cm    0   1    1    2      
+  Photon     67-Ho-165   1-H -2   6725 104 cm    0   1    1    2      
+  Photon     67-Ho-165  Photon    6725 104 cm    0   1    1    2      
+  Photon     67-Ho-165   1-H -3   6725 105 cm    0   1    1    2      
+ ------------------------------------------------------------------------------
+ E= 1.2000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 2.0010E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+  Photon     67-Ho-165  Photon    6725 105 cm    0   1    1    2      
+  Photon     67-Ho-165   2-He-3   6725 106 cm    0   1    1    2      
+ ------------------------------------------------------------------------------
+ E= 1.8000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 1.8000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 1.8000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 1.8000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 1.8000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 2.0010E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 2.0010E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 2.0010E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 2.0010E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 2.0010E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 2.0010E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 2.0010E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 2.0010E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 2.0010E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 2.0010E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+  Photon     67-Ho-165  Photon    6725 106 cm    0   1    1    2      
+  Photon     67-Ho-165   1-H -1   6725 111 cm    0   1    1    2      
+  Photon     67-Ho-165  Photon    6725 111 cm    0   1    1    2      
+  Photon     67-Ho-165   1-H -1   6725 112 cm    0   1    1    2      
+  Photon     67-Ho-165   2-He-4   6725 112 cm    0   1    1    2      
+ ------------------------------------------------------------------------------
+ E= 1.4000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 1.4000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 1.4000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 1.4000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 1.4000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 1.4000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 2.0010E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 2.0010E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 2.0010E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 2.0010E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 2.0010E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 2.0010E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 2.0010E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 2.0010E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 2.0010E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 2.0010E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 2.0010E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 2.0010E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 2.0010E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 2.0010E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 2.0010E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 2.0010E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 2.0010E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 2.0010E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 2.0010E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 2.0010E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+  Photon     67-Ho-165  Photon    6725 112 cm    0   1    1    2      
+  Photon     67-Ho-165   1-H -1   6725 115 cm    0   1    1    2      
+ ------------------------------------------------------------------------------
+ E= 1.8000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 2.0010E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+  Photon     67-Ho-165   1-H -2   6725 115 cm    0   1    1    2      
+ ------------------------------------------------------------------------------
+ E= 9.0000E+07 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 1.0010E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 1.2000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 1.4000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 1.6000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ ------------------------------------------------------------------------------
+ E= 2.0010E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+  Photon     67-Ho-165  Photon    6725 115 cm    0   1    1    2      
+  Photon     67-Ho-165   1-H -1   6725 116 cm    0   1    1    2      
+  Photon     67-Ho-165   1-H -3   6725 116 cm    0   1    1    2      
+ ------------------------------------------------------------------------------
+ E= 1.2000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+  Photon     67-Ho-165  Photon    6725 116 cm    0   1    1    2      
+ ------------------------------------------------------------------------------
+ All Cross Sections Read. Maximum Tabulated Energy =  200100000. eV
+ ------------------------------------------------------------------------------
+ WARNING - The Following MTs Stop below the Maximum Tabulated Energy
+ ------------------------------------------------------------------------------
+  MAT MF  MT  This MT     Maximum E
+ ------------------------------------------------------------------------------
+ 6725  9   5  180000000.  200100000.
+ 6725  9   5  180000000.  200100000.
+ 6725  9   5  140000000.  200100000.
+ 6725  9   5  180000000.  200100000.
+ 6725  9   5  80000000.0  200100000.
+ 6725  9   5  160000000.  200100000.
+ 6725  9   5  140000000.  200100000.
+ ------------------------------------------------------------------------------
+ WARNING - Data between 80000000.0 and  200100000. are NOT Reliable
+ ------------------------------------------------------------------------------
+ ==============================================================================
+ Laws by Incident Particle
+ ------------------------------------------------------------------------------
+ Law Number and Definition   Photon    n     p     d     t  He-3  He-4 Other
+ ------------------------------------------------------------------------------
+ (0) Unknown................     0     0     0     0     0     0     0     0
+ (1) Continuum Energy-Angle
+      Legendre..............   173     0     0     0     0     0     0     0
+      Kalbach-Mann..........     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (2) Discrete 2 Body
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (3) Isotropic Discrete.....     0     0     0     0     0     0     0     0
+ (4) Discrete 2 Body Recoil.     0     0     0     0     0     0     0     0
+ (5) Charged Particle Elastic
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (6) n-Body Phase-Space.....     0     0     0     0     0     0     0     0
+ (7) Laboratory Angle-Energy     0     0     0     0     0     0     0     0
+ Not 0 to 7 (WARNING if Any)     0     0     0     0     0     0     0     0
+ ==============================================================================
+ Laws by Emitted Particle
+ ------------------------------------------------------------------------------
+ Law Number and Definition   Photon    n     p     d     t  He-3  He-4 Other
+ ------------------------------------------------------------------------------
+ (0) Unknown................     0     0     0     0     0     0     0     0
+ (1) Continuum Energy-Angle
+      Legendre..............    20    13     9     5     4     3     3   116
+      Kalbach-Mann..........     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (2) Discrete 2 Body
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (3) Isotropic Discrete.....     0     0     0     0     0     0     0     0
+ (4) Discrete 2 Body Recoil.     0     0     0     0     0     0     0     0
+ (5) Charged Particle Elastic
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (6) n-Body Phase-Space.....     0     0     0     0     0     0     0     0
+ (7) Laboratory Angle-Energy     0     0     0     0     0     0     0     0
+ Not 0 to 7 (WARNING if Any)     0     0     0     0     0     0     0     0
+ ------------------------------------------------------------------------------
+ Summary of Emitted Particle Yields
+ ------------------------------------------------------------------------------
+ Energy Independent.........     0    12     8     4     3     2     2     3
+ Energy Dependent...........    20     1     1     1     1     1     1   113
+ ------------------------------------------------------------------------------
+ Summary of Angular Distributions
+ ------------------------------------------------------------------------------
+ Isotropic..................    20     0     0     0     0     0     0   116
+ Nonisotropic...............     0     0     0     0     0     0     0     0
+ Mixed......................     0    13     9     5     4     3     3     0
+ ------------------------------------------------------------------------------
+ Maximum Legendre Order.....     0     6     6     6     5     6     7     0
+ Maximum Number of Cosines..     0     0     0     0     0     0     0     0
+ ------------------------------------------------------------------------------
+ Summary of Energy Distributions
+ ------------------------------------------------------------------------------
+ Continuous.................    20    13     9     5     4     3     3   116
+ Discrete...................     0     0     0     0     0     0     0     0
+ Mixed......................     0     0     0     0     0     0     0     0
+ ------------------------------------------------------------------------------
+ ==============================================================================
+ Summary of Incident Neutron with Photon or Neutron Emitted Data
+ ------------------------------------------------------------------------------
+ Law Number and Definition   Output        Not Output 
+ ------------------------------------------------------------------------------
+                             Photon    n   Photon    n
+ ------------------------------------------------------------------------------
+ (0) Unknown................     0     0       0     0
+ (1) Continuum Energy-Angle
+      Legendre..............     0     0       0     0
+      Kalbach-Mann..........     0     0       0     0
+      Tabulated.............     0     0       0     0
+ (2) Discrete 2 Body
+      Legendre..............     0     0       0     0
+      Tabulated.............     0     0       0     0
+ (3) Isotropic Discrete.....     0     0       0     0
+ (4) Discrete 2 Body Recoil.     0     0       0     0
+ (5) Charged Particle Elastic
+      Legendre..............     0     0       0     0
+      Tabulated.............     0     0       0     0
+ (6) n-Body Phase-Space.....     0     0       0     0
+ (7) Laboratory Angle-Energy     0     0       0     0
+ Not 0 to 7 (WARNING if Any)     0     0       0     0
+ ==============================================================================
+ End of Run
+ ------------------------------------------------------------------------------
+ WARNING - The ENDF Output is NOT Relialble above 80000000.0 eV,
+           because it is NOT Consistently Defined for ALL MTs.
+           It is STRONGLY recommended that you NOT use this
+           data above this energy. If you need data up to
+           energies higher than this PLEASE correct the data
+           and only then try re-running this code.
+ ------------------------------------------------------------------------------
+ ===============================================================================
+ SIXPAK   Total Execution Time                0.62 Seconds
+ ===============================================================================

@@ -1,0 +1,23 @@
+# masOS hidden files
+*.DS_Store
+
+# LaTeX build files
+*.dvi
+*.aux
+*.bbl
+*.blg
+*.lof
+*.log
+*.lot
+*.out
+*.synctex.gz
+*.synctex
+*.toc
+*.spl
+leer.eps
+*~
+*.swp
+
+# Automatically generated eps and convert outputs
+*-eps-converted-to.pdf
+

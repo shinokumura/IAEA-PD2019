@@ -1,0 +1,503 @@
+ Process ENDF/B Double Differential Data - MF=6 (SIXPAK 2019-1)
+ ==============================================================================
+ ENDF/B Input Data Filename
+ SIXPAK.IN                                                               
+ ------------------------------------------------------------------------------
+ Requested Ranges
+ ------------------------------------------------------------------------------
+    Minimum    Maximum   
+    MAT  MT    MAT  MT
+ ------------------------------------------------------------------------------
+      1   1   9999 999
+ ==============================================================================
+ Terminology
+ ------------------------------------------------------------------------------
+ LCT  = Reference System (Lab or Center-of-Mass)
+ LIP  = Product Modifier, e.g., for Isomeric States
+ LAW  = Representation of Data - see, List at End of Output
+ LANG = 1     = Legendre     (LAW 1)
+      = 2     = Kalbach-Mann (LAW 1)
+      = 11-15 = Tabulated    (LAW 1)
+      = 0     = Legendre     (LAW 2)
+      = 11-15 = Tabulated    (LAW 2)
+ LTP  = 1-2   = Legendre     (LAW 5)
+      = 11-15 = Tabulated    (LAW 5)
+ LEP  = Secondary Energy Interpolation Type(1 to 5)
+ ==============================================================================
+ Tape Label
+ ------------------------------------------------------------------------------
+  JENDL/PD-2016.1  Sn-114                                             1
+ ------------------------------------------------------------------------------
+ WARNING: MT=5 is ALLOWED in MF=6, but NOT in MF=4 or 5.
+          see ENDF-102 - Strictly for diagnostic purposes
+          this code will Translate MF=6 Data - but be
+          WARNED - the results should not be used in ANY          APPLICATIONS.
+ ------------------------------------------------------------------------------
+ ==============================================================================
+ Projectile   Target    Emitted    MAT  MT LCT LIP LAW LANG  LEP  ENDF/B
+                                                        LTP       Output
+ ==============================================================================
+  Photon     50-Sn-114  Neutron   5031   5 cm    0   1    1    2      
+  Photon     50-Sn-114   1-H -1   5031   5 cm    0   1    1    2      
+  Photon     50-Sn-114   1-H -2   5031   5 cm    0   1    1    2      
+  Photon     50-Sn-114   1-H -3   5031   5 cm    0   1    1    2      
+  Photon     50-Sn-114   2-He-3   5031   5 cm    0   1    1    2      
+  Photon     50-Sn-114   2-He-4   5031   5 cm    0   1    1    2      
+  Photon     50-Sn-114  35-Br-81  5031   5 cm    0   0                
+  Photon     50-Sn-114  35-Br-82  5031   5 cm    0   0                
+  Photon     50-Sn-114  35-Br-82  5031   5 cm    1   0                
+  Photon     50-Sn-114  35-Br-83  5031   5 cm    0   0                
+  Photon     50-Sn-114  35-Br-84  5031   5 cm    0   0                
+  Photon     50-Sn-114  35-Br-84  5031   5 cm    1   0                
+  Photon     50-Sn-114  35-Br-85  5031   5 cm    0   0                
+  Photon     50-Sn-114  35-Br-86  5031   5 cm    0   0                
+  Photon     50-Sn-114  35-Br-87  5031   5 cm    0   0                
+  Photon     50-Sn-114  35-Br-88  5031   5 cm    0   0                
+  Photon     50-Sn-114  35-Br-89  5031   5 cm    0   0                
+  Photon     50-Sn-114  35-Br-90  5031   5 cm    0   0                
+  Photon     50-Sn-114  35-Br-91  5031   5 cm    0   0                
+  Photon     50-Sn-114  36-Kr-82  5031   5 cm    0   0                
+  Photon     50-Sn-114  36-Kr-83  5031   5 cm    0   0                
+  Photon     50-Sn-114  36-Kr-83  5031   5 cm    1   0                
+  Photon     50-Sn-114  36-Kr-84  5031   5 cm    0   0                
+  Photon     50-Sn-114  36-Kr-85  5031   5 cm    0   0                
+  Photon     50-Sn-114  36-Kr-85  5031   5 cm    1   0                
+  Photon     50-Sn-114  36-Kr-86  5031   5 cm    0   0                
+  Photon     50-Sn-114  36-Kr-87  5031   5 cm    0   0                
+  Photon     50-Sn-114  36-Kr-88  5031   5 cm    0   0                
+  Photon     50-Sn-114  36-Kr-89  5031   5 cm    0   0                
+  Photon     50-Sn-114  36-Kr-90  5031   5 cm    0   0                
+  Photon     50-Sn-114  36-Kr-91  5031   5 cm    0   0                
+  Photon     50-Sn-114  36-Kr-92  5031   5 cm    0   0                
+  Photon     50-Sn-114  36-Kr-93  5031   5 cm    0   0                
+  Photon     50-Sn-114  36-Kr-94  5031   5 cm    0   0                
+  Photon     50-Sn-114  37-Rb-83  5031   5 cm    0   0                
+  Photon     50-Sn-114  37-Rb-84  5031   5 cm    0   0                
+  Photon     50-Sn-114  37-Rb-84  5031   5 cm    1   0                
+  Photon     50-Sn-114  37-Rb-85  5031   5 cm    0   0                
+  Photon     50-Sn-114  37-Rb-86  5031   5 cm    0   0                
+  Photon     50-Sn-114  37-Rb-86  5031   5 cm    1   0                
+  Photon     50-Sn-114  37-Rb-87  5031   5 cm    0   0                
+  Photon     50-Sn-114  37-Rb-88  5031   5 cm    0   0                
+  Photon     50-Sn-114  37-Rb-89  5031   5 cm    0   0                
+  Photon     50-Sn-114  37-Rb-90  5031   5 cm    0   0                
+  Photon     50-Sn-114  37-Rb-90  5031   5 cm    1   0                
+  Photon     50-Sn-114  37-Rb-91  5031   5 cm    0   0                
+  Photon     50-Sn-114  37-Rb-92  5031   5 cm    0   0                
+  Photon     50-Sn-114  37-Rb-93  5031   5 cm    0   0                
+  Photon     50-Sn-114  37-Rb-94  5031   5 cm    0   0                
+  Photon     50-Sn-114  37-Rb-95  5031   5 cm    0   0                
+  Photon     50-Sn-114  37-Rb-96  5031   5 cm    0   0                
+  Photon     50-Sn-114  38-Sr-84  5031   5 cm    0   0                
+  Photon     50-Sn-114  38-Sr-85  5031   5 cm    0   0                
+  Photon     50-Sn-114  38-Sr-85  5031   5 cm    1   0                
+  Photon     50-Sn-114  38-Sr-86  5031   5 cm    0   0                
+  Photon     50-Sn-114  38-Sr-87  5031   5 cm    0   0                
+  Photon     50-Sn-114  38-Sr-87  5031   5 cm    1   0                
+  Photon     50-Sn-114  38-Sr-88  5031   5 cm    0   0                
+  Photon     50-Sn-114  38-Sr-89  5031   5 cm    0   0                
+  Photon     50-Sn-114  38-Sr-90  5031   5 cm    0   0                
+  Photon     50-Sn-114  38-Sr-91  5031   5 cm    0   0                
+  Photon     50-Sn-114  38-Sr-92  5031   5 cm    0   0                
+  Photon     50-Sn-114  38-Sr-93  5031   5 cm    0   0                
+  Photon     50-Sn-114  38-Sr-94  5031   5 cm    0   0                
+  Photon     50-Sn-114  38-Sr-95  5031   5 cm    0   0                
+  Photon     50-Sn-114  38-Sr-96  5031   5 cm    0   0                
+  Photon     50-Sn-114  38-Sr-97  5031   5 cm    0   0                
+  Photon     50-Sn-114  38-Sr-98  5031   5 cm    0   0                
+  Photon     50-Sn-114  39-Y -85  5031   5 cm    0   0                
+  Photon     50-Sn-114  39-Y -85  5031   5 cm    1   0                
+  Photon     50-Sn-114  39-Y -86  5031   5 cm    0   0                
+  Photon     50-Sn-114  39-Y -86  5031   5 cm    1   0                
+  Photon     50-Sn-114  39-Y -87  5031   5 cm    0   0                
+  Photon     50-Sn-114  39-Y -87  5031   5 cm    1   0                
+  Photon     50-Sn-114  39-Y -88  5031   5 cm    0   0                
+  Photon     50-Sn-114  39-Y -89  5031   5 cm    0   0                
+  Photon     50-Sn-114  39-Y -89  5031   5 cm    1   0                
+  Photon     50-Sn-114  39-Y -90  5031   5 cm    0   0                
+  Photon     50-Sn-114  39-Y -90  5031   5 cm    1   0                
+  Photon     50-Sn-114  39-Y -91  5031   5 cm    0   0                
+  Photon     50-Sn-114  39-Y -91  5031   5 cm    1   0                
+  Photon     50-Sn-114  39-Y -92  5031   5 cm    0   0                
+  Photon     50-Sn-114  39-Y -93  5031   5 cm    0   0                
+  Photon     50-Sn-114  39-Y -93  5031   5 cm    1   0                
+  Photon     50-Sn-114  39-Y -94  5031   5 cm    0   0                
+  Photon     50-Sn-114  39-Y -95  5031   5 cm    0   0                
+  Photon     50-Sn-114  39-Y -96  5031   5 cm    0   0                
+  Photon     50-Sn-114  39-Y -97  5031   5 cm    0   0                
+  Photon     50-Sn-114  39-Y -97  5031   5 cm    1   0                
+  Photon     50-Sn-114  39-Y -98  5031   5 cm    0   0                
+  Photon     50-Sn-114  39-Y -98  5031   5 cm    1   0                
+  Photon     50-Sn-114  39-Y -99  5031   5 cm    0   0                
+  Photon     50-Sn-114  39-Y -100 5031   5 cm    0   0                
+  Photon     50-Sn-114  39-Y -100 5031   5 cm    1   0                
+  Photon     50-Sn-114  39-Y -101 5031   5 cm    0   0                
+  Photon     50-Sn-114  40-Zr-86  5031   5 cm    0   0                
+  Photon     50-Sn-114  40-Zr-87  5031   5 cm    0   0                
+  Photon     50-Sn-114  40-Zr-87  5031   5 cm    1   0                
+  Photon     50-Sn-114  40-Zr-88  5031   5 cm    0   0                
+  Photon     50-Sn-114  40-Zr-89  5031   5 cm    0   0                
+  Photon     50-Sn-114  40-Zr-89  5031   5 cm    1   0                
+  Photon     50-Sn-114  40-Zr-90  5031   5 cm    0   0                
+  Photon     50-Sn-114  40-Zr-90  5031   5 cm    1   0                
+  Photon     50-Sn-114  40-Zr-91  5031   5 cm    0   0                
+  Photon     50-Sn-114  40-Zr-92  5031   5 cm    0   0                
+  Photon     50-Sn-114  40-Zr-93  5031   5 cm    0   0                
+  Photon     50-Sn-114  40-Zr-94  5031   5 cm    0   0                
+  Photon     50-Sn-114  40-Zr-95  5031   5 cm    0   0                
+  Photon     50-Sn-114  40-Zr-96  5031   5 cm    0   0                
+  Photon     50-Sn-114  40-Zr-97  5031   5 cm    0   0                
+  Photon     50-Sn-114  40-Zr-98  5031   5 cm    0   0                
+  Photon     50-Sn-114  40-Zr-99  5031   5 cm    0   0                
+  Photon     50-Sn-114  40-Zr-100 5031   5 cm    0   0                
+  Photon     50-Sn-114  40-Zr-101 5031   5 cm    0   0                
+  Photon     50-Sn-114  40-Zr-102 5031   5 cm    0   0                
+  Photon     50-Sn-114  40-Zr-103 5031   5 cm    0   0                
+  Photon     50-Sn-114  41-Nb-87  5031   5 cm    0   0                
+  Photon     50-Sn-114  41-Nb-87  5031   5 cm    1   0                
+  Photon     50-Sn-114  41-Nb-88  5031   5 cm    0   0                
+  Photon     50-Sn-114  41-Nb-88  5031   5 cm    1   0                
+  Photon     50-Sn-114  41-Nb-89  5031   5 cm    0   0                
+  Photon     50-Sn-114  41-Nb-89  5031   5 cm    1   0                
+  Photon     50-Sn-114  41-Nb-90  5031   5 cm    0   0                
+  Photon     50-Sn-114  41-Nb-90  5031   5 cm    1   0                
+  Photon     50-Sn-114  41-Nb-91  5031   5 cm    0   0                
+  Photon     50-Sn-114  41-Nb-91  5031   5 cm    1   0                
+  Photon     50-Sn-114  41-Nb-92  5031   5 cm    0   0                
+  Photon     50-Sn-114  41-Nb-92  5031   5 cm    1   0                
+  Photon     50-Sn-114  41-Nb-93  5031   5 cm    0   0                
+  Photon     50-Sn-114  41-Nb-93  5031   5 cm    1   0                
+  Photon     50-Sn-114  41-Nb-94  5031   5 cm    0   0                
+  Photon     50-Sn-114  41-Nb-94  5031   5 cm    1   0                
+  Photon     50-Sn-114  41-Nb-95  5031   5 cm    0   0                
+  Photon     50-Sn-114  41-Nb-95  5031   5 cm    1   0                
+  Photon     50-Sn-114  41-Nb-96  5031   5 cm    0   0                
+  Photon     50-Sn-114  41-Nb-97  5031   5 cm    0   0                
+  Photon     50-Sn-114  41-Nb-97  5031   5 cm    1   0                
+  Photon     50-Sn-114  41-Nb-98  5031   5 cm    0   0                
+  Photon     50-Sn-114  41-Nb-98  5031   5 cm    1   0                
+  Photon     50-Sn-114  41-Nb-99  5031   5 cm    0   0                
+  Photon     50-Sn-114  41-Nb-99  5031   5 cm    1   0                
+  Photon     50-Sn-114  41-Nb-100 5031   5 cm    0   0                
+  Photon     50-Sn-114  41-Nb-100 5031   5 cm    1   0                
+  Photon     50-Sn-114  41-Nb-101 5031   5 cm    0   0                
+  Photon     50-Sn-114  41-Nb-102 5031   5 cm    0   0                
+  Photon     50-Sn-114  41-Nb-102 5031   5 cm    1   0                
+  Photon     50-Sn-114  41-Nb-103 5031   5 cm    0   0                
+  Photon     50-Sn-114  41-Nb-104 5031   5 cm    0   0                
+  Photon     50-Sn-114  42-Mo-88  5031   5 cm    0   0                
+  Photon     50-Sn-114  42-Mo-89  5031   5 cm    0   0                
+  Photon     50-Sn-114  42-Mo-89  5031   5 cm    1   0                
+  Photon     50-Sn-114  42-Mo-90  5031   5 cm    0   0                
+  Photon     50-Sn-114  42-Mo-91  5031   5 cm    0   0                
+  Photon     50-Sn-114  42-Mo-91  5031   5 cm    1   0                
+  Photon     50-Sn-114  42-Mo-92  5031   5 cm    0   0                
+  Photon     50-Sn-114  42-Mo-93  5031   5 cm    0   0                
+  Photon     50-Sn-114  42-Mo-93  5031   5 cm    1   0                
+  Photon     50-Sn-114  42-Mo-94  5031   5 cm    0   0                
+  Photon     50-Sn-114  42-Mo-95  5031   5 cm    0   0                
+  Photon     50-Sn-114  42-Mo-96  5031   5 cm    0   0                
+  Photon     50-Sn-114  42-Mo-97  5031   5 cm    0   0                
+  Photon     50-Sn-114  42-Mo-98  5031   5 cm    0   0                
+  Photon     50-Sn-114  42-Mo-99  5031   5 cm    0   0                
+  Photon     50-Sn-114  42-Mo-100 5031   5 cm    0   0                
+  Photon     50-Sn-114  42-Mo-101 5031   5 cm    0   0                
+  Photon     50-Sn-114  42-Mo-102 5031   5 cm    0   0                
+  Photon     50-Sn-114  42-Mo-103 5031   5 cm    0   0                
+  Photon     50-Sn-114  42-Mo-104 5031   5 cm    0   0                
+  Photon     50-Sn-114  42-Mo-105 5031   5 cm    0   0                
+  Photon     50-Sn-114  43-Tc-89  5031   5 cm    0   0                
+  Photon     50-Sn-114  43-Tc-89  5031   5 cm    1   0                
+  Photon     50-Sn-114  43-Tc-90  5031   5 cm    0   0                
+  Photon     50-Sn-114  43-Tc-90  5031   5 cm    1   0                
+  Photon     50-Sn-114  43-Tc-90  5031   5 cm    2   0                
+  Photon     50-Sn-114  43-Tc-91  5031   5 cm    0   0                
+  Photon     50-Sn-114  43-Tc-91  5031   5 cm    1   0                
+  Photon     50-Sn-114  43-Tc-92  5031   5 cm    0   0                
+  Photon     50-Sn-114  43-Tc-93  5031   5 cm    0   0                
+  Photon     50-Sn-114  43-Tc-93  5031   5 cm    1   0                
+  Photon     50-Sn-114  43-Tc-94  5031   5 cm    0   0                
+  Photon     50-Sn-114  43-Tc-94  5031   5 cm    1   0                
+  Photon     50-Sn-114  43-Tc-95  5031   5 cm    0   0                
+  Photon     50-Sn-114  43-Tc-95  5031   5 cm    1   0                
+  Photon     50-Sn-114  43-Tc-96  5031   5 cm    0   0                
+  Photon     50-Sn-114  43-Tc-96  5031   5 cm    1   0                
+  Photon     50-Sn-114  43-Tc-97  5031   5 cm    0   0                
+  Photon     50-Sn-114  43-Tc-97  5031   5 cm    1   0                
+  Photon     50-Sn-114  43-Tc-98  5031   5 cm    0   0                
+  Photon     50-Sn-114  43-Tc-99  5031   5 cm    0   0                
+  Photon     50-Sn-114  43-Tc-99  5031   5 cm    1   0                
+  Photon     50-Sn-114  43-Tc-100 5031   5 cm    0   0                
+  Photon     50-Sn-114  43-Tc-101 5031   5 cm    0   0                
+  Photon     50-Sn-114  43-Tc-102 5031   5 cm    0   0                
+  Photon     50-Sn-114  43-Tc-102 5031   5 cm    1   0                
+  Photon     50-Sn-114  43-Tc-103 5031   5 cm    0   0                
+  Photon     50-Sn-114  43-Tc-104 5031   5 cm    0   0                
+  Photon     50-Sn-114  43-Tc-105 5031   5 cm    0   0                
+  Photon     50-Sn-114  43-Tc-106 5031   5 cm    0   0                
+  Photon     50-Sn-114  43-Tc-107 5031   5 cm    0   0                
+  Photon     50-Sn-114  44-Ru-90  5031   5 cm    0   0                
+  Photon     50-Sn-114  44-Ru-91  5031   5 cm    0   0                
+  Photon     50-Sn-114  44-Ru-92  5031   5 cm    0   0                
+  Photon     50-Sn-114  44-Ru-93  5031   5 cm    0   0                
+  Photon     50-Sn-114  44-Ru-93  5031   5 cm    1   0                
+  Photon     50-Sn-114  44-Ru-94  5031   5 cm    0   0                
+  Photon     50-Sn-114  44-Ru-95  5031   5 cm    0   0                
+  Photon     50-Sn-114  44-Ru-96  5031   5 cm    0   0                
+  Photon     50-Sn-114  44-Ru-97  5031   5 cm    0   0                
+  Photon     50-Sn-114  44-Ru-98  5031   5 cm    0   0                
+  Photon     50-Sn-114  44-Ru-99  5031   5 cm    0   0                
+  Photon     50-Sn-114  44-Ru-100 5031   5 cm    0   0                
+  Photon     50-Sn-114  44-Ru-101 5031   5 cm    0   0                
+  Photon     50-Sn-114  44-Ru-102 5031   5 cm    0   0                
+  Photon     50-Sn-114  44-Ru-103 5031   5 cm    0   0                
+  Photon     50-Sn-114  44-Ru-104 5031   5 cm    0   0                
+  Photon     50-Sn-114  44-Ru-105 5031   5 cm    0   0                
+  Photon     50-Sn-114  44-Ru-106 5031   5 cm    0   0                
+  Photon     50-Sn-114  44-Ru-107 5031   5 cm    0   0                
+  Photon     50-Sn-114  44-Ru-108 5031   5 cm    0   0                
+  Photon     50-Sn-114  45-Rh-91  5031   5 cm    0   0                
+  Photon     50-Sn-114  45-Rh-91  5031   5 cm    1   0                
+  Photon     50-Sn-114  45-Rh-92  5031   5 cm    0   0                
+  Photon     50-Sn-114  45-Rh-92  5031   5 cm    1   0                
+  Photon     50-Sn-114  45-Rh-93  5031   5 cm    0   0                
+  Photon     50-Sn-114  45-Rh-94  5031   5 cm    0   0                
+  Photon     50-Sn-114  45-Rh-94  5031   5 cm    1   0                
+  Photon     50-Sn-114  45-Rh-95  5031   5 cm    0   0                
+  Photon     50-Sn-114  45-Rh-95  5031   5 cm    1   0                
+  Photon     50-Sn-114  45-Rh-96  5031   5 cm    0   0                
+  Photon     50-Sn-114  45-Rh-96  5031   5 cm    1   0                
+  Photon     50-Sn-114  45-Rh-97  5031   5 cm    0   0                
+  Photon     50-Sn-114  45-Rh-97  5031   5 cm    1   0                
+  Photon     50-Sn-114  45-Rh-98  5031   5 cm    0   0                
+  Photon     50-Sn-114  45-Rh-98  5031   5 cm    1   0                
+  Photon     50-Sn-114  45-Rh-99  5031   5 cm    0   0                
+  Photon     50-Sn-114  45-Rh-99  5031   5 cm    1   0                
+  Photon     50-Sn-114  45-Rh-100 5031   5 cm    0   0                
+  Photon     50-Sn-114  45-Rh-100 5031   5 cm    1   0                
+  Photon     50-Sn-114  45-Rh-101 5031   5 cm    0   0                
+  Photon     50-Sn-114  45-Rh-101 5031   5 cm    1   0                
+  Photon     50-Sn-114  45-Rh-102 5031   5 cm    0   0                
+  Photon     50-Sn-114  45-Rh-102 5031   5 cm    1   0                
+  Photon     50-Sn-114  45-Rh-103 5031   5 cm    0   0                
+  Photon     50-Sn-114  45-Rh-103 5031   5 cm    1   0                
+  Photon     50-Sn-114  45-Rh-104 5031   5 cm    0   0                
+  Photon     50-Sn-114  45-Rh-104 5031   5 cm    1   0                
+  Photon     50-Sn-114  45-Rh-105 5031   5 cm    0   0                
+  Photon     50-Sn-114  45-Rh-105 5031   5 cm    1   0                
+  Photon     50-Sn-114  45-Rh-106 5031   5 cm    0   0                
+  Photon     50-Sn-114  45-Rh-106 5031   5 cm    1   0                
+  Photon     50-Sn-114  45-Rh-107 5031   5 cm    0   0                
+  Photon     50-Sn-114  45-Rh-108 5031   5 cm    0   0                
+  Photon     50-Sn-114  45-Rh-109 5031   5 cm    0   0                
+  Photon     50-Sn-114  46-Pd-93  5031   5 cm    0   0                
+  Photon     50-Sn-114  46-Pd-94  5031   5 cm    0   0                
+  Photon     50-Sn-114  46-Pd-95  5031   5 cm    0   0                
+  Photon     50-Sn-114  46-Pd-95  5031   5 cm    1   0                
+  Photon     50-Sn-114  46-Pd-96  5031   5 cm    0   0                
+  Photon     50-Sn-114  46-Pd-97  5031   5 cm    0   0                
+  Photon     50-Sn-114  46-Pd-98  5031   5 cm    0   0                
+  Photon     50-Sn-114  46-Pd-99  5031   5 cm    0   0                
+  Photon     50-Sn-114  46-Pd-100 5031   5 cm    0   0                
+  Photon     50-Sn-114  46-Pd-101 5031   5 cm    0   0                
+  Photon     50-Sn-114  46-Pd-102 5031   5 cm    0   0                
+  Photon     50-Sn-114  46-Pd-103 5031   5 cm    0   0                
+  Photon     50-Sn-114  46-Pd-104 5031   5 cm    0   0                
+  Photon     50-Sn-114  46-Pd-105 5031   5 cm    0   0                
+  Photon     50-Sn-114  46-Pd-106 5031   5 cm    0   0                
+  Photon     50-Sn-114  46-Pd-107 5031   5 cm    0   0                
+  Photon     50-Sn-114  46-Pd-107 5031   5 cm    1   0                
+  Photon     50-Sn-114  46-Pd-108 5031   5 cm    0   0                
+  Photon     50-Sn-114  46-Pd-109 5031   5 cm    0   0                
+  Photon     50-Sn-114  46-Pd-109 5031   5 cm    1   0                
+  Photon     50-Sn-114  46-Pd-110 5031   5 cm    0   0                
+  Photon     50-Sn-114  47-Ag-94  5031   5 cm    0   0                
+  Photon     50-Sn-114  47-Ag-94  5031   5 cm    1   0                
+  Photon     50-Sn-114  47-Ag-95  5031   5 cm    0   0                
+  Photon     50-Sn-114  47-Ag-96  5031   5 cm    0   0                
+  Photon     50-Sn-114  47-Ag-96  5031   5 cm    1   0                
+  Photon     50-Sn-114  47-Ag-97  5031   5 cm    0   0                
+  Photon     50-Sn-114  47-Ag-98  5031   5 cm    0   0                
+  Photon     50-Sn-114  47-Ag-99  5031   5 cm    0   0                
+  Photon     50-Sn-114  47-Ag-99  5031   5 cm    1   0                
+  Photon     50-Sn-114  47-Ag-100 5031   5 cm    0   0                
+  Photon     50-Sn-114  47-Ag-100 5031   5 cm    1   0                
+  Photon     50-Sn-114  47-Ag-101 5031   5 cm    0   0                
+  Photon     50-Sn-114  47-Ag-101 5031   5 cm    1   0                
+  Photon     50-Sn-114  47-Ag-102 5031   5 cm    0   0                
+  Photon     50-Sn-114  47-Ag-102 5031   5 cm    1   0                
+  Photon     50-Sn-114  47-Ag-103 5031   5 cm    0   0                
+  Photon     50-Sn-114  47-Ag-103 5031   5 cm    1   0                
+  Photon     50-Sn-114  47-Ag-104 5031   5 cm    0   0                
+  Photon     50-Sn-114  47-Ag-104 5031   5 cm    1   0                
+  Photon     50-Sn-114  47-Ag-105 5031   5 cm    0   0                
+  Photon     50-Sn-114  47-Ag-105 5031   5 cm    1   0                
+  Photon     50-Sn-114  47-Ag-106 5031   5 cm    0   0                
+  Photon     50-Sn-114  47-Ag-106 5031   5 cm    1   0                
+  Photon     50-Sn-114  47-Ag-107 5031   5 cm    0   0                
+  Photon     50-Sn-114  47-Ag-107 5031   5 cm    1   0                
+  Photon     50-Sn-114  47-Ag-108 5031   5 cm    0   0                
+  Photon     50-Sn-114  47-Ag-108 5031   5 cm    1   0                
+  Photon     50-Sn-114  47-Ag-109 5031   5 cm    0   0                
+  Photon     50-Sn-114  47-Ag-109 5031   5 cm    1   0                
+  Photon     50-Sn-114  47-Ag-110 5031   5 cm    0   0                
+  Photon     50-Sn-114  47-Ag-110 5031   5 cm    1   0                
+  Photon     50-Sn-114  47-Ag-111 5031   5 cm    0   0                
+  Photon     50-Sn-114  47-Ag-111 5031   5 cm    1   0                
+  Photon     50-Sn-114  48-Cd-96  5031   5 cm    0   0                
+  Photon     50-Sn-114  48-Cd-97  5031   5 cm    0   0                
+  Photon     50-Sn-114  48-Cd-98  5031   5 cm    0   0                
+  Photon     50-Sn-114  48-Cd-99  5031   5 cm    0   0                
+  Photon     50-Sn-114  48-Cd-100 5031   5 cm    0   0                
+  Photon     50-Sn-114  48-Cd-101 5031   5 cm    0   0                
+  Photon     50-Sn-114  48-Cd-102 5031   5 cm    0   0                
+  Photon     50-Sn-114  48-Cd-103 5031   5 cm    0   0                
+  Photon     50-Sn-114  48-Cd-104 5031   5 cm    0   0                
+  Photon     50-Sn-114  48-Cd-105 5031   5 cm    0   0                
+  Photon     50-Sn-114  48-Cd-106 5031   5 cm    0   0                
+  Photon     50-Sn-114  48-Cd-107 5031   5 cm    0   0                
+  Photon     50-Sn-114  48-Cd-108 5031   5 cm    0   0                
+  Photon     50-Sn-114  48-Cd-109 5031   5 cm    0   0                
+  Photon     50-Sn-114  48-Cd-110 5031   5 cm    0   0                
+  Photon     50-Sn-114  48-Cd-111 5031   5 cm    0   0                
+  Photon     50-Sn-114  48-Cd-111 5031   5 cm    1   0                
+  Photon     50-Sn-114  48-Cd-112 5031   5 cm    0   0                
+  Photon     50-Sn-114  49-In-98  5031   5 cm    0   0                
+  Photon     50-Sn-114  49-In-98  5031   5 cm    1   0                
+  Photon     50-Sn-114  49-In-99  5031   5 cm    0   0                
+  Photon     50-Sn-114  49-In-100 5031   5 cm    0   0                
+  Photon     50-Sn-114  49-In-101 5031   5 cm    0   0                
+  Photon     50-Sn-114  49-In-102 5031   5 cm    0   0                
+  Photon     50-Sn-114  49-In-103 5031   5 cm    0   0                
+  Photon     50-Sn-114  49-In-103 5031   5 cm    1   0                
+  Photon     50-Sn-114  49-In-104 5031   5 cm    0   0                
+  Photon     50-Sn-114  49-In-104 5031   5 cm    1   0                
+  Photon     50-Sn-114  49-In-105 5031   5 cm    0   0                
+  Photon     50-Sn-114  49-In-105 5031   5 cm    1   0                
+  Photon     50-Sn-114  49-In-106 5031   5 cm    0   0                
+  Photon     50-Sn-114  49-In-106 5031   5 cm    1   0                
+  Photon     50-Sn-114  49-In-107 5031   5 cm    0   0                
+  Photon     50-Sn-114  49-In-107 5031   5 cm    1   0                
+  Photon     50-Sn-114  49-In-108 5031   5 cm    0   0                
+  Photon     50-Sn-114  49-In-108 5031   5 cm    1   0                
+  Photon     50-Sn-114  49-In-109 5031   5 cm    0   0                
+  Photon     50-Sn-114  49-In-109 5031   5 cm    1   0                
+  Photon     50-Sn-114  49-In-110 5031   5 cm    0   0                
+  Photon     50-Sn-114  49-In-110 5031   5 cm    1   0                
+  Photon     50-Sn-114  49-In-111 5031   5 cm    0   0                
+  Photon     50-Sn-114  49-In-111 5031   5 cm    1   0                
+  Photon     50-Sn-114  49-In-112 5031   5 cm    0   0                
+  Photon     50-Sn-114  49-In-112 5031   5 cm    1   0                
+  Photon     50-Sn-114  49-In-113 5031   5 cm    0   0                
+  Photon     50-Sn-114  49-In-113 5031   5 cm    1   0                
+  Photon     50-Sn-114  50-Sn-100 5031   5 cm    0   0                
+  Photon     50-Sn-114  50-Sn-101 5031   5 cm    0   0                
+  Photon     50-Sn-114  50-Sn-102 5031   5 cm    0   0                
+  Photon     50-Sn-114  50-Sn-103 5031   5 cm    0   0                
+  Photon     50-Sn-114  50-Sn-104 5031   5 cm    0   0                
+  Photon     50-Sn-114  50-Sn-105 5031   5 cm    0   0                
+  Photon     50-Sn-114  50-Sn-106 5031   5 cm    0   0                
+  Photon     50-Sn-114  50-Sn-107 5031   5 cm    0   0                
+  Photon     50-Sn-114  50-Sn-108 5031   5 cm    0   0                
+  Photon     50-Sn-114  50-Sn-109 5031   5 cm    0   0                
+  Photon     50-Sn-114  50-Sn-110 5031   5 cm    0   0                
+  Photon     50-Sn-114  50-Sn-111 5031   5 cm    0   0                
+  Photon     50-Sn-114  50-Sn-112 5031   5 cm    0   0                
+  Photon     50-Sn-114  50-Sn-113 5031   5 cm    0   0                
+  Photon     50-Sn-114  50-Sn-113 5031   5 cm    1   0                
+  Photon     50-Sn-114  50-Sn-114 5031   5 cm    0   0                
+  Photon     50-Sn-114  Photon    5031   5 cm    0   1    1    2      
+ ------------------------------------------------------------------------------
+ All Cross Sections Read. Maximum Tabulated Energy =  200000000. eV
+ ------------------------------------------------------------------------------
+ ==============================================================================
+ Laws by Incident Particle
+ ------------------------------------------------------------------------------
+ Law Number and Definition   Photon    n     p     d     t  He-3  He-4 Other
+ ------------------------------------------------------------------------------
+ (0) Unknown................   363     0     0     0     0     0     0     0
+ (1) Continuum Energy-Angle
+      Legendre..............     7     0     0     0     0     0     0     0
+      Kalbach-Mann..........     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (2) Discrete 2 Body
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (3) Isotropic Discrete.....     0     0     0     0     0     0     0     0
+ (4) Discrete 2 Body Recoil.     0     0     0     0     0     0     0     0
+ (5) Charged Particle Elastic
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (6) n-Body Phase-Space.....     0     0     0     0     0     0     0     0
+ (7) Laboratory Angle-Energy     0     0     0     0     0     0     0     0
+ Not 0 to 7 (WARNING if Any)     0     0     0     0     0     0     0     0
+ ==============================================================================
+ Laws by Emitted Particle
+ ------------------------------------------------------------------------------
+ Law Number and Definition   Photon    n     p     d     t  He-3  He-4 Other
+ ------------------------------------------------------------------------------
+ (0) Unknown................     0     0     0     0     0     0     0   363
+ (1) Continuum Energy-Angle
+      Legendre..............     1     1     1     1     1     1     1     0
+      Kalbach-Mann..........     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (2) Discrete 2 Body
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (3) Isotropic Discrete.....     0     0     0     0     0     0     0     0
+ (4) Discrete 2 Body Recoil.     0     0     0     0     0     0     0     0
+ (5) Charged Particle Elastic
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (6) n-Body Phase-Space.....     0     0     0     0     0     0     0     0
+ (7) Laboratory Angle-Energy     0     0     0     0     0     0     0     0
+ Not 0 to 7 (WARNING if Any)     0     0     0     0     0     0     0     0
+ ------------------------------------------------------------------------------
+ Summary of Emitted Particle Yields
+ ------------------------------------------------------------------------------
+ Energy Independent.........     0     0     0     0     0     0     0     0
+ Energy Dependent...........     1     1     1     1     1     1     1   363
+ ------------------------------------------------------------------------------
+ Summary of Angular Distributions
+ ------------------------------------------------------------------------------
+ Isotropic..................     1     0     0     0     0     0     0     0
+ Nonisotropic...............     0     1     1     1     0     1     0     0
+ Mixed......................     0     0     0     0     1     0     1     0
+ ------------------------------------------------------------------------------
+ Maximum Legendre Order.....     0    10    10    10    10    10    10     0
+ Maximum Number of Cosines..     0     0     0     0     0     0     0     0
+ ------------------------------------------------------------------------------
+ Summary of Energy Distributions
+ ------------------------------------------------------------------------------
+ Continuous.................     1     1     1     1     1     1     1     0
+ Discrete...................     0     0     0     0     0     0     0     0
+ Mixed......................     0     0     0     0     0     0     0     0
+ ------------------------------------------------------------------------------
+ ==============================================================================
+ Summary of Incident Neutron with Photon or Neutron Emitted Data
+ ------------------------------------------------------------------------------
+ Law Number and Definition   Output        Not Output 
+ ------------------------------------------------------------------------------
+                             Photon    n   Photon    n
+ ------------------------------------------------------------------------------
+ (0) Unknown................     0     0       0     0
+ (1) Continuum Energy-Angle
+      Legendre..............     0     0       0     0
+      Kalbach-Mann..........     0     0       0     0
+      Tabulated.............     0     0       0     0
+ (2) Discrete 2 Body
+      Legendre..............     0     0       0     0
+      Tabulated.............     0     0       0     0
+ (3) Isotropic Discrete.....     0     0       0     0
+ (4) Discrete 2 Body Recoil.     0     0       0     0
+ (5) Charged Particle Elastic
+      Legendre..............     0     0       0     0
+      Tabulated.............     0     0       0     0
+ (6) n-Body Phase-Space.....     0     0       0     0
+ (7) Laboratory Angle-Energy     0     0       0     0
+ Not 0 to 7 (WARNING if Any)     0     0       0     0
+ ==============================================================================
+ End of Run
+ ===============================================================================
+ SIXPAK   Total Execution Time                0.14 Seconds
+ ===============================================================================

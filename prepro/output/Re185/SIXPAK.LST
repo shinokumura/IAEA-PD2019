@@ -1,0 +1,441 @@
+ Process ENDF/B Double Differential Data - MF=6 (SIXPAK 2019-1)
+ ==============================================================================
+ ENDF/B Input Data Filename
+ SIXPAK.IN                                                               
+ ------------------------------------------------------------------------------
+ Requested Ranges
+ ------------------------------------------------------------------------------
+    Minimum    Maximum   
+    MAT  MT    MAT  MT
+ ------------------------------------------------------------------------------
+      1   1   9999 999
+ ==============================================================================
+ Terminology
+ ------------------------------------------------------------------------------
+ LCT  = Reference System (Lab or Center-of-Mass)
+ LIP  = Product Modifier, e.g., for Isomeric States
+ LAW  = Representation of Data - see, List at End of Output
+ LANG = 1     = Legendre     (LAW 1)
+      = 2     = Kalbach-Mann (LAW 1)
+      = 11-15 = Tabulated    (LAW 1)
+      = 0     = Legendre     (LAW 2)
+      = 11-15 = Tabulated    (LAW 2)
+ LTP  = 1-2   = Legendre     (LAW 5)
+      = 11-15 = Tabulated    (LAW 5)
+ LEP  = Secondary Energy Interpolation Type(1 to 5)
+ ==============================================================================
+ Tape Label
+ ------------------------------------------------------------------------------
+  JENDL/PD-2016.1  Re-185                                             1
+ ------------------------------------------------------------------------------
+ WARNING: MT=5 is ALLOWED in MF=6, but NOT in MF=4 or 5.
+          see ENDF-102 - Strictly for diagnostic purposes
+          this code will Translate MF=6 Data - but be
+          WARNED - the results should not be used in ANY          APPLICATIONS.
+ ------------------------------------------------------------------------------
+ ==============================================================================
+ Projectile   Target    Emitted    MAT  MT LCT LIP LAW LANG  LEP  ENDF/B
+                                                        LTP       Output
+ ==============================================================================
+  Photon     75-Re-185  Neutron   7525   5 cm    0   1    1    2      
+  Photon     75-Re-185   1-H -1   7525   5 cm    0   1    1    2      
+  Photon     75-Re-185   1-H -2   7525   5 cm    0   1    1    2      
+  Photon     75-Re-185   1-H -3   7525   5 cm    0   1    1    2      
+  Photon     75-Re-185   2-He-3   7525   5 cm    0   1    1    2      
+  Photon     75-Re-185   2-He-4   7525   5 cm    0   1    1    2      
+  Photon     75-Re-185  60-Nd-152 7525   5 cm    0   0                
+  Photon     75-Re-185  60-Nd-153 7525   5 cm    0   0                
+  Photon     75-Re-185  60-Nd-154 7525   5 cm    0   0                
+  Photon     75-Re-185  60-Nd-155 7525   5 cm    0   0                
+  Photon     75-Re-185  60-Nd-156 7525   5 cm    0   0                
+  Photon     75-Re-185  60-Nd-157 7525   5 cm    0   0                
+  Photon     75-Re-185  60-Nd-158 7525   5 cm    0   0                
+  Photon     75-Re-185  61-Pm-153 7525   5 cm    0   0                
+  Photon     75-Re-185  61-Pm-154 7525   5 cm    0   0                
+  Photon     75-Re-185  61-Pm-154 7525   5 cm    1   0                
+  Photon     75-Re-185  61-Pm-155 7525   5 cm    0   0                
+  Photon     75-Re-185  61-Pm-156 7525   5 cm    0   0                
+  Photon     75-Re-185  61-Pm-157 7525   5 cm    0   0                
+  Photon     75-Re-185  61-Pm-158 7525   5 cm    0   0                
+  Photon     75-Re-185  61-Pm-159 7525   5 cm    0   0                
+  Photon     75-Re-185  61-Pm-160 7525   5 cm    0   0                
+  Photon     75-Re-185  61-Pm-161 7525   5 cm    0   0                
+  Photon     75-Re-185  62-Sm-154 7525   5 cm    0   0                
+  Photon     75-Re-185  62-Sm-155 7525   5 cm    0   0                
+  Photon     75-Re-185  62-Sm-156 7525   5 cm    0   0                
+  Photon     75-Re-185  62-Sm-157 7525   5 cm    0   0                
+  Photon     75-Re-185  62-Sm-158 7525   5 cm    0   0                
+  Photon     75-Re-185  62-Sm-159 7525   5 cm    0   0                
+  Photon     75-Re-185  62-Sm-160 7525   5 cm    0   0                
+  Photon     75-Re-185  62-Sm-161 7525   5 cm    0   0                
+  Photon     75-Re-185  62-Sm-162 7525   5 cm    0   0                
+  Photon     75-Re-185  62-Sm-163 7525   5 cm    0   0                
+  Photon     75-Re-185  62-Sm-164 7525   5 cm    0   0                
+  Photon     75-Re-185  63-Eu-155 7525   5 cm    0   0                
+  Photon     75-Re-185  63-Eu-156 7525   5 cm    0   0                
+  Photon     75-Re-185  63-Eu-157 7525   5 cm    0   0                
+  Photon     75-Re-185  63-Eu-158 7525   5 cm    0   0                
+  Photon     75-Re-185  63-Eu-159 7525   5 cm    0   0                
+  Photon     75-Re-185  63-Eu-160 7525   5 cm    0   0                
+  Photon     75-Re-185  63-Eu-161 7525   5 cm    0   0                
+  Photon     75-Re-185  63-Eu-162 7525   5 cm    0   0                
+  Photon     75-Re-185  63-Eu-163 7525   5 cm    0   0                
+  Photon     75-Re-185  63-Eu-164 7525   5 cm    0   0                
+  Photon     75-Re-185  63-Eu-165 7525   5 cm    0   0                
+  Photon     75-Re-185  63-Eu-166 7525   5 cm    0   0                
+  Photon     75-Re-185  63-Eu-167 7525   5 cm    0   0                
+  Photon     75-Re-185  64-Gd-156 7525   5 cm    0   0                
+  Photon     75-Re-185  64-Gd-157 7525   5 cm    0   0                
+  Photon     75-Re-185  64-Gd-158 7525   5 cm    0   0                
+  Photon     75-Re-185  64-Gd-159 7525   5 cm    0   0                
+  Photon     75-Re-185  64-Gd-160 7525   5 cm    0   0                
+  Photon     75-Re-185  64-Gd-161 7525   5 cm    0   0                
+  Photon     75-Re-185  64-Gd-162 7525   5 cm    0   0                
+  Photon     75-Re-185  64-Gd-163 7525   5 cm    0   0                
+  Photon     75-Re-185  64-Gd-164 7525   5 cm    0   0                
+  Photon     75-Re-185  64-Gd-165 7525   5 cm    0   0                
+  Photon     75-Re-185  64-Gd-166 7525   5 cm    0   0                
+  Photon     75-Re-185  64-Gd-167 7525   5 cm    0   0                
+  Photon     75-Re-185  64-Gd-168 7525   5 cm    0   0                
+  Photon     75-Re-185  64-Gd-169 7525   5 cm    0   0                
+  Photon     75-Re-185  65-Tb-157 7525   5 cm    0   0                
+  Photon     75-Re-185  65-Tb-158 7525   5 cm    0   0                
+  Photon     75-Re-185  65-Tb-158 7525   5 cm    1   0                
+  Photon     75-Re-185  65-Tb-159 7525   5 cm    0   0                
+  Photon     75-Re-185  65-Tb-160 7525   5 cm    0   0                
+  Photon     75-Re-185  65-Tb-161 7525   5 cm    0   0                
+  Photon     75-Re-185  65-Tb-162 7525   5 cm    0   0                
+  Photon     75-Re-185  65-Tb-163 7525   5 cm    0   0                
+  Photon     75-Re-185  65-Tb-164 7525   5 cm    0   0                
+  Photon     75-Re-185  65-Tb-165 7525   5 cm    0   0                
+  Photon     75-Re-185  65-Tb-166 7525   5 cm    0   0                
+  Photon     75-Re-185  65-Tb-167 7525   5 cm    0   0                
+  Photon     75-Re-185  65-Tb-168 7525   5 cm    0   0                
+  Photon     75-Re-185  65-Tb-169 7525   5 cm    0   0                
+  Photon     75-Re-185  65-Tb-170 7525   5 cm    0   0                
+  Photon     75-Re-185  65-Tb-171 7525   5 cm    0   0                
+  Photon     75-Re-185  66-Dy-158 7525   5 cm    0   0                
+  Photon     75-Re-185  66-Dy-159 7525   5 cm    0   0                
+  Photon     75-Re-185  66-Dy-160 7525   5 cm    0   0                
+  Photon     75-Re-185  66-Dy-161 7525   5 cm    0   0                
+  Photon     75-Re-185  66-Dy-162 7525   5 cm    0   0                
+  Photon     75-Re-185  66-Dy-163 7525   5 cm    0   0                
+  Photon     75-Re-185  66-Dy-164 7525   5 cm    0   0                
+  Photon     75-Re-185  66-Dy-165 7525   5 cm    0   0                
+  Photon     75-Re-185  66-Dy-165 7525   5 cm    1   0                
+  Photon     75-Re-185  66-Dy-166 7525   5 cm    0   0                
+  Photon     75-Re-185  66-Dy-167 7525   5 cm    0   0                
+  Photon     75-Re-185  66-Dy-168 7525   5 cm    0   0                
+  Photon     75-Re-185  66-Dy-169 7525   5 cm    0   0                
+  Photon     75-Re-185  66-Dy-170 7525   5 cm    0   0                
+  Photon     75-Re-185  66-Dy-171 7525   5 cm    0   0                
+  Photon     75-Re-185  66-Dy-172 7525   5 cm    0   0                
+  Photon     75-Re-185  66-Dy-173 7525   5 cm    0   0                
+  Photon     75-Re-185  67-Ho-159 7525   5 cm    0   0                
+  Photon     75-Re-185  67-Ho-159 7525   5 cm    1   0                
+  Photon     75-Re-185  67-Ho-160 7525   5 cm    0   0                
+  Photon     75-Re-185  67-Ho-160 7525   5 cm    1   0                
+  Photon     75-Re-185  67-Ho-160 7525   5 cm    2   0                
+  Photon     75-Re-185  67-Ho-161 7525   5 cm    0   0                
+  Photon     75-Re-185  67-Ho-161 7525   5 cm    1   0                
+  Photon     75-Re-185  67-Ho-162 7525   5 cm    0   0                
+  Photon     75-Re-185  67-Ho-162 7525   5 cm    1   0                
+  Photon     75-Re-185  67-Ho-163 7525   5 cm    0   0                
+  Photon     75-Re-185  67-Ho-163 7525   5 cm    1   0                
+  Photon     75-Re-185  67-Ho-164 7525   5 cm    0   0                
+  Photon     75-Re-185  67-Ho-164 7525   5 cm    1   0                
+  Photon     75-Re-185  67-Ho-165 7525   5 cm    0   0                
+  Photon     75-Re-185  67-Ho-166 7525   5 cm    0   0                
+  Photon     75-Re-185  67-Ho-166 7525   5 cm    1   0                
+  Photon     75-Re-185  67-Ho-167 7525   5 cm    0   0                
+  Photon     75-Re-185  67-Ho-168 7525   5 cm    0   0                
+  Photon     75-Re-185  67-Ho-168 7525   5 cm    1   0                
+  Photon     75-Re-185  67-Ho-169 7525   5 cm    0   0                
+  Photon     75-Re-185  67-Ho-170 7525   5 cm    0   0                
+  Photon     75-Re-185  67-Ho-170 7525   5 cm    1   0                
+  Photon     75-Re-185  67-Ho-171 7525   5 cm    0   0                
+  Photon     75-Re-185  67-Ho-172 7525   5 cm    0   0                
+  Photon     75-Re-185  67-Ho-173 7525   5 cm    0   0                
+  Photon     75-Re-185  67-Ho-174 7525   5 cm    0   0                
+  Photon     75-Re-185  67-Ho-175 7525   5 cm    0   0                
+  Photon     75-Re-185  68-Er-160 7525   5 cm    0   0                
+  Photon     75-Re-185  68-Er-161 7525   5 cm    0   0                
+  Photon     75-Re-185  68-Er-162 7525   5 cm    0   0                
+  Photon     75-Re-185  68-Er-163 7525   5 cm    0   0                
+  Photon     75-Re-185  68-Er-164 7525   5 cm    0   0                
+  Photon     75-Re-185  68-Er-165 7525   5 cm    0   0                
+  Photon     75-Re-185  68-Er-166 7525   5 cm    0   0                
+  Photon     75-Re-185  68-Er-167 7525   5 cm    0   0                
+  Photon     75-Re-185  68-Er-167 7525   5 cm    1   0                
+  Photon     75-Re-185  68-Er-168 7525   5 cm    0   0                
+  Photon     75-Re-185  68-Er-169 7525   5 cm    0   0                
+  Photon     75-Re-185  68-Er-170 7525   5 cm    0   0                
+  Photon     75-Re-185  68-Er-171 7525   5 cm    0   0                
+  Photon     75-Re-185  68-Er-172 7525   5 cm    0   0                
+  Photon     75-Re-185  68-Er-173 7525   5 cm    0   0                
+  Photon     75-Re-185  68-Er-174 7525   5 cm    0   0                
+  Photon     75-Re-185  68-Er-175 7525   5 cm    0   0                
+  Photon     75-Re-185  68-Er-176 7525   5 cm    0   0                
+  Photon     75-Re-185  68-Er-177 7525   5 cm    0   0                
+  Photon     75-Re-185  69-Tm-161 7525   5 cm    0   0                
+  Photon     75-Re-185  69-Tm-162 7525   5 cm    0   0                
+  Photon     75-Re-185  69-Tm-162 7525   5 cm    1   0                
+  Photon     75-Re-185  69-Tm-163 7525   5 cm    0   0                
+  Photon     75-Re-185  69-Tm-164 7525   5 cm    0   0                
+  Photon     75-Re-185  69-Tm-164 7525   5 cm    1   0                
+  Photon     75-Re-185  69-Tm-165 7525   5 cm    0   0                
+  Photon     75-Re-185  69-Tm-166 7525   5 cm    0   0                
+  Photon     75-Re-185  69-Tm-166 7525   5 cm    1   0                
+  Photon     75-Re-185  69-Tm-167 7525   5 cm    0   0                
+  Photon     75-Re-185  69-Tm-168 7525   5 cm    0   0                
+  Photon     75-Re-185  69-Tm-169 7525   5 cm    0   0                
+  Photon     75-Re-185  69-Tm-170 7525   5 cm    0   0                
+  Photon     75-Re-185  69-Tm-171 7525   5 cm    0   0                
+  Photon     75-Re-185  69-Tm-172 7525   5 cm    0   0                
+  Photon     75-Re-185  69-Tm-173 7525   5 cm    0   0                
+  Photon     75-Re-185  69-Tm-174 7525   5 cm    0   0                
+  Photon     75-Re-185  69-Tm-175 7525   5 cm    0   0                
+  Photon     75-Re-185  69-Tm-176 7525   5 cm    0   0                
+  Photon     75-Re-185  69-Tm-177 7525   5 cm    0   0                
+  Photon     75-Re-185  69-Tm-178 7525   5 cm    0   0                
+  Photon     75-Re-185  69-Tm-179 7525   5 cm    0   0                
+  Photon     75-Re-185  70-Yb-162 7525   5 cm    0   0                
+  Photon     75-Re-185  70-Yb-163 7525   5 cm    0   0                
+  Photon     75-Re-185  70-Yb-164 7525   5 cm    0   0                
+  Photon     75-Re-185  70-Yb-165 7525   5 cm    0   0                
+  Photon     75-Re-185  70-Yb-166 7525   5 cm    0   0                
+  Photon     75-Re-185  70-Yb-167 7525   5 cm    0   0                
+  Photon     75-Re-185  70-Yb-168 7525   5 cm    0   0                
+  Photon     75-Re-185  70-Yb-169 7525   5 cm    0   0                
+  Photon     75-Re-185  70-Yb-169 7525   5 cm    1   0                
+  Photon     75-Re-185  70-Yb-170 7525   5 cm    0   0                
+  Photon     75-Re-185  70-Yb-171 7525   5 cm    0   0                
+  Photon     75-Re-185  70-Yb-172 7525   5 cm    0   0                
+  Photon     75-Re-185  70-Yb-173 7525   5 cm    0   0                
+  Photon     75-Re-185  70-Yb-174 7525   5 cm    0   0                
+  Photon     75-Re-185  70-Yb-175 7525   5 cm    0   0                
+  Photon     75-Re-185  70-Yb-176 7525   5 cm    0   0                
+  Photon     75-Re-185  70-Yb-176 7525   5 cm    1   0                
+  Photon     75-Re-185  70-Yb-177 7525   5 cm    0   0                
+  Photon     75-Re-185  70-Yb-177 7525   5 cm    1   0                
+  Photon     75-Re-185  70-Yb-178 7525   5 cm    0   0                
+  Photon     75-Re-185  70-Yb-179 7525   5 cm    0   0                
+  Photon     75-Re-185  70-Yb-180 7525   5 cm    0   0                
+  Photon     75-Re-185  71-Lu-163 7525   5 cm    0   0                
+  Photon     75-Re-185  71-Lu-164 7525   5 cm    0   0                
+  Photon     75-Re-185  71-Lu-165 7525   5 cm    0   0                
+  Photon     75-Re-185  71-Lu-166 7525   5 cm    0   0                
+  Photon     75-Re-185  71-Lu-166 7525   5 cm    1   0                
+  Photon     75-Re-185  71-Lu-166 7525   5 cm    2   0                
+  Photon     75-Re-185  71-Lu-167 7525   5 cm    0   0                
+  Photon     75-Re-185  71-Lu-167 7525   5 cm    1   0                
+  Photon     75-Re-185  71-Lu-168 7525   5 cm    0   0                
+  Photon     75-Re-185  71-Lu-168 7525   5 cm    1   0                
+  Photon     75-Re-185  71-Lu-169 7525   5 cm    0   0                
+  Photon     75-Re-185  71-Lu-169 7525   5 cm    1   0                
+  Photon     75-Re-185  71-Lu-170 7525   5 cm    0   0                
+  Photon     75-Re-185  71-Lu-170 7525   5 cm    1   0                
+  Photon     75-Re-185  71-Lu-171 7525   5 cm    0   0                
+  Photon     75-Re-185  71-Lu-171 7525   5 cm    1   0                
+  Photon     75-Re-185  71-Lu-172 7525   5 cm    0   0                
+  Photon     75-Re-185  71-Lu-172 7525   5 cm    1   0                
+  Photon     75-Re-185  71-Lu-173 7525   5 cm    0   0                
+  Photon     75-Re-185  71-Lu-174 7525   5 cm    0   0                
+  Photon     75-Re-185  71-Lu-174 7525   5 cm    1   0                
+  Photon     75-Re-185  71-Lu-175 7525   5 cm    0   0                
+  Photon     75-Re-185  71-Lu-176 7525   5 cm    0   0                
+  Photon     75-Re-185  71-Lu-176 7525   5 cm    1   0                
+  Photon     75-Re-185  71-Lu-177 7525   5 cm    0   0                
+  Photon     75-Re-185  71-Lu-177 7525   5 cm    1   0                
+  Photon     75-Re-185  71-Lu-178 7525   5 cm    0   0                
+  Photon     75-Re-185  71-Lu-178 7525   5 cm    1   0                
+  Photon     75-Re-185  71-Lu-179 7525   5 cm    0   0                
+  Photon     75-Re-185  71-Lu-180 7525   5 cm    0   0                
+  Photon     75-Re-185  71-Lu-181 7525   5 cm    0   0                
+  Photon     75-Re-185  72-Hf-164 7525   5 cm    0   0                
+  Photon     75-Re-185  72-Hf-165 7525   5 cm    0   0                
+  Photon     75-Re-185  72-Hf-166 7525   5 cm    0   0                
+  Photon     75-Re-185  72-Hf-167 7525   5 cm    0   0                
+  Photon     75-Re-185  72-Hf-168 7525   5 cm    0   0                
+  Photon     75-Re-185  72-Hf-169 7525   5 cm    0   0                
+  Photon     75-Re-185  72-Hf-170 7525   5 cm    0   0                
+  Photon     75-Re-185  72-Hf-171 7525   5 cm    0   0                
+  Photon     75-Re-185  72-Hf-171 7525   5 cm    1   0                
+  Photon     75-Re-185  72-Hf-172 7525   5 cm    0   0                
+  Photon     75-Re-185  72-Hf-173 7525   5 cm    0   0                
+  Photon     75-Re-185  72-Hf-174 7525   5 cm    0   0                
+  Photon     75-Re-185  72-Hf-175 7525   5 cm    0   0                
+  Photon     75-Re-185  72-Hf-176 7525   5 cm    0   0                
+  Photon     75-Re-185  72-Hf-177 7525   5 cm    0   0                
+  Photon     75-Re-185  72-Hf-178 7525   5 cm    0   0                
+  Photon     75-Re-185  72-Hf-178 7525   5 cm    1   0                
+  Photon     75-Re-185  72-Hf-179 7525   5 cm    0   0                
+  Photon     75-Re-185  72-Hf-179 7525   5 cm    1   0                
+  Photon     75-Re-185  72-Hf-180 7525   5 cm    0   0                
+  Photon     75-Re-185  72-Hf-180 7525   5 cm    1   0                
+  Photon     75-Re-185  72-Hf-181 7525   5 cm    0   0                
+  Photon     75-Re-185  72-Hf-182 7525   5 cm    0   0                
+  Photon     75-Re-185  72-Hf-182 7525   5 cm    1   0                
+  Photon     75-Re-185  73-Ta-165 7525   5 cm    0   0                
+  Photon     75-Re-185  73-Ta-166 7525   5 cm    0   0                
+  Photon     75-Re-185  73-Ta-167 7525   5 cm    0   0                
+  Photon     75-Re-185  73-Ta-168 7525   5 cm    0   0                
+  Photon     75-Re-185  73-Ta-169 7525   5 cm    0   0                
+  Photon     75-Re-185  73-Ta-170 7525   5 cm    0   0                
+  Photon     75-Re-185  73-Ta-171 7525   5 cm    0   0                
+  Photon     75-Re-185  73-Ta-172 7525   5 cm    0   0                
+  Photon     75-Re-185  73-Ta-173 7525   5 cm    0   0                
+  Photon     75-Re-185  73-Ta-174 7525   5 cm    0   0                
+  Photon     75-Re-185  73-Ta-175 7525   5 cm    0   0                
+  Photon     75-Re-185  73-Ta-176 7525   5 cm    0   0                
+  Photon     75-Re-185  73-Ta-177 7525   5 cm    0   0                
+  Photon     75-Re-185  73-Ta-178 7525   5 cm    0   0                
+  Photon     75-Re-185  73-Ta-178 7525   5 cm    1   0                
+  Photon     75-Re-185  73-Ta-179 7525   5 cm    0   0                
+  Photon     75-Re-185  73-Ta-180 7525   5 cm    0   0                
+  Photon     75-Re-185  73-Ta-180 7525   5 cm    1   0                
+  Photon     75-Re-185  73-Ta-181 7525   5 cm    0   0                
+  Photon     75-Re-185  73-Ta-182 7525   5 cm    0   0                
+  Photon     75-Re-185  73-Ta-182 7525   5 cm    1   0                
+  Photon     75-Re-185  73-Ta-182 7525   5 cm    2   0                
+  Photon     75-Re-185  73-Ta-183 7525   5 cm    0   0                
+  Photon     75-Re-185  74-W -166 7525   5 cm    0   0                
+  Photon     75-Re-185  74-W -167 7525   5 cm    0   0                
+  Photon     75-Re-185  74-W -168 7525   5 cm    0   0                
+  Photon     75-Re-185  74-W -169 7525   5 cm    0   0                
+  Photon     75-Re-185  74-W -170 7525   5 cm    0   0                
+  Photon     75-Re-185  74-W -171 7525   5 cm    0   0                
+  Photon     75-Re-185  74-W -172 7525   5 cm    0   0                
+  Photon     75-Re-185  74-W -173 7525   5 cm    0   0                
+  Photon     75-Re-185  74-W -174 7525   5 cm    0   0                
+  Photon     75-Re-185  74-W -175 7525   5 cm    0   0                
+  Photon     75-Re-185  74-W -176 7525   5 cm    0   0                
+  Photon     75-Re-185  74-W -177 7525   5 cm    0   0                
+  Photon     75-Re-185  74-W -178 7525   5 cm    0   0                
+  Photon     75-Re-185  74-W -179 7525   5 cm    0   0                
+  Photon     75-Re-185  74-W -179 7525   5 cm    1   0                
+  Photon     75-Re-185  74-W -180 7525   5 cm    0   0                
+  Photon     75-Re-185  74-W -181 7525   5 cm    0   0                
+  Photon     75-Re-185  74-W -182 7525   5 cm    0   0                
+  Photon     75-Re-185  74-W -183 7525   5 cm    0   0                
+  Photon     75-Re-185  74-W -183 7525   5 cm    1   0                
+  Photon     75-Re-185  74-W -184 7525   5 cm    0   0                
+  Photon     75-Re-185  75-Re-167 7525   5 cm    0   0                
+  Photon     75-Re-185  75-Re-168 7525   5 cm    0   0                
+  Photon     75-Re-185  75-Re-169 7525   5 cm    0   0                
+  Photon     75-Re-185  75-Re-169 7525   5 cm    1   0                
+  Photon     75-Re-185  75-Re-170 7525   5 cm    0   0                
+  Photon     75-Re-185  75-Re-171 7525   5 cm    0   0                
+  Photon     75-Re-185  75-Re-172 7525   5 cm    0   0                
+  Photon     75-Re-185  75-Re-172 7525   5 cm    1   0                
+  Photon     75-Re-185  75-Re-173 7525   5 cm    0   0                
+  Photon     75-Re-185  75-Re-174 7525   5 cm    0   0                
+  Photon     75-Re-185  75-Re-175 7525   5 cm    0   0                
+  Photon     75-Re-185  75-Re-176 7525   5 cm    0   0                
+  Photon     75-Re-185  75-Re-177 7525   5 cm    0   0                
+  Photon     75-Re-185  75-Re-178 7525   5 cm    0   0                
+  Photon     75-Re-185  75-Re-179 7525   5 cm    0   0                
+  Photon     75-Re-185  75-Re-180 7525   5 cm    0   0                
+  Photon     75-Re-185  75-Re-181 7525   5 cm    0   0                
+  Photon     75-Re-185  75-Re-182 7525   5 cm    0   0                
+  Photon     75-Re-185  75-Re-182 7525   5 cm    1   0                
+  Photon     75-Re-185  75-Re-183 7525   5 cm    0   0                
+  Photon     75-Re-185  75-Re-184 7525   5 cm    0   0                
+  Photon     75-Re-185  75-Re-184 7525   5 cm    1   0                
+  Photon     75-Re-185  75-Re-185 7525   5 cm    0   0                
+  Photon     75-Re-185  Photon    7525   5 cm    0   1    1    2      
+  Photon     75-Re-185  Neutron   7525  18 cm    0   1    1    2      
+ ------------------------------------------------------------------------------
+ All Cross Sections Read. Maximum Tabulated Energy =  200000000. eV
+ ------------------------------------------------------------------------------
+ ==============================================================================
+ Laws by Incident Particle
+ ------------------------------------------------------------------------------
+ Law Number and Definition   Photon    n     p     d     t  He-3  He-4 Other
+ ------------------------------------------------------------------------------
+ (0) Unknown................   300     0     0     0     0     0     0     0
+ (1) Continuum Energy-Angle
+      Legendre..............     8     0     0     0     0     0     0     0
+      Kalbach-Mann..........     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (2) Discrete 2 Body
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (3) Isotropic Discrete.....     0     0     0     0     0     0     0     0
+ (4) Discrete 2 Body Recoil.     0     0     0     0     0     0     0     0
+ (5) Charged Particle Elastic
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (6) n-Body Phase-Space.....     0     0     0     0     0     0     0     0
+ (7) Laboratory Angle-Energy     0     0     0     0     0     0     0     0
+ Not 0 to 7 (WARNING if Any)     0     0     0     0     0     0     0     0
+ ==============================================================================
+ Laws by Emitted Particle
+ ------------------------------------------------------------------------------
+ Law Number and Definition   Photon    n     p     d     t  He-3  He-4 Other
+ ------------------------------------------------------------------------------
+ (0) Unknown................     0     0     0     0     0     0     0   300
+ (1) Continuum Energy-Angle
+      Legendre..............     1     2     1     1     1     1     1     0
+      Kalbach-Mann..........     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (2) Discrete 2 Body
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (3) Isotropic Discrete.....     0     0     0     0     0     0     0     0
+ (4) Discrete 2 Body Recoil.     0     0     0     0     0     0     0     0
+ (5) Charged Particle Elastic
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (6) n-Body Phase-Space.....     0     0     0     0     0     0     0     0
+ (7) Laboratory Angle-Energy     0     0     0     0     0     0     0     0
+ Not 0 to 7 (WARNING if Any)     0     0     0     0     0     0     0     0
+ ------------------------------------------------------------------------------
+ Summary of Emitted Particle Yields
+ ------------------------------------------------------------------------------
+ Energy Independent.........     0     1     0     0     0     0     0     0
+ Energy Dependent...........     1     1     1     1     1     1     1   300
+ ------------------------------------------------------------------------------
+ Summary of Angular Distributions
+ ------------------------------------------------------------------------------
+ Isotropic..................     1     1     0     0     0     0     0     0
+ Nonisotropic...............     0     1     0     0     0     0     0     0
+ Mixed......................     0     0     1     1     1     1     1     0
+ ------------------------------------------------------------------------------
+ Maximum Legendre Order.....     0    10    10    10    10    10    10     0
+ Maximum Number of Cosines..     0     0     0     0     0     0     0     0
+ ------------------------------------------------------------------------------
+ Summary of Energy Distributions
+ ------------------------------------------------------------------------------
+ Continuous.................     1     2     1     1     1     1     1     0
+ Discrete...................     0     0     0     0     0     0     0     0
+ Mixed......................     0     0     0     0     0     0     0     0
+ ------------------------------------------------------------------------------
+ ==============================================================================
+ Summary of Incident Neutron with Photon or Neutron Emitted Data
+ ------------------------------------------------------------------------------
+ Law Number and Definition   Output        Not Output 
+ ------------------------------------------------------------------------------
+                             Photon    n   Photon    n
+ ------------------------------------------------------------------------------
+ (0) Unknown................     0     0       0     0
+ (1) Continuum Energy-Angle
+      Legendre..............     0     0       0     0
+      Kalbach-Mann..........     0     0       0     0
+      Tabulated.............     0     0       0     0
+ (2) Discrete 2 Body
+      Legendre..............     0     0       0     0
+      Tabulated.............     0     0       0     0
+ (3) Isotropic Discrete.....     0     0       0     0
+ (4) Discrete 2 Body Recoil.     0     0       0     0
+ (5) Charged Particle Elastic
+      Legendre..............     0     0       0     0
+      Tabulated.............     0     0       0     0
+ (6) n-Body Phase-Space.....     0     0       0     0
+ (7) Laboratory Angle-Energy     0     0       0     0
+ Not 0 to 7 (WARNING if Any)     0     0       0     0
+ ==============================================================================
+ End of Run
+ ===============================================================================
+ SIXPAK   Total Execution Time                0.17 Seconds
+ ===============================================================================

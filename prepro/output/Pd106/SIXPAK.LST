@@ -1,0 +1,500 @@
+ Process ENDF/B Double Differential Data - MF=6 (SIXPAK 2019-1)
+ ==============================================================================
+ ENDF/B Input Data Filename
+ SIXPAK.IN                                                               
+ ------------------------------------------------------------------------------
+ Requested Ranges
+ ------------------------------------------------------------------------------
+    Minimum    Maximum   
+    MAT  MT    MAT  MT
+ ------------------------------------------------------------------------------
+      1   1   9999 999
+ ==============================================================================
+ Terminology
+ ------------------------------------------------------------------------------
+ LCT  = Reference System (Lab or Center-of-Mass)
+ LIP  = Product Modifier, e.g., for Isomeric States
+ LAW  = Representation of Data - see, List at End of Output
+ LANG = 1     = Legendre     (LAW 1)
+      = 2     = Kalbach-Mann (LAW 1)
+      = 11-15 = Tabulated    (LAW 1)
+      = 0     = Legendre     (LAW 2)
+      = 11-15 = Tabulated    (LAW 2)
+ LTP  = 1-2   = Legendre     (LAW 5)
+      = 11-15 = Tabulated    (LAW 5)
+ LEP  = Secondary Energy Interpolation Type(1 to 5)
+ ==============================================================================
+ Tape Label
+ ------------------------------------------------------------------------------
+  JENDL/PD-2016.1  Pd-106                                             1
+ ------------------------------------------------------------------------------
+ WARNING: MT=5 is ALLOWED in MF=6, but NOT in MF=4 or 5.
+          see ENDF-102 - Strictly for diagnostic purposes
+          this code will Translate MF=6 Data - but be
+          WARNED - the results should not be used in ANY          APPLICATIONS.
+ ------------------------------------------------------------------------------
+ ==============================================================================
+ Projectile   Target    Emitted    MAT  MT LCT LIP LAW LANG  LEP  ENDF/B
+                                                        LTP       Output
+ ==============================================================================
+  Photon     46-Pd-106  Neutron   4637   5 cm    0   1    1    2      
+  Photon     46-Pd-106   1-H -1   4637   5 cm    0   1    1    2      
+  Photon     46-Pd-106   1-H -2   4637   5 cm    0   1    1    2      
+  Photon     46-Pd-106   1-H -3   4637   5 cm    0   1    1    2      
+  Photon     46-Pd-106   2-He-3   4637   5 cm    0   1    1    2      
+  Photon     46-Pd-106   2-He-4   4637   5 cm    0   1    1    2      
+  Photon     46-Pd-106  27-Co-69  4637   5 cm    0   0                
+  Photon     46-Pd-106  28-Ni-70  4637   5 cm    0   0                
+  Photon     46-Pd-106  28-Ni-71  4637   5 cm    0   0                
+  Photon     46-Pd-106  28-Ni-72  4637   5 cm    0   0                
+  Photon     46-Pd-106  29-Cu-71  4637   5 cm    0   0                
+  Photon     46-Pd-106  29-Cu-72  4637   5 cm    0   0                
+  Photon     46-Pd-106  29-Cu-73  4637   5 cm    0   0                
+  Photon     46-Pd-106  29-Cu-74  4637   5 cm    0   0                
+  Photon     46-Pd-106  29-Cu-75  4637   5 cm    0   0                
+  Photon     46-Pd-106  30-Zn-72  4637   5 cm    0   0                
+  Photon     46-Pd-106  30-Zn-73  4637   5 cm    0   0                
+  Photon     46-Pd-106  30-Zn-74  4637   5 cm    0   0                
+  Photon     46-Pd-106  30-Zn-75  4637   5 cm    0   0                
+  Photon     46-Pd-106  30-Zn-76  4637   5 cm    0   0                
+  Photon     46-Pd-106  30-Zn-77  4637   5 cm    0   0                
+  Photon     46-Pd-106  30-Zn-77  4637   5 cm    1   0                
+  Photon     46-Pd-106  30-Zn-78  4637   5 cm    0   0                
+  Photon     46-Pd-106  31-Ga-73  4637   5 cm    0   0                
+  Photon     46-Pd-106  31-Ga-74  4637   5 cm    0   0                
+  Photon     46-Pd-106  31-Ga-75  4637   5 cm    0   0                
+  Photon     46-Pd-106  31-Ga-76  4637   5 cm    0   0                
+  Photon     46-Pd-106  31-Ga-77  4637   5 cm    0   0                
+  Photon     46-Pd-106  31-Ga-78  4637   5 cm    0   0                
+  Photon     46-Pd-106  31-Ga-79  4637   5 cm    0   0                
+  Photon     46-Pd-106  31-Ga-80  4637   5 cm    0   0                
+  Photon     46-Pd-106  31-Ga-81  4637   5 cm    0   0                
+  Photon     46-Pd-106  32-Ge-74  4637   5 cm    0   0                
+  Photon     46-Pd-106  32-Ge-75  4637   5 cm    0   0                
+  Photon     46-Pd-106  32-Ge-75  4637   5 cm    1   0                
+  Photon     46-Pd-106  32-Ge-76  4637   5 cm    0   0                
+  Photon     46-Pd-106  32-Ge-77  4637   5 cm    0   0                
+  Photon     46-Pd-106  32-Ge-77  4637   5 cm    1   0                
+  Photon     46-Pd-106  32-Ge-78  4637   5 cm    0   0                
+  Photon     46-Pd-106  32-Ge-79  4637   5 cm    0   0                
+  Photon     46-Pd-106  32-Ge-79  4637   5 cm    1   0                
+  Photon     46-Pd-106  32-Ge-80  4637   5 cm    0   0                
+  Photon     46-Pd-106  32-Ge-81  4637   5 cm    0   0                
+  Photon     46-Pd-106  32-Ge-81  4637   5 cm    1   0                
+  Photon     46-Pd-106  32-Ge-82  4637   5 cm    0   0                
+  Photon     46-Pd-106  32-Ge-83  4637   5 cm    0   0                
+  Photon     46-Pd-106  32-Ge-84  4637   5 cm    0   0                
+  Photon     46-Pd-106  33-As-75  4637   5 cm    0   0                
+  Photon     46-Pd-106  33-As-76  4637   5 cm    0   0                
+  Photon     46-Pd-106  33-As-77  4637   5 cm    0   0                
+  Photon     46-Pd-106  33-As-78  4637   5 cm    0   0                
+  Photon     46-Pd-106  33-As-79  4637   5 cm    0   0                
+  Photon     46-Pd-106  33-As-80  4637   5 cm    0   0                
+  Photon     46-Pd-106  33-As-81  4637   5 cm    0   0                
+  Photon     46-Pd-106  33-As-82  4637   5 cm    0   0                
+  Photon     46-Pd-106  33-As-82  4637   5 cm    1   0                
+  Photon     46-Pd-106  33-As-83  4637   5 cm    0   0                
+  Photon     46-Pd-106  33-As-84  4637   5 cm    0   0                
+  Photon     46-Pd-106  33-As-85  4637   5 cm    0   0                
+  Photon     46-Pd-106  33-As-86  4637   5 cm    0   0                
+  Photon     46-Pd-106  33-As-87  4637   5 cm    0   0                
+  Photon     46-Pd-106  34-Se-76  4637   5 cm    0   0                
+  Photon     46-Pd-106  34-Se-77  4637   5 cm    0   0                
+  Photon     46-Pd-106  34-Se-77  4637   5 cm    1   0                
+  Photon     46-Pd-106  34-Se-78  4637   5 cm    0   0                
+  Photon     46-Pd-106  34-Se-79  4637   5 cm    0   0                
+  Photon     46-Pd-106  34-Se-79  4637   5 cm    1   0                
+  Photon     46-Pd-106  34-Se-80  4637   5 cm    0   0                
+  Photon     46-Pd-106  34-Se-81  4637   5 cm    0   0                
+  Photon     46-Pd-106  34-Se-81  4637   5 cm    1   0                
+  Photon     46-Pd-106  34-Se-82  4637   5 cm    0   0                
+  Photon     46-Pd-106  34-Se-83  4637   5 cm    0   0                
+  Photon     46-Pd-106  34-Se-83  4637   5 cm    1   0                
+  Photon     46-Pd-106  34-Se-84  4637   5 cm    0   0                
+  Photon     46-Pd-106  34-Se-85  4637   5 cm    0   0                
+  Photon     46-Pd-106  34-Se-86  4637   5 cm    0   0                
+  Photon     46-Pd-106  34-Se-87  4637   5 cm    0   0                
+  Photon     46-Pd-106  34-Se-88  4637   5 cm    0   0                
+  Photon     46-Pd-106  34-Se-89  4637   5 cm    0   0                
+  Photon     46-Pd-106  34-Se-90  4637   5 cm    0   0                
+  Photon     46-Pd-106  35-Br-77  4637   5 cm    0   0                
+  Photon     46-Pd-106  35-Br-77  4637   5 cm    1   0                
+  Photon     46-Pd-106  35-Br-78  4637   5 cm    0   0                
+  Photon     46-Pd-106  35-Br-79  4637   5 cm    0   0                
+  Photon     46-Pd-106  35-Br-79  4637   5 cm    1   0                
+  Photon     46-Pd-106  35-Br-80  4637   5 cm    0   0                
+  Photon     46-Pd-106  35-Br-80  4637   5 cm    1   0                
+  Photon     46-Pd-106  35-Br-81  4637   5 cm    0   0                
+  Photon     46-Pd-106  35-Br-82  4637   5 cm    0   0                
+  Photon     46-Pd-106  35-Br-82  4637   5 cm    1   0                
+  Photon     46-Pd-106  35-Br-83  4637   5 cm    0   0                
+  Photon     46-Pd-106  35-Br-84  4637   5 cm    0   0                
+  Photon     46-Pd-106  35-Br-84  4637   5 cm    1   0                
+  Photon     46-Pd-106  35-Br-85  4637   5 cm    0   0                
+  Photon     46-Pd-106  35-Br-86  4637   5 cm    0   0                
+  Photon     46-Pd-106  35-Br-87  4637   5 cm    0   0                
+  Photon     46-Pd-106  35-Br-88  4637   5 cm    0   0                
+  Photon     46-Pd-106  35-Br-89  4637   5 cm    0   0                
+  Photon     46-Pd-106  35-Br-90  4637   5 cm    0   0                
+  Photon     46-Pd-106  35-Br-91  4637   5 cm    0   0                
+  Photon     46-Pd-106  35-Br-92  4637   5 cm    0   0                
+  Photon     46-Pd-106  36-Kr-78  4637   5 cm    0   0                
+  Photon     46-Pd-106  36-Kr-79  4637   5 cm    0   0                
+  Photon     46-Pd-106  36-Kr-79  4637   5 cm    1   0                
+  Photon     46-Pd-106  36-Kr-80  4637   5 cm    0   0                
+  Photon     46-Pd-106  36-Kr-81  4637   5 cm    0   0                
+  Photon     46-Pd-106  36-Kr-81  4637   5 cm    1   0                
+  Photon     46-Pd-106  36-Kr-82  4637   5 cm    0   0                
+  Photon     46-Pd-106  36-Kr-83  4637   5 cm    0   0                
+  Photon     46-Pd-106  36-Kr-83  4637   5 cm    1   0                
+  Photon     46-Pd-106  36-Kr-84  4637   5 cm    0   0                
+  Photon     46-Pd-106  36-Kr-85  4637   5 cm    0   0                
+  Photon     46-Pd-106  36-Kr-85  4637   5 cm    1   0                
+  Photon     46-Pd-106  36-Kr-86  4637   5 cm    0   0                
+  Photon     46-Pd-106  36-Kr-87  4637   5 cm    0   0                
+  Photon     46-Pd-106  36-Kr-88  4637   5 cm    0   0                
+  Photon     46-Pd-106  36-Kr-89  4637   5 cm    0   0                
+  Photon     46-Pd-106  36-Kr-90  4637   5 cm    0   0                
+  Photon     46-Pd-106  36-Kr-91  4637   5 cm    0   0                
+  Photon     46-Pd-106  36-Kr-92  4637   5 cm    0   0                
+  Photon     46-Pd-106  36-Kr-93  4637   5 cm    0   0                
+  Photon     46-Pd-106  36-Kr-94  4637   5 cm    0   0                
+  Photon     46-Pd-106  37-Rb-79  4637   5 cm    0   0                
+  Photon     46-Pd-106  37-Rb-80  4637   5 cm    0   0                
+  Photon     46-Pd-106  37-Rb-81  4637   5 cm    0   0                
+  Photon     46-Pd-106  37-Rb-81  4637   5 cm    1   0                
+  Photon     46-Pd-106  37-Rb-82  4637   5 cm    0   0                
+  Photon     46-Pd-106  37-Rb-82  4637   5 cm    1   0                
+  Photon     46-Pd-106  37-Rb-83  4637   5 cm    0   0                
+  Photon     46-Pd-106  37-Rb-84  4637   5 cm    0   0                
+  Photon     46-Pd-106  37-Rb-84  4637   5 cm    1   0                
+  Photon     46-Pd-106  37-Rb-85  4637   5 cm    0   0                
+  Photon     46-Pd-106  37-Rb-86  4637   5 cm    0   0                
+  Photon     46-Pd-106  37-Rb-86  4637   5 cm    1   0                
+  Photon     46-Pd-106  37-Rb-87  4637   5 cm    0   0                
+  Photon     46-Pd-106  37-Rb-88  4637   5 cm    0   0                
+  Photon     46-Pd-106  37-Rb-89  4637   5 cm    0   0                
+  Photon     46-Pd-106  37-Rb-90  4637   5 cm    0   0                
+  Photon     46-Pd-106  37-Rb-90  4637   5 cm    1   0                
+  Photon     46-Pd-106  37-Rb-91  4637   5 cm    0   0                
+  Photon     46-Pd-106  37-Rb-92  4637   5 cm    0   0                
+  Photon     46-Pd-106  37-Rb-93  4637   5 cm    0   0                
+  Photon     46-Pd-106  37-Rb-94  4637   5 cm    0   0                
+  Photon     46-Pd-106  37-Rb-95  4637   5 cm    0   0                
+  Photon     46-Pd-106  37-Rb-96  4637   5 cm    0   0                
+  Photon     46-Pd-106  38-Sr-80  4637   5 cm    0   0                
+  Photon     46-Pd-106  38-Sr-81  4637   5 cm    0   0                
+  Photon     46-Pd-106  38-Sr-82  4637   5 cm    0   0                
+  Photon     46-Pd-106  38-Sr-83  4637   5 cm    0   0                
+  Photon     46-Pd-106  38-Sr-83  4637   5 cm    1   0                
+  Photon     46-Pd-106  38-Sr-84  4637   5 cm    0   0                
+  Photon     46-Pd-106  38-Sr-85  4637   5 cm    0   0                
+  Photon     46-Pd-106  38-Sr-85  4637   5 cm    1   0                
+  Photon     46-Pd-106  38-Sr-86  4637   5 cm    0   0                
+  Photon     46-Pd-106  38-Sr-87  4637   5 cm    0   0                
+  Photon     46-Pd-106  38-Sr-87  4637   5 cm    1   0                
+  Photon     46-Pd-106  38-Sr-88  4637   5 cm    0   0                
+  Photon     46-Pd-106  38-Sr-89  4637   5 cm    0   0                
+  Photon     46-Pd-106  38-Sr-90  4637   5 cm    0   0                
+  Photon     46-Pd-106  38-Sr-91  4637   5 cm    0   0                
+  Photon     46-Pd-106  38-Sr-92  4637   5 cm    0   0                
+  Photon     46-Pd-106  38-Sr-93  4637   5 cm    0   0                
+  Photon     46-Pd-106  38-Sr-94  4637   5 cm    0   0                
+  Photon     46-Pd-106  38-Sr-95  4637   5 cm    0   0                
+  Photon     46-Pd-106  38-Sr-96  4637   5 cm    0   0                
+  Photon     46-Pd-106  38-Sr-97  4637   5 cm    0   0                
+  Photon     46-Pd-106  39-Y -81  4637   5 cm    0   0                
+  Photon     46-Pd-106  39-Y -82  4637   5 cm    0   0                
+  Photon     46-Pd-106  39-Y -83  4637   5 cm    0   0                
+  Photon     46-Pd-106  39-Y -83  4637   5 cm    1   0                
+  Photon     46-Pd-106  39-Y -84  4637   5 cm    0   0                
+  Photon     46-Pd-106  39-Y -84  4637   5 cm    1   0                
+  Photon     46-Pd-106  39-Y -85  4637   5 cm    0   0                
+  Photon     46-Pd-106  39-Y -85  4637   5 cm    1   0                
+  Photon     46-Pd-106  39-Y -86  4637   5 cm    0   0                
+  Photon     46-Pd-106  39-Y -86  4637   5 cm    1   0                
+  Photon     46-Pd-106  39-Y -87  4637   5 cm    0   0                
+  Photon     46-Pd-106  39-Y -87  4637   5 cm    1   0                
+  Photon     46-Pd-106  39-Y -88  4637   5 cm    0   0                
+  Photon     46-Pd-106  39-Y -89  4637   5 cm    0   0                
+  Photon     46-Pd-106  39-Y -89  4637   5 cm    1   0                
+  Photon     46-Pd-106  39-Y -90  4637   5 cm    0   0                
+  Photon     46-Pd-106  39-Y -90  4637   5 cm    1   0                
+  Photon     46-Pd-106  39-Y -91  4637   5 cm    0   0                
+  Photon     46-Pd-106  39-Y -91  4637   5 cm    1   0                
+  Photon     46-Pd-106  39-Y -92  4637   5 cm    0   0                
+  Photon     46-Pd-106  39-Y -93  4637   5 cm    0   0                
+  Photon     46-Pd-106  39-Y -93  4637   5 cm    1   0                
+  Photon     46-Pd-106  39-Y -94  4637   5 cm    0   0                
+  Photon     46-Pd-106  39-Y -95  4637   5 cm    0   0                
+  Photon     46-Pd-106  39-Y -96  4637   5 cm    0   0                
+  Photon     46-Pd-106  39-Y -97  4637   5 cm    0   0                
+  Photon     46-Pd-106  39-Y -97  4637   5 cm    1   0                
+  Photon     46-Pd-106  39-Y -98  4637   5 cm    0   0                
+  Photon     46-Pd-106  39-Y -98  4637   5 cm    1   0                
+  Photon     46-Pd-106  39-Y -99  4637   5 cm    0   0                
+  Photon     46-Pd-106  40-Zr-82  4637   5 cm    0   0                
+  Photon     46-Pd-106  40-Zr-83  4637   5 cm    0   0                
+  Photon     46-Pd-106  40-Zr-84  4637   5 cm    0   0                
+  Photon     46-Pd-106  40-Zr-85  4637   5 cm    0   0                
+  Photon     46-Pd-106  40-Zr-86  4637   5 cm    0   0                
+  Photon     46-Pd-106  40-Zr-87  4637   5 cm    0   0                
+  Photon     46-Pd-106  40-Zr-87  4637   5 cm    1   0                
+  Photon     46-Pd-106  40-Zr-88  4637   5 cm    0   0                
+  Photon     46-Pd-106  40-Zr-89  4637   5 cm    0   0                
+  Photon     46-Pd-106  40-Zr-89  4637   5 cm    1   0                
+  Photon     46-Pd-106  40-Zr-90  4637   5 cm    0   0                
+  Photon     46-Pd-106  40-Zr-90  4637   5 cm    1   0                
+  Photon     46-Pd-106  40-Zr-91  4637   5 cm    0   0                
+  Photon     46-Pd-106  40-Zr-92  4637   5 cm    0   0                
+  Photon     46-Pd-106  40-Zr-93  4637   5 cm    0   0                
+  Photon     46-Pd-106  40-Zr-94  4637   5 cm    0   0                
+  Photon     46-Pd-106  40-Zr-95  4637   5 cm    0   0                
+  Photon     46-Pd-106  40-Zr-96  4637   5 cm    0   0                
+  Photon     46-Pd-106  40-Zr-97  4637   5 cm    0   0                
+  Photon     46-Pd-106  40-Zr-98  4637   5 cm    0   0                
+  Photon     46-Pd-106  40-Zr-99  4637   5 cm    0   0                
+  Photon     46-Pd-106  40-Zr-100 4637   5 cm    0   0                
+  Photon     46-Pd-106  41-Nb-83  4637   5 cm    0   0                
+  Photon     46-Pd-106  41-Nb-84  4637   5 cm    0   0                
+  Photon     46-Pd-106  41-Nb-85  4637   5 cm    0   0                
+  Photon     46-Pd-106  41-Nb-86  4637   5 cm    0   0                
+  Photon     46-Pd-106  41-Nb-86  4637   5 cm    1   0                
+  Photon     46-Pd-106  41-Nb-87  4637   5 cm    0   0                
+  Photon     46-Pd-106  41-Nb-87  4637   5 cm    1   0                
+  Photon     46-Pd-106  41-Nb-88  4637   5 cm    0   0                
+  Photon     46-Pd-106  41-Nb-88  4637   5 cm    1   0                
+  Photon     46-Pd-106  41-Nb-89  4637   5 cm    0   0                
+  Photon     46-Pd-106  41-Nb-89  4637   5 cm    1   0                
+  Photon     46-Pd-106  41-Nb-90  4637   5 cm    0   0                
+  Photon     46-Pd-106  41-Nb-90  4637   5 cm    1   0                
+  Photon     46-Pd-106  41-Nb-91  4637   5 cm    0   0                
+  Photon     46-Pd-106  41-Nb-91  4637   5 cm    1   0                
+  Photon     46-Pd-106  41-Nb-92  4637   5 cm    0   0                
+  Photon     46-Pd-106  41-Nb-92  4637   5 cm    1   0                
+  Photon     46-Pd-106  41-Nb-93  4637   5 cm    0   0                
+  Photon     46-Pd-106  41-Nb-93  4637   5 cm    1   0                
+  Photon     46-Pd-106  41-Nb-94  4637   5 cm    0   0                
+  Photon     46-Pd-106  41-Nb-94  4637   5 cm    1   0                
+  Photon     46-Pd-106  41-Nb-95  4637   5 cm    0   0                
+  Photon     46-Pd-106  41-Nb-95  4637   5 cm    1   0                
+  Photon     46-Pd-106  41-Nb-96  4637   5 cm    0   0                
+  Photon     46-Pd-106  41-Nb-97  4637   5 cm    0   0                
+  Photon     46-Pd-106  41-Nb-97  4637   5 cm    1   0                
+  Photon     46-Pd-106  41-Nb-98  4637   5 cm    0   0                
+  Photon     46-Pd-106  41-Nb-98  4637   5 cm    1   0                
+  Photon     46-Pd-106  41-Nb-99  4637   5 cm    0   0                
+  Photon     46-Pd-106  41-Nb-99  4637   5 cm    1   0                
+  Photon     46-Pd-106  41-Nb-100 4637   5 cm    0   0                
+  Photon     46-Pd-106  41-Nb-100 4637   5 cm    1   0                
+  Photon     46-Pd-106  41-Nb-101 4637   5 cm    0   0                
+  Photon     46-Pd-106  42-Mo-85  4637   5 cm    0   0                
+  Photon     46-Pd-106  42-Mo-86  4637   5 cm    0   0                
+  Photon     46-Pd-106  42-Mo-87  4637   5 cm    0   0                
+  Photon     46-Pd-106  42-Mo-88  4637   5 cm    0   0                
+  Photon     46-Pd-106  42-Mo-89  4637   5 cm    0   0                
+  Photon     46-Pd-106  42-Mo-89  4637   5 cm    1   0                
+  Photon     46-Pd-106  42-Mo-90  4637   5 cm    0   0                
+  Photon     46-Pd-106  42-Mo-91  4637   5 cm    0   0                
+  Photon     46-Pd-106  42-Mo-91  4637   5 cm    1   0                
+  Photon     46-Pd-106  42-Mo-92  4637   5 cm    0   0                
+  Photon     46-Pd-106  42-Mo-93  4637   5 cm    0   0                
+  Photon     46-Pd-106  42-Mo-93  4637   5 cm    1   0                
+  Photon     46-Pd-106  42-Mo-94  4637   5 cm    0   0                
+  Photon     46-Pd-106  42-Mo-95  4637   5 cm    0   0                
+  Photon     46-Pd-106  42-Mo-96  4637   5 cm    0   0                
+  Photon     46-Pd-106  42-Mo-97  4637   5 cm    0   0                
+  Photon     46-Pd-106  42-Mo-98  4637   5 cm    0   0                
+  Photon     46-Pd-106  42-Mo-99  4637   5 cm    0   0                
+  Photon     46-Pd-106  42-Mo-100 4637   5 cm    0   0                
+  Photon     46-Pd-106  42-Mo-101 4637   5 cm    0   0                
+  Photon     46-Pd-106  42-Mo-102 4637   5 cm    0   0                
+  Photon     46-Pd-106  43-Tc-86  4637   5 cm    0   0                
+  Photon     46-Pd-106  43-Tc-87  4637   5 cm    0   0                
+  Photon     46-Pd-106  43-Tc-88  4637   5 cm    0   0                
+  Photon     46-Pd-106  43-Tc-88  4637   5 cm    1   0                
+  Photon     46-Pd-106  43-Tc-89  4637   5 cm    0   0                
+  Photon     46-Pd-106  43-Tc-89  4637   5 cm    1   0                
+  Photon     46-Pd-106  43-Tc-90  4637   5 cm    0   0                
+  Photon     46-Pd-106  43-Tc-90  4637   5 cm    1   0                
+  Photon     46-Pd-106  43-Tc-90  4637   5 cm    2   0                
+  Photon     46-Pd-106  43-Tc-91  4637   5 cm    0   0                
+  Photon     46-Pd-106  43-Tc-91  4637   5 cm    1   0                
+  Photon     46-Pd-106  43-Tc-92  4637   5 cm    0   0                
+  Photon     46-Pd-106  43-Tc-93  4637   5 cm    0   0                
+  Photon     46-Pd-106  43-Tc-93  4637   5 cm    1   0                
+  Photon     46-Pd-106  43-Tc-94  4637   5 cm    0   0                
+  Photon     46-Pd-106  43-Tc-94  4637   5 cm    1   0                
+  Photon     46-Pd-106  43-Tc-95  4637   5 cm    0   0                
+  Photon     46-Pd-106  43-Tc-95  4637   5 cm    1   0                
+  Photon     46-Pd-106  43-Tc-96  4637   5 cm    0   0                
+  Photon     46-Pd-106  43-Tc-96  4637   5 cm    1   0                
+  Photon     46-Pd-106  43-Tc-97  4637   5 cm    0   0                
+  Photon     46-Pd-106  43-Tc-97  4637   5 cm    1   0                
+  Photon     46-Pd-106  43-Tc-98  4637   5 cm    0   0                
+  Photon     46-Pd-106  43-Tc-99  4637   5 cm    0   0                
+  Photon     46-Pd-106  43-Tc-99  4637   5 cm    1   0                
+  Photon     46-Pd-106  43-Tc-100 4637   5 cm    0   0                
+  Photon     46-Pd-106  43-Tc-101 4637   5 cm    0   0                
+  Photon     46-Pd-106  43-Tc-102 4637   5 cm    0   0                
+  Photon     46-Pd-106  43-Tc-102 4637   5 cm    1   0                
+  Photon     46-Pd-106  43-Tc-103 4637   5 cm    0   0                
+  Photon     46-Pd-106  44-Ru-88  4637   5 cm    0   0                
+  Photon     46-Pd-106  44-Ru-89  4637   5 cm    0   0                
+  Photon     46-Pd-106  44-Ru-90  4637   5 cm    0   0                
+  Photon     46-Pd-106  44-Ru-91  4637   5 cm    0   0                
+  Photon     46-Pd-106  44-Ru-92  4637   5 cm    0   0                
+  Photon     46-Pd-106  44-Ru-93  4637   5 cm    0   0                
+  Photon     46-Pd-106  44-Ru-93  4637   5 cm    1   0                
+  Photon     46-Pd-106  44-Ru-94  4637   5 cm    0   0                
+  Photon     46-Pd-106  44-Ru-95  4637   5 cm    0   0                
+  Photon     46-Pd-106  44-Ru-96  4637   5 cm    0   0                
+  Photon     46-Pd-106  44-Ru-97  4637   5 cm    0   0                
+  Photon     46-Pd-106  44-Ru-98  4637   5 cm    0   0                
+  Photon     46-Pd-106  44-Ru-99  4637   5 cm    0   0                
+  Photon     46-Pd-106  44-Ru-100 4637   5 cm    0   0                
+  Photon     46-Pd-106  44-Ru-101 4637   5 cm    0   0                
+  Photon     46-Pd-106  44-Ru-102 4637   5 cm    0   0                
+  Photon     46-Pd-106  44-Ru-103 4637   5 cm    0   0                
+  Photon     46-Pd-106  44-Ru-104 4637   5 cm    0   0                
+  Photon     46-Pd-106  45-Rh-90  4637   5 cm    0   0                
+  Photon     46-Pd-106  45-Rh-91  4637   5 cm    0   0                
+  Photon     46-Pd-106  45-Rh-91  4637   5 cm    1   0                
+  Photon     46-Pd-106  45-Rh-92  4637   5 cm    0   0                
+  Photon     46-Pd-106  45-Rh-92  4637   5 cm    1   0                
+  Photon     46-Pd-106  45-Rh-93  4637   5 cm    0   0                
+  Photon     46-Pd-106  45-Rh-94  4637   5 cm    0   0                
+  Photon     46-Pd-106  45-Rh-94  4637   5 cm    1   0                
+  Photon     46-Pd-106  45-Rh-95  4637   5 cm    0   0                
+  Photon     46-Pd-106  45-Rh-95  4637   5 cm    1   0                
+  Photon     46-Pd-106  45-Rh-96  4637   5 cm    0   0                
+  Photon     46-Pd-106  45-Rh-96  4637   5 cm    1   0                
+  Photon     46-Pd-106  45-Rh-97  4637   5 cm    0   0                
+  Photon     46-Pd-106  45-Rh-97  4637   5 cm    1   0                
+  Photon     46-Pd-106  45-Rh-98  4637   5 cm    0   0                
+  Photon     46-Pd-106  45-Rh-98  4637   5 cm    1   0                
+  Photon     46-Pd-106  45-Rh-99  4637   5 cm    0   0                
+  Photon     46-Pd-106  45-Rh-99  4637   5 cm    1   0                
+  Photon     46-Pd-106  45-Rh-100 4637   5 cm    0   0                
+  Photon     46-Pd-106  45-Rh-100 4637   5 cm    1   0                
+  Photon     46-Pd-106  45-Rh-101 4637   5 cm    0   0                
+  Photon     46-Pd-106  45-Rh-101 4637   5 cm    1   0                
+  Photon     46-Pd-106  45-Rh-102 4637   5 cm    0   0                
+  Photon     46-Pd-106  45-Rh-102 4637   5 cm    1   0                
+  Photon     46-Pd-106  45-Rh-103 4637   5 cm    0   0                
+  Photon     46-Pd-106  45-Rh-103 4637   5 cm    1   0                
+  Photon     46-Pd-106  45-Rh-104 4637   5 cm    0   0                
+  Photon     46-Pd-106  45-Rh-104 4637   5 cm    1   0                
+  Photon     46-Pd-106  45-Rh-105 4637   5 cm    0   0                
+  Photon     46-Pd-106  45-Rh-105 4637   5 cm    1   0                
+  Photon     46-Pd-106  46-Pd-92  4637   5 cm    0   0                
+  Photon     46-Pd-106  46-Pd-93  4637   5 cm    0   0                
+  Photon     46-Pd-106  46-Pd-94  4637   5 cm    0   0                
+  Photon     46-Pd-106  46-Pd-95  4637   5 cm    0   0                
+  Photon     46-Pd-106  46-Pd-95  4637   5 cm    1   0                
+  Photon     46-Pd-106  46-Pd-96  4637   5 cm    0   0                
+  Photon     46-Pd-106  46-Pd-97  4637   5 cm    0   0                
+  Photon     46-Pd-106  46-Pd-98  4637   5 cm    0   0                
+  Photon     46-Pd-106  46-Pd-99  4637   5 cm    0   0                
+  Photon     46-Pd-106  46-Pd-100 4637   5 cm    0   0                
+  Photon     46-Pd-106  46-Pd-101 4637   5 cm    0   0                
+  Photon     46-Pd-106  46-Pd-102 4637   5 cm    0   0                
+  Photon     46-Pd-106  46-Pd-103 4637   5 cm    0   0                
+  Photon     46-Pd-106  46-Pd-104 4637   5 cm    0   0                
+  Photon     46-Pd-106  46-Pd-105 4637   5 cm    0   0                
+  Photon     46-Pd-106  46-Pd-106 4637   5 cm    0   0                
+  Photon     46-Pd-106  Photon    4637   5 cm    0   1    1    2      
+ ------------------------------------------------------------------------------
+ All Cross Sections Read. Maximum Tabulated Energy =  200000000. eV
+ ------------------------------------------------------------------------------
+ ==============================================================================
+ Laws by Incident Particle
+ ------------------------------------------------------------------------------
+ Law Number and Definition   Photon    n     p     d     t  He-3  He-4 Other
+ ------------------------------------------------------------------------------
+ (0) Unknown................   360     0     0     0     0     0     0     0
+ (1) Continuum Energy-Angle
+      Legendre..............     7     0     0     0     0     0     0     0
+      Kalbach-Mann..........     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (2) Discrete 2 Body
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (3) Isotropic Discrete.....     0     0     0     0     0     0     0     0
+ (4) Discrete 2 Body Recoil.     0     0     0     0     0     0     0     0
+ (5) Charged Particle Elastic
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (6) n-Body Phase-Space.....     0     0     0     0     0     0     0     0
+ (7) Laboratory Angle-Energy     0     0     0     0     0     0     0     0
+ Not 0 to 7 (WARNING if Any)     0     0     0     0     0     0     0     0
+ ==============================================================================
+ Laws by Emitted Particle
+ ------------------------------------------------------------------------------
+ Law Number and Definition   Photon    n     p     d     t  He-3  He-4 Other
+ ------------------------------------------------------------------------------
+ (0) Unknown................     0     0     0     0     0     0     0   360
+ (1) Continuum Energy-Angle
+      Legendre..............     1     1     1     1     1     1     1     0
+      Kalbach-Mann..........     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (2) Discrete 2 Body
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (3) Isotropic Discrete.....     0     0     0     0     0     0     0     0
+ (4) Discrete 2 Body Recoil.     0     0     0     0     0     0     0     0
+ (5) Charged Particle Elastic
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (6) n-Body Phase-Space.....     0     0     0     0     0     0     0     0
+ (7) Laboratory Angle-Energy     0     0     0     0     0     0     0     0
+ Not 0 to 7 (WARNING if Any)     0     0     0     0     0     0     0     0
+ ------------------------------------------------------------------------------
+ Summary of Emitted Particle Yields
+ ------------------------------------------------------------------------------
+ Energy Independent.........     0     0     0     0     0     0     0     0
+ Energy Dependent...........     1     1     1     1     1     1     1   360
+ ------------------------------------------------------------------------------
+ Summary of Angular Distributions
+ ------------------------------------------------------------------------------
+ Isotropic..................     1     0     0     0     0     0     0     0
+ Nonisotropic...............     0     0     0     1     0     0     0     0
+ Mixed......................     0     1     1     0     1     1     1     0
+ ------------------------------------------------------------------------------
+ Maximum Legendre Order.....     0    10    10    10    10    10    10     0
+ Maximum Number of Cosines..     0     0     0     0     0     0     0     0
+ ------------------------------------------------------------------------------
+ Summary of Energy Distributions
+ ------------------------------------------------------------------------------
+ Continuous.................     1     1     1     1     1     1     1     0
+ Discrete...................     0     0     0     0     0     0     0     0
+ Mixed......................     0     0     0     0     0     0     0     0
+ ------------------------------------------------------------------------------
+ ==============================================================================
+ Summary of Incident Neutron with Photon or Neutron Emitted Data
+ ------------------------------------------------------------------------------
+ Law Number and Definition   Output        Not Output 
+ ------------------------------------------------------------------------------
+                             Photon    n   Photon    n
+ ------------------------------------------------------------------------------
+ (0) Unknown................     0     0       0     0
+ (1) Continuum Energy-Angle
+      Legendre..............     0     0       0     0
+      Kalbach-Mann..........     0     0       0     0
+      Tabulated.............     0     0       0     0
+ (2) Discrete 2 Body
+      Legendre..............     0     0       0     0
+      Tabulated.............     0     0       0     0
+ (3) Isotropic Discrete.....     0     0       0     0
+ (4) Discrete 2 Body Recoil.     0     0       0     0
+ (5) Charged Particle Elastic
+      Legendre..............     0     0       0     0
+      Tabulated.............     0     0       0     0
+ (6) n-Body Phase-Space.....     0     0       0     0
+ (7) Laboratory Angle-Energy     0     0       0     0
+ Not 0 to 7 (WARNING if Any)     0     0       0     0
+ ==============================================================================
+ End of Run
+ ===============================================================================
+ SIXPAK   Total Execution Time                0.14 Seconds
+ ===============================================================================

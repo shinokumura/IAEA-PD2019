@@ -1,0 +1,435 @@
+ Process ENDF/B Double Differential Data - MF=6 (SIXPAK 2019-1)
+ ==============================================================================
+ ENDF/B Input Data Filename
+ SIXPAK.IN                                                               
+ ------------------------------------------------------------------------------
+ Requested Ranges
+ ------------------------------------------------------------------------------
+    Minimum    Maximum   
+    MAT  MT    MAT  MT
+ ------------------------------------------------------------------------------
+      1   1   9999 999
+ ==============================================================================
+ Terminology
+ ------------------------------------------------------------------------------
+ LCT  = Reference System (Lab or Center-of-Mass)
+ LIP  = Product Modifier, e.g., for Isomeric States
+ LAW  = Representation of Data - see, List at End of Output
+ LANG = 1     = Legendre     (LAW 1)
+      = 2     = Kalbach-Mann (LAW 1)
+      = 11-15 = Tabulated    (LAW 1)
+      = 0     = Legendre     (LAW 2)
+      = 11-15 = Tabulated    (LAW 2)
+ LTP  = 1-2   = Legendre     (LAW 5)
+      = 11-15 = Tabulated    (LAW 5)
+ LEP  = Secondary Energy Interpolation Type(1 to 5)
+ ==============================================================================
+ Tape Label
+ ------------------------------------------------------------------------------
+  JENDL/PD-2016.1  Gd-160                                             1
+ ------------------------------------------------------------------------------
+ WARNING: MT=5 is ALLOWED in MF=6, but NOT in MF=4 or 5.
+          see ENDF-102 - Strictly for diagnostic purposes
+          this code will Translate MF=6 Data - but be
+          WARNED - the results should not be used in ANY          APPLICATIONS.
+ ------------------------------------------------------------------------------
+ ==============================================================================
+ Projectile   Target    Emitted    MAT  MT LCT LIP LAW LANG  LEP  ENDF/B
+                                                        LTP       Output
+ ==============================================================================
+  Photon     64-Gd-160  Neutron   6449   5 cm    0   1    1    2      
+  Photon     64-Gd-160   1-H -1   6449   5 cm    0   1    1    2      
+  Photon     64-Gd-160   1-H -2   6449   5 cm    0   1    1    2      
+  Photon     64-Gd-160   1-H -3   6449   5 cm    0   1    1    2      
+  Photon     64-Gd-160   2-He-3   6449   5 cm    0   1    1    2      
+  Photon     64-Gd-160   2-He-4   6449   5 cm    0   1    1    2      
+  Photon     64-Gd-160  49-In-127 6449   5 cm    0   0                
+  Photon     64-Gd-160  49-In-127 6449   5 cm    1   0                
+  Photon     64-Gd-160  49-In-127 6449   5 cm    2   0                
+  Photon     64-Gd-160  49-In-128 6449   5 cm    0   0                
+  Photon     64-Gd-160  49-In-129 6449   5 cm    0   0                
+  Photon     64-Gd-160  49-In-129 6449   5 cm    1   0                
+  Photon     64-Gd-160  49-In-130 6449   5 cm    0   0                
+  Photon     64-Gd-160  49-In-130 6449   5 cm    1   0                
+  Photon     64-Gd-160  49-In-131 6449   5 cm    0   0                
+  Photon     64-Gd-160  49-In-131 6449   5 cm    1   0                
+  Photon     64-Gd-160  50-Sn-128 6449   5 cm    0   0                
+  Photon     64-Gd-160  50-Sn-128 6449   5 cm    1   0                
+  Photon     64-Gd-160  50-Sn-129 6449   5 cm    0   0                
+  Photon     64-Gd-160  50-Sn-129 6449   5 cm    1   0                
+  Photon     64-Gd-160  50-Sn-130 6449   5 cm    0   0                
+  Photon     64-Gd-160  50-Sn-130 6449   5 cm    1   0                
+  Photon     64-Gd-160  50-Sn-131 6449   5 cm    0   0                
+  Photon     64-Gd-160  50-Sn-131 6449   5 cm    1   0                
+  Photon     64-Gd-160  50-Sn-132 6449   5 cm    0   0                
+  Photon     64-Gd-160  50-Sn-133 6449   5 cm    0   0                
+  Photon     64-Gd-160  50-Sn-134 6449   5 cm    0   0                
+  Photon     64-Gd-160  51-Sb-129 6449   5 cm    0   0                
+  Photon     64-Gd-160  51-Sb-129 6449   5 cm    1   0                
+  Photon     64-Gd-160  51-Sb-130 6449   5 cm    0   0                
+  Photon     64-Gd-160  51-Sb-130 6449   5 cm    1   0                
+  Photon     64-Gd-160  51-Sb-131 6449   5 cm    0   0                
+  Photon     64-Gd-160  51-Sb-132 6449   5 cm    0   0                
+  Photon     64-Gd-160  51-Sb-132 6449   5 cm    1   0                
+  Photon     64-Gd-160  51-Sb-133 6449   5 cm    0   0                
+  Photon     64-Gd-160  51-Sb-134 6449   5 cm    0   0                
+  Photon     64-Gd-160  51-Sb-134 6449   5 cm    1   0                
+  Photon     64-Gd-160  51-Sb-135 6449   5 cm    0   0                
+  Photon     64-Gd-160  51-Sb-136 6449   5 cm    0   0                
+  Photon     64-Gd-160  51-Sb-137 6449   5 cm    0   0                
+  Photon     64-Gd-160  52-Te-130 6449   5 cm    0   0                
+  Photon     64-Gd-160  52-Te-131 6449   5 cm    0   0                
+  Photon     64-Gd-160  52-Te-131 6449   5 cm    1   0                
+  Photon     64-Gd-160  52-Te-132 6449   5 cm    0   0                
+  Photon     64-Gd-160  52-Te-133 6449   5 cm    0   0                
+  Photon     64-Gd-160  52-Te-133 6449   5 cm    1   0                
+  Photon     64-Gd-160  52-Te-134 6449   5 cm    0   0                
+  Photon     64-Gd-160  52-Te-135 6449   5 cm    0   0                
+  Photon     64-Gd-160  52-Te-136 6449   5 cm    0   0                
+  Photon     64-Gd-160  52-Te-137 6449   5 cm    0   0                
+  Photon     64-Gd-160  52-Te-138 6449   5 cm    0   0                
+  Photon     64-Gd-160  52-Te-139 6449   5 cm    0   0                
+  Photon     64-Gd-160  52-Te-140 6449   5 cm    0   0                
+  Photon     64-Gd-160  53-I -131 6449   5 cm    0   0                
+  Photon     64-Gd-160  53-I -132 6449   5 cm    0   0                
+  Photon     64-Gd-160  53-I -133 6449   5 cm    0   0                
+  Photon     64-Gd-160  53-I -133 6449   5 cm    1   0                
+  Photon     64-Gd-160  53-I -134 6449   5 cm    0   0                
+  Photon     64-Gd-160  53-I -135 6449   5 cm    0   0                
+  Photon     64-Gd-160  53-I -136 6449   5 cm    0   0                
+  Photon     64-Gd-160  53-I -137 6449   5 cm    0   0                
+  Photon     64-Gd-160  53-I -138 6449   5 cm    0   0                
+  Photon     64-Gd-160  53-I -139 6449   5 cm    0   0                
+  Photon     64-Gd-160  53-I -140 6449   5 cm    0   0                
+  Photon     64-Gd-160  53-I -141 6449   5 cm    0   0                
+  Photon     64-Gd-160  53-I -142 6449   5 cm    0   0                
+  Photon     64-Gd-160  53-I -143 6449   5 cm    0   0                
+  Photon     64-Gd-160  54-Xe-132 6449   5 cm    0   0                
+  Photon     64-Gd-160  54-Xe-133 6449   5 cm    0   0                
+  Photon     64-Gd-160  54-Xe-133 6449   5 cm    1   0                
+  Photon     64-Gd-160  54-Xe-134 6449   5 cm    0   0                
+  Photon     64-Gd-160  54-Xe-134 6449   5 cm    1   0                
+  Photon     64-Gd-160  54-Xe-135 6449   5 cm    0   0                
+  Photon     64-Gd-160  54-Xe-135 6449   5 cm    1   0                
+  Photon     64-Gd-160  54-Xe-136 6449   5 cm    0   0                
+  Photon     64-Gd-160  54-Xe-137 6449   5 cm    0   0                
+  Photon     64-Gd-160  54-Xe-138 6449   5 cm    0   0                
+  Photon     64-Gd-160  54-Xe-139 6449   5 cm    0   0                
+  Photon     64-Gd-160  54-Xe-140 6449   5 cm    0   0                
+  Photon     64-Gd-160  54-Xe-141 6449   5 cm    0   0                
+  Photon     64-Gd-160  54-Xe-142 6449   5 cm    0   0                
+  Photon     64-Gd-160  54-Xe-143 6449   5 cm    0   0                
+  Photon     64-Gd-160  54-Xe-144 6449   5 cm    0   0                
+  Photon     64-Gd-160  54-Xe-145 6449   5 cm    0   0                
+  Photon     64-Gd-160  54-Xe-146 6449   5 cm    0   0                
+  Photon     64-Gd-160  55-Cs-133 6449   5 cm    0   0                
+  Photon     64-Gd-160  55-Cs-134 6449   5 cm    0   0                
+  Photon     64-Gd-160  55-Cs-134 6449   5 cm    1   0                
+  Photon     64-Gd-160  55-Cs-135 6449   5 cm    0   0                
+  Photon     64-Gd-160  55-Cs-136 6449   5 cm    0   0                
+  Photon     64-Gd-160  55-Cs-136 6449   5 cm    1   0                
+  Photon     64-Gd-160  55-Cs-137 6449   5 cm    0   0                
+  Photon     64-Gd-160  55-Cs-138 6449   5 cm    0   0                
+  Photon     64-Gd-160  55-Cs-138 6449   5 cm    1   0                
+  Photon     64-Gd-160  55-Cs-139 6449   5 cm    0   0                
+  Photon     64-Gd-160  55-Cs-140 6449   5 cm    0   0                
+  Photon     64-Gd-160  55-Cs-141 6449   5 cm    0   0                
+  Photon     64-Gd-160  55-Cs-142 6449   5 cm    0   0                
+  Photon     64-Gd-160  55-Cs-143 6449   5 cm    0   0                
+  Photon     64-Gd-160  55-Cs-144 6449   5 cm    0   0                
+  Photon     64-Gd-160  55-Cs-145 6449   5 cm    0   0                
+  Photon     64-Gd-160  55-Cs-146 6449   5 cm    0   0                
+  Photon     64-Gd-160  55-Cs-147 6449   5 cm    0   0                
+  Photon     64-Gd-160  55-Cs-148 6449   5 cm    0   0                
+  Photon     64-Gd-160  55-Cs-149 6449   5 cm    0   0                
+  Photon     64-Gd-160  56-Ba-134 6449   5 cm    0   0                
+  Photon     64-Gd-160  56-Ba-135 6449   5 cm    0   0                
+  Photon     64-Gd-160  56-Ba-135 6449   5 cm    1   0                
+  Photon     64-Gd-160  56-Ba-136 6449   5 cm    0   0                
+  Photon     64-Gd-160  56-Ba-136 6449   5 cm    1   0                
+  Photon     64-Gd-160  56-Ba-137 6449   5 cm    0   0                
+  Photon     64-Gd-160  56-Ba-137 6449   5 cm    1   0                
+  Photon     64-Gd-160  56-Ba-138 6449   5 cm    0   0                
+  Photon     64-Gd-160  56-Ba-139 6449   5 cm    0   0                
+  Photon     64-Gd-160  56-Ba-140 6449   5 cm    0   0                
+  Photon     64-Gd-160  56-Ba-141 6449   5 cm    0   0                
+  Photon     64-Gd-160  56-Ba-142 6449   5 cm    0   0                
+  Photon     64-Gd-160  56-Ba-143 6449   5 cm    0   0                
+  Photon     64-Gd-160  56-Ba-144 6449   5 cm    0   0                
+  Photon     64-Gd-160  56-Ba-145 6449   5 cm    0   0                
+  Photon     64-Gd-160  56-Ba-146 6449   5 cm    0   0                
+  Photon     64-Gd-160  56-Ba-147 6449   5 cm    0   0                
+  Photon     64-Gd-160  56-Ba-148 6449   5 cm    0   0                
+  Photon     64-Gd-160  56-Ba-149 6449   5 cm    0   0                
+  Photon     64-Gd-160  56-Ba-150 6449   5 cm    0   0                
+  Photon     64-Gd-160  56-Ba-151 6449   5 cm    0   0                
+  Photon     64-Gd-160  57-La-135 6449   5 cm    0   0                
+  Photon     64-Gd-160  57-La-136 6449   5 cm    0   0                
+  Photon     64-Gd-160  57-La-136 6449   5 cm    1   0                
+  Photon     64-Gd-160  57-La-137 6449   5 cm    0   0                
+  Photon     64-Gd-160  57-La-138 6449   5 cm    0   0                
+  Photon     64-Gd-160  57-La-139 6449   5 cm    0   0                
+  Photon     64-Gd-160  57-La-140 6449   5 cm    0   0                
+  Photon     64-Gd-160  57-La-141 6449   5 cm    0   0                
+  Photon     64-Gd-160  57-La-142 6449   5 cm    0   0                
+  Photon     64-Gd-160  57-La-143 6449   5 cm    0   0                
+  Photon     64-Gd-160  57-La-144 6449   5 cm    0   0                
+  Photon     64-Gd-160  57-La-145 6449   5 cm    0   0                
+  Photon     64-Gd-160  57-La-146 6449   5 cm    0   0                
+  Photon     64-Gd-160  57-La-146 6449   5 cm    1   0                
+  Photon     64-Gd-160  57-La-147 6449   5 cm    0   0                
+  Photon     64-Gd-160  57-La-148 6449   5 cm    0   0                
+  Photon     64-Gd-160  57-La-149 6449   5 cm    0   0                
+  Photon     64-Gd-160  57-La-150 6449   5 cm    0   0                
+  Photon     64-Gd-160  57-La-151 6449   5 cm    0   0                
+  Photon     64-Gd-160  57-La-152 6449   5 cm    0   0                
+  Photon     64-Gd-160  58-Ce-136 6449   5 cm    0   0                
+  Photon     64-Gd-160  58-Ce-137 6449   5 cm    0   0                
+  Photon     64-Gd-160  58-Ce-137 6449   5 cm    1   0                
+  Photon     64-Gd-160  58-Ce-138 6449   5 cm    0   0                
+  Photon     64-Gd-160  58-Ce-139 6449   5 cm    0   0                
+  Photon     64-Gd-160  58-Ce-139 6449   5 cm    1   0                
+  Photon     64-Gd-160  58-Ce-140 6449   5 cm    0   0                
+  Photon     64-Gd-160  58-Ce-141 6449   5 cm    0   0                
+  Photon     64-Gd-160  58-Ce-142 6449   5 cm    0   0                
+  Photon     64-Gd-160  58-Ce-143 6449   5 cm    0   0                
+  Photon     64-Gd-160  58-Ce-144 6449   5 cm    0   0                
+  Photon     64-Gd-160  58-Ce-145 6449   5 cm    0   0                
+  Photon     64-Gd-160  58-Ce-146 6449   5 cm    0   0                
+  Photon     64-Gd-160  58-Ce-147 6449   5 cm    0   0                
+  Photon     64-Gd-160  58-Ce-148 6449   5 cm    0   0                
+  Photon     64-Gd-160  58-Ce-149 6449   5 cm    0   0                
+  Photon     64-Gd-160  58-Ce-150 6449   5 cm    0   0                
+  Photon     64-Gd-160  58-Ce-151 6449   5 cm    0   0                
+  Photon     64-Gd-160  58-Ce-152 6449   5 cm    0   0                
+  Photon     64-Gd-160  58-Ce-153 6449   5 cm    0   0                
+  Photon     64-Gd-160  58-Ce-154 6449   5 cm    0   0                
+  Photon     64-Gd-160  59-Pr-137 6449   5 cm    0   0                
+  Photon     64-Gd-160  59-Pr-138 6449   5 cm    0   0                
+  Photon     64-Gd-160  59-Pr-138 6449   5 cm    1   0                
+  Photon     64-Gd-160  59-Pr-139 6449   5 cm    0   0                
+  Photon     64-Gd-160  59-Pr-140 6449   5 cm    0   0                
+  Photon     64-Gd-160  59-Pr-141 6449   5 cm    0   0                
+  Photon     64-Gd-160  59-Pr-142 6449   5 cm    0   0                
+  Photon     64-Gd-160  59-Pr-142 6449   5 cm    1   0                
+  Photon     64-Gd-160  59-Pr-143 6449   5 cm    0   0                
+  Photon     64-Gd-160  59-Pr-144 6449   5 cm    0   0                
+  Photon     64-Gd-160  59-Pr-144 6449   5 cm    1   0                
+  Photon     64-Gd-160  59-Pr-145 6449   5 cm    0   0                
+  Photon     64-Gd-160  59-Pr-146 6449   5 cm    0   0                
+  Photon     64-Gd-160  59-Pr-147 6449   5 cm    0   0                
+  Photon     64-Gd-160  59-Pr-148 6449   5 cm    0   0                
+  Photon     64-Gd-160  59-Pr-148 6449   5 cm    1   0                
+  Photon     64-Gd-160  59-Pr-149 6449   5 cm    0   0                
+  Photon     64-Gd-160  59-Pr-150 6449   5 cm    0   0                
+  Photon     64-Gd-160  59-Pr-151 6449   5 cm    0   0                
+  Photon     64-Gd-160  59-Pr-152 6449   5 cm    0   0                
+  Photon     64-Gd-160  59-Pr-153 6449   5 cm    0   0                
+  Photon     64-Gd-160  59-Pr-154 6449   5 cm    0   0                
+  Photon     64-Gd-160  59-Pr-155 6449   5 cm    0   0                
+  Photon     64-Gd-160  60-Nd-138 6449   5 cm    0   0                
+  Photon     64-Gd-160  60-Nd-139 6449   5 cm    0   0                
+  Photon     64-Gd-160  60-Nd-139 6449   5 cm    1   0                
+  Photon     64-Gd-160  60-Nd-140 6449   5 cm    0   0                
+  Photon     64-Gd-160  60-Nd-141 6449   5 cm    0   0                
+  Photon     64-Gd-160  60-Nd-141 6449   5 cm    1   0                
+  Photon     64-Gd-160  60-Nd-142 6449   5 cm    0   0                
+  Photon     64-Gd-160  60-Nd-143 6449   5 cm    0   0                
+  Photon     64-Gd-160  60-Nd-144 6449   5 cm    0   0                
+  Photon     64-Gd-160  60-Nd-145 6449   5 cm    0   0                
+  Photon     64-Gd-160  60-Nd-146 6449   5 cm    0   0                
+  Photon     64-Gd-160  60-Nd-147 6449   5 cm    0   0                
+  Photon     64-Gd-160  60-Nd-148 6449   5 cm    0   0                
+  Photon     64-Gd-160  60-Nd-149 6449   5 cm    0   0                
+  Photon     64-Gd-160  60-Nd-150 6449   5 cm    0   0                
+  Photon     64-Gd-160  60-Nd-151 6449   5 cm    0   0                
+  Photon     64-Gd-160  60-Nd-152 6449   5 cm    0   0                
+  Photon     64-Gd-160  60-Nd-153 6449   5 cm    0   0                
+  Photon     64-Gd-160  60-Nd-154 6449   5 cm    0   0                
+  Photon     64-Gd-160  60-Nd-155 6449   5 cm    0   0                
+  Photon     64-Gd-160  60-Nd-156 6449   5 cm    0   0                
+  Photon     64-Gd-160  61-Pm-139 6449   5 cm    0   0                
+  Photon     64-Gd-160  61-Pm-139 6449   5 cm    1   0                
+  Photon     64-Gd-160  61-Pm-140 6449   5 cm    0   0                
+  Photon     64-Gd-160  61-Pm-140 6449   5 cm    1   0                
+  Photon     64-Gd-160  61-Pm-141 6449   5 cm    0   0                
+  Photon     64-Gd-160  61-Pm-142 6449   5 cm    0   0                
+  Photon     64-Gd-160  61-Pm-143 6449   5 cm    0   0                
+  Photon     64-Gd-160  61-Pm-144 6449   5 cm    0   0                
+  Photon     64-Gd-160  61-Pm-145 6449   5 cm    0   0                
+  Photon     64-Gd-160  61-Pm-146 6449   5 cm    0   0                
+  Photon     64-Gd-160  61-Pm-147 6449   5 cm    0   0                
+  Photon     64-Gd-160  61-Pm-148 6449   5 cm    0   0                
+  Photon     64-Gd-160  61-Pm-148 6449   5 cm    1   0                
+  Photon     64-Gd-160  61-Pm-149 6449   5 cm    0   0                
+  Photon     64-Gd-160  61-Pm-150 6449   5 cm    0   0                
+  Photon     64-Gd-160  61-Pm-151 6449   5 cm    0   0                
+  Photon     64-Gd-160  61-Pm-152 6449   5 cm    0   0                
+  Photon     64-Gd-160  61-Pm-153 6449   5 cm    0   0                
+  Photon     64-Gd-160  61-Pm-154 6449   5 cm    0   0                
+  Photon     64-Gd-160  61-Pm-154 6449   5 cm    1   0                
+  Photon     64-Gd-160  61-Pm-155 6449   5 cm    0   0                
+  Photon     64-Gd-160  61-Pm-156 6449   5 cm    0   0                
+  Photon     64-Gd-160  61-Pm-157 6449   5 cm    0   0                
+  Photon     64-Gd-160  62-Sm-140 6449   5 cm    0   0                
+  Photon     64-Gd-160  62-Sm-141 6449   5 cm    0   0                
+  Photon     64-Gd-160  62-Sm-141 6449   5 cm    1   0                
+  Photon     64-Gd-160  62-Sm-142 6449   5 cm    0   0                
+  Photon     64-Gd-160  62-Sm-143 6449   5 cm    0   0                
+  Photon     64-Gd-160  62-Sm-143 6449   5 cm    1   0                
+  Photon     64-Gd-160  62-Sm-144 6449   5 cm    0   0                
+  Photon     64-Gd-160  62-Sm-145 6449   5 cm    0   0                
+  Photon     64-Gd-160  62-Sm-146 6449   5 cm    0   0                
+  Photon     64-Gd-160  62-Sm-147 6449   5 cm    0   0                
+  Photon     64-Gd-160  62-Sm-148 6449   5 cm    0   0                
+  Photon     64-Gd-160  62-Sm-149 6449   5 cm    0   0                
+  Photon     64-Gd-160  62-Sm-150 6449   5 cm    0   0                
+  Photon     64-Gd-160  62-Sm-151 6449   5 cm    0   0                
+  Photon     64-Gd-160  62-Sm-152 6449   5 cm    0   0                
+  Photon     64-Gd-160  62-Sm-153 6449   5 cm    0   0                
+  Photon     64-Gd-160  62-Sm-154 6449   5 cm    0   0                
+  Photon     64-Gd-160  62-Sm-155 6449   5 cm    0   0                
+  Photon     64-Gd-160  62-Sm-156 6449   5 cm    0   0                
+  Photon     64-Gd-160  62-Sm-157 6449   5 cm    0   0                
+  Photon     64-Gd-160  62-Sm-158 6449   5 cm    0   0                
+  Photon     64-Gd-160  63-Eu-141 6449   5 cm    0   0                
+  Photon     64-Gd-160  63-Eu-141 6449   5 cm    1   0                
+  Photon     64-Gd-160  63-Eu-142 6449   5 cm    0   0                
+  Photon     64-Gd-160  63-Eu-142 6449   5 cm    1   0                
+  Photon     64-Gd-160  63-Eu-143 6449   5 cm    0   0                
+  Photon     64-Gd-160  63-Eu-144 6449   5 cm    0   0                
+  Photon     64-Gd-160  63-Eu-145 6449   5 cm    0   0                
+  Photon     64-Gd-160  63-Eu-146 6449   5 cm    0   0                
+  Photon     64-Gd-160  63-Eu-147 6449   5 cm    0   0                
+  Photon     64-Gd-160  63-Eu-148 6449   5 cm    0   0                
+  Photon     64-Gd-160  63-Eu-149 6449   5 cm    0   0                
+  Photon     64-Gd-160  63-Eu-150 6449   5 cm    0   0                
+  Photon     64-Gd-160  63-Eu-150 6449   5 cm    1   0                
+  Photon     64-Gd-160  63-Eu-151 6449   5 cm    0   0                
+  Photon     64-Gd-160  63-Eu-152 6449   5 cm    0   0                
+  Photon     64-Gd-160  63-Eu-152 6449   5 cm    1   0                
+  Photon     64-Gd-160  63-Eu-152 6449   5 cm    2   0                
+  Photon     64-Gd-160  63-Eu-153 6449   5 cm    0   0                
+  Photon     64-Gd-160  63-Eu-154 6449   5 cm    0   0                
+  Photon     64-Gd-160  63-Eu-154 6449   5 cm    1   0                
+  Photon     64-Gd-160  63-Eu-155 6449   5 cm    0   0                
+  Photon     64-Gd-160  63-Eu-156 6449   5 cm    0   0                
+  Photon     64-Gd-160  63-Eu-157 6449   5 cm    0   0                
+  Photon     64-Gd-160  63-Eu-158 6449   5 cm    0   0                
+  Photon     64-Gd-160  63-Eu-159 6449   5 cm    0   0                
+  Photon     64-Gd-160  64-Gd-142 6449   5 cm    0   0                
+  Photon     64-Gd-160  64-Gd-143 6449   5 cm    0   0                
+  Photon     64-Gd-160  64-Gd-143 6449   5 cm    1   0                
+  Photon     64-Gd-160  64-Gd-144 6449   5 cm    0   0                
+  Photon     64-Gd-160  64-Gd-145 6449   5 cm    0   0                
+  Photon     64-Gd-160  64-Gd-145 6449   5 cm    1   0                
+  Photon     64-Gd-160  64-Gd-146 6449   5 cm    0   0                
+  Photon     64-Gd-160  64-Gd-147 6449   5 cm    0   0                
+  Photon     64-Gd-160  64-Gd-148 6449   5 cm    0   0                
+  Photon     64-Gd-160  64-Gd-149 6449   5 cm    0   0                
+  Photon     64-Gd-160  64-Gd-150 6449   5 cm    0   0                
+  Photon     64-Gd-160  64-Gd-151 6449   5 cm    0   0                
+  Photon     64-Gd-160  64-Gd-152 6449   5 cm    0   0                
+  Photon     64-Gd-160  64-Gd-153 6449   5 cm    0   0                
+  Photon     64-Gd-160  64-Gd-154 6449   5 cm    0   0                
+  Photon     64-Gd-160  64-Gd-155 6449   5 cm    0   0                
+  Photon     64-Gd-160  64-Gd-156 6449   5 cm    0   0                
+  Photon     64-Gd-160  64-Gd-157 6449   5 cm    0   0                
+  Photon     64-Gd-160  64-Gd-158 6449   5 cm    0   0                
+  Photon     64-Gd-160  64-Gd-159 6449   5 cm    0   0                
+  Photon     64-Gd-160  64-Gd-160 6449   5 cm    0   0                
+  Photon     64-Gd-160  Photon    6449   5 cm    0   1    1    2      
+ ------------------------------------------------------------------------------
+ All Cross Sections Read. Maximum Tabulated Energy =  200000000. eV
+ ------------------------------------------------------------------------------
+ ==============================================================================
+ Laws by Incident Particle
+ ------------------------------------------------------------------------------
+ Law Number and Definition   Photon    n     p     d     t  He-3  He-4 Other
+ ------------------------------------------------------------------------------
+ (0) Unknown................   295     0     0     0     0     0     0     0
+ (1) Continuum Energy-Angle
+      Legendre..............     7     0     0     0     0     0     0     0
+      Kalbach-Mann..........     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (2) Discrete 2 Body
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (3) Isotropic Discrete.....     0     0     0     0     0     0     0     0
+ (4) Discrete 2 Body Recoil.     0     0     0     0     0     0     0     0
+ (5) Charged Particle Elastic
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (6) n-Body Phase-Space.....     0     0     0     0     0     0     0     0
+ (7) Laboratory Angle-Energy     0     0     0     0     0     0     0     0
+ Not 0 to 7 (WARNING if Any)     0     0     0     0     0     0     0     0
+ ==============================================================================
+ Laws by Emitted Particle
+ ------------------------------------------------------------------------------
+ Law Number and Definition   Photon    n     p     d     t  He-3  He-4 Other
+ ------------------------------------------------------------------------------
+ (0) Unknown................     0     0     0     0     0     0     0   295
+ (1) Continuum Energy-Angle
+      Legendre..............     1     1     1     1     1     1     1     0
+      Kalbach-Mann..........     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (2) Discrete 2 Body
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (3) Isotropic Discrete.....     0     0     0     0     0     0     0     0
+ (4) Discrete 2 Body Recoil.     0     0     0     0     0     0     0     0
+ (5) Charged Particle Elastic
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (6) n-Body Phase-Space.....     0     0     0     0     0     0     0     0
+ (7) Laboratory Angle-Energy     0     0     0     0     0     0     0     0
+ Not 0 to 7 (WARNING if Any)     0     0     0     0     0     0     0     0
+ ------------------------------------------------------------------------------
+ Summary of Emitted Particle Yields
+ ------------------------------------------------------------------------------
+ Energy Independent.........     0     0     0     0     0     0     0     0
+ Energy Dependent...........     1     1     1     1     1     1     1   295
+ ------------------------------------------------------------------------------
+ Summary of Angular Distributions
+ ------------------------------------------------------------------------------
+ Isotropic..................     1     0     0     0     0     0     0     0
+ Nonisotropic...............     0     0     0     1     0     1     0     0
+ Mixed......................     0     1     1     0     1     0     1     0
+ ------------------------------------------------------------------------------
+ Maximum Legendre Order.....     0    10    10    10    10    10    10     0
+ Maximum Number of Cosines..     0     0     0     0     0     0     0     0
+ ------------------------------------------------------------------------------
+ Summary of Energy Distributions
+ ------------------------------------------------------------------------------
+ Continuous.................     1     1     1     1     1     1     1     0
+ Discrete...................     0     0     0     0     0     0     0     0
+ Mixed......................     0     0     0     0     0     0     0     0
+ ------------------------------------------------------------------------------
+ ==============================================================================
+ Summary of Incident Neutron with Photon or Neutron Emitted Data
+ ------------------------------------------------------------------------------
+ Law Number and Definition   Output        Not Output 
+ ------------------------------------------------------------------------------
+                             Photon    n   Photon    n
+ ------------------------------------------------------------------------------
+ (0) Unknown................     0     0       0     0
+ (1) Continuum Energy-Angle
+      Legendre..............     0     0       0     0
+      Kalbach-Mann..........     0     0       0     0
+      Tabulated.............     0     0       0     0
+ (2) Discrete 2 Body
+      Legendre..............     0     0       0     0
+      Tabulated.............     0     0       0     0
+ (3) Isotropic Discrete.....     0     0       0     0
+ (4) Discrete 2 Body Recoil.     0     0       0     0
+ (5) Charged Particle Elastic
+      Legendre..............     0     0       0     0
+      Tabulated.............     0     0       0     0
+ (6) n-Body Phase-Space.....     0     0       0     0
+ (7) Laboratory Angle-Energy     0     0       0     0
+ Not 0 to 7 (WARNING if Any)     0     0       0     0
+ ==============================================================================
+ End of Run
+ ===============================================================================
+ SIXPAK   Total Execution Time                0.15 Seconds
+ ===============================================================================

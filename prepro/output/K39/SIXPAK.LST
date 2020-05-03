@@ -1,0 +1,307 @@
+ Process ENDF/B Double Differential Data - MF=6 (SIXPAK 2019-1)
+ ==============================================================================
+ ENDF/B Input Data Filename
+ SIXPAK.IN                                                               
+ ------------------------------------------------------------------------------
+ Requested Ranges
+ ------------------------------------------------------------------------------
+    Minimum    Maximum   
+    MAT  MT    MAT  MT
+ ------------------------------------------------------------------------------
+      1   1   9999 999
+ ==============================================================================
+ Terminology
+ ------------------------------------------------------------------------------
+ LCT  = Reference System (Lab or Center-of-Mass)
+ LIP  = Product Modifier, e.g., for Isomeric States
+ LAW  = Representation of Data - see, List at End of Output
+ LANG = 1     = Legendre     (LAW 1)
+      = 2     = Kalbach-Mann (LAW 1)
+      = 11-15 = Tabulated    (LAW 1)
+      = 0     = Legendre     (LAW 2)
+      = 11-15 = Tabulated    (LAW 2)
+ LTP  = 1-2   = Legendre     (LAW 5)
+      = 11-15 = Tabulated    (LAW 5)
+ LEP  = Secondary Energy Interpolation Type(1 to 5)
+ ==============================================================================
+ Tape Label
+ ------------------------------------------------------------------------------
+  JENDL/PD-2016.1  K - 39                                             1
+ ------------------------------------------------------------------------------
+ WARNING: MT=5 is ALLOWED in MF=6, but NOT in MF=4 or 5.
+          see ENDF-102 - Strictly for diagnostic purposes
+          this code will Translate MF=6 Data - but be
+          WARNED - the results should not be used in ANY          APPLICATIONS.
+ ------------------------------------------------------------------------------
+ ==============================================================================
+ Projectile   Target    Emitted    MAT  MT LCT LIP LAW LANG  LEP  ENDF/B
+                                                        LTP       Output
+ ==============================================================================
+  Photon     19-K -39   Neutron   1925   5 cm    0   1    1    2      
+  Photon     19-K -39    1-H -1   1925   5 cm    0   1    1    2      
+  Photon     19-K -39    1-H -2   1925   5 cm    0   1    1    2      
+  Photon     19-K -39    1-H -3   1925   5 cm    0   1    1    2      
+  Photon     19-K -39    2-He-3   1925   5 cm    0   1    1    2      
+  Photon     19-K -39    2-He-4   1925   5 cm    0   1    1    2      
+  Photon     19-K -39    7-N -10  1925   5 cm    0   0                
+  Photon     19-K -39    7-N -11  1925   5 cm    0   0                
+  Photon     19-K -39    7-N -12  1925   5 cm    0   0                
+  Photon     19-K -39    7-N -13  1925   5 cm    0   0                
+  Photon     19-K -39    7-N -14  1925   5 cm    0   0                
+  Photon     19-K -39    7-N -15  1925   5 cm    0   0                
+  Photon     19-K -39    7-N -16  1925   5 cm    0   0                
+  Photon     19-K -39    7-N -17  1925   5 cm    0   0                
+  Photon     19-K -39    7-N -18  1925   5 cm    0   0                
+  Photon     19-K -39    7-N -19  1925   5 cm    0   0                
+  Photon     19-K -39    7-N -20  1925   5 cm    0   0                
+  Photon     19-K -39    7-N -21  1925   5 cm    0   0                
+  Photon     19-K -39    7-N -22  1925   5 cm    0   0                
+  Photon     19-K -39    7-N -23  1925   5 cm    0   0                
+  Photon     19-K -39    7-N -24  1925   5 cm    0   0                
+  Photon     19-K -39    8-O -12  1925   5 cm    0   0                
+  Photon     19-K -39    8-O -13  1925   5 cm    0   0                
+  Photon     19-K -39    8-O -14  1925   5 cm    0   0                
+  Photon     19-K -39    8-O -15  1925   5 cm    0   0                
+  Photon     19-K -39    8-O -16  1925   5 cm    0   0                
+  Photon     19-K -39    8-O -17  1925   5 cm    0   0                
+  Photon     19-K -39    8-O -18  1925   5 cm    0   0                
+  Photon     19-K -39    8-O -19  1925   5 cm    0   0                
+  Photon     19-K -39    8-O -20  1925   5 cm    0   0                
+  Photon     19-K -39    8-O -21  1925   5 cm    0   0                
+  Photon     19-K -39    8-O -22  1925   5 cm    0   0                
+  Photon     19-K -39    8-O -23  1925   5 cm    0   0                
+  Photon     19-K -39    8-O -24  1925   5 cm    0   0                
+  Photon     19-K -39    8-O -25  1925   5 cm    0   0                
+  Photon     19-K -39    8-O -26  1925   5 cm    0   0                
+  Photon     19-K -39    9-F -14  1925   5 cm    0   0                
+  Photon     19-K -39    9-F -15  1925   5 cm    0   0                
+  Photon     19-K -39    9-F -16  1925   5 cm    0   0                
+  Photon     19-K -39    9-F -17  1925   5 cm    0   0                
+  Photon     19-K -39    9-F -18  1925   5 cm    0   0                
+  Photon     19-K -39    9-F -19  1925   5 cm    0   0                
+  Photon     19-K -39    9-F -20  1925   5 cm    0   0                
+  Photon     19-K -39    9-F -21  1925   5 cm    0   0                
+  Photon     19-K -39    9-F -22  1925   5 cm    0   0                
+  Photon     19-K -39    9-F -23  1925   5 cm    0   0                
+  Photon     19-K -39    9-F -24  1925   5 cm    0   0                
+  Photon     19-K -39    9-F -25  1925   5 cm    0   0                
+  Photon     19-K -39    9-F -26  1925   5 cm    0   0                
+  Photon     19-K -39    9-F -27  1925   5 cm    0   0                
+  Photon     19-K -39    9-F -28  1925   5 cm    0   0                
+  Photon     19-K -39   10-Ne-16  1925   5 cm    0   0                
+  Photon     19-K -39   10-Ne-17  1925   5 cm    0   0                
+  Photon     19-K -39   10-Ne-18  1925   5 cm    0   0                
+  Photon     19-K -39   10-Ne-19  1925   5 cm    0   0                
+  Photon     19-K -39   10-Ne-20  1925   5 cm    0   0                
+  Photon     19-K -39   10-Ne-21  1925   5 cm    0   0                
+  Photon     19-K -39   10-Ne-22  1925   5 cm    0   0                
+  Photon     19-K -39   10-Ne-23  1925   5 cm    0   0                
+  Photon     19-K -39   10-Ne-24  1925   5 cm    0   0                
+  Photon     19-K -39   10-Ne-25  1925   5 cm    0   0                
+  Photon     19-K -39   10-Ne-26  1925   5 cm    0   0                
+  Photon     19-K -39   10-Ne-27  1925   5 cm    0   0                
+  Photon     19-K -39   10-Ne-28  1925   5 cm    0   0                
+  Photon     19-K -39   10-Ne-29  1925   5 cm    0   0                
+  Photon     19-K -39   11-Na-18  1925   5 cm    0   0                
+  Photon     19-K -39   11-Na-19  1925   5 cm    0   0                
+  Photon     19-K -39   11-Na-20  1925   5 cm    0   0                
+  Photon     19-K -39   11-Na-21  1925   5 cm    0   0                
+  Photon     19-K -39   11-Na-22  1925   5 cm    0   0                
+  Photon     19-K -39   11-Na-23  1925   5 cm    0   0                
+  Photon     19-K -39   11-Na-24  1925   5 cm    0   0                
+  Photon     19-K -39   11-Na-25  1925   5 cm    0   0                
+  Photon     19-K -39   11-Na-26  1925   5 cm    0   0                
+  Photon     19-K -39   11-Na-27  1925   5 cm    0   0                
+  Photon     19-K -39   11-Na-28  1925   5 cm    0   0                
+  Photon     19-K -39   11-Na-29  1925   5 cm    0   0                
+  Photon     19-K -39   11-Na-30  1925   5 cm    0   0                
+  Photon     19-K -39   11-Na-31  1925   5 cm    0   0                
+  Photon     19-K -39   12-Mg-19  1925   5 cm    0   0                
+  Photon     19-K -39   12-Mg-20  1925   5 cm    0   0                
+  Photon     19-K -39   12-Mg-21  1925   5 cm    0   0                
+  Photon     19-K -39   12-Mg-22  1925   5 cm    0   0                
+  Photon     19-K -39   12-Mg-23  1925   5 cm    0   0                
+  Photon     19-K -39   12-Mg-24  1925   5 cm    0   0                
+  Photon     19-K -39   12-Mg-25  1925   5 cm    0   0                
+  Photon     19-K -39   12-Mg-26  1925   5 cm    0   0                
+  Photon     19-K -39   12-Mg-27  1925   5 cm    0   0                
+  Photon     19-K -39   12-Mg-28  1925   5 cm    0   0                
+  Photon     19-K -39   12-Mg-29  1925   5 cm    0   0                
+  Photon     19-K -39   12-Mg-30  1925   5 cm    0   0                
+  Photon     19-K -39   12-Mg-31  1925   5 cm    0   0                
+  Photon     19-K -39   12-Mg-32  1925   5 cm    0   0                
+  Photon     19-K -39   13-Al-21  1925   5 cm    0   0                
+  Photon     19-K -39   13-Al-22  1925   5 cm    0   0                
+  Photon     19-K -39   13-Al-23  1925   5 cm    0   0                
+  Photon     19-K -39   13-Al-24  1925   5 cm    0   0                
+  Photon     19-K -39   13-Al-24  1925   5 cm    1   0                
+  Photon     19-K -39   13-Al-25  1925   5 cm    0   0                
+  Photon     19-K -39   13-Al-26  1925   5 cm    0   0                
+  Photon     19-K -39   13-Al-26  1925   5 cm    1   0                
+  Photon     19-K -39   13-Al-27  1925   5 cm    0   0                
+  Photon     19-K -39   13-Al-28  1925   5 cm    0   0                
+  Photon     19-K -39   13-Al-29  1925   5 cm    0   0                
+  Photon     19-K -39   13-Al-30  1925   5 cm    0   0                
+  Photon     19-K -39   13-Al-31  1925   5 cm    0   0                
+  Photon     19-K -39   13-Al-32  1925   5 cm    0   0                
+  Photon     19-K -39   13-Al-33  1925   5 cm    0   0                
+  Photon     19-K -39   14-Si-22  1925   5 cm    0   0                
+  Photon     19-K -39   14-Si-23  1925   5 cm    0   0                
+  Photon     19-K -39   14-Si-24  1925   5 cm    0   0                
+  Photon     19-K -39   14-Si-25  1925   5 cm    0   0                
+  Photon     19-K -39   14-Si-26  1925   5 cm    0   0                
+  Photon     19-K -39   14-Si-27  1925   5 cm    0   0                
+  Photon     19-K -39   14-Si-28  1925   5 cm    0   0                
+  Photon     19-K -39   14-Si-29  1925   5 cm    0   0                
+  Photon     19-K -39   14-Si-30  1925   5 cm    0   0                
+  Photon     19-K -39   14-Si-31  1925   5 cm    0   0                
+  Photon     19-K -39   14-Si-32  1925   5 cm    0   0                
+  Photon     19-K -39   14-Si-33  1925   5 cm    0   0                
+  Photon     19-K -39   14-Si-34  1925   5 cm    0   0                
+  Photon     19-K -39   15-P -24  1925   5 cm    0   0                
+  Photon     19-K -39   15-P -25  1925   5 cm    0   0                
+  Photon     19-K -39   15-P -26  1925   5 cm    0   0                
+  Photon     19-K -39   15-P -27  1925   5 cm    0   0                
+  Photon     19-K -39   15-P -28  1925   5 cm    0   0                
+  Photon     19-K -39   15-P -29  1925   5 cm    0   0                
+  Photon     19-K -39   15-P -30  1925   5 cm    0   0                
+  Photon     19-K -39   15-P -31  1925   5 cm    0   0                
+  Photon     19-K -39   15-P -32  1925   5 cm    0   0                
+  Photon     19-K -39   15-P -33  1925   5 cm    0   0                
+  Photon     19-K -39   15-P -34  1925   5 cm    0   0                
+  Photon     19-K -39   15-P -35  1925   5 cm    0   0                
+  Photon     19-K -39   16-S -26  1925   5 cm    0   0                
+  Photon     19-K -39   16-S -27  1925   5 cm    0   0                
+  Photon     19-K -39   16-S -28  1925   5 cm    0   0                
+  Photon     19-K -39   16-S -29  1925   5 cm    0   0                
+  Photon     19-K -39   16-S -30  1925   5 cm    0   0                
+  Photon     19-K -39   16-S -31  1925   5 cm    0   0                
+  Photon     19-K -39   16-S -32  1925   5 cm    0   0                
+  Photon     19-K -39   16-S -33  1925   5 cm    0   0                
+  Photon     19-K -39   16-S -34  1925   5 cm    0   0                
+  Photon     19-K -39   16-S -35  1925   5 cm    0   0                
+  Photon     19-K -39   16-S -36  1925   5 cm    0   0                
+  Photon     19-K -39   17-Cl-28  1925   5 cm    0   0                
+  Photon     19-K -39   17-Cl-29  1925   5 cm    0   0                
+  Photon     19-K -39   17-Cl-30  1925   5 cm    0   0                
+  Photon     19-K -39   17-Cl-31  1925   5 cm    0   0                
+  Photon     19-K -39   17-Cl-32  1925   5 cm    0   0                
+  Photon     19-K -39   17-Cl-33  1925   5 cm    0   0                
+  Photon     19-K -39   17-Cl-34  1925   5 cm    0   0                
+  Photon     19-K -39   17-Cl-34  1925   5 cm    1   0                
+  Photon     19-K -39   17-Cl-35  1925   5 cm    0   0                
+  Photon     19-K -39   17-Cl-36  1925   5 cm    0   0                
+  Photon     19-K -39   17-Cl-37  1925   5 cm    0   0                
+  Photon     19-K -39   18-Ar-30  1925   5 cm    0   0                
+  Photon     19-K -39   18-Ar-31  1925   5 cm    0   0                
+  Photon     19-K -39   18-Ar-32  1925   5 cm    0   0                
+  Photon     19-K -39   18-Ar-33  1925   5 cm    0   0                
+  Photon     19-K -39   18-Ar-34  1925   5 cm    0   0                
+  Photon     19-K -39   18-Ar-35  1925   5 cm    0   0                
+  Photon     19-K -39   18-Ar-36  1925   5 cm    0   0                
+  Photon     19-K -39   18-Ar-37  1925   5 cm    0   0                
+  Photon     19-K -39   18-Ar-38  1925   5 cm    0   0                
+  Photon     19-K -39   19-K -32  1925   5 cm    0   0                
+  Photon     19-K -39   19-K -33  1925   5 cm    0   0                
+  Photon     19-K -39   19-K -34  1925   5 cm    0   0                
+  Photon     19-K -39   19-K -35  1925   5 cm    0   0                
+  Photon     19-K -39   19-K -36  1925   5 cm    0   0                
+  Photon     19-K -39   19-K -37  1925   5 cm    0   0                
+  Photon     19-K -39   19-K -38  1925   5 cm    0   0                
+  Photon     19-K -39   19-K -38  1925   5 cm    1   0                
+  Photon     19-K -39   19-K -39  1925   5 cm    0   0                
+  Photon     19-K -39   Photon    1925   5 cm    0   1    1    2      
+ ------------------------------------------------------------------------------
+ All Cross Sections Read. Maximum Tabulated Energy =  200000000. eV
+ ------------------------------------------------------------------------------
+ ==============================================================================
+ Laws by Incident Particle
+ ------------------------------------------------------------------------------
+ Law Number and Definition   Photon    n     p     d     t  He-3  He-4 Other
+ ------------------------------------------------------------------------------
+ (0) Unknown................   167     0     0     0     0     0     0     0
+ (1) Continuum Energy-Angle
+      Legendre..............     7     0     0     0     0     0     0     0
+      Kalbach-Mann..........     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (2) Discrete 2 Body
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (3) Isotropic Discrete.....     0     0     0     0     0     0     0     0
+ (4) Discrete 2 Body Recoil.     0     0     0     0     0     0     0     0
+ (5) Charged Particle Elastic
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (6) n-Body Phase-Space.....     0     0     0     0     0     0     0     0
+ (7) Laboratory Angle-Energy     0     0     0     0     0     0     0     0
+ Not 0 to 7 (WARNING if Any)     0     0     0     0     0     0     0     0
+ ==============================================================================
+ Laws by Emitted Particle
+ ------------------------------------------------------------------------------
+ Law Number and Definition   Photon    n     p     d     t  He-3  He-4 Other
+ ------------------------------------------------------------------------------
+ (0) Unknown................     0     0     0     0     0     0     0   167
+ (1) Continuum Energy-Angle
+      Legendre..............     1     1     1     1     1     1     1     0
+      Kalbach-Mann..........     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (2) Discrete 2 Body
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (3) Isotropic Discrete.....     0     0     0     0     0     0     0     0
+ (4) Discrete 2 Body Recoil.     0     0     0     0     0     0     0     0
+ (5) Charged Particle Elastic
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (6) n-Body Phase-Space.....     0     0     0     0     0     0     0     0
+ (7) Laboratory Angle-Energy     0     0     0     0     0     0     0     0
+ Not 0 to 7 (WARNING if Any)     0     0     0     0     0     0     0     0
+ ------------------------------------------------------------------------------
+ Summary of Emitted Particle Yields
+ ------------------------------------------------------------------------------
+ Energy Independent.........     0     0     0     0     0     0     0     0
+ Energy Dependent...........     1     1     1     1     1     1     1   167
+ ------------------------------------------------------------------------------
+ Summary of Angular Distributions
+ ------------------------------------------------------------------------------
+ Isotropic..................     1     0     0     0     0     0     0     0
+ Nonisotropic...............     0     1     0     0     0     0     0     0
+ Mixed......................     0     0     1     1     1     1     1     0
+ ------------------------------------------------------------------------------
+ Maximum Legendre Order.....     0    10    10    10    10    10    10     0
+ Maximum Number of Cosines..     0     0     0     0     0     0     0     0
+ ------------------------------------------------------------------------------
+ Summary of Energy Distributions
+ ------------------------------------------------------------------------------
+ Continuous.................     1     1     1     1     1     1     1     0
+ Discrete...................     0     0     0     0     0     0     0     0
+ Mixed......................     0     0     0     0     0     0     0     0
+ ------------------------------------------------------------------------------
+ ==============================================================================
+ Summary of Incident Neutron with Photon or Neutron Emitted Data
+ ------------------------------------------------------------------------------
+ Law Number and Definition   Output        Not Output 
+ ------------------------------------------------------------------------------
+                             Photon    n   Photon    n
+ ------------------------------------------------------------------------------
+ (0) Unknown................     0     0       0     0
+ (1) Continuum Energy-Angle
+      Legendre..............     0     0       0     0
+      Kalbach-Mann..........     0     0       0     0
+      Tabulated.............     0     0       0     0
+ (2) Discrete 2 Body
+      Legendre..............     0     0       0     0
+      Tabulated.............     0     0       0     0
+ (3) Isotropic Discrete.....     0     0       0     0
+ (4) Discrete 2 Body Recoil.     0     0       0     0
+ (5) Charged Particle Elastic
+      Legendre..............     0     0       0     0
+      Tabulated.............     0     0       0     0
+ (6) n-Body Phase-Space.....     0     0       0     0
+ (7) Laboratory Angle-Energy     0     0       0     0
+ Not 0 to 7 (WARNING if Any)     0     0       0     0
+ ==============================================================================
+ End of Run
+ ===============================================================================
+ SIXPAK   Total Execution Time                0.12 Seconds
+ ===============================================================================

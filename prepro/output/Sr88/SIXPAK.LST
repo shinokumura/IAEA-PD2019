@@ -1,0 +1,448 @@
+ Process ENDF/B Double Differential Data - MF=6 (SIXPAK 2019-1)
+ ==============================================================================
+ ENDF/B Input Data Filename
+ SIXPAK.IN                                                               
+ ------------------------------------------------------------------------------
+ Requested Ranges
+ ------------------------------------------------------------------------------
+    Minimum    Maximum   
+    MAT  MT    MAT  MT
+ ------------------------------------------------------------------------------
+      1   1   9999 999
+ ==============================================================================
+ Terminology
+ ------------------------------------------------------------------------------
+ LCT  = Reference System (Lab or Center-of-Mass)
+ LIP  = Product Modifier, e.g., for Isomeric States
+ LAW  = Representation of Data - see, List at End of Output
+ LANG = 1     = Legendre     (LAW 1)
+      = 2     = Kalbach-Mann (LAW 1)
+      = 11-15 = Tabulated    (LAW 1)
+      = 0     = Legendre     (LAW 2)
+      = 11-15 = Tabulated    (LAW 2)
+ LTP  = 1-2   = Legendre     (LAW 5)
+      = 11-15 = Tabulated    (LAW 5)
+ LEP  = Secondary Energy Interpolation Type(1 to 5)
+ ==============================================================================
+ Tape Label
+ ------------------------------------------------------------------------------
+  JENDL/PD-2016.1  Sr- 88                                             1
+ ------------------------------------------------------------------------------
+ WARNING: MT=5 is ALLOWED in MF=6, but NOT in MF=4 or 5.
+          see ENDF-102 - Strictly for diagnostic purposes
+          this code will Translate MF=6 Data - but be
+          WARNED - the results should not be used in ANY          APPLICATIONS.
+ ------------------------------------------------------------------------------
+ ==============================================================================
+ Projectile   Target    Emitted    MAT  MT LCT LIP LAW LANG  LEP  ENDF/B
+                                                        LTP       Output
+ ==============================================================================
+  Photon     38-Sr-88   Neutron   3837   5 cm    0   1    1    2      
+  Photon     38-Sr-88    1-H -1   3837   5 cm    0   1    1    2      
+  Photon     38-Sr-88    1-H -2   3837   5 cm    0   1    1    2      
+  Photon     38-Sr-88    1-H -3   3837   5 cm    0   1    1    2      
+  Photon     38-Sr-88    2-He-3   3837   5 cm    0   1    1    2      
+  Photon     38-Sr-88    2-He-4   3837   5 cm    0   1    1    2      
+  Photon     38-Sr-88   20-Ca-52  3837   5 cm    0   0                
+  Photon     38-Sr-88   20-Ca-53  3837   5 cm    0   0                
+  Photon     38-Sr-88   20-Ca-54  3837   5 cm    0   0                
+  Photon     38-Sr-88   21-Sc-53  3837   5 cm    0   0                
+  Photon     38-Sr-88   21-Sc-54  3837   5 cm    0   0                
+  Photon     38-Sr-88   21-Sc-55  3837   5 cm    0   0                
+  Photon     38-Sr-88   21-Sc-56  3837   5 cm    0   0                
+  Photon     38-Sr-88   21-Sc-57  3837   5 cm    0   0                
+  Photon     38-Sr-88   22-Ti-54  3837   5 cm    0   0                
+  Photon     38-Sr-88   22-Ti-55  3837   5 cm    0   0                
+  Photon     38-Sr-88   22-Ti-56  3837   5 cm    0   0                
+  Photon     38-Sr-88   22-Ti-57  3837   5 cm    0   0                
+  Photon     38-Sr-88   22-Ti-58  3837   5 cm    0   0                
+  Photon     38-Sr-88   22-Ti-59  3837   5 cm    0   0                
+  Photon     38-Sr-88   22-Ti-60  3837   5 cm    0   0                
+  Photon     38-Sr-88   23-V -55  3837   5 cm    0   0                
+  Photon     38-Sr-88   23-V -56  3837   5 cm    0   0                
+  Photon     38-Sr-88   23-V -57  3837   5 cm    0   0                
+  Photon     38-Sr-88   23-V -58  3837   5 cm    0   0                
+  Photon     38-Sr-88   23-V -59  3837   5 cm    0   0                
+  Photon     38-Sr-88   23-V -60  3837   5 cm    0   0                
+  Photon     38-Sr-88   23-V -60  3837   5 cm    1   0                
+  Photon     38-Sr-88   23-V -61  3837   5 cm    0   0                
+  Photon     38-Sr-88   23-V -62  3837   5 cm    0   0                
+  Photon     38-Sr-88   24-Cr-56  3837   5 cm    0   0                
+  Photon     38-Sr-88   24-Cr-57  3837   5 cm    0   0                
+  Photon     38-Sr-88   24-Cr-58  3837   5 cm    0   0                
+  Photon     38-Sr-88   24-Cr-59  3837   5 cm    0   0                
+  Photon     38-Sr-88   24-Cr-60  3837   5 cm    0   0                
+  Photon     38-Sr-88   24-Cr-61  3837   5 cm    0   0                
+  Photon     38-Sr-88   24-Cr-62  3837   5 cm    0   0                
+  Photon     38-Sr-88   24-Cr-63  3837   5 cm    0   0                
+  Photon     38-Sr-88   24-Cr-64  3837   5 cm    0   0                
+  Photon     38-Sr-88   25-Mn-57  3837   5 cm    0   0                
+  Photon     38-Sr-88   25-Mn-58  3837   5 cm    0   0                
+  Photon     38-Sr-88   25-Mn-58  3837   5 cm    1   0                
+  Photon     38-Sr-88   25-Mn-59  3837   5 cm    0   0                
+  Photon     38-Sr-88   25-Mn-60  3837   5 cm    0   0                
+  Photon     38-Sr-88   25-Mn-60  3837   5 cm    1   0                
+  Photon     38-Sr-88   25-Mn-61  3837   5 cm    0   0                
+  Photon     38-Sr-88   25-Mn-62  3837   5 cm    0   0                
+  Photon     38-Sr-88   25-Mn-63  3837   5 cm    0   0                
+  Photon     38-Sr-88   25-Mn-64  3837   5 cm    0   0                
+  Photon     38-Sr-88   25-Mn-65  3837   5 cm    0   0                
+  Photon     38-Sr-88   25-Mn-66  3837   5 cm    0   0                
+  Photon     38-Sr-88   25-Mn-67  3837   5 cm    0   0                
+  Photon     38-Sr-88   26-Fe-58  3837   5 cm    0   0                
+  Photon     38-Sr-88   26-Fe-59  3837   5 cm    0   0                
+  Photon     38-Sr-88   26-Fe-60  3837   5 cm    0   0                
+  Photon     38-Sr-88   26-Fe-61  3837   5 cm    0   0                
+  Photon     38-Sr-88   26-Fe-62  3837   5 cm    0   0                
+  Photon     38-Sr-88   26-Fe-63  3837   5 cm    0   0                
+  Photon     38-Sr-88   26-Fe-64  3837   5 cm    0   0                
+  Photon     38-Sr-88   26-Fe-65  3837   5 cm    0   0                
+  Photon     38-Sr-88   26-Fe-66  3837   5 cm    0   0                
+  Photon     38-Sr-88   26-Fe-67  3837   5 cm    0   0                
+  Photon     38-Sr-88   26-Fe-68  3837   5 cm    0   0                
+  Photon     38-Sr-88   26-Fe-69  3837   5 cm    0   0                
+  Photon     38-Sr-88   26-Fe-70  3837   5 cm    0   0                
+  Photon     38-Sr-88   27-Co-59  3837   5 cm    0   0                
+  Photon     38-Sr-88   27-Co-60  3837   5 cm    0   0                
+  Photon     38-Sr-88   27-Co-60  3837   5 cm    1   0                
+  Photon     38-Sr-88   27-Co-61  3837   5 cm    0   0                
+  Photon     38-Sr-88   27-Co-62  3837   5 cm    0   0                
+  Photon     38-Sr-88   27-Co-62  3837   5 cm    1   0                
+  Photon     38-Sr-88   27-Co-63  3837   5 cm    0   0                
+  Photon     38-Sr-88   27-Co-64  3837   5 cm    0   0                
+  Photon     38-Sr-88   27-Co-65  3837   5 cm    0   0                
+  Photon     38-Sr-88   27-Co-66  3837   5 cm    0   0                
+  Photon     38-Sr-88   27-Co-67  3837   5 cm    0   0                
+  Photon     38-Sr-88   27-Co-68  3837   5 cm    0   0                
+  Photon     38-Sr-88   27-Co-68  3837   5 cm    1   0                
+  Photon     38-Sr-88   27-Co-69  3837   5 cm    0   0                
+  Photon     38-Sr-88   27-Co-70  3837   5 cm    0   0                
+  Photon     38-Sr-88   27-Co-70  3837   5 cm    1   0                
+  Photon     38-Sr-88   27-Co-71  3837   5 cm    0   0                
+  Photon     38-Sr-88   27-Co-72  3837   5 cm    0   0                
+  Photon     38-Sr-88   27-Co-73  3837   5 cm    0   0                
+  Photon     38-Sr-88   28-Ni-60  3837   5 cm    0   0                
+  Photon     38-Sr-88   28-Ni-61  3837   5 cm    0   0                
+  Photon     38-Sr-88   28-Ni-62  3837   5 cm    0   0                
+  Photon     38-Sr-88   28-Ni-63  3837   5 cm    0   0                
+  Photon     38-Sr-88   28-Ni-64  3837   5 cm    0   0                
+  Photon     38-Sr-88   28-Ni-65  3837   5 cm    0   0                
+  Photon     38-Sr-88   28-Ni-66  3837   5 cm    0   0                
+  Photon     38-Sr-88   28-Ni-67  3837   5 cm    0   0                
+  Photon     38-Sr-88   28-Ni-68  3837   5 cm    0   0                
+  Photon     38-Sr-88   28-Ni-69  3837   5 cm    0   0                
+  Photon     38-Sr-88   28-Ni-70  3837   5 cm    0   0                
+  Photon     38-Sr-88   28-Ni-71  3837   5 cm    0   0                
+  Photon     38-Sr-88   28-Ni-72  3837   5 cm    0   0                
+  Photon     38-Sr-88   28-Ni-73  3837   5 cm    0   0                
+  Photon     38-Sr-88   28-Ni-74  3837   5 cm    0   0                
+  Photon     38-Sr-88   28-Ni-75  3837   5 cm    0   0                
+  Photon     38-Sr-88   28-Ni-76  3837   5 cm    0   0                
+  Photon     38-Sr-88   29-Cu-61  3837   5 cm    0   0                
+  Photon     38-Sr-88   29-Cu-62  3837   5 cm    0   0                
+  Photon     38-Sr-88   29-Cu-63  3837   5 cm    0   0                
+  Photon     38-Sr-88   29-Cu-64  3837   5 cm    0   0                
+  Photon     38-Sr-88   29-Cu-65  3837   5 cm    0   0                
+  Photon     38-Sr-88   29-Cu-66  3837   5 cm    0   0                
+  Photon     38-Sr-88   29-Cu-67  3837   5 cm    0   0                
+  Photon     38-Sr-88   29-Cu-68  3837   5 cm    0   0                
+  Photon     38-Sr-88   29-Cu-68  3837   5 cm    1   0                
+  Photon     38-Sr-88   29-Cu-69  3837   5 cm    0   0                
+  Photon     38-Sr-88   29-Cu-70  3837   5 cm    0   0                
+  Photon     38-Sr-88   29-Cu-70  3837   5 cm    1   0                
+  Photon     38-Sr-88   29-Cu-71  3837   5 cm    0   0                
+  Photon     38-Sr-88   29-Cu-72  3837   5 cm    0   0                
+  Photon     38-Sr-88   29-Cu-73  3837   5 cm    0   0                
+  Photon     38-Sr-88   29-Cu-74  3837   5 cm    0   0                
+  Photon     38-Sr-88   29-Cu-75  3837   5 cm    0   0                
+  Photon     38-Sr-88   29-Cu-76  3837   5 cm    0   0                
+  Photon     38-Sr-88   29-Cu-76  3837   5 cm    1   0                
+  Photon     38-Sr-88   29-Cu-77  3837   5 cm    0   0                
+  Photon     38-Sr-88   29-Cu-78  3837   5 cm    0   0                
+  Photon     38-Sr-88   30-Zn-62  3837   5 cm    0   0                
+  Photon     38-Sr-88   30-Zn-63  3837   5 cm    0   0                
+  Photon     38-Sr-88   30-Zn-64  3837   5 cm    0   0                
+  Photon     38-Sr-88   30-Zn-65  3837   5 cm    0   0                
+  Photon     38-Sr-88   30-Zn-66  3837   5 cm    0   0                
+  Photon     38-Sr-88   30-Zn-67  3837   5 cm    0   0                
+  Photon     38-Sr-88   30-Zn-68  3837   5 cm    0   0                
+  Photon     38-Sr-88   30-Zn-69  3837   5 cm    0   0                
+  Photon     38-Sr-88   30-Zn-69  3837   5 cm    1   0                
+  Photon     38-Sr-88   30-Zn-70  3837   5 cm    0   0                
+  Photon     38-Sr-88   30-Zn-71  3837   5 cm    0   0                
+  Photon     38-Sr-88   30-Zn-71  3837   5 cm    1   0                
+  Photon     38-Sr-88   30-Zn-72  3837   5 cm    0   0                
+  Photon     38-Sr-88   30-Zn-73  3837   5 cm    0   0                
+  Photon     38-Sr-88   30-Zn-74  3837   5 cm    0   0                
+  Photon     38-Sr-88   30-Zn-75  3837   5 cm    0   0                
+  Photon     38-Sr-88   30-Zn-76  3837   5 cm    0   0                
+  Photon     38-Sr-88   30-Zn-77  3837   5 cm    0   0                
+  Photon     38-Sr-88   30-Zn-77  3837   5 cm    1   0                
+  Photon     38-Sr-88   30-Zn-78  3837   5 cm    0   0                
+  Photon     38-Sr-88   30-Zn-79  3837   5 cm    0   0                
+  Photon     38-Sr-88   31-Ga-63  3837   5 cm    0   0                
+  Photon     38-Sr-88   31-Ga-64  3837   5 cm    0   0                
+  Photon     38-Sr-88   31-Ga-65  3837   5 cm    0   0                
+  Photon     38-Sr-88   31-Ga-66  3837   5 cm    0   0                
+  Photon     38-Sr-88   31-Ga-67  3837   5 cm    0   0                
+  Photon     38-Sr-88   31-Ga-68  3837   5 cm    0   0                
+  Photon     38-Sr-88   31-Ga-69  3837   5 cm    0   0                
+  Photon     38-Sr-88   31-Ga-70  3837   5 cm    0   0                
+  Photon     38-Sr-88   31-Ga-71  3837   5 cm    0   0                
+  Photon     38-Sr-88   31-Ga-72  3837   5 cm    0   0                
+  Photon     38-Sr-88   31-Ga-73  3837   5 cm    0   0                
+  Photon     38-Sr-88   31-Ga-74  3837   5 cm    0   0                
+  Photon     38-Sr-88   31-Ga-75  3837   5 cm    0   0                
+  Photon     38-Sr-88   31-Ga-76  3837   5 cm    0   0                
+  Photon     38-Sr-88   31-Ga-77  3837   5 cm    0   0                
+  Photon     38-Sr-88   31-Ga-78  3837   5 cm    0   0                
+  Photon     38-Sr-88   31-Ga-79  3837   5 cm    0   0                
+  Photon     38-Sr-88   31-Ga-80  3837   5 cm    0   0                
+  Photon     38-Sr-88   31-Ga-81  3837   5 cm    0   0                
+  Photon     38-Sr-88   32-Ge-64  3837   5 cm    0   0                
+  Photon     38-Sr-88   32-Ge-65  3837   5 cm    0   0                
+  Photon     38-Sr-88   32-Ge-66  3837   5 cm    0   0                
+  Photon     38-Sr-88   32-Ge-67  3837   5 cm    0   0                
+  Photon     38-Sr-88   32-Ge-68  3837   5 cm    0   0                
+  Photon     38-Sr-88   32-Ge-69  3837   5 cm    0   0                
+  Photon     38-Sr-88   32-Ge-70  3837   5 cm    0   0                
+  Photon     38-Sr-88   32-Ge-71  3837   5 cm    0   0                
+  Photon     38-Sr-88   32-Ge-72  3837   5 cm    0   0                
+  Photon     38-Sr-88   32-Ge-73  3837   5 cm    0   0                
+  Photon     38-Sr-88   32-Ge-73  3837   5 cm    1   0                
+  Photon     38-Sr-88   32-Ge-74  3837   5 cm    0   0                
+  Photon     38-Sr-88   32-Ge-75  3837   5 cm    0   0                
+  Photon     38-Sr-88   32-Ge-75  3837   5 cm    1   0                
+  Photon     38-Sr-88   32-Ge-76  3837   5 cm    0   0                
+  Photon     38-Sr-88   32-Ge-77  3837   5 cm    0   0                
+  Photon     38-Sr-88   32-Ge-77  3837   5 cm    1   0                
+  Photon     38-Sr-88   32-Ge-78  3837   5 cm    0   0                
+  Photon     38-Sr-88   32-Ge-79  3837   5 cm    0   0                
+  Photon     38-Sr-88   32-Ge-79  3837   5 cm    1   0                
+  Photon     38-Sr-88   32-Ge-80  3837   5 cm    0   0                
+  Photon     38-Sr-88   32-Ge-81  3837   5 cm    0   0                
+  Photon     38-Sr-88   32-Ge-81  3837   5 cm    1   0                
+  Photon     38-Sr-88   32-Ge-82  3837   5 cm    0   0                
+  Photon     38-Sr-88   33-As-65  3837   5 cm    0   0                
+  Photon     38-Sr-88   33-As-66  3837   5 cm    0   0                
+  Photon     38-Sr-88   33-As-67  3837   5 cm    0   0                
+  Photon     38-Sr-88   33-As-68  3837   5 cm    0   0                
+  Photon     38-Sr-88   33-As-69  3837   5 cm    0   0                
+  Photon     38-Sr-88   33-As-70  3837   5 cm    0   0                
+  Photon     38-Sr-88   33-As-71  3837   5 cm    0   0                
+  Photon     38-Sr-88   33-As-72  3837   5 cm    0   0                
+  Photon     38-Sr-88   33-As-73  3837   5 cm    0   0                
+  Photon     38-Sr-88   33-As-74  3837   5 cm    0   0                
+  Photon     38-Sr-88   33-As-75  3837   5 cm    0   0                
+  Photon     38-Sr-88   33-As-76  3837   5 cm    0   0                
+  Photon     38-Sr-88   33-As-77  3837   5 cm    0   0                
+  Photon     38-Sr-88   33-As-78  3837   5 cm    0   0                
+  Photon     38-Sr-88   33-As-79  3837   5 cm    0   0                
+  Photon     38-Sr-88   33-As-80  3837   5 cm    0   0                
+  Photon     38-Sr-88   33-As-81  3837   5 cm    0   0                
+  Photon     38-Sr-88   33-As-82  3837   5 cm    0   0                
+  Photon     38-Sr-88   33-As-82  3837   5 cm    1   0                
+  Photon     38-Sr-88   33-As-83  3837   5 cm    0   0                
+  Photon     38-Sr-88   34-Se-67  3837   5 cm    0   0                
+  Photon     38-Sr-88   34-Se-68  3837   5 cm    0   0                
+  Photon     38-Sr-88   34-Se-69  3837   5 cm    0   0                
+  Photon     38-Sr-88   34-Se-70  3837   5 cm    0   0                
+  Photon     38-Sr-88   34-Se-71  3837   5 cm    0   0                
+  Photon     38-Sr-88   34-Se-72  3837   5 cm    0   0                
+  Photon     38-Sr-88   34-Se-73  3837   5 cm    0   0                
+  Photon     38-Sr-88   34-Se-73  3837   5 cm    1   0                
+  Photon     38-Sr-88   34-Se-74  3837   5 cm    0   0                
+  Photon     38-Sr-88   34-Se-75  3837   5 cm    0   0                
+  Photon     38-Sr-88   34-Se-76  3837   5 cm    0   0                
+  Photon     38-Sr-88   34-Se-77  3837   5 cm    0   0                
+  Photon     38-Sr-88   34-Se-77  3837   5 cm    1   0                
+  Photon     38-Sr-88   34-Se-78  3837   5 cm    0   0                
+  Photon     38-Sr-88   34-Se-79  3837   5 cm    0   0                
+  Photon     38-Sr-88   34-Se-79  3837   5 cm    1   0                
+  Photon     38-Sr-88   34-Se-80  3837   5 cm    0   0                
+  Photon     38-Sr-88   34-Se-81  3837   5 cm    0   0                
+  Photon     38-Sr-88   34-Se-81  3837   5 cm    1   0                
+  Photon     38-Sr-88   34-Se-82  3837   5 cm    0   0                
+  Photon     38-Sr-88   34-Se-83  3837   5 cm    0   0                
+  Photon     38-Sr-88   34-Se-83  3837   5 cm    1   0                
+  Photon     38-Sr-88   34-Se-84  3837   5 cm    0   0                
+  Photon     38-Sr-88   35-Br-69  3837   5 cm    0   0                
+  Photon     38-Sr-88   35-Br-70  3837   5 cm    0   0                
+  Photon     38-Sr-88   35-Br-70  3837   5 cm    1   0                
+  Photon     38-Sr-88   35-Br-71  3837   5 cm    0   0                
+  Photon     38-Sr-88   35-Br-72  3837   5 cm    0   0                
+  Photon     38-Sr-88   35-Br-72  3837   5 cm    1   0                
+  Photon     38-Sr-88   35-Br-73  3837   5 cm    0   0                
+  Photon     38-Sr-88   35-Br-74  3837   5 cm    0   0                
+  Photon     38-Sr-88   35-Br-74  3837   5 cm    1   0                
+  Photon     38-Sr-88   35-Br-75  3837   5 cm    0   0                
+  Photon     38-Sr-88   35-Br-76  3837   5 cm    0   0                
+  Photon     38-Sr-88   35-Br-76  3837   5 cm    1   0                
+  Photon     38-Sr-88   35-Br-77  3837   5 cm    0   0                
+  Photon     38-Sr-88   35-Br-77  3837   5 cm    1   0                
+  Photon     38-Sr-88   35-Br-78  3837   5 cm    0   0                
+  Photon     38-Sr-88   35-Br-79  3837   5 cm    0   0                
+  Photon     38-Sr-88   35-Br-79  3837   5 cm    1   0                
+  Photon     38-Sr-88   35-Br-80  3837   5 cm    0   0                
+  Photon     38-Sr-88   35-Br-80  3837   5 cm    1   0                
+  Photon     38-Sr-88   35-Br-81  3837   5 cm    0   0                
+  Photon     38-Sr-88   35-Br-82  3837   5 cm    0   0                
+  Photon     38-Sr-88   35-Br-82  3837   5 cm    1   0                
+  Photon     38-Sr-88   35-Br-83  3837   5 cm    0   0                
+  Photon     38-Sr-88   35-Br-84  3837   5 cm    0   0                
+  Photon     38-Sr-88   35-Br-84  3837   5 cm    1   0                
+  Photon     38-Sr-88   35-Br-85  3837   5 cm    0   0                
+  Photon     38-Sr-88   36-Kr-71  3837   5 cm    0   0                
+  Photon     38-Sr-88   36-Kr-72  3837   5 cm    0   0                
+  Photon     38-Sr-88   36-Kr-73  3837   5 cm    0   0                
+  Photon     38-Sr-88   36-Kr-74  3837   5 cm    0   0                
+  Photon     38-Sr-88   36-Kr-75  3837   5 cm    0   0                
+  Photon     38-Sr-88   36-Kr-76  3837   5 cm    0   0                
+  Photon     38-Sr-88   36-Kr-77  3837   5 cm    0   0                
+  Photon     38-Sr-88   36-Kr-78  3837   5 cm    0   0                
+  Photon     38-Sr-88   36-Kr-79  3837   5 cm    0   0                
+  Photon     38-Sr-88   36-Kr-79  3837   5 cm    1   0                
+  Photon     38-Sr-88   36-Kr-80  3837   5 cm    0   0                
+  Photon     38-Sr-88   36-Kr-81  3837   5 cm    0   0                
+  Photon     38-Sr-88   36-Kr-81  3837   5 cm    1   0                
+  Photon     38-Sr-88   36-Kr-82  3837   5 cm    0   0                
+  Photon     38-Sr-88   36-Kr-83  3837   5 cm    0   0                
+  Photon     38-Sr-88   36-Kr-83  3837   5 cm    1   0                
+  Photon     38-Sr-88   36-Kr-84  3837   5 cm    0   0                
+  Photon     38-Sr-88   36-Kr-85  3837   5 cm    0   0                
+  Photon     38-Sr-88   36-Kr-85  3837   5 cm    1   0                
+  Photon     38-Sr-88   36-Kr-86  3837   5 cm    0   0                
+  Photon     38-Sr-88   37-Rb-72  3837   5 cm    0   0                
+  Photon     38-Sr-88   37-Rb-73  3837   5 cm    0   0                
+  Photon     38-Sr-88   37-Rb-74  3837   5 cm    0   0                
+  Photon     38-Sr-88   37-Rb-75  3837   5 cm    0   0                
+  Photon     38-Sr-88   37-Rb-76  3837   5 cm    0   0                
+  Photon     38-Sr-88   37-Rb-77  3837   5 cm    0   0                
+  Photon     38-Sr-88   37-Rb-78  3837   5 cm    0   0                
+  Photon     38-Sr-88   37-Rb-78  3837   5 cm    1   0                
+  Photon     38-Sr-88   37-Rb-79  3837   5 cm    0   0                
+  Photon     38-Sr-88   37-Rb-80  3837   5 cm    0   0                
+  Photon     38-Sr-88   37-Rb-81  3837   5 cm    0   0                
+  Photon     38-Sr-88   37-Rb-81  3837   5 cm    1   0                
+  Photon     38-Sr-88   37-Rb-82  3837   5 cm    0   0                
+  Photon     38-Sr-88   37-Rb-82  3837   5 cm    1   0                
+  Photon     38-Sr-88   37-Rb-83  3837   5 cm    0   0                
+  Photon     38-Sr-88   37-Rb-84  3837   5 cm    0   0                
+  Photon     38-Sr-88   37-Rb-84  3837   5 cm    1   0                
+  Photon     38-Sr-88   37-Rb-85  3837   5 cm    0   0                
+  Photon     38-Sr-88   37-Rb-86  3837   5 cm    0   0                
+  Photon     38-Sr-88   37-Rb-86  3837   5 cm    1   0                
+  Photon     38-Sr-88   37-Rb-87  3837   5 cm    0   0                
+  Photon     38-Sr-88   38-Sr-74  3837   5 cm    0   0                
+  Photon     38-Sr-88   38-Sr-75  3837   5 cm    0   0                
+  Photon     38-Sr-88   38-Sr-76  3837   5 cm    0   0                
+  Photon     38-Sr-88   38-Sr-77  3837   5 cm    0   0                
+  Photon     38-Sr-88   38-Sr-78  3837   5 cm    0   0                
+  Photon     38-Sr-88   38-Sr-79  3837   5 cm    0   0                
+  Photon     38-Sr-88   38-Sr-80  3837   5 cm    0   0                
+  Photon     38-Sr-88   38-Sr-81  3837   5 cm    0   0                
+  Photon     38-Sr-88   38-Sr-82  3837   5 cm    0   0                
+  Photon     38-Sr-88   38-Sr-83  3837   5 cm    0   0                
+  Photon     38-Sr-88   38-Sr-83  3837   5 cm    1   0                
+  Photon     38-Sr-88   38-Sr-84  3837   5 cm    0   0                
+  Photon     38-Sr-88   38-Sr-85  3837   5 cm    0   0                
+  Photon     38-Sr-88   38-Sr-85  3837   5 cm    1   0                
+  Photon     38-Sr-88   38-Sr-86  3837   5 cm    0   0                
+  Photon     38-Sr-88   38-Sr-87  3837   5 cm    0   0                
+  Photon     38-Sr-88   38-Sr-87  3837   5 cm    1   0                
+  Photon     38-Sr-88   38-Sr-88  3837   5 cm    0   0                
+  Photon     38-Sr-88   Photon    3837   5 cm    0   1    1    2      
+ ------------------------------------------------------------------------------
+ All Cross Sections Read. Maximum Tabulated Energy =  200000000. eV
+ ------------------------------------------------------------------------------
+ ==============================================================================
+ Laws by Incident Particle
+ ------------------------------------------------------------------------------
+ Law Number and Definition   Photon    n     p     d     t  He-3  He-4 Other
+ ------------------------------------------------------------------------------
+ (0) Unknown................   308     0     0     0     0     0     0     0
+ (1) Continuum Energy-Angle
+      Legendre..............     7     0     0     0     0     0     0     0
+      Kalbach-Mann..........     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (2) Discrete 2 Body
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (3) Isotropic Discrete.....     0     0     0     0     0     0     0     0
+ (4) Discrete 2 Body Recoil.     0     0     0     0     0     0     0     0
+ (5) Charged Particle Elastic
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (6) n-Body Phase-Space.....     0     0     0     0     0     0     0     0
+ (7) Laboratory Angle-Energy     0     0     0     0     0     0     0     0
+ Not 0 to 7 (WARNING if Any)     0     0     0     0     0     0     0     0
+ ==============================================================================
+ Laws by Emitted Particle
+ ------------------------------------------------------------------------------
+ Law Number and Definition   Photon    n     p     d     t  He-3  He-4 Other
+ ------------------------------------------------------------------------------
+ (0) Unknown................     0     0     0     0     0     0     0   308
+ (1) Continuum Energy-Angle
+      Legendre..............     1     1     1     1     1     1     1     0
+      Kalbach-Mann..........     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (2) Discrete 2 Body
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (3) Isotropic Discrete.....     0     0     0     0     0     0     0     0
+ (4) Discrete 2 Body Recoil.     0     0     0     0     0     0     0     0
+ (5) Charged Particle Elastic
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (6) n-Body Phase-Space.....     0     0     0     0     0     0     0     0
+ (7) Laboratory Angle-Energy     0     0     0     0     0     0     0     0
+ Not 0 to 7 (WARNING if Any)     0     0     0     0     0     0     0     0
+ ------------------------------------------------------------------------------
+ Summary of Emitted Particle Yields
+ ------------------------------------------------------------------------------
+ Energy Independent.........     0     0     0     0     0     0     0     0
+ Energy Dependent...........     1     1     1     1     1     1     1   308
+ ------------------------------------------------------------------------------
+ Summary of Angular Distributions
+ ------------------------------------------------------------------------------
+ Isotropic..................     1     0     0     0     0     0     0     0
+ Nonisotropic...............     0     0     0     1     0     0     0     0
+ Mixed......................     0     1     1     0     1     1     1     0
+ ------------------------------------------------------------------------------
+ Maximum Legendre Order.....     0    10    10    10    10    10    10     0
+ Maximum Number of Cosines..     0     0     0     0     0     0     0     0
+ ------------------------------------------------------------------------------
+ Summary of Energy Distributions
+ ------------------------------------------------------------------------------
+ Continuous.................     1     1     1     1     1     1     1     0
+ Discrete...................     0     0     0     0     0     0     0     0
+ Mixed......................     0     0     0     0     0     0     0     0
+ ------------------------------------------------------------------------------
+ ==============================================================================
+ Summary of Incident Neutron with Photon or Neutron Emitted Data
+ ------------------------------------------------------------------------------
+ Law Number and Definition   Output        Not Output 
+ ------------------------------------------------------------------------------
+                             Photon    n   Photon    n
+ ------------------------------------------------------------------------------
+ (0) Unknown................     0     0       0     0
+ (1) Continuum Energy-Angle
+      Legendre..............     0     0       0     0
+      Kalbach-Mann..........     0     0       0     0
+      Tabulated.............     0     0       0     0
+ (2) Discrete 2 Body
+      Legendre..............     0     0       0     0
+      Tabulated.............     0     0       0     0
+ (3) Isotropic Discrete.....     0     0       0     0
+ (4) Discrete 2 Body Recoil.     0     0       0     0
+ (5) Charged Particle Elastic
+      Legendre..............     0     0       0     0
+      Tabulated.............     0     0       0     0
+ (6) n-Body Phase-Space.....     0     0       0     0
+ (7) Laboratory Angle-Energy     0     0       0     0
+ Not 0 to 7 (WARNING if Any)     0     0       0     0
+ ==============================================================================
+ End of Run
+ ===============================================================================
+ SIXPAK   Total Execution Time                0.12 Seconds
+ ===============================================================================

@@ -1,0 +1,90 @@
+ ENDF Activation Cross Sections (ACTIVATE 2019-1)
+ ------------------------------------------------------------------------------
+ ENDF Input and Output Data Filenames
+ ------------------------------------------------------------------------------
+ ACTIVATE.IN                                                             
+ ACTIVATE.OUT                                                            
+ ------------------------------------------------------------------------------
+ ENDF Tape Label
+ ------------------------------------------------------------------------------
+ Retrieved by E4-util: 2019/11/11,14:58:49                            1
+ ------------------------------------------------------------------------------
+   Material  MAT  MF  MT  ENDF    ZAP Final      Q-Value Points Points
+                          Format      State           eV     In    Out
+ ------------------------------------------------------------------------------
+ WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.00000D-05
+ WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 2.53000D-02
+ WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.99900D+06
+  74-W -183 7434  10   5   6        1     0   0.0           102    102
+ WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.00000D-05
+ WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 2.53000D-02
+ WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.99900D+06
+  74-W -183 7434  10   5   6     1001     0   0.0           102    102
+ WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.00000D-05
+ WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 2.53000D-02
+ WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.99900D+06
+  74-W -183 7434  10   5   6     1002     0   0.0           102    102
+ WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.00000D-05
+ WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 2.53000D-02
+ WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.99900D+06
+  74-W -183 7434  10   5   6     1003     0   0.0           102    102
+ WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.00000D-05
+ WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 2.53000D-02
+ WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.99900D+06
+  74-W -183 7434  10   5   6     2003     0   0.0           102    102
+ WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.00000D-05
+ WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 2.53000D-02
+ WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.99900D+06
+  74-W -183 7434  10   5   6     2004     0   0.0           102    102
+  74-W -183 7434  10   5   6        0     0   0.0           102    102
+ ------------------------------------------------------------------------------
+                                              MAT Totals    714    714
+ ------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------
+ All Cross Sections Read. Maximum Tabulated Energy =  200000000. eV
+ ------------------------------------------------------------------------------
+ ===============================================================================
+      MAT Total Execution Time                0.04 Seconds
+ ===============================================================================
+ ------------------------------------------------------------------------------
+                                             Tape Totals    714    714
+ ------------------------------------------------------------------------------
+ ===============================================================================
+ ACTIVATE Total Execution Time                0.04 Seconds
+ ===============================================================================

@@ -1,0 +1,422 @@
+ Process ENDF/B Double Differential Data - MF=6 (SIXPAK 2019-1)
+ ==============================================================================
+ ENDF/B Input Data Filename
+ SIXPAK.IN                                                               
+ ------------------------------------------------------------------------------
+ Requested Ranges
+ ------------------------------------------------------------------------------
+    Minimum    Maximum   
+    MAT  MT    MAT  MT
+ ------------------------------------------------------------------------------
+      1   1   9999 999
+ ==============================================================================
+ Terminology
+ ------------------------------------------------------------------------------
+ LCT  = Reference System (Lab or Center-of-Mass)
+ LIP  = Product Modifier, e.g., for Isomeric States
+ LAW  = Representation of Data - see, List at End of Output
+ LANG = 1     = Legendre     (LAW 1)
+      = 2     = Kalbach-Mann (LAW 1)
+      = 11-15 = Tabulated    (LAW 1)
+      = 0     = Legendre     (LAW 2)
+      = 11-15 = Tabulated    (LAW 2)
+ LTP  = 1-2   = Legendre     (LAW 5)
+      = 11-15 = Tabulated    (LAW 5)
+ LEP  = Secondary Energy Interpolation Type(1 to 5)
+ ==============================================================================
+ Tape Label
+ ------------------------------------------------------------------------------
+  JENDL/PD-2016.1  Pb-207                                             1
+ ------------------------------------------------------------------------------
+ WARNING: MT=5 is ALLOWED in MF=6, but NOT in MF=4 or 5.
+          see ENDF-102 - Strictly for diagnostic purposes
+          this code will Translate MF=6 Data - but be
+          WARNED - the results should not be used in ANY          APPLICATIONS.
+ ------------------------------------------------------------------------------
+ ==============================================================================
+ Projectile   Target    Emitted    MAT  MT LCT LIP LAW LANG  LEP  ENDF/B
+                                                        LTP       Output
+ ==============================================================================
+  Photon     82-Pb-207  Neutron   8234   5 cm    0   1    1    2      
+  Photon     82-Pb-207   1-H -1   8234   5 cm    0   1    1    2      
+  Photon     82-Pb-207   1-H -2   8234   5 cm    0   1    1    2      
+  Photon     82-Pb-207   1-H -3   8234   5 cm    0   1    1    2      
+  Photon     82-Pb-207   2-He-3   8234   5 cm    0   1    1    2      
+  Photon     82-Pb-207   2-He-4   8234   5 cm    0   1    1    2      
+  Photon     82-Pb-207  67-Ho-174 8234   5 cm    0   0                
+  Photon     82-Pb-207  67-Ho-175 8234   5 cm    0   0                
+  Photon     82-Pb-207  68-Er-175 8234   5 cm    0   0                
+  Photon     82-Pb-207  68-Er-176 8234   5 cm    0   0                
+  Photon     82-Pb-207  68-Er-177 8234   5 cm    0   0                
+  Photon     82-Pb-207  69-Tm-176 8234   5 cm    0   0                
+  Photon     82-Pb-207  69-Tm-177 8234   5 cm    0   0                
+  Photon     82-Pb-207  69-Tm-178 8234   5 cm    0   0                
+  Photon     82-Pb-207  69-Tm-179 8234   5 cm    0   0                
+  Photon     82-Pb-207  70-Yb-177 8234   5 cm    0   0                
+  Photon     82-Pb-207  70-Yb-177 8234   5 cm    1   0                
+  Photon     82-Pb-207  70-Yb-178 8234   5 cm    0   0                
+  Photon     82-Pb-207  70-Yb-179 8234   5 cm    0   0                
+  Photon     82-Pb-207  70-Yb-180 8234   5 cm    0   0                
+  Photon     82-Pb-207  70-Yb-181 8234   5 cm    0   0                
+  Photon     82-Pb-207  71-Lu-178 8234   5 cm    0   0                
+  Photon     82-Pb-207  71-Lu-178 8234   5 cm    1   0                
+  Photon     82-Pb-207  71-Lu-179 8234   5 cm    0   0                
+  Photon     82-Pb-207  71-Lu-180 8234   5 cm    0   0                
+  Photon     82-Pb-207  71-Lu-181 8234   5 cm    0   0                
+  Photon     82-Pb-207  71-Lu-182 8234   5 cm    0   0                
+  Photon     82-Pb-207  71-Lu-183 8234   5 cm    0   0                
+  Photon     82-Pb-207  71-Lu-184 8234   5 cm    0   0                
+  Photon     82-Pb-207  71-Lu-185 8234   5 cm    0   0                
+  Photon     82-Pb-207  72-Hf-179 8234   5 cm    0   0                
+  Photon     82-Pb-207  72-Hf-179 8234   5 cm    1   0                
+  Photon     82-Pb-207  72-Hf-180 8234   5 cm    0   0                
+  Photon     82-Pb-207  72-Hf-180 8234   5 cm    1   0                
+  Photon     82-Pb-207  72-Hf-181 8234   5 cm    0   0                
+  Photon     82-Pb-207  72-Hf-182 8234   5 cm    0   0                
+  Photon     82-Pb-207  72-Hf-182 8234   5 cm    1   0                
+  Photon     82-Pb-207  72-Hf-183 8234   5 cm    0   0                
+  Photon     82-Pb-207  72-Hf-184 8234   5 cm    0   0                
+  Photon     82-Pb-207  72-Hf-185 8234   5 cm    0   0                
+  Photon     82-Pb-207  72-Hf-186 8234   5 cm    0   0                
+  Photon     82-Pb-207  72-Hf-187 8234   5 cm    0   0                
+  Photon     82-Pb-207  72-Hf-188 8234   5 cm    0   0                
+  Photon     82-Pb-207  72-Hf-189 8234   5 cm    0   0                
+  Photon     82-Pb-207  73-Ta-180 8234   5 cm    0   0                
+  Photon     82-Pb-207  73-Ta-180 8234   5 cm    1   0                
+  Photon     82-Pb-207  73-Ta-181 8234   5 cm    0   0                
+  Photon     82-Pb-207  73-Ta-182 8234   5 cm    0   0                
+  Photon     82-Pb-207  73-Ta-182 8234   5 cm    1   0                
+  Photon     82-Pb-207  73-Ta-182 8234   5 cm    2   0                
+  Photon     82-Pb-207  73-Ta-183 8234   5 cm    0   0                
+  Photon     82-Pb-207  73-Ta-184 8234   5 cm    0   0                
+  Photon     82-Pb-207  73-Ta-185 8234   5 cm    0   0                
+  Photon     82-Pb-207  73-Ta-186 8234   5 cm    0   0                
+  Photon     82-Pb-207  73-Ta-187 8234   5 cm    0   0                
+  Photon     82-Pb-207  73-Ta-188 8234   5 cm    0   0                
+  Photon     82-Pb-207  73-Ta-189 8234   5 cm    0   0                
+  Photon     82-Pb-207  73-Ta-190 8234   5 cm    0   0                
+  Photon     82-Pb-207  73-Ta-191 8234   5 cm    0   0                
+  Photon     82-Pb-207  73-Ta-192 8234   5 cm    0   0                
+  Photon     82-Pb-207  74-W -181 8234   5 cm    0   0                
+  Photon     82-Pb-207  74-W -182 8234   5 cm    0   0                
+  Photon     82-Pb-207  74-W -183 8234   5 cm    0   0                
+  Photon     82-Pb-207  74-W -183 8234   5 cm    1   0                
+  Photon     82-Pb-207  74-W -184 8234   5 cm    0   0                
+  Photon     82-Pb-207  74-W -185 8234   5 cm    0   0                
+  Photon     82-Pb-207  74-W -185 8234   5 cm    1   0                
+  Photon     82-Pb-207  74-W -186 8234   5 cm    0   0                
+  Photon     82-Pb-207  74-W -187 8234   5 cm    0   0                
+  Photon     82-Pb-207  74-W -188 8234   5 cm    0   0                
+  Photon     82-Pb-207  74-W -189 8234   5 cm    0   0                
+  Photon     82-Pb-207  74-W -190 8234   5 cm    0   0                
+  Photon     82-Pb-207  74-W -191 8234   5 cm    0   0                
+  Photon     82-Pb-207  74-W -192 8234   5 cm    0   0                
+  Photon     82-Pb-207  74-W -193 8234   5 cm    0   0                
+  Photon     82-Pb-207  74-W -194 8234   5 cm    0   0                
+  Photon     82-Pb-207  75-Re-182 8234   5 cm    0   0                
+  Photon     82-Pb-207  75-Re-182 8234   5 cm    1   0                
+  Photon     82-Pb-207  75-Re-183 8234   5 cm    0   0                
+  Photon     82-Pb-207  75-Re-184 8234   5 cm    0   0                
+  Photon     82-Pb-207  75-Re-184 8234   5 cm    1   0                
+  Photon     82-Pb-207  75-Re-185 8234   5 cm    0   0                
+  Photon     82-Pb-207  75-Re-186 8234   5 cm    0   0                
+  Photon     82-Pb-207  75-Re-186 8234   5 cm    1   0                
+  Photon     82-Pb-207  75-Re-187 8234   5 cm    0   0                
+  Photon     82-Pb-207  75-Re-188 8234   5 cm    0   0                
+  Photon     82-Pb-207  75-Re-188 8234   5 cm    1   0                
+  Photon     82-Pb-207  75-Re-189 8234   5 cm    0   0                
+  Photon     82-Pb-207  75-Re-190 8234   5 cm    0   0                
+  Photon     82-Pb-207  75-Re-191 8234   5 cm    0   0                
+  Photon     82-Pb-207  75-Re-192 8234   5 cm    0   0                
+  Photon     82-Pb-207  75-Re-193 8234   5 cm    0   0                
+  Photon     82-Pb-207  75-Re-194 8234   5 cm    0   0                
+  Photon     82-Pb-207  75-Re-195 8234   5 cm    0   0                
+  Photon     82-Pb-207  75-Re-196 8234   5 cm    0   0                
+  Photon     82-Pb-207  75-Re-197 8234   5 cm    0   0                
+  Photon     82-Pb-207  75-Re-198 8234   5 cm    0   0                
+  Photon     82-Pb-207  76-Os-183 8234   5 cm    0   0                
+  Photon     82-Pb-207  76-Os-183 8234   5 cm    1   0                
+  Photon     82-Pb-207  76-Os-184 8234   5 cm    0   0                
+  Photon     82-Pb-207  76-Os-185 8234   5 cm    0   0                
+  Photon     82-Pb-207  76-Os-186 8234   5 cm    0   0                
+  Photon     82-Pb-207  76-Os-187 8234   5 cm    0   0                
+  Photon     82-Pb-207  76-Os-188 8234   5 cm    0   0                
+  Photon     82-Pb-207  76-Os-189 8234   5 cm    0   0                
+  Photon     82-Pb-207  76-Os-189 8234   5 cm    1   0                
+  Photon     82-Pb-207  76-Os-190 8234   5 cm    0   0                
+  Photon     82-Pb-207  76-Os-190 8234   5 cm    1   0                
+  Photon     82-Pb-207  76-Os-191 8234   5 cm    0   0                
+  Photon     82-Pb-207  76-Os-191 8234   5 cm    1   0                
+  Photon     82-Pb-207  76-Os-192 8234   5 cm    0   0                
+  Photon     82-Pb-207  76-Os-193 8234   5 cm    0   0                
+  Photon     82-Pb-207  76-Os-194 8234   5 cm    0   0                
+  Photon     82-Pb-207  76-Os-195 8234   5 cm    0   0                
+  Photon     82-Pb-207  76-Os-196 8234   5 cm    0   0                
+  Photon     82-Pb-207  76-Os-197 8234   5 cm    0   0                
+  Photon     82-Pb-207  76-Os-198 8234   5 cm    0   0                
+  Photon     82-Pb-207  76-Os-199 8234   5 cm    0   0                
+  Photon     82-Pb-207  76-Os-200 8234   5 cm    0   0                
+  Photon     82-Pb-207  76-Os-201 8234   5 cm    0   0                
+  Photon     82-Pb-207  77-Ir-184 8234   5 cm    0   0                
+  Photon     82-Pb-207  77-Ir-185 8234   5 cm    0   0                
+  Photon     82-Pb-207  77-Ir-186 8234   5 cm    0   0                
+  Photon     82-Pb-207  77-Ir-186 8234   5 cm    1   0                
+  Photon     82-Pb-207  77-Ir-187 8234   5 cm    0   0                
+  Photon     82-Pb-207  77-Ir-188 8234   5 cm    0   0                
+  Photon     82-Pb-207  77-Ir-189 8234   5 cm    0   0                
+  Photon     82-Pb-207  77-Ir-190 8234   5 cm    0   0                
+  Photon     82-Pb-207  77-Ir-190 8234   5 cm    1   0                
+  Photon     82-Pb-207  77-Ir-190 8234   5 cm    2   0                
+  Photon     82-Pb-207  77-Ir-191 8234   5 cm    0   0                
+  Photon     82-Pb-207  77-Ir-191 8234   5 cm    1   0                
+  Photon     82-Pb-207  77-Ir-192 8234   5 cm    0   0                
+  Photon     82-Pb-207  77-Ir-192 8234   5 cm    1   0                
+  Photon     82-Pb-207  77-Ir-192 8234   5 cm    2   0                
+  Photon     82-Pb-207  77-Ir-193 8234   5 cm    0   0                
+  Photon     82-Pb-207  77-Ir-193 8234   5 cm    1   0                
+  Photon     82-Pb-207  77-Ir-194 8234   5 cm    0   0                
+  Photon     82-Pb-207  77-Ir-194 8234   5 cm    1   0                
+  Photon     82-Pb-207  77-Ir-195 8234   5 cm    0   0                
+  Photon     82-Pb-207  77-Ir-195 8234   5 cm    1   0                
+  Photon     82-Pb-207  77-Ir-196 8234   5 cm    0   0                
+  Photon     82-Pb-207  77-Ir-197 8234   5 cm    0   0                
+  Photon     82-Pb-207  77-Ir-197 8234   5 cm    1   0                
+  Photon     82-Pb-207  77-Ir-198 8234   5 cm    0   0                
+  Photon     82-Pb-207  77-Ir-199 8234   5 cm    0   0                
+  Photon     82-Pb-207  77-Ir-200 8234   5 cm    0   0                
+  Photon     82-Pb-207  77-Ir-201 8234   5 cm    0   0                
+  Photon     82-Pb-207  77-Ir-202 8234   5 cm    0   0                
+  Photon     82-Pb-207  78-Pt-185 8234   5 cm    0   0                
+  Photon     82-Pb-207  78-Pt-185 8234   5 cm    1   0                
+  Photon     82-Pb-207  78-Pt-186 8234   5 cm    0   0                
+  Photon     82-Pb-207  78-Pt-187 8234   5 cm    0   0                
+  Photon     82-Pb-207  78-Pt-188 8234   5 cm    0   0                
+  Photon     82-Pb-207  78-Pt-189 8234   5 cm    0   0                
+  Photon     82-Pb-207  78-Pt-190 8234   5 cm    0   0                
+  Photon     82-Pb-207  78-Pt-191 8234   5 cm    0   0                
+  Photon     82-Pb-207  78-Pt-192 8234   5 cm    0   0                
+  Photon     82-Pb-207  78-Pt-193 8234   5 cm    0   0                
+  Photon     82-Pb-207  78-Pt-193 8234   5 cm    1   0                
+  Photon     82-Pb-207  78-Pt-194 8234   5 cm    0   0                
+  Photon     82-Pb-207  78-Pt-195 8234   5 cm    0   0                
+  Photon     82-Pb-207  78-Pt-195 8234   5 cm    1   0                
+  Photon     82-Pb-207  78-Pt-196 8234   5 cm    0   0                
+  Photon     82-Pb-207  78-Pt-197 8234   5 cm    0   0                
+  Photon     82-Pb-207  78-Pt-197 8234   5 cm    1   0                
+  Photon     82-Pb-207  78-Pt-198 8234   5 cm    0   0                
+  Photon     82-Pb-207  78-Pt-199 8234   5 cm    0   0                
+  Photon     82-Pb-207  78-Pt-199 8234   5 cm    1   0                
+  Photon     82-Pb-207  78-Pt-200 8234   5 cm    0   0                
+  Photon     82-Pb-207  78-Pt-201 8234   5 cm    0   0                
+  Photon     82-Pb-207  78-Pt-202 8234   5 cm    0   0                
+  Photon     82-Pb-207  78-Pt-203 8234   5 cm    0   0                
+  Photon     82-Pb-207  79-Au-186 8234   5 cm    0   0                
+  Photon     82-Pb-207  79-Au-187 8234   5 cm    0   0                
+  Photon     82-Pb-207  79-Au-187 8234   5 cm    1   0                
+  Photon     82-Pb-207  79-Au-188 8234   5 cm    0   0                
+  Photon     82-Pb-207  79-Au-189 8234   5 cm    0   0                
+  Photon     82-Pb-207  79-Au-189 8234   5 cm    1   0                
+  Photon     82-Pb-207  79-Au-190 8234   5 cm    0   0                
+  Photon     82-Pb-207  79-Au-190 8234   5 cm    1   0                
+  Photon     82-Pb-207  79-Au-191 8234   5 cm    0   0                
+  Photon     82-Pb-207  79-Au-191 8234   5 cm    1   0                
+  Photon     82-Pb-207  79-Au-192 8234   5 cm    0   0                
+  Photon     82-Pb-207  79-Au-192 8234   5 cm    1   0                
+  Photon     82-Pb-207  79-Au-193 8234   5 cm    0   0                
+  Photon     82-Pb-207  79-Au-193 8234   5 cm    1   0                
+  Photon     82-Pb-207  79-Au-194 8234   5 cm    0   0                
+  Photon     82-Pb-207  79-Au-194 8234   5 cm    1   0                
+  Photon     82-Pb-207  79-Au-194 8234   5 cm    2   0                
+  Photon     82-Pb-207  79-Au-195 8234   5 cm    0   0                
+  Photon     82-Pb-207  79-Au-195 8234   5 cm    1   0                
+  Photon     82-Pb-207  79-Au-196 8234   5 cm    0   0                
+  Photon     82-Pb-207  79-Au-196 8234   5 cm    1   0                
+  Photon     82-Pb-207  79-Au-197 8234   5 cm    0   0                
+  Photon     82-Pb-207  79-Au-197 8234   5 cm    1   0                
+  Photon     82-Pb-207  79-Au-198 8234   5 cm    0   0                
+  Photon     82-Pb-207  79-Au-199 8234   5 cm    0   0                
+  Photon     82-Pb-207  79-Au-200 8234   5 cm    0   0                
+  Photon     82-Pb-207  79-Au-201 8234   5 cm    0   0                
+  Photon     82-Pb-207  79-Au-202 8234   5 cm    0   0                
+  Photon     82-Pb-207  79-Au-203 8234   5 cm    0   0                
+  Photon     82-Pb-207  79-Au-204 8234   5 cm    0   0                
+  Photon     82-Pb-207  80-Hg-187 8234   5 cm    0   0                
+  Photon     82-Pb-207  80-Hg-187 8234   5 cm    1   0                
+  Photon     82-Pb-207  80-Hg-188 8234   5 cm    0   0                
+  Photon     82-Pb-207  80-Hg-189 8234   5 cm    0   0                
+  Photon     82-Pb-207  80-Hg-189 8234   5 cm    1   0                
+  Photon     82-Pb-207  80-Hg-190 8234   5 cm    0   0                
+  Photon     82-Pb-207  80-Hg-191 8234   5 cm    0   0                
+  Photon     82-Pb-207  80-Hg-191 8234   5 cm    1   0                
+  Photon     82-Pb-207  80-Hg-192 8234   5 cm    0   0                
+  Photon     82-Pb-207  80-Hg-193 8234   5 cm    0   0                
+  Photon     82-Pb-207  80-Hg-193 8234   5 cm    1   0                
+  Photon     82-Pb-207  80-Hg-194 8234   5 cm    0   0                
+  Photon     82-Pb-207  80-Hg-195 8234   5 cm    0   0                
+  Photon     82-Pb-207  80-Hg-195 8234   5 cm    1   0                
+  Photon     82-Pb-207  80-Hg-196 8234   5 cm    0   0                
+  Photon     82-Pb-207  80-Hg-197 8234   5 cm    0   0                
+  Photon     82-Pb-207  80-Hg-197 8234   5 cm    1   0                
+  Photon     82-Pb-207  80-Hg-198 8234   5 cm    0   0                
+  Photon     82-Pb-207  80-Hg-199 8234   5 cm    0   0                
+  Photon     82-Pb-207  80-Hg-199 8234   5 cm    1   0                
+  Photon     82-Pb-207  80-Hg-200 8234   5 cm    0   0                
+  Photon     82-Pb-207  80-Hg-201 8234   5 cm    0   0                
+  Photon     82-Pb-207  80-Hg-202 8234   5 cm    0   0                
+  Photon     82-Pb-207  80-Hg-203 8234   5 cm    0   0                
+  Photon     82-Pb-207  80-Hg-204 8234   5 cm    0   0                
+  Photon     82-Pb-207  80-Hg-205 8234   5 cm    0   0                
+  Photon     82-Pb-207  81-Tl-188 8234   5 cm    0   0                
+  Photon     82-Pb-207  81-Tl-188 8234   5 cm    1   0                
+  Photon     82-Pb-207  81-Tl-189 8234   5 cm    0   0                
+  Photon     82-Pb-207  81-Tl-189 8234   5 cm    1   0                
+  Photon     82-Pb-207  81-Tl-190 8234   5 cm    0   0                
+  Photon     82-Pb-207  81-Tl-191 8234   5 cm    0   0                
+  Photon     82-Pb-207  81-Tl-191 8234   5 cm    1   0                
+  Photon     82-Pb-207  81-Tl-192 8234   5 cm    0   0                
+  Photon     82-Pb-207  81-Tl-192 8234   5 cm    1   0                
+  Photon     82-Pb-207  81-Tl-193 8234   5 cm    0   0                
+  Photon     82-Pb-207  81-Tl-193 8234   5 cm    1   0                
+  Photon     82-Pb-207  81-Tl-194 8234   5 cm    0   0                
+  Photon     82-Pb-207  81-Tl-194 8234   5 cm    1   0                
+  Photon     82-Pb-207  81-Tl-195 8234   5 cm    0   0                
+  Photon     82-Pb-207  81-Tl-195 8234   5 cm    1   0                
+  Photon     82-Pb-207  81-Tl-196 8234   5 cm    0   0                
+  Photon     82-Pb-207  81-Tl-197 8234   5 cm    0   0                
+  Photon     82-Pb-207  81-Tl-197 8234   5 cm    1   0                
+  Photon     82-Pb-207  81-Tl-198 8234   5 cm    0   0                
+  Photon     82-Pb-207  81-Tl-198 8234   5 cm    1   0                
+  Photon     82-Pb-207  81-Tl-199 8234   5 cm    0   0                
+  Photon     82-Pb-207  81-Tl-200 8234   5 cm    0   0                
+  Photon     82-Pb-207  81-Tl-201 8234   5 cm    0   0                
+  Photon     82-Pb-207  81-Tl-202 8234   5 cm    0   0                
+  Photon     82-Pb-207  81-Tl-203 8234   5 cm    0   0                
+  Photon     82-Pb-207  81-Tl-204 8234   5 cm    0   0                
+  Photon     82-Pb-207  81-Tl-205 8234   5 cm    0   0                
+  Photon     82-Pb-207  81-Tl-206 8234   5 cm    0   0                
+  Photon     82-Pb-207  82-Pb-189 8234   5 cm    0   0                
+  Photon     82-Pb-207  82-Pb-189 8234   5 cm    1   0                
+  Photon     82-Pb-207  82-Pb-190 8234   5 cm    0   0                
+  Photon     82-Pb-207  82-Pb-191 8234   5 cm    0   0                
+  Photon     82-Pb-207  82-Pb-191 8234   5 cm    1   0                
+  Photon     82-Pb-207  82-Pb-192 8234   5 cm    0   0                
+  Photon     82-Pb-207  82-Pb-193 8234   5 cm    0   0                
+  Photon     82-Pb-207  82-Pb-193 8234   5 cm    1   0                
+  Photon     82-Pb-207  82-Pb-194 8234   5 cm    0   0                
+  Photon     82-Pb-207  82-Pb-195 8234   5 cm    0   0                
+  Photon     82-Pb-207  82-Pb-195 8234   5 cm    1   0                
+  Photon     82-Pb-207  82-Pb-196 8234   5 cm    0   0                
+  Photon     82-Pb-207  82-Pb-197 8234   5 cm    0   0                
+  Photon     82-Pb-207  82-Pb-197 8234   5 cm    1   0                
+  Photon     82-Pb-207  82-Pb-198 8234   5 cm    0   0                
+  Photon     82-Pb-207  82-Pb-199 8234   5 cm    0   0                
+  Photon     82-Pb-207  82-Pb-199 8234   5 cm    1   0                
+  Photon     82-Pb-207  82-Pb-200 8234   5 cm    0   0                
+  Photon     82-Pb-207  82-Pb-201 8234   5 cm    0   0                
+  Photon     82-Pb-207  82-Pb-201 8234   5 cm    1   0                
+  Photon     82-Pb-207  82-Pb-202 8234   5 cm    0   0                
+  Photon     82-Pb-207  82-Pb-202 8234   5 cm    1   0                
+  Photon     82-Pb-207  82-Pb-203 8234   5 cm    0   0                
+  Photon     82-Pb-207  82-Pb-203 8234   5 cm    1   0                
+  Photon     82-Pb-207  82-Pb-204 8234   5 cm    0   0                
+  Photon     82-Pb-207  82-Pb-204 8234   5 cm    1   0                
+  Photon     82-Pb-207  82-Pb-205 8234   5 cm    0   0                
+  Photon     82-Pb-207  82-Pb-206 8234   5 cm    0   0                
+  Photon     82-Pb-207  82-Pb-207 8234   5 cm    0   0                
+  Photon     82-Pb-207  82-Pb-207 8234   5 cm    1   0                
+  Photon     82-Pb-207  Photon    8234   5 cm    0   1    1    2      
+  Photon     82-Pb-207  Neutron   8234  18 cm    0   1    1    2      
+ ------------------------------------------------------------------------------
+ All Cross Sections Read. Maximum Tabulated Energy =  200000000. eV
+ ------------------------------------------------------------------------------
+ ==============================================================================
+ Laws by Incident Particle
+ ------------------------------------------------------------------------------
+ Law Number and Definition   Photon    n     p     d     t  He-3  He-4 Other
+ ------------------------------------------------------------------------------
+ (0) Unknown................   281     0     0     0     0     0     0     0
+ (1) Continuum Energy-Angle
+      Legendre..............     8     0     0     0     0     0     0     0
+      Kalbach-Mann..........     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (2) Discrete 2 Body
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (3) Isotropic Discrete.....     0     0     0     0     0     0     0     0
+ (4) Discrete 2 Body Recoil.     0     0     0     0     0     0     0     0
+ (5) Charged Particle Elastic
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (6) n-Body Phase-Space.....     0     0     0     0     0     0     0     0
+ (7) Laboratory Angle-Energy     0     0     0     0     0     0     0     0
+ Not 0 to 7 (WARNING if Any)     0     0     0     0     0     0     0     0
+ ==============================================================================
+ Laws by Emitted Particle
+ ------------------------------------------------------------------------------
+ Law Number and Definition   Photon    n     p     d     t  He-3  He-4 Other
+ ------------------------------------------------------------------------------
+ (0) Unknown................     0     0     0     0     0     0     0   281
+ (1) Continuum Energy-Angle
+      Legendre..............     1     2     1     1     1     1     1     0
+      Kalbach-Mann..........     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (2) Discrete 2 Body
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (3) Isotropic Discrete.....     0     0     0     0     0     0     0     0
+ (4) Discrete 2 Body Recoil.     0     0     0     0     0     0     0     0
+ (5) Charged Particle Elastic
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (6) n-Body Phase-Space.....     0     0     0     0     0     0     0     0
+ (7) Laboratory Angle-Energy     0     0     0     0     0     0     0     0
+ Not 0 to 7 (WARNING if Any)     0     0     0     0     0     0     0     0
+ ------------------------------------------------------------------------------
+ Summary of Emitted Particle Yields
+ ------------------------------------------------------------------------------
+ Energy Independent.........     0     1     0     0     0     0     0     0
+ Energy Dependent...........     1     1     1     1     1     1     1   281
+ ------------------------------------------------------------------------------
+ Summary of Angular Distributions
+ ------------------------------------------------------------------------------
+ Isotropic..................     1     1     0     0     0     0     0     0
+ Nonisotropic...............     0     0     1     0     1     0     0     0
+ Mixed......................     0     1     0     1     0     1     1     0
+ ------------------------------------------------------------------------------
+ Maximum Legendre Order.....     0    10    10    10    10    10    10     0
+ Maximum Number of Cosines..     0     0     0     0     0     0     0     0
+ ------------------------------------------------------------------------------
+ Summary of Energy Distributions
+ ------------------------------------------------------------------------------
+ Continuous.................     1     2     1     1     1     1     1     0
+ Discrete...................     0     0     0     0     0     0     0     0
+ Mixed......................     0     0     0     0     0     0     0     0
+ ------------------------------------------------------------------------------
+ ==============================================================================
+ Summary of Incident Neutron with Photon or Neutron Emitted Data
+ ------------------------------------------------------------------------------
+ Law Number and Definition   Output        Not Output 
+ ------------------------------------------------------------------------------
+                             Photon    n   Photon    n
+ ------------------------------------------------------------------------------
+ (0) Unknown................     0     0       0     0
+ (1) Continuum Energy-Angle
+      Legendre..............     0     0       0     0
+      Kalbach-Mann..........     0     0       0     0
+      Tabulated.............     0     0       0     0
+ (2) Discrete 2 Body
+      Legendre..............     0     0       0     0
+      Tabulated.............     0     0       0     0
+ (3) Isotropic Discrete.....     0     0       0     0
+ (4) Discrete 2 Body Recoil.     0     0       0     0
+ (5) Charged Particle Elastic
+      Legendre..............     0     0       0     0
+      Tabulated.............     0     0       0     0
+ (6) n-Body Phase-Space.....     0     0       0     0
+ (7) Laboratory Angle-Energy     0     0       0     0
+ Not 0 to 7 (WARNING if Any)     0     0       0     0
+ ==============================================================================
+ End of Run
+ ===============================================================================
+ SIXPAK   Total Execution Time                0.15 Seconds
+ ===============================================================================

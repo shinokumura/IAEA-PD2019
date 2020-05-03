@@ -1,0 +1,33 @@
+#!/bin/sh
+#
+
+DIR=/Users/nds_user/working/iaea-photonuclear-2019/processing
+
+ACE=${DIR}/ace
+IOACE=${DIR}/inout-ace
+GRAPHS=${DIR}/graphs
+
+mkdir -p ${GRAPHS}
+
+while IFS=" " read -r charge elem mass mat
+do
+    ln -s ${ACE}/${elem}${mass} tape31
+    echo 'running njoy for '${elem}${mass}
+
+cat > ${IOACE}/in${elem}${mass}-chk << EOF
+acer
+0 31 33 34 35/
+7 1 1 -1/
+'Ace ${elem}${mass} IAEA-PD2019'/
+viewr
+33 36/
+stop
+EOF
+
+    njoy < ${IOACE}/in${elem}${mass}-chk
+    mv tape36 ${GRAPHS}/${elem}${mass}chk.ps
+    mv output ${IOACE}/out${elem}${mass}-chk
+    rm tape 33
+    echo 'finished' ${elem}${mass}
+
+done < ${DIR}/iso-mat.iaea-g19

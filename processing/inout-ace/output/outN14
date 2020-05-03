@@ -1,0 +1,37 @@
+1*****************************************************************************
+ *                                         *              *                  *
+ *   $$   $$       $$   $$$$$   $$    $$   *              *  vers: 2016.53   *
+ *   $$$  $$       $$  $$$$$$$   $$  $$    *  nuclear     *  vday: 07Nov19   *
+ *   $$$$ $$       $$  $$   $$    $$$$     *  data        *  site: lanl t2   *
+ *   $$ $$$$  $$   $$  $$   $$     $$      *  processing  *  mach:           *
+ *   $$  $$$  $$$$$$$  $$$$$$$     $$      *  system      *  date: 02/26/20  *
+ *   $$   $$   $$$$$    $$$$$      $$      *              *  time: 12:56:46  *
+ *                                         *              *                  *
+ *****************************************************************************
+
+ moder...change the mode of an endf tape or njoy output tape              0.0s
+
+ input unit (+ for coded, - for bb) ...         20
+ output unit (+ for coded, - for bb) ..         21
+ tape id is blank
+
+ using endf-6 format
+                                                                          1.1s
+ *****************************************************************************
+
+ acer...monte carlo neutron and photon data                               1.1s
+
+ input endf unit ......................         20
+ input pendf unit .....................         21
+ input gendf unit .....................          0
+ output ace format unit ...............         31
+ output directory unit ................         32
+
+ run type option ......................          5
+ print option (0 min, 1 max) ..........          1
+ type of ace file .....................          1
+
+ using endf-6 format
+
+ ***error in acephn***too many reactions in mtr list
+ 

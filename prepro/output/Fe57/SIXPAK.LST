@@ -1,0 +1,361 @@
+ Process ENDF/B Double Differential Data - MF=6 (SIXPAK 2019-1)
+ ==============================================================================
+ ENDF/B Input Data Filename
+ SIXPAK.IN                                                               
+ ------------------------------------------------------------------------------
+ Requested Ranges
+ ------------------------------------------------------------------------------
+    Minimum    Maximum   
+    MAT  MT    MAT  MT
+ ------------------------------------------------------------------------------
+      1   1   9999 999
+ ==============================================================================
+ Terminology
+ ------------------------------------------------------------------------------
+ LCT  = Reference System (Lab or Center-of-Mass)
+ LIP  = Product Modifier, e.g., for Isomeric States
+ LAW  = Representation of Data - see, List at End of Output
+ LANG = 1     = Legendre     (LAW 1)
+      = 2     = Kalbach-Mann (LAW 1)
+      = 11-15 = Tabulated    (LAW 1)
+      = 0     = Legendre     (LAW 2)
+      = 11-15 = Tabulated    (LAW 2)
+ LTP  = 1-2   = Legendre     (LAW 5)
+      = 11-15 = Tabulated    (LAW 5)
+ LEP  = Secondary Energy Interpolation Type(1 to 5)
+ ==============================================================================
+ Tape Label
+ ------------------------------------------------------------------------------
+  JENDL/PD-2016.1  Fe- 57                                             1
+ ------------------------------------------------------------------------------
+ WARNING: MT=5 is ALLOWED in MF=6, but NOT in MF=4 or 5.
+          see ENDF-102 - Strictly for diagnostic purposes
+          this code will Translate MF=6 Data - but be
+          WARNED - the results should not be used in ANY          APPLICATIONS.
+ ------------------------------------------------------------------------------
+ ==============================================================================
+ Projectile   Target    Emitted    MAT  MT LCT LIP LAW LANG  LEP  ENDF/B
+                                                        LTP       Output
+ ==============================================================================
+  Photon     26-Fe-57   Neutron   2634   5 cm    0   1    1    2      
+  Photon     26-Fe-57    1-H -1   2634   5 cm    0   1    1    2      
+  Photon     26-Fe-57    1-H -2   2634   5 cm    0   1    1    2      
+  Photon     26-Fe-57    1-H -3   2634   5 cm    0   1    1    2      
+  Photon     26-Fe-57    2-He-3   2634   5 cm    0   1    1    2      
+  Photon     26-Fe-57    2-He-4   2634   5 cm    0   1    1    2      
+  Photon     26-Fe-57   14-Si-27  2634   5 cm    0   0                
+  Photon     26-Fe-57   14-Si-28  2634   5 cm    0   0                
+  Photon     26-Fe-57   14-Si-29  2634   5 cm    0   0                
+  Photon     26-Fe-57   14-Si-30  2634   5 cm    0   0                
+  Photon     26-Fe-57   14-Si-31  2634   5 cm    0   0                
+  Photon     26-Fe-57   14-Si-32  2634   5 cm    0   0                
+  Photon     26-Fe-57   14-Si-33  2634   5 cm    0   0                
+  Photon     26-Fe-57   14-Si-34  2634   5 cm    0   0                
+  Photon     26-Fe-57   14-Si-35  2634   5 cm    0   0                
+  Photon     26-Fe-57   14-Si-36  2634   5 cm    0   0                
+  Photon     26-Fe-57   14-Si-37  2634   5 cm    0   0                
+  Photon     26-Fe-57   14-Si-38  2634   5 cm    0   0                
+  Photon     26-Fe-57   14-Si-39  2634   5 cm    0   0                
+  Photon     26-Fe-57   14-Si-40  2634   5 cm    0   0                
+  Photon     26-Fe-57   14-Si-41  2634   5 cm    0   0                
+  Photon     26-Fe-57   14-Si-42  2634   5 cm    0   0                
+  Photon     26-Fe-57   15-P -28  2634   5 cm    0   0                
+  Photon     26-Fe-57   15-P -29  2634   5 cm    0   0                
+  Photon     26-Fe-57   15-P -30  2634   5 cm    0   0                
+  Photon     26-Fe-57   15-P -31  2634   5 cm    0   0                
+  Photon     26-Fe-57   15-P -32  2634   5 cm    0   0                
+  Photon     26-Fe-57   15-P -33  2634   5 cm    0   0                
+  Photon     26-Fe-57   15-P -34  2634   5 cm    0   0                
+  Photon     26-Fe-57   15-P -35  2634   5 cm    0   0                
+  Photon     26-Fe-57   15-P -36  2634   5 cm    0   0                
+  Photon     26-Fe-57   15-P -37  2634   5 cm    0   0                
+  Photon     26-Fe-57   15-P -38  2634   5 cm    0   0                
+  Photon     26-Fe-57   15-P -39  2634   5 cm    0   0                
+  Photon     26-Fe-57   15-P -40  2634   5 cm    0   0                
+  Photon     26-Fe-57   15-P -41  2634   5 cm    0   0                
+  Photon     26-Fe-57   15-P -42  2634   5 cm    0   0                
+  Photon     26-Fe-57   15-P -43  2634   5 cm    0   0                
+  Photon     26-Fe-57   15-P -44  2634   5 cm    0   0                
+  Photon     26-Fe-57   16-S -29  2634   5 cm    0   0                
+  Photon     26-Fe-57   16-S -30  2634   5 cm    0   0                
+  Photon     26-Fe-57   16-S -31  2634   5 cm    0   0                
+  Photon     26-Fe-57   16-S -32  2634   5 cm    0   0                
+  Photon     26-Fe-57   16-S -33  2634   5 cm    0   0                
+  Photon     26-Fe-57   16-S -34  2634   5 cm    0   0                
+  Photon     26-Fe-57   16-S -35  2634   5 cm    0   0                
+  Photon     26-Fe-57   16-S -36  2634   5 cm    0   0                
+  Photon     26-Fe-57   16-S -37  2634   5 cm    0   0                
+  Photon     26-Fe-57   16-S -38  2634   5 cm    0   0                
+  Photon     26-Fe-57   16-S -39  2634   5 cm    0   0                
+  Photon     26-Fe-57   16-S -40  2634   5 cm    0   0                
+  Photon     26-Fe-57   16-S -41  2634   5 cm    0   0                
+  Photon     26-Fe-57   16-S -42  2634   5 cm    0   0                
+  Photon     26-Fe-57   16-S -43  2634   5 cm    0   0                
+  Photon     26-Fe-57   16-S -44  2634   5 cm    0   0                
+  Photon     26-Fe-57   16-S -45  2634   5 cm    0   0                
+  Photon     26-Fe-57   16-S -46  2634   5 cm    0   0                
+  Photon     26-Fe-57   17-Cl-30  2634   5 cm    0   0                
+  Photon     26-Fe-57   17-Cl-31  2634   5 cm    0   0                
+  Photon     26-Fe-57   17-Cl-32  2634   5 cm    0   0                
+  Photon     26-Fe-57   17-Cl-33  2634   5 cm    0   0                
+  Photon     26-Fe-57   17-Cl-34  2634   5 cm    0   0                
+  Photon     26-Fe-57   17-Cl-34  2634   5 cm    1   0                
+  Photon     26-Fe-57   17-Cl-35  2634   5 cm    0   0                
+  Photon     26-Fe-57   17-Cl-36  2634   5 cm    0   0                
+  Photon     26-Fe-57   17-Cl-37  2634   5 cm    0   0                
+  Photon     26-Fe-57   17-Cl-38  2634   5 cm    0   0                
+  Photon     26-Fe-57   17-Cl-38  2634   5 cm    1   0                
+  Photon     26-Fe-57   17-Cl-39  2634   5 cm    0   0                
+  Photon     26-Fe-57   17-Cl-40  2634   5 cm    0   0                
+  Photon     26-Fe-57   17-Cl-41  2634   5 cm    0   0                
+  Photon     26-Fe-57   17-Cl-42  2634   5 cm    0   0                
+  Photon     26-Fe-57   17-Cl-43  2634   5 cm    0   0                
+  Photon     26-Fe-57   17-Cl-44  2634   5 cm    0   0                
+  Photon     26-Fe-57   17-Cl-45  2634   5 cm    0   0                
+  Photon     26-Fe-57   17-Cl-46  2634   5 cm    0   0                
+  Photon     26-Fe-57   17-Cl-47  2634   5 cm    0   0                
+  Photon     26-Fe-57   17-Cl-48  2634   5 cm    0   0                
+  Photon     26-Fe-57   18-Ar-32  2634   5 cm    0   0                
+  Photon     26-Fe-57   18-Ar-33  2634   5 cm    0   0                
+  Photon     26-Fe-57   18-Ar-34  2634   5 cm    0   0                
+  Photon     26-Fe-57   18-Ar-35  2634   5 cm    0   0                
+  Photon     26-Fe-57   18-Ar-36  2634   5 cm    0   0                
+  Photon     26-Fe-57   18-Ar-37  2634   5 cm    0   0                
+  Photon     26-Fe-57   18-Ar-38  2634   5 cm    0   0                
+  Photon     26-Fe-57   18-Ar-39  2634   5 cm    0   0                
+  Photon     26-Fe-57   18-Ar-40  2634   5 cm    0   0                
+  Photon     26-Fe-57   18-Ar-41  2634   5 cm    0   0                
+  Photon     26-Fe-57   18-Ar-42  2634   5 cm    0   0                
+  Photon     26-Fe-57   18-Ar-43  2634   5 cm    0   0                
+  Photon     26-Fe-57   18-Ar-44  2634   5 cm    0   0                
+  Photon     26-Fe-57   18-Ar-45  2634   5 cm    0   0                
+  Photon     26-Fe-57   18-Ar-46  2634   5 cm    0   0                
+  Photon     26-Fe-57   18-Ar-47  2634   5 cm    0   0                
+  Photon     26-Fe-57   18-Ar-48  2634   5 cm    0   0                
+  Photon     26-Fe-57   18-Ar-49  2634   5 cm    0   0                
+  Photon     26-Fe-57   19-K -33  2634   5 cm    0   0                
+  Photon     26-Fe-57   19-K -34  2634   5 cm    0   0                
+  Photon     26-Fe-57   19-K -35  2634   5 cm    0   0                
+  Photon     26-Fe-57   19-K -36  2634   5 cm    0   0                
+  Photon     26-Fe-57   19-K -37  2634   5 cm    0   0                
+  Photon     26-Fe-57   19-K -38  2634   5 cm    0   0                
+  Photon     26-Fe-57   19-K -38  2634   5 cm    1   0                
+  Photon     26-Fe-57   19-K -39  2634   5 cm    0   0                
+  Photon     26-Fe-57   19-K -40  2634   5 cm    0   0                
+  Photon     26-Fe-57   19-K -41  2634   5 cm    0   0                
+  Photon     26-Fe-57   19-K -42  2634   5 cm    0   0                
+  Photon     26-Fe-57   19-K -43  2634   5 cm    0   0                
+  Photon     26-Fe-57   19-K -44  2634   5 cm    0   0                
+  Photon     26-Fe-57   19-K -45  2634   5 cm    0   0                
+  Photon     26-Fe-57   19-K -46  2634   5 cm    0   0                
+  Photon     26-Fe-57   19-K -47  2634   5 cm    0   0                
+  Photon     26-Fe-57   19-K -48  2634   5 cm    0   0                
+  Photon     26-Fe-57   19-K -49  2634   5 cm    0   0                
+  Photon     26-Fe-57   19-K -50  2634   5 cm    0   0                
+  Photon     26-Fe-57   20-Ca-35  2634   5 cm    0   0                
+  Photon     26-Fe-57   20-Ca-36  2634   5 cm    0   0                
+  Photon     26-Fe-57   20-Ca-37  2634   5 cm    0   0                
+  Photon     26-Fe-57   20-Ca-38  2634   5 cm    0   0                
+  Photon     26-Fe-57   20-Ca-39  2634   5 cm    0   0                
+  Photon     26-Fe-57   20-Ca-40  2634   5 cm    0   0                
+  Photon     26-Fe-57   20-Ca-41  2634   5 cm    0   0                
+  Photon     26-Fe-57   20-Ca-42  2634   5 cm    0   0                
+  Photon     26-Fe-57   20-Ca-43  2634   5 cm    0   0                
+  Photon     26-Fe-57   20-Ca-44  2634   5 cm    0   0                
+  Photon     26-Fe-57   20-Ca-45  2634   5 cm    0   0                
+  Photon     26-Fe-57   20-Ca-46  2634   5 cm    0   0                
+  Photon     26-Fe-57   20-Ca-47  2634   5 cm    0   0                
+  Photon     26-Fe-57   20-Ca-48  2634   5 cm    0   0                
+  Photon     26-Fe-57   20-Ca-49  2634   5 cm    0   0                
+  Photon     26-Fe-57   20-Ca-50  2634   5 cm    0   0                
+  Photon     26-Fe-57   20-Ca-51  2634   5 cm    0   0                
+  Photon     26-Fe-57   21-Sc-37  2634   5 cm    0   0                
+  Photon     26-Fe-57   21-Sc-38  2634   5 cm    0   0                
+  Photon     26-Fe-57   21-Sc-39  2634   5 cm    0   0                
+  Photon     26-Fe-57   21-Sc-40  2634   5 cm    0   0                
+  Photon     26-Fe-57   21-Sc-41  2634   5 cm    0   0                
+  Photon     26-Fe-57   21-Sc-42  2634   5 cm    0   0                
+  Photon     26-Fe-57   21-Sc-42  2634   5 cm    1   0                
+  Photon     26-Fe-57   21-Sc-43  2634   5 cm    0   0                
+  Photon     26-Fe-57   21-Sc-44  2634   5 cm    0   0                
+  Photon     26-Fe-57   21-Sc-44  2634   5 cm    1   0                
+  Photon     26-Fe-57   21-Sc-45  2634   5 cm    0   0                
+  Photon     26-Fe-57   21-Sc-45  2634   5 cm    1   0                
+  Photon     26-Fe-57   21-Sc-46  2634   5 cm    0   0                
+  Photon     26-Fe-57   21-Sc-46  2634   5 cm    1   0                
+  Photon     26-Fe-57   21-Sc-47  2634   5 cm    0   0                
+  Photon     26-Fe-57   21-Sc-48  2634   5 cm    0   0                
+  Photon     26-Fe-57   21-Sc-49  2634   5 cm    0   0                
+  Photon     26-Fe-57   21-Sc-50  2634   5 cm    0   0                
+  Photon     26-Fe-57   21-Sc-50  2634   5 cm    1   0                
+  Photon     26-Fe-57   21-Sc-51  2634   5 cm    0   0                
+  Photon     26-Fe-57   21-Sc-52  2634   5 cm    0   0                
+  Photon     26-Fe-57   22-Ti-39  2634   5 cm    0   0                
+  Photon     26-Fe-57   22-Ti-40  2634   5 cm    0   0                
+  Photon     26-Fe-57   22-Ti-41  2634   5 cm    0   0                
+  Photon     26-Fe-57   22-Ti-42  2634   5 cm    0   0                
+  Photon     26-Fe-57   22-Ti-43  2634   5 cm    0   0                
+  Photon     26-Fe-57   22-Ti-44  2634   5 cm    0   0                
+  Photon     26-Fe-57   22-Ti-45  2634   5 cm    0   0                
+  Photon     26-Fe-57   22-Ti-46  2634   5 cm    0   0                
+  Photon     26-Fe-57   22-Ti-47  2634   5 cm    0   0                
+  Photon     26-Fe-57   22-Ti-48  2634   5 cm    0   0                
+  Photon     26-Fe-57   22-Ti-48  2634   5 cm    1   0                
+  Photon     26-Fe-57   22-Ti-49  2634   5 cm    0   0                
+  Photon     26-Fe-57   22-Ti-50  2634   5 cm    0   0                
+  Photon     26-Fe-57   22-Ti-51  2634   5 cm    0   0                
+  Photon     26-Fe-57   22-Ti-52  2634   5 cm    0   0                
+  Photon     26-Fe-57   22-Ti-53  2634   5 cm    0   0                
+  Photon     26-Fe-57   23-V -40  2634   5 cm    0   0                
+  Photon     26-Fe-57   23-V -41  2634   5 cm    0   0                
+  Photon     26-Fe-57   23-V -42  2634   5 cm    0   0                
+  Photon     26-Fe-57   23-V -43  2634   5 cm    0   0                
+  Photon     26-Fe-57   23-V -44  2634   5 cm    0   0                
+  Photon     26-Fe-57   23-V -44  2634   5 cm    1   0                
+  Photon     26-Fe-57   23-V -45  2634   5 cm    0   0                
+  Photon     26-Fe-57   23-V -46  2634   5 cm    0   0                
+  Photon     26-Fe-57   23-V -47  2634   5 cm    0   0                
+  Photon     26-Fe-57   23-V -48  2634   5 cm    0   0                
+  Photon     26-Fe-57   23-V -49  2634   5 cm    0   0                
+  Photon     26-Fe-57   23-V -50  2634   5 cm    0   0                
+  Photon     26-Fe-57   23-V -51  2634   5 cm    0   0                
+  Photon     26-Fe-57   23-V -52  2634   5 cm    0   0                
+  Photon     26-Fe-57   23-V -53  2634   5 cm    0   0                
+  Photon     26-Fe-57   23-V -54  2634   5 cm    0   0                
+  Photon     26-Fe-57   24-Cr-42  2634   5 cm    0   0                
+  Photon     26-Fe-57   24-Cr-43  2634   5 cm    0   0                
+  Photon     26-Fe-57   24-Cr-44  2634   5 cm    0   0                
+  Photon     26-Fe-57   24-Cr-45  2634   5 cm    0   0                
+  Photon     26-Fe-57   24-Cr-46  2634   5 cm    0   0                
+  Photon     26-Fe-57   24-Cr-47  2634   5 cm    0   0                
+  Photon     26-Fe-57   24-Cr-48  2634   5 cm    0   0                
+  Photon     26-Fe-57   24-Cr-49  2634   5 cm    0   0                
+  Photon     26-Fe-57   24-Cr-50  2634   5 cm    0   0                
+  Photon     26-Fe-57   24-Cr-51  2634   5 cm    0   0                
+  Photon     26-Fe-57   24-Cr-52  2634   5 cm    0   0                
+  Photon     26-Fe-57   24-Cr-53  2634   5 cm    0   0                
+  Photon     26-Fe-57   24-Cr-54  2634   5 cm    0   0                
+  Photon     26-Fe-57   24-Cr-55  2634   5 cm    0   0                
+  Photon     26-Fe-57   25-Mn-44  2634   5 cm    0   0                
+  Photon     26-Fe-57   25-Mn-45  2634   5 cm    0   0                
+  Photon     26-Fe-57   25-Mn-46  2634   5 cm    0   0                
+  Photon     26-Fe-57   25-Mn-47  2634   5 cm    0   0                
+  Photon     26-Fe-57   25-Mn-48  2634   5 cm    0   0                
+  Photon     26-Fe-57   25-Mn-49  2634   5 cm    0   0                
+  Photon     26-Fe-57   25-Mn-50  2634   5 cm    0   0                
+  Photon     26-Fe-57   25-Mn-50  2634   5 cm    1   0                
+  Photon     26-Fe-57   25-Mn-51  2634   5 cm    0   0                
+  Photon     26-Fe-57   25-Mn-52  2634   5 cm    0   0                
+  Photon     26-Fe-57   25-Mn-52  2634   5 cm    1   0                
+  Photon     26-Fe-57   25-Mn-53  2634   5 cm    0   0                
+  Photon     26-Fe-57   25-Mn-54  2634   5 cm    0   0                
+  Photon     26-Fe-57   25-Mn-55  2634   5 cm    0   0                
+  Photon     26-Fe-57   25-Mn-56  2634   5 cm    0   0                
+  Photon     26-Fe-57   26-Fe-46  2634   5 cm    0   0                
+  Photon     26-Fe-57   26-Fe-47  2634   5 cm    0   0                
+  Photon     26-Fe-57   26-Fe-48  2634   5 cm    0   0                
+  Photon     26-Fe-57   26-Fe-49  2634   5 cm    0   0                
+  Photon     26-Fe-57   26-Fe-50  2634   5 cm    0   0                
+  Photon     26-Fe-57   26-Fe-51  2634   5 cm    0   0                
+  Photon     26-Fe-57   26-Fe-52  2634   5 cm    0   0                
+  Photon     26-Fe-57   26-Fe-53  2634   5 cm    0   0                
+  Photon     26-Fe-57   26-Fe-53  2634   5 cm    1   0                
+  Photon     26-Fe-57   26-Fe-54  2634   5 cm    0   0                
+  Photon     26-Fe-57   26-Fe-55  2634   5 cm    0   0                
+  Photon     26-Fe-57   26-Fe-56  2634   5 cm    0   0                
+  Photon     26-Fe-57   26-Fe-57  2634   5 cm    0   0                
+  Photon     26-Fe-57   Photon    2634   5 cm    0   1    1    2      
+ ------------------------------------------------------------------------------
+ All Cross Sections Read. Maximum Tabulated Energy =  200000000. eV
+ ------------------------------------------------------------------------------
+ ==============================================================================
+ Laws by Incident Particle
+ ------------------------------------------------------------------------------
+ Law Number and Definition   Photon    n     p     d     t  He-3  He-4 Other
+ ------------------------------------------------------------------------------
+ (0) Unknown................   221     0     0     0     0     0     0     0
+ (1) Continuum Energy-Angle
+      Legendre..............     7     0     0     0     0     0     0     0
+      Kalbach-Mann..........     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (2) Discrete 2 Body
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (3) Isotropic Discrete.....     0     0     0     0     0     0     0     0
+ (4) Discrete 2 Body Recoil.     0     0     0     0     0     0     0     0
+ (5) Charged Particle Elastic
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (6) n-Body Phase-Space.....     0     0     0     0     0     0     0     0
+ (7) Laboratory Angle-Energy     0     0     0     0     0     0     0     0
+ Not 0 to 7 (WARNING if Any)     0     0     0     0     0     0     0     0
+ ==============================================================================
+ Laws by Emitted Particle
+ ------------------------------------------------------------------------------
+ Law Number and Definition   Photon    n     p     d     t  He-3  He-4 Other
+ ------------------------------------------------------------------------------
+ (0) Unknown................     0     0     0     0     0     0     0   221
+ (1) Continuum Energy-Angle
+      Legendre..............     1     1     1     1     1     1     1     0
+      Kalbach-Mann..........     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (2) Discrete 2 Body
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (3) Isotropic Discrete.....     0     0     0     0     0     0     0     0
+ (4) Discrete 2 Body Recoil.     0     0     0     0     0     0     0     0
+ (5) Charged Particle Elastic
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (6) n-Body Phase-Space.....     0     0     0     0     0     0     0     0
+ (7) Laboratory Angle-Energy     0     0     0     0     0     0     0     0
+ Not 0 to 7 (WARNING if Any)     0     0     0     0     0     0     0     0
+ ------------------------------------------------------------------------------
+ Summary of Emitted Particle Yields
+ ------------------------------------------------------------------------------
+ Energy Independent.........     0     0     0     0     0     0     0     0
+ Energy Dependent...........     1     1     1     1     1     1     1   221
+ ------------------------------------------------------------------------------
+ Summary of Angular Distributions
+ ------------------------------------------------------------------------------
+ Isotropic..................     1     0     0     0     0     0     0     0
+ Nonisotropic...............     0     0     1     0     1     0     0     0
+ Mixed......................     0     1     0     1     0     1     1     0
+ ------------------------------------------------------------------------------
+ Maximum Legendre Order.....     0    10    10    10    10    10    10     0
+ Maximum Number of Cosines..     0     0     0     0     0     0     0     0
+ ------------------------------------------------------------------------------
+ Summary of Energy Distributions
+ ------------------------------------------------------------------------------
+ Continuous.................     1     1     1     1     1     1     1     0
+ Discrete...................     0     0     0     0     0     0     0     0
+ Mixed......................     0     0     0     0     0     0     0     0
+ ------------------------------------------------------------------------------
+ ==============================================================================
+ Summary of Incident Neutron with Photon or Neutron Emitted Data
+ ------------------------------------------------------------------------------
+ Law Number and Definition   Output        Not Output 
+ ------------------------------------------------------------------------------
+                             Photon    n   Photon    n
+ ------------------------------------------------------------------------------
+ (0) Unknown................     0     0       0     0
+ (1) Continuum Energy-Angle
+      Legendre..............     0     0       0     0
+      Kalbach-Mann..........     0     0       0     0
+      Tabulated.............     0     0       0     0
+ (2) Discrete 2 Body
+      Legendre..............     0     0       0     0
+      Tabulated.............     0     0       0     0
+ (3) Isotropic Discrete.....     0     0       0     0
+ (4) Discrete 2 Body Recoil.     0     0       0     0
+ (5) Charged Particle Elastic
+      Legendre..............     0     0       0     0
+      Tabulated.............     0     0       0     0
+ (6) n-Body Phase-Space.....     0     0       0     0
+ (7) Laboratory Angle-Energy     0     0       0     0
+ Not 0 to 7 (WARNING if Any)     0     0       0     0
+ ==============================================================================
+ End of Run
+ ===============================================================================
+ SIXPAK   Total Execution Time                0.13 Seconds
+ ===============================================================================

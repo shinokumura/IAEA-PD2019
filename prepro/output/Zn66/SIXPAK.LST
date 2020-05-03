@@ -1,0 +1,431 @@
+ Process ENDF/B Double Differential Data - MF=6 (SIXPAK 2019-1)
+ ==============================================================================
+ ENDF/B Input Data Filename
+ SIXPAK.IN                                                               
+ ------------------------------------------------------------------------------
+ Requested Ranges
+ ------------------------------------------------------------------------------
+    Minimum    Maximum   
+    MAT  MT    MAT  MT
+ ------------------------------------------------------------------------------
+      1   1   9999 999
+ ==============================================================================
+ Terminology
+ ------------------------------------------------------------------------------
+ LCT  = Reference System (Lab or Center-of-Mass)
+ LIP  = Product Modifier, e.g., for Isomeric States
+ LAW  = Representation of Data - see, List at End of Output
+ LANG = 1     = Legendre     (LAW 1)
+      = 2     = Kalbach-Mann (LAW 1)
+      = 11-15 = Tabulated    (LAW 1)
+      = 0     = Legendre     (LAW 2)
+      = 11-15 = Tabulated    (LAW 2)
+ LTP  = 1-2   = Legendre     (LAW 5)
+      = 11-15 = Tabulated    (LAW 5)
+ LEP  = Secondary Energy Interpolation Type(1 to 5)
+ ==============================================================================
+ Tape Label
+ ------------------------------------------------------------------------------
+  JENDL/PD-2016.1  Zn- 66                                             1
+ ------------------------------------------------------------------------------
+ WARNING: MT=5 is ALLOWED in MF=6, but NOT in MF=4 or 5.
+          see ENDF-102 - Strictly for diagnostic purposes
+          this code will Translate MF=6 Data - but be
+          WARNED - the results should not be used in ANY          APPLICATIONS.
+ ------------------------------------------------------------------------------
+ ==============================================================================
+ Projectile   Target    Emitted    MAT  MT LCT LIP LAW LANG  LEP  ENDF/B
+                                                        LTP       Output
+ ==============================================================================
+  Photon     30-Zn-66   Neutron   3031   5 cm    0   1    1    2      
+  Photon     30-Zn-66    1-H -1   3031   5 cm    0   1    1    2      
+  Photon     30-Zn-66    1-H -2   3031   5 cm    0   1    1    2      
+  Photon     30-Zn-66    1-H -3   3031   5 cm    0   1    1    2      
+  Photon     30-Zn-66    2-He-3   3031   5 cm    0   1    1    2      
+  Photon     30-Zn-66    2-He-4   3031   5 cm    0   1    1    2      
+  Photon     30-Zn-66   10-Ne-28  3031   5 cm    0   0                
+  Photon     30-Zn-66   11-Na-29  3031   5 cm    0   0                
+  Photon     30-Zn-66   11-Na-30  3031   5 cm    0   0                
+  Photon     30-Zn-66   11-Na-31  3031   5 cm    0   0                
+  Photon     30-Zn-66   12-Mg-30  3031   5 cm    0   0                
+  Photon     30-Zn-66   12-Mg-31  3031   5 cm    0   0                
+  Photon     30-Zn-66   12-Mg-32  3031   5 cm    0   0                
+  Photon     30-Zn-66   12-Mg-33  3031   5 cm    0   0                
+  Photon     30-Zn-66   12-Mg-34  3031   5 cm    0   0                
+  Photon     30-Zn-66   13-Al-31  3031   5 cm    0   0                
+  Photon     30-Zn-66   13-Al-32  3031   5 cm    0   0                
+  Photon     30-Zn-66   13-Al-33  3031   5 cm    0   0                
+  Photon     30-Zn-66   13-Al-34  3031   5 cm    0   0                
+  Photon     30-Zn-66   13-Al-35  3031   5 cm    0   0                
+  Photon     30-Zn-66   13-Al-36  3031   5 cm    0   0                
+  Photon     30-Zn-66   13-Al-37  3031   5 cm    0   0                
+  Photon     30-Zn-66   14-Si-32  3031   5 cm    0   0                
+  Photon     30-Zn-66   14-Si-33  3031   5 cm    0   0                
+  Photon     30-Zn-66   14-Si-34  3031   5 cm    0   0                
+  Photon     30-Zn-66   14-Si-35  3031   5 cm    0   0                
+  Photon     30-Zn-66   14-Si-36  3031   5 cm    0   0                
+  Photon     30-Zn-66   14-Si-37  3031   5 cm    0   0                
+  Photon     30-Zn-66   14-Si-38  3031   5 cm    0   0                
+  Photon     30-Zn-66   14-Si-39  3031   5 cm    0   0                
+  Photon     30-Zn-66   14-Si-40  3031   5 cm    0   0                
+  Photon     30-Zn-66   15-P -33  3031   5 cm    0   0                
+  Photon     30-Zn-66   15-P -34  3031   5 cm    0   0                
+  Photon     30-Zn-66   15-P -35  3031   5 cm    0   0                
+  Photon     30-Zn-66   15-P -36  3031   5 cm    0   0                
+  Photon     30-Zn-66   15-P -37  3031   5 cm    0   0                
+  Photon     30-Zn-66   15-P -38  3031   5 cm    0   0                
+  Photon     30-Zn-66   15-P -39  3031   5 cm    0   0                
+  Photon     30-Zn-66   15-P -40  3031   5 cm    0   0                
+  Photon     30-Zn-66   15-P -41  3031   5 cm    0   0                
+  Photon     30-Zn-66   15-P -42  3031   5 cm    0   0                
+  Photon     30-Zn-66   15-P -43  3031   5 cm    0   0                
+  Photon     30-Zn-66   16-S -34  3031   5 cm    0   0                
+  Photon     30-Zn-66   16-S -35  3031   5 cm    0   0                
+  Photon     30-Zn-66   16-S -36  3031   5 cm    0   0                
+  Photon     30-Zn-66   16-S -37  3031   5 cm    0   0                
+  Photon     30-Zn-66   16-S -38  3031   5 cm    0   0                
+  Photon     30-Zn-66   16-S -39  3031   5 cm    0   0                
+  Photon     30-Zn-66   16-S -40  3031   5 cm    0   0                
+  Photon     30-Zn-66   16-S -41  3031   5 cm    0   0                
+  Photon     30-Zn-66   16-S -42  3031   5 cm    0   0                
+  Photon     30-Zn-66   16-S -43  3031   5 cm    0   0                
+  Photon     30-Zn-66   16-S -44  3031   5 cm    0   0                
+  Photon     30-Zn-66   16-S -45  3031   5 cm    0   0                
+  Photon     30-Zn-66   17-Cl-35  3031   5 cm    0   0                
+  Photon     30-Zn-66   17-Cl-36  3031   5 cm    0   0                
+  Photon     30-Zn-66   17-Cl-37  3031   5 cm    0   0                
+  Photon     30-Zn-66   17-Cl-38  3031   5 cm    0   0                
+  Photon     30-Zn-66   17-Cl-38  3031   5 cm    1   0                
+  Photon     30-Zn-66   17-Cl-39  3031   5 cm    0   0                
+  Photon     30-Zn-66   17-Cl-40  3031   5 cm    0   0                
+  Photon     30-Zn-66   17-Cl-41  3031   5 cm    0   0                
+  Photon     30-Zn-66   17-Cl-42  3031   5 cm    0   0                
+  Photon     30-Zn-66   17-Cl-43  3031   5 cm    0   0                
+  Photon     30-Zn-66   17-Cl-44  3031   5 cm    0   0                
+  Photon     30-Zn-66   17-Cl-45  3031   5 cm    0   0                
+  Photon     30-Zn-66   17-Cl-46  3031   5 cm    0   0                
+  Photon     30-Zn-66   17-Cl-47  3031   5 cm    0   0                
+  Photon     30-Zn-66   18-Ar-36  3031   5 cm    0   0                
+  Photon     30-Zn-66   18-Ar-37  3031   5 cm    0   0                
+  Photon     30-Zn-66   18-Ar-38  3031   5 cm    0   0                
+  Photon     30-Zn-66   18-Ar-39  3031   5 cm    0   0                
+  Photon     30-Zn-66   18-Ar-40  3031   5 cm    0   0                
+  Photon     30-Zn-66   18-Ar-41  3031   5 cm    0   0                
+  Photon     30-Zn-66   18-Ar-42  3031   5 cm    0   0                
+  Photon     30-Zn-66   18-Ar-43  3031   5 cm    0   0                
+  Photon     30-Zn-66   18-Ar-44  3031   5 cm    0   0                
+  Photon     30-Zn-66   18-Ar-45  3031   5 cm    0   0                
+  Photon     30-Zn-66   18-Ar-46  3031   5 cm    0   0                
+  Photon     30-Zn-66   18-Ar-47  3031   5 cm    0   0                
+  Photon     30-Zn-66   18-Ar-48  3031   5 cm    0   0                
+  Photon     30-Zn-66   18-Ar-49  3031   5 cm    0   0                
+  Photon     30-Zn-66   18-Ar-50  3031   5 cm    0   0                
+  Photon     30-Zn-66   19-K -37  3031   5 cm    0   0                
+  Photon     30-Zn-66   19-K -38  3031   5 cm    0   0                
+  Photon     30-Zn-66   19-K -38  3031   5 cm    1   0                
+  Photon     30-Zn-66   19-K -39  3031   5 cm    0   0                
+  Photon     30-Zn-66   19-K -40  3031   5 cm    0   0                
+  Photon     30-Zn-66   19-K -41  3031   5 cm    0   0                
+  Photon     30-Zn-66   19-K -42  3031   5 cm    0   0                
+  Photon     30-Zn-66   19-K -43  3031   5 cm    0   0                
+  Photon     30-Zn-66   19-K -44  3031   5 cm    0   0                
+  Photon     30-Zn-66   19-K -45  3031   5 cm    0   0                
+  Photon     30-Zn-66   19-K -46  3031   5 cm    0   0                
+  Photon     30-Zn-66   19-K -47  3031   5 cm    0   0                
+  Photon     30-Zn-66   19-K -48  3031   5 cm    0   0                
+  Photon     30-Zn-66   19-K -49  3031   5 cm    0   0                
+  Photon     30-Zn-66   19-K -50  3031   5 cm    0   0                
+  Photon     30-Zn-66   19-K -51  3031   5 cm    0   0                
+  Photon     30-Zn-66   19-K -52  3031   5 cm    0   0                
+  Photon     30-Zn-66   19-K -53  3031   5 cm    0   0                
+  Photon     30-Zn-66   20-Ca-38  3031   5 cm    0   0                
+  Photon     30-Zn-66   20-Ca-39  3031   5 cm    0   0                
+  Photon     30-Zn-66   20-Ca-40  3031   5 cm    0   0                
+  Photon     30-Zn-66   20-Ca-41  3031   5 cm    0   0                
+  Photon     30-Zn-66   20-Ca-42  3031   5 cm    0   0                
+  Photon     30-Zn-66   20-Ca-43  3031   5 cm    0   0                
+  Photon     30-Zn-66   20-Ca-44  3031   5 cm    0   0                
+  Photon     30-Zn-66   20-Ca-45  3031   5 cm    0   0                
+  Photon     30-Zn-66   20-Ca-46  3031   5 cm    0   0                
+  Photon     30-Zn-66   20-Ca-47  3031   5 cm    0   0                
+  Photon     30-Zn-66   20-Ca-48  3031   5 cm    0   0                
+  Photon     30-Zn-66   20-Ca-49  3031   5 cm    0   0                
+  Photon     30-Zn-66   20-Ca-50  3031   5 cm    0   0                
+  Photon     30-Zn-66   20-Ca-51  3031   5 cm    0   0                
+  Photon     30-Zn-66   20-Ca-52  3031   5 cm    0   0                
+  Photon     30-Zn-66   20-Ca-53  3031   5 cm    0   0                
+  Photon     30-Zn-66   20-Ca-54  3031   5 cm    0   0                
+  Photon     30-Zn-66   20-Ca-55  3031   5 cm    0   0                
+  Photon     30-Zn-66   21-Sc-39  3031   5 cm    0   0                
+  Photon     30-Zn-66   21-Sc-40  3031   5 cm    0   0                
+  Photon     30-Zn-66   21-Sc-41  3031   5 cm    0   0                
+  Photon     30-Zn-66   21-Sc-42  3031   5 cm    0   0                
+  Photon     30-Zn-66   21-Sc-42  3031   5 cm    1   0                
+  Photon     30-Zn-66   21-Sc-43  3031   5 cm    0   0                
+  Photon     30-Zn-66   21-Sc-44  3031   5 cm    0   0                
+  Photon     30-Zn-66   21-Sc-44  3031   5 cm    1   0                
+  Photon     30-Zn-66   21-Sc-45  3031   5 cm    0   0                
+  Photon     30-Zn-66   21-Sc-45  3031   5 cm    1   0                
+  Photon     30-Zn-66   21-Sc-46  3031   5 cm    0   0                
+  Photon     30-Zn-66   21-Sc-46  3031   5 cm    1   0                
+  Photon     30-Zn-66   21-Sc-47  3031   5 cm    0   0                
+  Photon     30-Zn-66   21-Sc-48  3031   5 cm    0   0                
+  Photon     30-Zn-66   21-Sc-49  3031   5 cm    0   0                
+  Photon     30-Zn-66   21-Sc-50  3031   5 cm    0   0                
+  Photon     30-Zn-66   21-Sc-50  3031   5 cm    1   0                
+  Photon     30-Zn-66   21-Sc-51  3031   5 cm    0   0                
+  Photon     30-Zn-66   21-Sc-52  3031   5 cm    0   0                
+  Photon     30-Zn-66   21-Sc-53  3031   5 cm    0   0                
+  Photon     30-Zn-66   21-Sc-54  3031   5 cm    0   0                
+  Photon     30-Zn-66   21-Sc-55  3031   5 cm    0   0                
+  Photon     30-Zn-66   21-Sc-56  3031   5 cm    0   0                
+  Photon     30-Zn-66   22-Ti-41  3031   5 cm    0   0                
+  Photon     30-Zn-66   22-Ti-42  3031   5 cm    0   0                
+  Photon     30-Zn-66   22-Ti-43  3031   5 cm    0   0                
+  Photon     30-Zn-66   22-Ti-44  3031   5 cm    0   0                
+  Photon     30-Zn-66   22-Ti-45  3031   5 cm    0   0                
+  Photon     30-Zn-66   22-Ti-46  3031   5 cm    0   0                
+  Photon     30-Zn-66   22-Ti-47  3031   5 cm    0   0                
+  Photon     30-Zn-66   22-Ti-48  3031   5 cm    0   0                
+  Photon     30-Zn-66   22-Ti-48  3031   5 cm    1   0                
+  Photon     30-Zn-66   22-Ti-49  3031   5 cm    0   0                
+  Photon     30-Zn-66   22-Ti-50  3031   5 cm    0   0                
+  Photon     30-Zn-66   22-Ti-51  3031   5 cm    0   0                
+  Photon     30-Zn-66   22-Ti-52  3031   5 cm    0   0                
+  Photon     30-Zn-66   22-Ti-53  3031   5 cm    0   0                
+  Photon     30-Zn-66   22-Ti-54  3031   5 cm    0   0                
+  Photon     30-Zn-66   22-Ti-55  3031   5 cm    0   0                
+  Photon     30-Zn-66   22-Ti-56  3031   5 cm    0   0                
+  Photon     30-Zn-66   22-Ti-57  3031   5 cm    0   0                
+  Photon     30-Zn-66   23-V -42  3031   5 cm    0   0                
+  Photon     30-Zn-66   23-V -43  3031   5 cm    0   0                
+  Photon     30-Zn-66   23-V -44  3031   5 cm    0   0                
+  Photon     30-Zn-66   23-V -44  3031   5 cm    1   0                
+  Photon     30-Zn-66   23-V -45  3031   5 cm    0   0                
+  Photon     30-Zn-66   23-V -46  3031   5 cm    0   0                
+  Photon     30-Zn-66   23-V -47  3031   5 cm    0   0                
+  Photon     30-Zn-66   23-V -48  3031   5 cm    0   0                
+  Photon     30-Zn-66   23-V -49  3031   5 cm    0   0                
+  Photon     30-Zn-66   23-V -50  3031   5 cm    0   0                
+  Photon     30-Zn-66   23-V -51  3031   5 cm    0   0                
+  Photon     30-Zn-66   23-V -52  3031   5 cm    0   0                
+  Photon     30-Zn-66   23-V -53  3031   5 cm    0   0                
+  Photon     30-Zn-66   23-V -54  3031   5 cm    0   0                
+  Photon     30-Zn-66   23-V -55  3031   5 cm    0   0                
+  Photon     30-Zn-66   23-V -56  3031   5 cm    0   0                
+  Photon     30-Zn-66   23-V -57  3031   5 cm    0   0                
+  Photon     30-Zn-66   23-V -58  3031   5 cm    0   0                
+  Photon     30-Zn-66   23-V -59  3031   5 cm    0   0                
+  Photon     30-Zn-66   24-Cr-44  3031   5 cm    0   0                
+  Photon     30-Zn-66   24-Cr-45  3031   5 cm    0   0                
+  Photon     30-Zn-66   24-Cr-46  3031   5 cm    0   0                
+  Photon     30-Zn-66   24-Cr-47  3031   5 cm    0   0                
+  Photon     30-Zn-66   24-Cr-48  3031   5 cm    0   0                
+  Photon     30-Zn-66   24-Cr-49  3031   5 cm    0   0                
+  Photon     30-Zn-66   24-Cr-50  3031   5 cm    0   0                
+  Photon     30-Zn-66   24-Cr-51  3031   5 cm    0   0                
+  Photon     30-Zn-66   24-Cr-52  3031   5 cm    0   0                
+  Photon     30-Zn-66   24-Cr-53  3031   5 cm    0   0                
+  Photon     30-Zn-66   24-Cr-54  3031   5 cm    0   0                
+  Photon     30-Zn-66   24-Cr-55  3031   5 cm    0   0                
+  Photon     30-Zn-66   24-Cr-56  3031   5 cm    0   0                
+  Photon     30-Zn-66   24-Cr-57  3031   5 cm    0   0                
+  Photon     30-Zn-66   24-Cr-58  3031   5 cm    0   0                
+  Photon     30-Zn-66   24-Cr-59  3031   5 cm    0   0                
+  Photon     30-Zn-66   24-Cr-60  3031   5 cm    0   0                
+  Photon     30-Zn-66   25-Mn-45  3031   5 cm    0   0                
+  Photon     30-Zn-66   25-Mn-46  3031   5 cm    0   0                
+  Photon     30-Zn-66   25-Mn-47  3031   5 cm    0   0                
+  Photon     30-Zn-66   25-Mn-48  3031   5 cm    0   0                
+  Photon     30-Zn-66   25-Mn-49  3031   5 cm    0   0                
+  Photon     30-Zn-66   25-Mn-50  3031   5 cm    0   0                
+  Photon     30-Zn-66   25-Mn-50  3031   5 cm    1   0                
+  Photon     30-Zn-66   25-Mn-51  3031   5 cm    0   0                
+  Photon     30-Zn-66   25-Mn-52  3031   5 cm    0   0                
+  Photon     30-Zn-66   25-Mn-52  3031   5 cm    1   0                
+  Photon     30-Zn-66   25-Mn-53  3031   5 cm    0   0                
+  Photon     30-Zn-66   25-Mn-54  3031   5 cm    0   0                
+  Photon     30-Zn-66   25-Mn-55  3031   5 cm    0   0                
+  Photon     30-Zn-66   25-Mn-56  3031   5 cm    0   0                
+  Photon     30-Zn-66   25-Mn-57  3031   5 cm    0   0                
+  Photon     30-Zn-66   25-Mn-58  3031   5 cm    0   0                
+  Photon     30-Zn-66   25-Mn-58  3031   5 cm    1   0                
+  Photon     30-Zn-66   25-Mn-59  3031   5 cm    0   0                
+  Photon     30-Zn-66   25-Mn-60  3031   5 cm    0   0                
+  Photon     30-Zn-66   25-Mn-60  3031   5 cm    1   0                
+  Photon     30-Zn-66   25-Mn-61  3031   5 cm    0   0                
+  Photon     30-Zn-66   26-Fe-47  3031   5 cm    0   0                
+  Photon     30-Zn-66   26-Fe-48  3031   5 cm    0   0                
+  Photon     30-Zn-66   26-Fe-49  3031   5 cm    0   0                
+  Photon     30-Zn-66   26-Fe-50  3031   5 cm    0   0                
+  Photon     30-Zn-66   26-Fe-51  3031   5 cm    0   0                
+  Photon     30-Zn-66   26-Fe-52  3031   5 cm    0   0                
+  Photon     30-Zn-66   26-Fe-53  3031   5 cm    0   0                
+  Photon     30-Zn-66   26-Fe-53  3031   5 cm    1   0                
+  Photon     30-Zn-66   26-Fe-54  3031   5 cm    0   0                
+  Photon     30-Zn-66   26-Fe-55  3031   5 cm    0   0                
+  Photon     30-Zn-66   26-Fe-56  3031   5 cm    0   0                
+  Photon     30-Zn-66   26-Fe-57  3031   5 cm    0   0                
+  Photon     30-Zn-66   26-Fe-58  3031   5 cm    0   0                
+  Photon     30-Zn-66   26-Fe-59  3031   5 cm    0   0                
+  Photon     30-Zn-66   26-Fe-60  3031   5 cm    0   0                
+  Photon     30-Zn-66   26-Fe-61  3031   5 cm    0   0                
+  Photon     30-Zn-66   26-Fe-62  3031   5 cm    0   0                
+  Photon     30-Zn-66   27-Co-49  3031   5 cm    0   0                
+  Photon     30-Zn-66   27-Co-50  3031   5 cm    0   0                
+  Photon     30-Zn-66   27-Co-51  3031   5 cm    0   0                
+  Photon     30-Zn-66   27-Co-52  3031   5 cm    0   0                
+  Photon     30-Zn-66   27-Co-53  3031   5 cm    0   0                
+  Photon     30-Zn-66   27-Co-54  3031   5 cm    0   0                
+  Photon     30-Zn-66   27-Co-54  3031   5 cm    1   0                
+  Photon     30-Zn-66   27-Co-55  3031   5 cm    0   0                
+  Photon     30-Zn-66   27-Co-56  3031   5 cm    0   0                
+  Photon     30-Zn-66   27-Co-57  3031   5 cm    0   0                
+  Photon     30-Zn-66   27-Co-58  3031   5 cm    0   0                
+  Photon     30-Zn-66   27-Co-58  3031   5 cm    1   0                
+  Photon     30-Zn-66   27-Co-59  3031   5 cm    0   0                
+  Photon     30-Zn-66   27-Co-60  3031   5 cm    0   0                
+  Photon     30-Zn-66   27-Co-60  3031   5 cm    1   0                
+  Photon     30-Zn-66   27-Co-61  3031   5 cm    0   0                
+  Photon     30-Zn-66   27-Co-62  3031   5 cm    0   0                
+  Photon     30-Zn-66   27-Co-62  3031   5 cm    1   0                
+  Photon     30-Zn-66   27-Co-63  3031   5 cm    0   0                
+  Photon     30-Zn-66   28-Ni-51  3031   5 cm    0   0                
+  Photon     30-Zn-66   28-Ni-52  3031   5 cm    0   0                
+  Photon     30-Zn-66   28-Ni-53  3031   5 cm    0   0                
+  Photon     30-Zn-66   28-Ni-54  3031   5 cm    0   0                
+  Photon     30-Zn-66   28-Ni-55  3031   5 cm    0   0                
+  Photon     30-Zn-66   28-Ni-56  3031   5 cm    0   0                
+  Photon     30-Zn-66   28-Ni-57  3031   5 cm    0   0                
+  Photon     30-Zn-66   28-Ni-58  3031   5 cm    0   0                
+  Photon     30-Zn-66   28-Ni-59  3031   5 cm    0   0                
+  Photon     30-Zn-66   28-Ni-60  3031   5 cm    0   0                
+  Photon     30-Zn-66   28-Ni-61  3031   5 cm    0   0                
+  Photon     30-Zn-66   28-Ni-62  3031   5 cm    0   0                
+  Photon     30-Zn-66   28-Ni-63  3031   5 cm    0   0                
+  Photon     30-Zn-66   28-Ni-64  3031   5 cm    0   0                
+  Photon     30-Zn-66   29-Cu-52  3031   5 cm    0   0                
+  Photon     30-Zn-66   29-Cu-53  3031   5 cm    0   0                
+  Photon     30-Zn-66   29-Cu-54  3031   5 cm    0   0                
+  Photon     30-Zn-66   29-Cu-55  3031   5 cm    0   0                
+  Photon     30-Zn-66   29-Cu-56  3031   5 cm    0   0                
+  Photon     30-Zn-66   29-Cu-57  3031   5 cm    0   0                
+  Photon     30-Zn-66   29-Cu-58  3031   5 cm    0   0                
+  Photon     30-Zn-66   29-Cu-59  3031   5 cm    0   0                
+  Photon     30-Zn-66   29-Cu-60  3031   5 cm    0   0                
+  Photon     30-Zn-66   29-Cu-61  3031   5 cm    0   0                
+  Photon     30-Zn-66   29-Cu-62  3031   5 cm    0   0                
+  Photon     30-Zn-66   29-Cu-63  3031   5 cm    0   0                
+  Photon     30-Zn-66   29-Cu-64  3031   5 cm    0   0                
+  Photon     30-Zn-66   29-Cu-65  3031   5 cm    0   0                
+  Photon     30-Zn-66   30-Zn-54  3031   5 cm    0   0                
+  Photon     30-Zn-66   30-Zn-55  3031   5 cm    0   0                
+  Photon     30-Zn-66   30-Zn-56  3031   5 cm    0   0                
+  Photon     30-Zn-66   30-Zn-57  3031   5 cm    0   0                
+  Photon     30-Zn-66   30-Zn-58  3031   5 cm    0   0                
+  Photon     30-Zn-66   30-Zn-59  3031   5 cm    0   0                
+  Photon     30-Zn-66   30-Zn-60  3031   5 cm    0   0                
+  Photon     30-Zn-66   30-Zn-61  3031   5 cm    0   0                
+  Photon     30-Zn-66   30-Zn-61  3031   5 cm    1   0                
+  Photon     30-Zn-66   30-Zn-61  3031   5 cm    2   0                
+  Photon     30-Zn-66   30-Zn-61  3031   5 cm    3   0                
+  Photon     30-Zn-66   30-Zn-62  3031   5 cm    0   0                
+  Photon     30-Zn-66   30-Zn-63  3031   5 cm    0   0                
+  Photon     30-Zn-66   30-Zn-64  3031   5 cm    0   0                
+  Photon     30-Zn-66   30-Zn-65  3031   5 cm    0   0                
+  Photon     30-Zn-66   30-Zn-66  3031   5 cm    0   0                
+  Photon     30-Zn-66   Photon    3031   5 cm    0   1    1    2      
+ ------------------------------------------------------------------------------
+ All Cross Sections Read. Maximum Tabulated Energy =  200000000. eV
+ ------------------------------------------------------------------------------
+ ==============================================================================
+ Laws by Incident Particle
+ ------------------------------------------------------------------------------
+ Law Number and Definition   Photon    n     p     d     t  He-3  He-4 Other
+ ------------------------------------------------------------------------------
+ (0) Unknown................   291     0     0     0     0     0     0     0
+ (1) Continuum Energy-Angle
+      Legendre..............     7     0     0     0     0     0     0     0
+      Kalbach-Mann..........     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (2) Discrete 2 Body
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (3) Isotropic Discrete.....     0     0     0     0     0     0     0     0
+ (4) Discrete 2 Body Recoil.     0     0     0     0     0     0     0     0
+ (5) Charged Particle Elastic
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (6) n-Body Phase-Space.....     0     0     0     0     0     0     0     0
+ (7) Laboratory Angle-Energy     0     0     0     0     0     0     0     0
+ Not 0 to 7 (WARNING if Any)     0     0     0     0     0     0     0     0
+ ==============================================================================
+ Laws by Emitted Particle
+ ------------------------------------------------------------------------------
+ Law Number and Definition   Photon    n     p     d     t  He-3  He-4 Other
+ ------------------------------------------------------------------------------
+ (0) Unknown................     0     0     0     0     0     0     0   291
+ (1) Continuum Energy-Angle
+      Legendre..............     1     1     1     1     1     1     1     0
+      Kalbach-Mann..........     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (2) Discrete 2 Body
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (3) Isotropic Discrete.....     0     0     0     0     0     0     0     0
+ (4) Discrete 2 Body Recoil.     0     0     0     0     0     0     0     0
+ (5) Charged Particle Elastic
+      Legendre..............     0     0     0     0     0     0     0     0
+      Tabulated.............     0     0     0     0     0     0     0     0
+ (6) n-Body Phase-Space.....     0     0     0     0     0     0     0     0
+ (7) Laboratory Angle-Energy     0     0     0     0     0     0     0     0
+ Not 0 to 7 (WARNING if Any)     0     0     0     0     0     0     0     0
+ ------------------------------------------------------------------------------
+ Summary of Emitted Particle Yields
+ ------------------------------------------------------------------------------
+ Energy Independent.........     0     0     0     0     0     0     0     0
+ Energy Dependent...........     1     1     1     1     1     1     1   291
+ ------------------------------------------------------------------------------
+ Summary of Angular Distributions
+ ------------------------------------------------------------------------------
+ Isotropic..................     1     0     0     0     0     0     0     0
+ Nonisotropic...............     0     0     0     1     1     0     0     0
+ Mixed......................     0     1     1     0     0     1     1     0
+ ------------------------------------------------------------------------------
+ Maximum Legendre Order.....     0    10    10    10    10    10    10     0
+ Maximum Number of Cosines..     0     0     0     0     0     0     0     0
+ ------------------------------------------------------------------------------
+ Summary of Energy Distributions
+ ------------------------------------------------------------------------------
+ Continuous.................     1     1     1     1     1     1     1     0
+ Discrete...................     0     0     0     0     0     0     0     0
+ Mixed......................     0     0     0     0     0     0     0     0
+ ------------------------------------------------------------------------------
+ ==============================================================================
+ Summary of Incident Neutron with Photon or Neutron Emitted Data
+ ------------------------------------------------------------------------------
+ Law Number and Definition   Output        Not Output 
+ ------------------------------------------------------------------------------
+                             Photon    n   Photon    n
+ ------------------------------------------------------------------------------
+ (0) Unknown................     0     0       0     0
+ (1) Continuum Energy-Angle
+      Legendre..............     0     0       0     0
+      Kalbach-Mann..........     0     0       0     0
+      Tabulated.............     0     0       0     0
+ (2) Discrete 2 Body
+      Legendre..............     0     0       0     0
+      Tabulated.............     0     0       0     0
+ (3) Isotropic Discrete.....     0     0       0     0
+ (4) Discrete 2 Body Recoil.     0     0       0     0
+ (5) Charged Particle Elastic
+      Legendre..............     0     0       0     0
+      Tabulated.............     0     0       0     0
+ (6) n-Body Phase-Space.....     0     0       0     0
+ (7) Laboratory Angle-Energy     0     0       0     0
+ Not 0 to 7 (WARNING if Any)     0     0       0     0
+ ==============================================================================
+ End of Run
+ ===============================================================================
+ SIXPAK   Total Execution Time                0.13 Seconds
+ ===============================================================================
