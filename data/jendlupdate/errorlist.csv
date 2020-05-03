@@ -1,0 +1,19 @@
+28-Feb-2020 16:52
+
+--- Errors of CHECKR ---------------------------------------
+------------------------------------------------------------
+No errors
+
+--- Errors of FIZCON ---------------------------------------
+2-He-3    	JAEA      	  1 errors	  0 warnings
+75-Re-185 	JAEA      	  0 errors	  2 warnings
+75-Re-187 	JAEA      	  0 errors	  2 warnings
+78-Pt-194 	JAEA      	  0 errors	  2 warnings
+79-Au-197 	JAEA      	  0 errors	  2 warnings
+82-Pb-206 	JAEA      	  0 errors	  2 warnings
+82-Pb-207 	JAEA      	  0 errors	  2 warnings
+82-Pb-208 	JAEA      	  0 errors	  2 warnings
+88-Ra-226 	JAEA      	  0 errors	  1 warnings
+------------------------------------------------------------
+Errors in 9 files
+
