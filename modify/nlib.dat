@@ -1,0 +1,6 @@
+#showheaders
+editheader NLIB 38
+#editheader LRP -1
+#extract 1 451
+#table 1 451
+quit
