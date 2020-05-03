@@ -1,0 +1,38 @@
+
+
+
+PROGRAM PSYCHE VERSION 8.10                              Run on 13-Mar-2020
+
+Input File Specification------------------------../data/g-iaea-pd-2019/g_40-Zr-90_4025.dat
+Check the Entire File
+
+TAPE BEING PROCESSED IS NUMBERED    1
+    LABEL IS   CNDC, CENDL3.1/photon-Medium-Heavy Nucleus reactions, MAT=4025   
+
+   CHECK MATERIAL 4025
+                   (NO WARNINGS DETECTED IN SECTIONS WITHOUT COMMENTS)
+
+--------------------------------------------------------------------------------
+FILE  1
+   SECTION 451
+      40-Zr- 90 CNDC       EVAL-JUN18 J.Wang,X.Tao,R.Xu,Y.Tian,C.Cai+  
+     NDS 163 109 (2020)    DIST-JAN20                                  
+     ----IAEA/PD-2019      MATERIAL 4025                               
+     -----PHOTO-NUCLEAR DATA                                           
+     ------ENDF-6 FORMAT                                               
+
+--------------------------------------------------------------------------------
+FILE  3
+   SECTION   5
+   SECTION 201
+   SECTION 203
+   SECTION 204
+   SECTION 205
+   SECTION 206
+   SECTION 207
+
+--------------------------------------------------------------------------------
+FILE  6
+   SECTION   5
+     TOO MANY ENERGIES (  1394)--UNION CHECK SUPRESSED
+ Done PSYCHE

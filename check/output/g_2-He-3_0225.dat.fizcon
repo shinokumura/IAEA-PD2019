@@ -1,0 +1,23 @@
+
+
+
+PROGRAM FIZCON VERSION 8.18                              Run on 13-Mar-2020
+
+Input File Specification------------------------../data/g-iaea-pd-2019/g_2-He-3_0225.dat
+Check the Entire File
+Sum Up Tests will be Omitted
+Deviant Point Check will be Omitted
+Consecutive Equal Value Check will be Omitted
+
+TAPE BEING PROCESSED IS NUMBERED    1
+   LABEL IS   JENDL/PD-2016.1  He-  3                                          
+
+
+ Check material   2-He-  3  MAT  225
+
+
+  ERROR(S) FOUND IN MAT= 225, MF= 6, MT=  5
+     DISCRETE 2-BODY LAW NOT PERMITTED FOR MT=   5
+
+ No problems to report
+ Done FIZCON

@@ -1,0 +1,27 @@
+
+
+
+PROGRAM CHECKR VERSION 8.21                              Run on 13-Mar-2020
+
+Input File Specification------------------------../data/g-iaea-pd-2019/g_92-U-235_9228.dat
+Check the Entire File
+
+
+FILE IS UNSEQUENCED. NO SEQUENCE TESTS WILL BE DONE
+
+
+
+
+ Check material  92-U -235  MAT 9228
+
+
+  ERROR(S) FOUND IN MAT=9228, MF= 5, MT=455
+     FILE  5 NOT ALLOWED FOR NSUB =     0             RECORD NUMBER     277
+     SECTION CANNOT BE CHECKED FROM SEQUENCE NUMBER      277 TO     866
+
+
+  ERROR(S) FOUND IN MAT=9228, MF= 6, MT= 18
+     SECTION MAT= 9228   MF=  5   MT= 455   IS MISSING
+
+     Encountered     3 errors,       0 warnings
+ Done CHECKR

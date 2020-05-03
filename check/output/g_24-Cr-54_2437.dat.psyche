@@ -1,0 +1,39 @@
+
+
+
+PROGRAM PSYCHE VERSION 8.10                              Run on 13-Mar-2020
+
+Input File Specification------------------------../data/g-iaea-pd-2019/g_24-Cr-54_2437.dat
+Check the Entire File
+
+TAPE BEING PROCESSED IS NUMBERED    1
+    LABEL IS  Retrieved by E4-util: 2019/11/11,14:57:08                         
+
+   CHECK MATERIAL 2437
+                   (NO WARNINGS DETECTED IN SECTIONS WITHOUT COMMENTS)
+
+--------------------------------------------------------------------------------
+FILE  1
+   SECTION 451
+      24-Cr- 54 CNDC       EVAL-DEC18 X.TAO,J.WANG,R.XU,Y.TIAN,Z.GE    
+     NDS 163 109 (2020)    DIST-JAN20                                  
+     ----IAEA/PD-2019      MATERIAL 2437                               
+     -----PHOTO-NUCLEAR DATA                                           
+     ------ENDF-6 FORMAT                                               
+
+--------------------------------------------------------------------------------
+FILE  3
+   SECTION   5
+   SECTION 201
+   SECTION 203
+   SECTION 204
+   SECTION 205
+   SECTION 206
+   SECTION 207
+
+--------------------------------------------------------------------------------
+FILE  6
+   SECTION   5
+      NO GAMMAS
+     TOO MANY ENERGIES (  1701)--UNION CHECK SUPRESSED
+ Done PSYCHE

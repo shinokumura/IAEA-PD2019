@@ -1,0 +1,32 @@
+
+
+
+PROGRAM PSYCHE VERSION 8.10                              Run on 13-Mar-2020
+
+Input File Specification------------------------../data/g-iaea-pd-2019/g_12-Mg-24_1225.dat
+Check the Entire File
+
+TAPE BEING PROCESSED IS NUMBERED    1
+    LABEL IS  Retrieved by E4-util: 2019/11/11,14:56:53                         
+
+   CHECK MATERIAL 1225
+                   (NO WARNINGS DETECTED IN SECTIONS WITHOUT COMMENTS)
+
+--------------------------------------------------------------------------------
+FILE  1
+   SECTION 451
+      12-Mg- 24 KAERI      EVAL-DEC99 Y.HAN,Y.-O.LEE                   
+     NDS 163 109 (2020)    DIST-JAN20                                  
+     ----IAEA/PD-2019      MATERIAL 1225                               
+     -----PHOTO-NUCLEAR DATA                                           
+     ------ENDF-6 FORMAT                                               
+
+--------------------------------------------------------------------------------
+FILE  3
+   SECTION   5
+
+--------------------------------------------------------------------------------
+FILE  6
+   SECTION   5
+     TOO MANY ENERGIES (  1125)--UNION CHECK SUPRESSED
+ Done PSYCHE

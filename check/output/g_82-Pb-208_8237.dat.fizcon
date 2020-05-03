@@ -1,0 +1,25 @@
+
+
+
+PROGRAM FIZCON VERSION 8.18                              Run on 13-Mar-2020
+
+Input File Specification------------------------../data/g-iaea-pd-2019/g_82-Pb-208_8237.dat
+Check the Entire File
+Sum Up Tests will be Omitted
+Deviant Point Check will be Omitted
+Consecutive Equal Value Check will be Omitted
+
+TAPE BEING PROCESSED IS NUMBERED    1
+   LABEL IS   JENDL/PD-2016.1  Pb-208                                          
+
+     BOTH SECTIONS MF=1, MT=455 AND MT=456 MUST BE PRESENT
+
+
+ Check material  82-Pb-208  MAT 8237
+
+
+  WARNING(S)     IN MAT=8237, MF= 3, MT= 18
+     Q= 1.56346E+08 MIGHT BE UNREASONABLE             SEQUENCE NUMBER     1
+
+     Encountered     0 errors,       2 warnings
+ Done FIZCON

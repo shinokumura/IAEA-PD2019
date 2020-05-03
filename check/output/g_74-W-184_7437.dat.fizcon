@@ -1,0 +1,23 @@
+
+
+
+PROGRAM FIZCON VERSION 8.18                              Run on 13-Mar-2020
+
+Input File Specification------------------------../data/g-iaea-pd-2019/g_74-W-184_7437.dat
+Check the Entire File
+Sum Up Tests will be Omitted
+Deviant Point Check will be Omitted
+Consecutive Equal Value Check will be Omitted
+
+TAPE BEING PROCESSED IS NUMBERED    1
+   LABEL IS   CNDC, CENDL3.1/photon-Medium-Heavy Nucleus reactions, MAT=7437   
+
+
+ Check material  74-W -184  MAT 7437
+
+
+  WARNING(S)     IN MAT=7437, MF= 3, MT=201
+     Q=-7.41110E+06 MIGHT BE UNREASONABLE             SEQUENCE NUMBER     1
+
+     Encountered     0 errors,       1 warnings
+ Done FIZCON

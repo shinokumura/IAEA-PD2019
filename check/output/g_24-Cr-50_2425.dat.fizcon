@@ -1,0 +1,27 @@
+
+
+
+PROGRAM FIZCON VERSION 8.18                              Run on 13-Mar-2020
+
+Input File Specification------------------------../data/g-iaea-pd-2019/g_24-Cr-50_2425.dat
+Check the Entire File
+Sum Up Tests will be Omitted
+Deviant Point Check will be Omitted
+Consecutive Equal Value Check will be Omitted
+
+TAPE BEING PROCESSED IS NUMBERED    1
+   LABEL IS  Retrieved by E4-util: 2019/11/11,14:57:07                         
+
+
+ Check material  24-Cr- 50  MAT 2425
+
+
+  WARNING(S)     IN MAT=2425, MF= 3, MT=201
+     Q=-1.30010E+07 MIGHT BE UNREASONABLE             SEQUENCE NUMBER     1
+
+
+  ERROR(S) FOUND IN MAT=2425, MF= 6, MT=  5
+     SECTION DOES NOT SPAN THE SAME ENERGY RANGE AS FILE   3, MT=   5
+
+     Encountered     1 errors,       1 warnings
+ Done FIZCON

@@ -1,0 +1,30 @@
+
+
+
+PROGRAM PSYCHE VERSION 8.10                              Run on 13-Mar-2020
+
+Input File Specification------------------------../data/g-iaea-pd-2019/g_47-Ag-108_4728.dat
+Check the Entire File
+
+TAPE BEING PROCESSED IS NUMBERED    1
+    LABEL IS   JENDL/PD-2016.1  Ag-108                                          
+
+   CHECK MATERIAL 4728
+                   (NO WARNINGS DETECTED IN SECTIONS WITHOUT COMMENTS)
+
+--------------------------------------------------------------------------------
+FILE  1
+   SECTION 451
+      47-Ag-108 JAEA       EVAL-APR19 N.Iwamoto                        
+     NDS 163 109 (2020)    DIST-JAN20                                  
+     ----IAEA/PD-2019      MATERIAL 4728                               
+     -----PHOTO-NUCLEAR DATA                                           
+     ------ENDF-6 FORMAT                                               
+
+--------------------------------------------------------------------------------
+FILE  3
+   SECTION   5
+
+--------------------------------------------------------------------------------
+FILE  6
+   SECTION   5

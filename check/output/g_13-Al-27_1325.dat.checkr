@@ -1,0 +1,46 @@
+
+
+
+PROGRAM CHECKR VERSION 8.24                              Run on 13-Mar-2020
+
+Input File Specification------------------------../data/g-iaea-pd-2019/g_13-Al-27_1325.dat
+Check the Entire File
+
+
+FILE IS UNSEQUENCED. NO SEQUENCE TESTS WILL BE DONE
+
+
+
+
+ Check material  13-Al- 27  MAT 1325
+
+
+  ERROR(S) FOUND IN MAT=1325, MF= 1, MT=451
+     INVALID FLAG LRP=-1 FOR NSUB=   10               RECORD NUMBER       5
+
+
+  WARNING(S)     IN MAT=1325, MF= 3, MT=201
+     MT= 201 ALLOWED IN DERIVED FILES                 RECORD NUMBER     187
+
+
+  WARNING(S)     IN MAT=1325, MF= 3, MT=203
+     MT= 203 ALLOWED IN DERIVED FILES                 RECORD NUMBER     220
+
+
+  WARNING(S)     IN MAT=1325, MF= 3, MT=204
+     MT= 204 ALLOWED IN DERIVED FILES                 RECORD NUMBER     255
+
+
+  WARNING(S)     IN MAT=1325, MF= 3, MT=205
+     MT= 205 ALLOWED IN DERIVED FILES                 RECORD NUMBER     286
+
+
+  WARNING(S)     IN MAT=1325, MF= 3, MT=206
+     MT= 206 ALLOWED IN DERIVED FILES                 RECORD NUMBER     317
+
+
+  WARNING(S)     IN MAT=1325, MF= 3, MT=207
+     MT= 207 ALLOWED IN DERIVED FILES                 RECORD NUMBER     344
+
+     Encountered     1 errors,       6 warnings
+ Done CHECKR

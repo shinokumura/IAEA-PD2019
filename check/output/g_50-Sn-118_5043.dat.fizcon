@@ -1,0 +1,26 @@
+
+
+
+PROGRAM FIZCON VERSION 8.18                              Run on 13-Mar-2020
+
+Input File Specification------------------------../data/g-iaea-pd-2019/g_50-Sn-118_5043.dat
+Check the Entire File
+Sum Up Tests will be Omitted
+Deviant Point Check will be Omitted
+Consecutive Equal Value Check will be Omitted
+
+TAPE BEING PROCESSED IS NUMBERED    1
+   LABEL IS  Retrieved by E4-util: 2019/11/11,14:57:57                         
+
+
+ Check material  50-Sn-118  MAT 5043
+
+
+  ERROR(S) FOUND IN MAT=5043, MF= 3, MT=201
+     LIST OUT OF ORDER NEAR N=   84
+     Q=-9.32620E+06 MIGHT BE UNREASONABLE             SEQUENCE NUMBER     1
+     THE MAXIMUM INCIDENT ENERGY OF  0.00000E+00 (EV)
+        SHOULD BE GREATER THAN OR EQUAL TO  2.00000E+08
+
+     Encountered     1 errors,       1 warnings
+ Done FIZCON

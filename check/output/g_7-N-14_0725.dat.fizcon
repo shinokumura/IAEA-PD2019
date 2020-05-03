@@ -1,0 +1,26 @@
+
+
+
+PROGRAM FIZCON VERSION 8.18                              Run on 13-Mar-2020
+
+Input File Specification------------------------../data/g-iaea-pd-2019/g_7-N-14_0725.dat
+Check the Entire File
+Sum Up Tests will be Omitted
+Deviant Point Check will be Omitted
+Consecutive Equal Value Check will be Omitted
+
+TAPE BEING PROCESSED IS NUMBERED    1
+   LABEL IS                                                                    
+
+
+ Check material             MAT  725
+
+
+  ERROR(S) FOUND IN MAT= 725, MF= 1, MT=451
+      AWI SHOULD BE SET TO  0.00000E+00
+
+  ERROR(S) - MISSING SECTIONS IN MAT   -1 MF  6
+     PRESENCE OF FILE 3, MT= 102 REQUIRES AN EQUIVALENT SECTION IN FILE 6
+
+     Encountered     1 errors,       0 warnings
+ Done FIZCON

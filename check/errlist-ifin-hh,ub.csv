@@ -1,0 +1,25 @@
+25-Feb-2020 16:32
+
+--- Errors of CHECKR ---------------------------------------
+27-Co-59  	IFIN-HH,UB	  1 errors	  0 warnings
+39-Y-89   	IFIN-HH,UB	  2 errors	  0 warnings
+45-Rh-103 	IFIN-HH,UB	  1 errors	  0 warnings
+65-Tb-159 	IFIN-HH,UB	  1 errors	  0 warnings
+67-Ho-165 	IFIN-HH,UB	  1 errors	  0 warnings
+69-Tm-169 	IFIN-HH,UB	  1 errors	  0 warnings
+73-Ta-181 	IFIN-HH,UB	  1 errors	  0 warnings
+------------------------------------------------------------
+Errors in 7 files
+
+
+--- Errors of FIZCON ---------------------------------------
+27-Co-59  	IFIN-HH,UB	121 errors	  0 warnings
+39-Y-89   	IFIN-HH,UB	107 errors	  0 warnings
+45-Rh-103 	IFIN-HH,UB	108 errors	  0 warnings
+65-Tb-159 	IFIN-HH,UB	108 errors	  0 warnings
+67-Ho-165 	IFIN-HH,UB	 59 errors	  0 warnings
+69-Tm-169 	IFIN-HH,UB	119 errors	  0 warnings
+73-Ta-181 	IFIN-HH,UB	121 errors	  0 warnings
+------------------------------------------------------------
+Errors in 7 files
+

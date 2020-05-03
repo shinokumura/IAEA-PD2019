@@ -1,0 +1,23 @@
+
+
+
+PROGRAM FIZCON VERSION 8.18                              Run on 13-Mar-2020
+
+Input File Specification------------------------../data/g-iaea-pd-2019/g_74-W-186_7443.dat
+Check the Entire File
+Sum Up Tests will be Omitted
+Deviant Point Check will be Omitted
+Consecutive Equal Value Check will be Omitted
+
+TAPE BEING PROCESSED IS NUMBERED    1
+   LABEL IS  Retrieved by E4-util: 2019/11/11,14:58:50                         
+
+
+ Check material  74-W -186  MAT 7443
+
+
+  WARNING(S)     IN MAT=7443, MF= 3, MT=201
+     Q=-7.19310E+06 MIGHT BE UNREASONABLE             SEQUENCE NUMBER     1
+
+     Encountered     0 errors,       1 warnings
+ Done FIZCON

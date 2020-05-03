@@ -1,0 +1,38 @@
+
+
+
+PROGRAM PSYCHE VERSION 8.10                              Run on 13-Mar-2020
+
+Input File Specification------------------------../data/g-iaea-pd-2019/g_50-Sn-118_5043.dat
+Check the Entire File
+
+TAPE BEING PROCESSED IS NUMBERED    1
+    LABEL IS  Retrieved by E4-util: 2019/11/11,14:57:57                         
+
+   CHECK MATERIAL 5043
+                   (NO WARNINGS DETECTED IN SECTIONS WITHOUT COMMENTS)
+
+--------------------------------------------------------------------------------
+FILE  1
+   SECTION 451
+      50-Sn-118 CNDC       EVAL-DEC17 Y.Tian,R.Xu,J.M.Wang,X.Tao       
+     NDS 163 109 (2020)    DIST-JAN20                                  
+     ----IAEA/PD-2019      MATERIAL 5043                               
+     -----PHOTO-NUCLEAR DATA                                           
+     ------ENDF-6 FORMAT                                               
+
+--------------------------------------------------------------------------------
+FILE  3
+   SECTION   5
+   SECTION 201
+   SECTION 203
+   SECTION 204
+   SECTION 205
+   SECTION 206
+   SECTION 207
+
+--------------------------------------------------------------------------------
+FILE  6
+   SECTION   5
+     TOO MANY ENERGIES (  1442)--UNION CHECK SUPRESSED
+ Done PSYCHE

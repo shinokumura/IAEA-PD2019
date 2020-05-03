@@ -1,0 +1,18 @@
+
+
+
+PROGRAM FIZCON VERSION 8.18                              Run on 13-Mar-2020
+
+Input File Specification------------------------../data/g-iaea-pd-2019/g_88-Ra-226_8834.dat
+Check the Entire File
+Sum Up Tests will be Omitted
+Deviant Point Check will be Omitted
+Consecutive Equal Value Check will be Omitted
+
+TAPE BEING PROCESSED IS NUMBERED    1
+   LABEL IS   JENDL/PD-2016.1  Ra-226                                          
+
+     BOTH SECTIONS MF=1, MT=455 AND MT=456 MUST BE PRESENT
+
+     Encountered     0 errors,       1 warnings
+ Done FIZCON

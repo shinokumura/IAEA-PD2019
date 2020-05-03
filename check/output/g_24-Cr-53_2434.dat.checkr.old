@@ -1,0 +1,42 @@
+
+
+
+PROGRAM CHECKR VERSION 8.21                              Run on 13-Mar-2020
+
+Input File Specification------------------------../data/g-iaea-pd-2019/g_24-Cr-53_2434.dat
+Check the Entire File
+
+
+FILE IS UNSEQUENCED. NO SEQUENCE TESTS WILL BE DONE
+
+
+
+
+ Check material  24-Cr- 53  MAT 2434
+
+
+  WARNING(S)     IN MAT=2434, MF= 3, MT=201
+     MT= 201 ALLOWED IN DERIVED FILES                 RECORD NUMBER     146
+
+
+  WARNING(S)     IN MAT=2434, MF= 3, MT=203
+     MT= 203 ALLOWED IN DERIVED FILES                 RECORD NUMBER     181
+
+
+  WARNING(S)     IN MAT=2434, MF= 3, MT=204
+     MT= 204 ALLOWED IN DERIVED FILES                 RECORD NUMBER     215
+
+
+  WARNING(S)     IN MAT=2434, MF= 3, MT=205
+     MT= 205 ALLOWED IN DERIVED FILES                 RECORD NUMBER     244
+
+
+  WARNING(S)     IN MAT=2434, MF= 3, MT=206
+     MT= 206 ALLOWED IN DERIVED FILES                 RECORD NUMBER     269
+
+
+  WARNING(S)     IN MAT=2434, MF= 3, MT=207
+     MT= 207 ALLOWED IN DERIVED FILES                 RECORD NUMBER     294
+
+     Encountered     0 errors,       6 warnings
+ Done CHECKR

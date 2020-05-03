@@ -1,0 +1,44 @@
+25-Feb-2020 16:30
+
+--- Errors of CHECKR ---------------------------------------
+75-Re-185 	JAEA      	  1 errors	  0 warnings
+75-Re-187 	JAEA      	  1 errors	  0 warnings
+78-Pt-194 	JAEA      	  1 errors	  0 warnings
+79-Au-197 	JAEA      	  1 errors	  0 warnings
+82-Pb-206 	JAEA      	  1 errors	  0 warnings
+82-Pb-207 	JAEA      	  1 errors	  0 warnings
+82-Pb-208 	JAEA      	  1 errors	  0 warnings
+88-Ra-226 	JAEA      	  1 errors	  0 warnings
+90-Th-232 	JAEA      	  1 errors	  0 warnings
+92-U-233  	JAEA      	  2 errors	  0 warnings
+92-U-234  	JAEA      	  2 errors	  0 warnings
+92-U-235  	JAEA      	  2 errors	  0 warnings
+92-U-236  	JAEA      	  2 errors	  0 warnings
+92-U-238  	JAEA      	  2 errors	  0 warnings
+93-Np-237 	JAEA      	  2 errors	  0 warnings
+94-Pu-238 	JAEA      	  1 errors	  0 warnings
+94-Pu-239 	JAEA      	  2 errors	  0 warnings
+94-Pu-241 	JAEA      	  2 errors	  0 warnings
+------------------------------------------------------------
+Errors in 18 files
+
+
+--- Errors of FIZCON ---------------------------------------
+75-Re-185 	JAEA      	  0 errors	  1 warnings
+75-Re-187 	JAEA      	  0 errors	  1 warnings
+78-Pt-194 	JAEA      	  0 errors	  1 warnings
+79-Au-197 	JAEA      	  0 errors	  1 warnings
+82-Pb-206 	JAEA      	  0 errors	  1 warnings
+82-Pb-207 	JAEA      	  0 errors	  1 warnings
+82-Pb-208 	JAEA      	  0 errors	  1 warnings
+92-U-233  	JAEA      	  1 errors	  0 warnings
+92-U-234  	JAEA      	  1 errors	  0 warnings
+92-U-235  	JAEA      	  1 errors	  0 warnings
+92-U-236  	JAEA      	  1 errors	  0 warnings
+92-U-238  	JAEA      	  1 errors	  0 warnings
+93-Np-237 	JAEA      	  1 errors	  0 warnings
+94-Pu-239 	JAEA      	  1 errors	  0 warnings
+94-Pu-241 	JAEA      	  1 errors	  0 warnings
+------------------------------------------------------------
+Errors in 15 files
+
