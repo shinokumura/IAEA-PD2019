@@ -2,7 +2,7 @@
 #
 #
 #
-codes="/Users/okumuras/Dropbox/codes/PREPRO19/"
+codes="/Users/sin/Dropbox/codes/PREPRO19/"
 while IFS=" " read -r charge elem mass mat
 do
 #if [ $elem = "H" ]; then
@@ -121,7 +121,7 @@ EOF
     ${codes}groupie
     echo 'saving output, pendf, gendf files'
      rm -r output/${elem}${mass}
-     mkdir  output/${elem}${mass}
+     mkdir output/${elem}${mass}
  #    mv GROUPIE.OUT output/${elem}${mass}/
      mv *.INP output/${elem}${mass}/
      mv *.OUT output/${elem}${mass}/
