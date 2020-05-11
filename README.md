@@ -16,7 +16,7 @@ As this is a private repository, to edit this source you must have been granted 
 You can therefore download the repository from a terminal using:
 
 ```
-git clone https://gitlab.com/s.okumura/iaea-photonuclear-2019.git
+git clone https://github.com/shinokumura/IAEA-PD2019.git
 ```
 
 ## Notifications
