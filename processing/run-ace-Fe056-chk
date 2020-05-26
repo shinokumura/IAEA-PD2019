@@ -3,7 +3,7 @@
 
 while IFS=" " read -r charge elem mass mat
 do
-if [ $elem = "Ca" ]; then
+#if [ $elem = "Ca" ]; then
 echo "$file"
 ln -s ace/${elem}${mass} tape31
 echo 'running njoy for '${elem}${mass}
@@ -24,6 +24,6 @@ EOF
     mv output inout-ace/out${elem}${mass}-chk
     rm tape*
     echo 'finished' ${elem}${mass}
-fi    
+#fi    
 
 done < iso-mat.iaea-g19
