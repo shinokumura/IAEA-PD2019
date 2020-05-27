@@ -129,7 +129,7 @@ EOF
      mv PLOT0001.ps output/${elem}${mass}/${elem}${mass}.ps
 #     
 #     
-     rm *.IN ENDFB.M*
+     rm *.IN ENDFB.M* *.CUR
 #fi
 done < ../processing/iso-mat.iaea-g19
 #

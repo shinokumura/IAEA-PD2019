@@ -1,0 +1,23 @@
+
+
+
+PROGRAM FIZCON VERSION 8.18                              Run on 27-May-2020
+
+Input File Specification------------------------../data/empireupdate/mod/g_27-Co-59_2725.dat
+Check the Entire File
+Sum Up Tests will be Omitted
+Deviant Point Check will be Omitted
+Consecutive Equal Value Check will be Omitted
+
+TAPE BEING PROCESSED IS NUMBERED    1
+   LABEL IS   EMPEND Processing file : co59-g.out                              
+
+
+ Check material  27-Co- 59  MAT 2725
+
+
+  ERROR(S) FOUND IN MAT=2725, MF= 6, MT=102
+     SECTION DOES NOT SPAN THE SAME ENERGY RANGE AS FILE   3, MT= 102
+
+     Encountered     1 errors,       0 warnings
+ Done FIZCON

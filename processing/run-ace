@@ -7,6 +7,8 @@
 INPATH=../data/g-iaea-pd-2019
 OUTPATH=.
 
+NJOY=/Users/okumuras/Documents/codes/NJOY2016pn/bin/njoy
+
 ACE=${OUTPATH}/ace
 IOACE=${OUTPATH}/inout-ace
 INP=${IOACE}/input
@@ -18,7 +20,7 @@ mkdir -p ${ACE} ${IOACE} ${INP} ${OUP} ${GRAPHS}
 ls -1 ${INPATH} |
 grep g_ |
 sed -e "s/g_//" -e "s/[_-]/ /g" -e "s/\.[^.]*$//g" |
-sort -k1g > ${OUTPATH}/iso-mat.iaea-g19
+sort -k1g > iso-mat.iaea-g19
 
 while IFS=" " read -r charge elem mass mat
 do
@@ -44,7 +46,7 @@ viewr
 33 36/
 stop
 EOF
-      njoy < ${INP}/in${elem}${mass}
+      $NJOY < ${INP}/in${elem}${mass}
       echo 'saving output, pendf, gendf files'
       mv tape31 ${ACE}/${elem}${mass}
       mv tape32 ${ACE}/${elem}${mass}.dir
@@ -53,4 +55,4 @@ EOF
       rm tape*
       echo 'finished' ${elem}${mass}
 
-done < ${OUTPATH}/iso-mat.iaea-g19
+done < iso-mat.iaea-g19
