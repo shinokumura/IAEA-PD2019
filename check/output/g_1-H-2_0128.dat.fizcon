@@ -1,7 +1,7 @@
 
 
 
-PROGRAM FIZCON VERSION 8.18                              Run on 13-Mar-2020
+PROGRAM FIZCON VERSION 8.18                              Run on 19-Jun-2020
 
 Input File Specification------------------------../data/g-iaea-pd-2019/g_1-H-2_0128.dat
 Check the Entire File
@@ -10,25 +10,7 @@ Deviant Point Check will be Omitted
 Consecutive Equal Value Check will be Omitted
 
 TAPE BEING PROCESSED IS NUMBERED    1
-   LABEL IS  Retrieved by E4-util: 2019/11/11,14:56:43                         
+   LABEL IS   IAEA/PD-2019  H -  2                                             
 
-
- Check material             MAT  128
-
-
-  ERROR(S) FOUND IN MAT= 128, MF= 1, MT=451
-      AWI SHOULD BE SET TO  0.00000E+00
-
-
-  WARNING(S)     IN MAT= 128, MF= 3, MT=  3
-     Q=-2.22400E+06 MIGHT BE UNREASONABLE             SEQUENCE NUMBER     1
-
-
-  WARNING(S)     IN MAT= 128, MF= 4, MT= 28
-     CONTINUUM REACTION RECOMMENDS LCT=1
-
-  ERROR(S) - MISSING SECTIONS IN MAT   -1 MF  6
-     PRESENCE OF FILE 3, MT=  28 REQUIRES AN EQUIVALENT SECTION IN FILE 6
-
-     Encountered     1 errors,       1 warnings
+ No problems to report
  Done FIZCON

@@ -1,7 +1,7 @@
 
 
 
-PROGRAM PSYCHE VERSION 8.10                              Run on 13-Mar-2020
+PROGRAM PSYCHE VERSION 8.10                              Run on 19-Jun-2020
 
 Input File Specification------------------------../data/g-iaea-pd-2019/g_13-Al-27_1325.dat
 Check the Entire File
@@ -16,13 +16,14 @@ TAPE BEING PROCESSED IS NUMBERED    1
 FILE  1
    SECTION 451
       13-Al- 27 CNDC       EVAL-APR19 J.Wang,X.Tao,R.Xu,Y.Tian,C.Cai+  
-     NDS 163 109 (2020)    DIST-JAN20                                  
+     NDS 163 109 (2020)    DIST-JUN20                                  
      ----IAEA/PD-2019      MATERIAL 1325                               
      -----PHOTO-NUCLEAR DATA                                           
      ------ENDF-6 FORMAT                                               
 
 --------------------------------------------------------------------------------
 FILE  3
+   SECTION   3
    SECTION   5
    SECTION 201
    SECTION 203

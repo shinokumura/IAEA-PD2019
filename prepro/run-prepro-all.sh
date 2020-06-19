@@ -2,7 +2,7 @@
 #
 #
 #
-codes="/Users/sin/Dropbox/codes/PREPRO19/"
+codes="/Users/okumuras/Dropbox/codes/PREPRO19/"
 while IFS=" " read -r charge elem mass mat
 do
 #if [ $elem = "H" ]; then

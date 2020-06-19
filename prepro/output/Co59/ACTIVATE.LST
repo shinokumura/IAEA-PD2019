@@ -13,25 +13,27 @@
                           Format      State           eV     In    Out
  ------------------------------------------------------------------------------
   27-Co-59  2725  10   4 WARNING - MF=10 data already exists - will copy MT.
- ------------------------------------------------------------------------------
-  27-Co-59  2725  10   5   6        1     0   0.0            87     87
-  27-Co-59  2725  10   5   6     1001     0   0.0            87     87
-  27-Co-59  2725  10   5   6     1002     0   0.0            87     87
-  27-Co-59  2725  10   5   6     1003     0   0.0            87     87
-  27-Co-59  2725  10   5   6     2003     0   0.0            87     87
-  27-Co-59  2725  10   5   6     2004     0   0.0            87     87
-  27-Co-59  2725  10   5   6        0     0   0.0            87     87
- ------------------------------------------------------------------------------
-                                              MAT Totals    609    609
- ------------------------------------------------------------------------------
- ------------------------------------------------------------------------------
- All Cross Sections Read. Maximum Tabulated Energy =  200000000. eV
- ------------------------------------------------------------------------------
+  27-Co-59  2725  10   5 WARNING - MF=10 data already exists - will copy MT.
+  27-Co-59  2725  10  22 WARNING - MF=10 data already exists - will copy MT.
+  27-Co-59  2725  10  23 WARNING - MF=10 data already exists - will copy MT.
+  27-Co-59  2725  10  24 WARNING - MF=10 data already exists - will copy MT.
+  27-Co-59  2725  10  25 WARNING - MF=10 data already exists - will copy MT.
+  27-Co-59  2725  10  29 WARNING - MF=10 data already exists - will copy MT.
+  27-Co-59  2725  10  30 WARNING - MF=10 data already exists - will copy MT.
+  27-Co-59  2725  10  35 WARNING - MF=10 data already exists - will copy MT.
+  27-Co-59  2725  10  36 WARNING - MF=10 data already exists - will copy MT.
+  27-Co-59  2725  10  37 WARNING - MF=10 data already exists - will copy MT.
+  27-Co-59  2725  10  45 WARNING - MF=10 data already exists - will copy MT.
+  27-Co-59  2725  10 108 WARNING - MF=10 data already exists - will copy MT.
+  27-Co-59  2725  10 109 WARNING - MF=10 data already exists - will copy MT.
+  27-Co-59  2725  10 112 WARNING - MF=10 data already exists - will copy MT.
+  27-Co-59  2725  10 114 WARNING - MF=10 data already exists - will copy MT.
+  27-Co-59  2725         WARNING - No MF=10 to create - will copy MAT
  ===============================================================================
-      MAT Total Execution Time                0.77 Seconds
+      MAT Total Execution Time                1.30 Seconds
  ===============================================================================
  ------------------------------------------------------------------------------
-                                             Tape Totals    609    609
+                                             Tape Totals      0      0
  ------------------------------------------------------------------------------
  WARNING - The purpose of this code is to create MF=10 data
            if it does not already exist - if it does exist
@@ -42,5 +44,5 @@
            check that MF=9 and MF=10 are consistent.
  ------------------------------------------------------------------------------
  ===============================================================================
- ACTIVATE Total Execution Time                0.78 Seconds
+ ACTIVATE Total Execution Time                1.31 Seconds
  ===============================================================================
