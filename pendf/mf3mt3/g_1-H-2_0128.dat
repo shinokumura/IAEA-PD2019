@@ -1,7 +1,7 @@
 #    [  128 :  3 :   3 ]     1 -   2
 # Cross section
-#           QM -2.224000e+06  mass difference Q-value
-#           QI -2.224000e+06  reaction Q-value
+#           QM 0.0000000e+00  mass difference Q-value
+#           QI 0.0000000e+00  reaction Q-value
 #           NR             1  number of interpolation range
 #           NP            28  lin-log  interpolation
   2.224000e+06  0.000000e+00

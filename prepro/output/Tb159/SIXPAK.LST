@@ -39,27 +39,23 @@
  ==============================================================================
   Photon     65-Tb-159  Neutron   6525   5 cm    0   1    1    2      
  ------------------------------------------------------------------------------
- E= 1.2000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ E= 9.0000E+07 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
  ------------------------------------------------------------------------------
- E= 1.4000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ E= 1.2000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
  ------------------------------------------------------------------------------
  E= 1.8000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
   Photon     65-Tb-159   1-H -1   6525   5 cm    0   1    1    2      
  ------------------------------------------------------------------------------
- E= 9.0000E+07 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ E= 8.0000E+07 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
  ------------------------------------------------------------------------------
  E= 9.0000E+07 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 1.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 1.2000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
  ------------------------------------------------------------------------------
  E= 1.6000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
   Photon     65-Tb-159   1-H -2   6525   5 cm    0   1    1    2      
  ------------------------------------------------------------------------------
- E= 1.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ E= 8.0000E+07 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
  ------------------------------------------------------------------------------
- E= 1.6000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
+ E= 1.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
  ------------------------------------------------------------------------------
  E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
   Photon     65-Tb-159   1-H -3   6525   5 cm    0   1    1    2      
@@ -201,15 +197,9 @@
   Photon     65-Tb-159  Photon    6525  32 cm    0   1    1    2      
   Photon     65-Tb-159  Neutron   6525  33 cm    0   1    1    2      
   Photon     65-Tb-159   1-H -3   6525  33 cm    0   1    1    2      
- ------------------------------------------------------------------------------
- E= 1.4000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
   Photon     65-Tb-159  Photon    6525  33 cm    0   1    1    2      
   Photon     65-Tb-159  Neutron   6525  34 cm    0   1    1    2      
- ------------------------------------------------------------------------------
- E= 1.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
   Photon     65-Tb-159   2-He-3   6525  34 cm    0   1    1    2      
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
   Photon     65-Tb-159  Photon    6525  34 cm    0   1    1    2      
   Photon     65-Tb-159  Neutron   6525  41 cm    0   1    1    2      
   Photon     65-Tb-159   1-H -1   6525  41 cm    0   1    1    2      
@@ -220,6 +210,46 @@
   Photon     65-Tb-159  Neutron   6525  44 cm    0   1    1    2      
   Photon     65-Tb-159   1-H -1   6525  44 cm    0   1    1    2      
   Photon     65-Tb-159  Photon    6525  44 cm    0   1    1    2      
+  Photon     65-Tb-159  Neutron   6525  50 cm    0   2    0           
+  Photon     65-Tb-159  Neutron   6525  51 cm    0   2    0           
+  Photon     65-Tb-159  Neutron   6525  52 cm    0   2    0           
+  Photon     65-Tb-159  Neutron   6525  53 cm    0   2    0           
+  Photon     65-Tb-159  Neutron   6525  54 cm    0   2    0           
+  Photon     65-Tb-159  Neutron   6525  55 cm    0   2    0           
+  Photon     65-Tb-159  Neutron   6525  56 cm    0   2    0           
+  Photon     65-Tb-159  Neutron   6525  57 cm    0   2    0           
+  Photon     65-Tb-159  Neutron   6525  58 cm    0   2    0           
+  Photon     65-Tb-159  Neutron   6525  59 cm    0   2    0           
+  Photon     65-Tb-159  Neutron   6525  60 cm    0   2    0           
+  Photon     65-Tb-159  Neutron   6525  61 cm    0   2    0           
+  Photon     65-Tb-159  Neutron   6525  62 cm    0   2    0           
+  Photon     65-Tb-159  Neutron   6525  63 cm    0   2    0           
+  Photon     65-Tb-159  Neutron   6525  64 cm    0   2    0           
+  Photon     65-Tb-159  Neutron   6525  65 cm    0   2    0           
+  Photon     65-Tb-159  Neutron   6525  66 cm    0   2    0           
+  Photon     65-Tb-159  Neutron   6525  67 cm    0   2    0           
+  Photon     65-Tb-159  Neutron   6525  68 cm    0   2    0           
+  Photon     65-Tb-159  Neutron   6525  69 cm    0   2    0           
+  Photon     65-Tb-159  Neutron   6525  70 cm    0   2    0           
+  Photon     65-Tb-159  Neutron   6525  71 cm    0   2    0           
+  Photon     65-Tb-159  Neutron   6525  72 cm    0   2    0           
+  Photon     65-Tb-159  Neutron   6525  73 cm    0   2    0           
+  Photon     65-Tb-159  Neutron   6525  74 cm    0   2    0           
+  Photon     65-Tb-159  Neutron   6525  75 cm    0   2    0           
+  Photon     65-Tb-159  Neutron   6525  76 cm    0   2    0           
+  Photon     65-Tb-159  Neutron   6525  77 cm    0   2    0           
+  Photon     65-Tb-159  Neutron   6525  78 cm    0   2    0           
+  Photon     65-Tb-159  Neutron   6525  79 cm    0   2    0           
+  Photon     65-Tb-159  Neutron   6525  80 cm    0   2    0           
+  Photon     65-Tb-159  Neutron   6525  81 cm    0   2    0           
+  Photon     65-Tb-159  Neutron   6525  82 cm    0   2    0           
+  Photon     65-Tb-159  Neutron   6525  83 cm    0   2    0           
+  Photon     65-Tb-159  Neutron   6525  84 cm    0   2    0           
+  Photon     65-Tb-159  Neutron   6525  85 cm    0   2    0           
+  Photon     65-Tb-159  Neutron   6525  86 cm    0   2    0           
+  Photon     65-Tb-159  Neutron   6525  87 cm    0   2    0           
+  Photon     65-Tb-159  Neutron   6525  88 cm    0   2    0           
+  Photon     65-Tb-159  Neutron   6525  89 cm    0   2    0           
   Photon     65-Tb-159  Neutron   6525  91 cm    0   1    1    2      
   Photon     65-Tb-159  65-Tb-158 6525  91 cm    0   1    1    2      
   Photon     65-Tb-159  Photon    6525  91 cm    0   1    1    2      
@@ -227,18 +257,8 @@
   Photon     65-Tb-159   1-H -2   6525 104 cm    0   1    1    2      
   Photon     65-Tb-159  Photon    6525 104 cm    0   1    1    2      
   Photon     65-Tb-159   1-H -3   6525 105 cm    0   1    1    2      
- ------------------------------------------------------------------------------
- E= 1.4000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 1.4000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 1.4000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
   Photon     65-Tb-159  Photon    6525 105 cm    0   1    1    2      
   Photon     65-Tb-159   2-He-3   6525 106 cm    0   1    1    2      
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
   Photon     65-Tb-159  Photon    6525 106 cm    0   1    1    2      
   Photon     65-Tb-159   1-H -1   6525 111 cm    0   1    1    2      
   Photon     65-Tb-159  Photon    6525 111 cm    0   1    1    2      
@@ -252,13 +272,79 @@
   Photon     65-Tb-159   1-H -3   6525 116 cm    0   1    1    2      
  ------------------------------------------------------------------------------
  E= 1.4000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 1.4000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 1.4000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 1.4000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
   Photon     65-Tb-159  Photon    6525 116 cm    0   1    1    2      
+  Photon     65-Tb-159   1-H -1   6525 600 cm    0   2    0           
+  Photon     65-Tb-159   1-H -1   6525 601 cm    0   2    0           
+  Photon     65-Tb-159   1-H -1   6525 602 cm    0   2    0           
+  Photon     65-Tb-159   1-H -1   6525 603 cm    0   2    0           
+  Photon     65-Tb-159   1-H -1   6525 604 cm    0   2    0           
+  Photon     65-Tb-159   1-H -1   6525 605 cm    0   2    0           
+  Photon     65-Tb-159   1-H -1   6525 606 cm    0   2    0           
+  Photon     65-Tb-159   1-H -1   6525 607 cm    0   2    0           
+  Photon     65-Tb-159   1-H -1   6525 608 cm    0   2    0           
+  Photon     65-Tb-159   1-H -1   6525 609 cm    0   2    0           
+  Photon     65-Tb-159   1-H -1   6525 610 cm    0   2    0           
+  Photon     65-Tb-159   1-H -1   6525 611 cm    0   2    0           
+  Photon     65-Tb-159   1-H -1   6525 612 cm    0   2    0           
+  Photon     65-Tb-159   1-H -1   6525 613 cm    0   2    0           
+  Photon     65-Tb-159   1-H -1   6525 614 cm    0   2    0           
+  Photon     65-Tb-159   1-H -1   6525 615 cm    0   2    0           
+  Photon     65-Tb-159   1-H -1   6525 616 cm    0   2    0           
+  Photon     65-Tb-159   1-H -1   6525 617 cm    0   2    0           
+  Photon     65-Tb-159   1-H -1   6525 618 cm    0   2    0           
+  Photon     65-Tb-159   1-H -1   6525 619 cm    0   2    0           
+  Photon     65-Tb-159   1-H -1   6525 620 cm    0   2    0           
+  Photon     65-Tb-159   1-H -1   6525 621 cm    0   2    0           
+  Photon     65-Tb-159   1-H -1   6525 622 cm    0   2    0           
+  Photon     65-Tb-159   1-H -1   6525 623 cm    0   2    0           
+  Photon     65-Tb-159   1-H -1   6525 624 cm    0   2    0           
+  Photon     65-Tb-159   1-H -1   6525 625 cm    0   2    0           
+  Photon     65-Tb-159   1-H -1   6525 626 cm    0   2    0           
+  Photon     65-Tb-159   1-H -1   6525 649 cm    0   1    1    2      
+  Photon     65-Tb-159  64-Gd-158 6525 649 cm    0   1    1    2      
+  Photon     65-Tb-159  Photon    6525 649 cm    0   1    1    2      
+  Photon     65-Tb-159   2-He-4   6525 800 cm    0   2    0           
+  Photon     65-Tb-159   2-He-4   6525 801 cm    0   2    0           
+  Photon     65-Tb-159   2-He-4   6525 802 cm    0   2    0           
+  Photon     65-Tb-159   2-He-4   6525 803 cm    0   2    0           
+  Photon     65-Tb-159   2-He-4   6525 804 cm    0   2    0           
+  Photon     65-Tb-159   2-He-4   6525 805 cm    0   2    0           
+  Photon     65-Tb-159   2-He-4   6525 806 cm    0   2    0           
+  Photon     65-Tb-159   2-He-4   6525 807 cm    0   2    0           
+  Photon     65-Tb-159   2-He-4   6525 808 cm    0   2    0           
+  Photon     65-Tb-159   2-He-4   6525 809 cm    0   2    0           
+  Photon     65-Tb-159   2-He-4   6525 810 cm    0   2    0           
+  Photon     65-Tb-159   2-He-4   6525 811 cm    0   2    0           
+  Photon     65-Tb-159   2-He-4   6525 812 cm    0   2    0           
+  Photon     65-Tb-159   2-He-4   6525 813 cm    0   2    0           
+  Photon     65-Tb-159   2-He-4   6525 814 cm    0   2    0           
+  Photon     65-Tb-159   2-He-4   6525 815 cm    0   2    0           
+  Photon     65-Tb-159   2-He-4   6525 816 cm    0   2    0           
+  Photon     65-Tb-159   2-He-4   6525 817 cm    0   2    0           
+  Photon     65-Tb-159   2-He-4   6525 818 cm    0   2    0           
+  Photon     65-Tb-159   2-He-4   6525 819 cm    0   2    0           
+  Photon     65-Tb-159   2-He-4   6525 820 cm    0   2    0           
+  Photon     65-Tb-159   2-He-4   6525 821 cm    0   2    0           
+  Photon     65-Tb-159   2-He-4   6525 822 cm    0   2    0           
+  Photon     65-Tb-159   2-He-4   6525 823 cm    0   2    0           
+  Photon     65-Tb-159   2-He-4   6525 824 cm    0   2    0           
+  Photon     65-Tb-159   2-He-4   6525 825 cm    0   2    0           
+  Photon     65-Tb-159   2-He-4   6525 826 cm    0   2    0           
+  Photon     65-Tb-159   2-He-4   6525 827 cm    0   2    0           
+  Photon     65-Tb-159   2-He-4   6525 828 cm    0   2    0           
+  Photon     65-Tb-159   2-He-4   6525 829 cm    0   2    0           
+  Photon     65-Tb-159   2-He-4   6525 830 cm    0   2    0           
+  Photon     65-Tb-159   2-He-4   6525 831 cm    0   2    0           
+  Photon     65-Tb-159   2-He-4   6525 832 cm    0   2    0           
+  Photon     65-Tb-159   2-He-4   6525 833 cm    0   2    0           
+  Photon     65-Tb-159   2-He-4   6525 834 cm    0   2    0           
+  Photon     65-Tb-159   2-He-4   6525 835 cm    0   2    0           
+  Photon     65-Tb-159   2-He-4   6525 836 cm    0   2    0           
+  Photon     65-Tb-159   2-He-4   6525 837 cm    0   2    0           
+  Photon     65-Tb-159   2-He-4   6525 838 cm    0   2    0           
+  Photon     65-Tb-159   2-He-4   6525 839 cm    0   2    0           
+  Photon     65-Tb-159   2-He-4   6525 849 cm    0   1    1    2      
+  Photon     65-Tb-159  Photon    6525 849 cm    0   1    1    2      
  ------------------------------------------------------------------------------
  All Cross Sections Read. Maximum Tabulated Energy =  200000000. eV
  ------------------------------------------------------------------------------
@@ -283,11 +369,11 @@
  ------------------------------------------------------------------------------
  (0) Unknown................     0     0     0     0     0     0     0     0
  (1) Continuum Energy-Angle
-      Legendre..............   176     0     0     0     0     0     0     0
+      Legendre..............   181     0     0     0     0     0     0     0
       Kalbach-Mann..........     0     0     0     0     0     0     0     0
       Tabulated.............     0     0     0     0     0     0     0     0
  (2) Discrete 2 Body
-      Legendre..............     0     0     0     0     0     0     0     0
+      Legendre..............   107     0     0     0     0     0     0     0
       Tabulated.............     0     0     0     0     0     0     0     0
  (3) Isotropic Discrete.....     0     0     0     0     0     0     0     0
  (4) Discrete 2 Body Recoil.     0     0     0     0     0     0     0     0
@@ -304,11 +390,11 @@
  ------------------------------------------------------------------------------
  (0) Unknown................     0     0     0     0     0     0     0     0
  (1) Continuum Energy-Angle
-      Legendre..............    20    13     9     5     4     3     3   119
+      Legendre..............    22    13    10     5     4     3     4   120
       Kalbach-Mann..........     0     0     0     0     0     0     0     0
       Tabulated.............     0     0     0     0     0     0     0     0
  (2) Discrete 2 Body
-      Legendre..............     0     0     0     0     0     0     0     0
+      Legendre..............     0    40    27     0     0     0    40     0
       Tabulated.............     0     0     0     0     0     0     0     0
  (3) Isotropic Discrete.....     0     0     0     0     0     0     0     0
  (4) Discrete 2 Body Recoil.     0     0     0     0     0     0     0     0
@@ -321,21 +407,21 @@
  ------------------------------------------------------------------------------
  Summary of Emitted Particle Yields
  ------------------------------------------------------------------------------
- Energy Independent.........     0    12     8     4     3     2     2     3
- Energy Dependent...........    20     1     1     1     1     1     1   116
+ Energy Independent.........     0    52    36     4     3     2    43     4
+ Energy Dependent...........    22     1     1     1     1     1     1   116
  ------------------------------------------------------------------------------
  Summary of Angular Distributions
  ------------------------------------------------------------------------------
- Isotropic..................    20     0     0     0     0     0     0   119
+ Isotropic..................    22     0     0     0     0     0     0   120
  Nonisotropic...............     0     0     0     0     0     0     0     0
- Mixed......................     0    13     9     5     4     3     3     0
+ Mixed......................     0    13    10     5     4     3     4     0
  ------------------------------------------------------------------------------
- Maximum Legendre Order.....     0     6     6     6     5     6     7     0
+ Maximum Legendre Order.....     0     6     6     6     5     6     8     0
  Maximum Number of Cosines..     0     0     0     0     0     0     0     0
  ------------------------------------------------------------------------------
  Summary of Energy Distributions
  ------------------------------------------------------------------------------
- Continuous.................    20    13     9     5     4     3     3   119
+ Continuous.................    22    13    10     5     4     3     4   120
  Discrete...................     0     0     0     0     0     0     0     0
  Mixed......................     0     0     0     0     0     0     0     0
  ------------------------------------------------------------------------------
@@ -373,5 +459,5 @@
            and only then try re-running this code.
  ------------------------------------------------------------------------------
  ===============================================================================
- SIXPAK   Total Execution Time                0.59 Seconds
+ SIXPAK   Total Execution Time                0.71 Seconds
  ===============================================================================

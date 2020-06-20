@@ -14,7 +14,7 @@ ls -1 ${INPATH} | grep ^g_ | sort -k2g -t "_" > filelist.dat
 
 while read line
 do
-#    if [[ $line =~ "Pt" ]]; then
+    if [[ $line =~ "0128" ]]; then
     echo $line
     ${CODEPATH}/deceheader -d ${HEADFILE} ${INPATH}/$line > ${OUTPATH}/${line}.header
 
@@ -36,7 +36,7 @@ do
     dece -o ${OUTPATH}/${line}.nlib ${OUTPATH}/${line}.header < $NLIBFILE
     mv ${OUTPATH}/${line}.nlib ${OUTPATH}/${line}
     rm ${OUTPATH}/${line}.header
-#   fi
+   fi
 done < filelist.dat
 
 

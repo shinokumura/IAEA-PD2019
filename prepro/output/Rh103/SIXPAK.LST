@@ -39,20 +39,14 @@
  ==============================================================================
   Photon     45-Rh-103  Neutron   4525   5 cm    0   1    1    2      
   Photon     45-Rh-103   1-H -1   4525   5 cm    0   1    1    2      
- ------------------------------------------------------------------------------
- E= 1.4000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
   Photon     45-Rh-103   1-H -2   4525   5 cm    0   1    1    2      
  ------------------------------------------------------------------------------
  E= 1.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
   Photon     45-Rh-103   1-H -3   4525   5 cm    0   1    1    2      
  ------------------------------------------------------------------------------
- E= 1.4000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
  E= 1.6000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
  ------------------------------------------------------------------------------
  E= 1.6000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 1.8000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
  ------------------------------------------------------------------------------
  E= 1.8000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
   Photon     45-Rh-103   2-He-3   4525   5 cm    0   1    1    2      
@@ -77,25 +71,9 @@
   Photon     45-Rh-103  Photon    4525  32 cm    0   1    1    2      
   Photon     45-Rh-103  Neutron   4525  33 cm    0   1    1    2      
   Photon     45-Rh-103   1-H -3   4525  33 cm    0   1    1    2      
- ------------------------------------------------------------------------------
- E= 1.8000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
   Photon     45-Rh-103  Photon    4525  33 cm    0   1    1    2      
   Photon     45-Rh-103  Neutron   4525  34 cm    0   1    1    2      
   Photon     45-Rh-103   2-He-3   4525  34 cm    0   1    1    2      
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
   Photon     45-Rh-103  Photon    4525  34 cm    0   1    1    2      
   Photon     45-Rh-103  Neutron   4525  41 cm    0   1    1    2      
   Photon     45-Rh-103   1-H -1   4525  41 cm    0   1    1    2      
@@ -106,64 +84,54 @@
   Photon     45-Rh-103  Neutron   4525  44 cm    0   1    1    2      
   Photon     45-Rh-103   1-H -1   4525  44 cm    0   1    1    2      
   Photon     45-Rh-103  Photon    4525  44 cm    0   1    1    2      
+  Photon     45-Rh-103  Neutron   4525  50 cm    0   2    0           
+  Photon     45-Rh-103  Neutron   4525  51 cm    0   2    0           
+  Photon     45-Rh-103  Neutron   4525  52 cm    0   2    0           
+  Photon     45-Rh-103  Neutron   4525  53 cm    0   2    0           
+  Photon     45-Rh-103  Neutron   4525  54 cm    0   2    0           
+  Photon     45-Rh-103  Neutron   4525  55 cm    0   2    0           
+  Photon     45-Rh-103  Neutron   4525  56 cm    0   2    0           
+  Photon     45-Rh-103  Neutron   4525  57 cm    0   2    0           
+  Photon     45-Rh-103  Neutron   4525  58 cm    0   2    0           
+  Photon     45-Rh-103  Neutron   4525  59 cm    0   2    0           
+  Photon     45-Rh-103  Neutron   4525  60 cm    0   2    0           
+  Photon     45-Rh-103  Neutron   4525  61 cm    0   2    0           
+  Photon     45-Rh-103  Neutron   4525  62 cm    0   2    0           
+  Photon     45-Rh-103  Neutron   4525  63 cm    0   2    0           
+  Photon     45-Rh-103  Neutron   4525  64 cm    0   2    0           
+  Photon     45-Rh-103  Neutron   4525  65 cm    0   2    0           
+  Photon     45-Rh-103  Neutron   4525  66 cm    0   2    0           
+  Photon     45-Rh-103  Neutron   4525  67 cm    0   2    0           
+  Photon     45-Rh-103  Neutron   4525  68 cm    0   2    0           
+  Photon     45-Rh-103  Neutron   4525  69 cm    0   2    0           
+  Photon     45-Rh-103  Neutron   4525  70 cm    0   2    0           
+  Photon     45-Rh-103  Neutron   4525  71 cm    0   2    0           
+  Photon     45-Rh-103  Neutron   4525  72 cm    0   2    0           
+  Photon     45-Rh-103  Neutron   4525  73 cm    0   2    0           
+  Photon     45-Rh-103  Neutron   4525  74 cm    0   2    0           
+  Photon     45-Rh-103  Neutron   4525  75 cm    0   2    0           
+  Photon     45-Rh-103  Neutron   4525  76 cm    0   2    0           
+  Photon     45-Rh-103  Neutron   4525  77 cm    0   2    0           
+  Photon     45-Rh-103  Neutron   4525  78 cm    0   2    0           
+  Photon     45-Rh-103  Neutron   4525  79 cm    0   2    0           
+  Photon     45-Rh-103  Neutron   4525  80 cm    0   2    0           
+  Photon     45-Rh-103  Neutron   4525  81 cm    0   2    0           
+  Photon     45-Rh-103  Neutron   4525  82 cm    0   2    0           
+  Photon     45-Rh-103  Neutron   4525  83 cm    0   2    0           
+  Photon     45-Rh-103  Neutron   4525  84 cm    0   2    0           
+  Photon     45-Rh-103  Neutron   4525  85 cm    0   2    0           
+  Photon     45-Rh-103  Neutron   4525  86 cm    0   2    0           
+  Photon     45-Rh-103  Neutron   4525  87 cm    0   2    0           
+  Photon     45-Rh-103  Neutron   4525  88 cm    0   2    0           
+  Photon     45-Rh-103  Neutron   4525  89 cm    0   2    0           
   Photon     45-Rh-103  Neutron   4525  91 cm    0   1    1    2      
   Photon     45-Rh-103  Photon    4525  91 cm    0   1    1    2      
   Photon     45-Rh-103  Photon    4525 102 cm    0   1    1    2      
   Photon     45-Rh-103   1-H -2   4525 104 cm    0   1    1    2      
   Photon     45-Rh-103  Photon    4525 104 cm    0   1    1    2      
   Photon     45-Rh-103   1-H -3   4525 105 cm    0   1    1    2      
- ------------------------------------------------------------------------------
- E= 1.4000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 1.4000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 1.6000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 1.6000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 1.6000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 1.6000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 1.8000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 1.8000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 1.8000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 1.8000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 1.8000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
   Photon     45-Rh-103  Photon    4525 105 cm    0   1    1    2      
   Photon     45-Rh-103   2-He-3   4525 106 cm    0   1    1    2      
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
   Photon     45-Rh-103  Photon    4525 106 cm    0   1    1    2      
   Photon     45-Rh-103   1-H -1   4525 111 cm    0   1    1    2      
   Photon     45-Rh-103  Photon    4525 111 cm    0   1    1    2      
@@ -175,27 +143,78 @@
   Photon     45-Rh-103  Photon    4525 115 cm    0   1    1    2      
   Photon     45-Rh-103   1-H -1   4525 116 cm    0   1    1    2      
   Photon     45-Rh-103   1-H -3   4525 116 cm    0   1    1    2      
- ------------------------------------------------------------------------------
- E= 1.4000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 1.4000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 1.6000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 1.6000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 1.8000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 1.8000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
   Photon     45-Rh-103  Photon    4525 116 cm    0   1    1    2      
+  Photon     45-Rh-103   1-H -1   4525 600 cm    0   2    0           
+  Photon     45-Rh-103   1-H -1   4525 601 cm    0   2    0           
+  Photon     45-Rh-103   1-H -1   4525 602 cm    0   2    0           
+  Photon     45-Rh-103   1-H -1   4525 603 cm    0   2    0           
+  Photon     45-Rh-103   1-H -1   4525 604 cm    0   2    0           
+  Photon     45-Rh-103   1-H -1   4525 605 cm    0   2    0           
+  Photon     45-Rh-103   1-H -1   4525 606 cm    0   2    0           
+  Photon     45-Rh-103   1-H -1   4525 607 cm    0   2    0           
+  Photon     45-Rh-103   1-H -1   4525 608 cm    0   2    0           
+  Photon     45-Rh-103   1-H -1   4525 609 cm    0   2    0           
+  Photon     45-Rh-103   1-H -1   4525 610 cm    0   2    0           
+  Photon     45-Rh-103   1-H -1   4525 611 cm    0   2    0           
+  Photon     45-Rh-103   1-H -1   4525 612 cm    0   2    0           
+  Photon     45-Rh-103   1-H -1   4525 613 cm    0   2    0           
+  Photon     45-Rh-103   1-H -1   4525 614 cm    0   2    0           
+  Photon     45-Rh-103   1-H -1   4525 615 cm    0   2    0           
+  Photon     45-Rh-103   1-H -1   4525 616 cm    0   2    0           
+  Photon     45-Rh-103   1-H -1   4525 617 cm    0   2    0           
+  Photon     45-Rh-103   1-H -1   4525 618 cm    0   2    0           
+  Photon     45-Rh-103   1-H -1   4525 619 cm    0   2    0           
+  Photon     45-Rh-103   1-H -1   4525 620 cm    0   2    0           
+  Photon     45-Rh-103   1-H -1   4525 621 cm    0   2    0           
+  Photon     45-Rh-103   1-H -1   4525 622 cm    0   2    0           
+  Photon     45-Rh-103   1-H -1   4525 623 cm    0   2    0           
+  Photon     45-Rh-103   1-H -1   4525 624 cm    0   2    0           
+  Photon     45-Rh-103   1-H -1   4525 625 cm    0   2    0           
+  Photon     45-Rh-103   1-H -1   4525 626 cm    0   2    0           
+  Photon     45-Rh-103   1-H -1   4525 649 cm    0   1    1    2      
+  Photon     45-Rh-103  Photon    4525 649 cm    0   1    1    2      
+  Photon     45-Rh-103   2-He-4   4525 800 cm    0   2    0           
+  Photon     45-Rh-103   2-He-4   4525 801 cm    0   2    0           
+  Photon     45-Rh-103   2-He-4   4525 802 cm    0   2    0           
+  Photon     45-Rh-103   2-He-4   4525 803 cm    0   2    0           
+  Photon     45-Rh-103   2-He-4   4525 804 cm    0   2    0           
+  Photon     45-Rh-103   2-He-4   4525 805 cm    0   2    0           
+  Photon     45-Rh-103   2-He-4   4525 806 cm    0   2    0           
+  Photon     45-Rh-103   2-He-4   4525 807 cm    0   2    0           
+  Photon     45-Rh-103   2-He-4   4525 808 cm    0   2    0           
+  Photon     45-Rh-103   2-He-4   4525 809 cm    0   2    0           
+  Photon     45-Rh-103   2-He-4   4525 810 cm    0   2    0           
+  Photon     45-Rh-103   2-He-4   4525 811 cm    0   2    0           
+  Photon     45-Rh-103   2-He-4   4525 812 cm    0   2    0           
+  Photon     45-Rh-103   2-He-4   4525 813 cm    0   2    0           
+  Photon     45-Rh-103   2-He-4   4525 814 cm    0   2    0           
+  Photon     45-Rh-103   2-He-4   4525 815 cm    0   2    0           
+  Photon     45-Rh-103   2-He-4   4525 816 cm    0   2    0           
+  Photon     45-Rh-103   2-He-4   4525 817 cm    0   2    0           
+  Photon     45-Rh-103   2-He-4   4525 818 cm    0   2    0           
+  Photon     45-Rh-103   2-He-4   4525 819 cm    0   2    0           
+  Photon     45-Rh-103   2-He-4   4525 820 cm    0   2    0           
+  Photon     45-Rh-103   2-He-4   4525 821 cm    0   2    0           
+  Photon     45-Rh-103   2-He-4   4525 822 cm    0   2    0           
+  Photon     45-Rh-103   2-He-4   4525 823 cm    0   2    0           
+  Photon     45-Rh-103   2-He-4   4525 824 cm    0   2    0           
+  Photon     45-Rh-103   2-He-4   4525 825 cm    0   2    0           
+  Photon     45-Rh-103   2-He-4   4525 826 cm    0   2    0           
+  Photon     45-Rh-103   2-He-4   4525 827 cm    0   2    0           
+  Photon     45-Rh-103   2-He-4   4525 828 cm    0   2    0           
+  Photon     45-Rh-103   2-He-4   4525 829 cm    0   2    0           
+  Photon     45-Rh-103   2-He-4   4525 830 cm    0   2    0           
+  Photon     45-Rh-103   2-He-4   4525 831 cm    0   2    0           
+  Photon     45-Rh-103   2-He-4   4525 832 cm    0   2    0           
+  Photon     45-Rh-103   2-He-4   4525 833 cm    0   2    0           
+  Photon     45-Rh-103   2-He-4   4525 834 cm    0   2    0           
+  Photon     45-Rh-103   2-He-4   4525 835 cm    0   2    0           
+  Photon     45-Rh-103   2-He-4   4525 836 cm    0   2    0           
+  Photon     45-Rh-103   2-He-4   4525 837 cm    0   2    0           
+  Photon     45-Rh-103   2-He-4   4525 838 cm    0   2    0           
+  Photon     45-Rh-103   2-He-4   4525 839 cm    0   2    0           
+  Photon     45-Rh-103   2-He-4   4525 849 cm    0   1    1    2      
+  Photon     45-Rh-103  Photon    4525 849 cm    0   1    1    2      
  ------------------------------------------------------------------------------
  All Cross Sections Read. Maximum Tabulated Energy =  200000000. eV
  ------------------------------------------------------------------------------
@@ -206,11 +225,11 @@
  ------------------------------------------------------------------------------
  (0) Unknown................     0     0     0     0     0     0     0     0
  (1) Continuum Energy-Angle
-      Legendre..............    57     0     0     0     0     0     0     0
+      Legendre..............    61     0     0     0     0     0     0     0
       Kalbach-Mann..........     0     0     0     0     0     0     0     0
       Tabulated.............     0     0     0     0     0     0     0     0
  (2) Discrete 2 Body
-      Legendre..............     0     0     0     0     0     0     0     0
+      Legendre..............   107     0     0     0     0     0     0     0
       Tabulated.............     0     0     0     0     0     0     0     0
  (3) Isotropic Discrete.....     0     0     0     0     0     0     0     0
  (4) Discrete 2 Body Recoil.     0     0     0     0     0     0     0     0
@@ -227,11 +246,11 @@
  ------------------------------------------------------------------------------
  (0) Unknown................     0     0     0     0     0     0     0     0
  (1) Continuum Energy-Angle
-      Legendre..............    20    13     9     5     4     3     3     0
+      Legendre..............    22    13    10     5     4     3     4     0
       Kalbach-Mann..........     0     0     0     0     0     0     0     0
       Tabulated.............     0     0     0     0     0     0     0     0
  (2) Discrete 2 Body
-      Legendre..............     0     0     0     0     0     0     0     0
+      Legendre..............     0    40    27     0     0     0    40     0
       Tabulated.............     0     0     0     0     0     0     0     0
  (3) Isotropic Discrete.....     0     0     0     0     0     0     0     0
  (4) Discrete 2 Body Recoil.     0     0     0     0     0     0     0     0
@@ -244,21 +263,21 @@
  ------------------------------------------------------------------------------
  Summary of Emitted Particle Yields
  ------------------------------------------------------------------------------
- Energy Independent.........     0    12     8     4     3     2     2     0
- Energy Dependent...........    20     1     1     1     1     1     1     0
+ Energy Independent.........     0    52    36     4     3     2    43     0
+ Energy Dependent...........    22     1     1     1     1     1     1     0
  ------------------------------------------------------------------------------
  Summary of Angular Distributions
  ------------------------------------------------------------------------------
- Isotropic..................    20     0     0     0     0     0     0     0
+ Isotropic..................    22     0     0     0     0     0     0     0
  Nonisotropic...............     0     0     0     0     0     0     0     0
- Mixed......................     0    13     9     5     4     3     3     0
+ Mixed......................     0    13    10     5     4     3     4     0
  ------------------------------------------------------------------------------
- Maximum Legendre Order.....     0     6     6     6     6     6     7     0
+ Maximum Legendre Order.....     0     6     6     6     6     6     8     0
  Maximum Number of Cosines..     0     0     0     0     0     0     0     0
  ------------------------------------------------------------------------------
  Summary of Energy Distributions
  ------------------------------------------------------------------------------
- Continuous.................    20    13     9     5     4     3     3     0
+ Continuous.................    22    13    10     5     4     3     4     0
  Discrete...................     0     0     0     0     0     0     0     0
  Mixed......................     0     0     0     0     0     0     0     0
  ------------------------------------------------------------------------------
@@ -288,5 +307,5 @@
  ==============================================================================
  End of Run
  ===============================================================================
- SIXPAK   Total Execution Time                0.30 Seconds
+ SIXPAK   Total Execution Time                0.40 Seconds
  ===============================================================================

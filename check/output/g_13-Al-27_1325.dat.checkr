@@ -1,7 +1,7 @@
 
 
 
-PROGRAM CHECKR VERSION 8.24                              Run on 13-Mar-2020
+PROGRAM CHECKR VERSION 8.24                              Run on 19-Jun-2020
 
 Input File Specification------------------------../data/g-iaea-pd-2019/g_13-Al-27_1325.dat
 Check the Entire File
@@ -20,27 +20,27 @@ FILE IS UNSEQUENCED. NO SEQUENCE TESTS WILL BE DONE
 
 
   WARNING(S)     IN MAT=1325, MF= 3, MT=201
-     MT= 201 ALLOWED IN DERIVED FILES                 RECORD NUMBER     187
+     MT= 201 ALLOWED IN DERIVED FILES                 RECORD NUMBER     226
 
 
   WARNING(S)     IN MAT=1325, MF= 3, MT=203
-     MT= 203 ALLOWED IN DERIVED FILES                 RECORD NUMBER     220
+     MT= 203 ALLOWED IN DERIVED FILES                 RECORD NUMBER     259
 
 
   WARNING(S)     IN MAT=1325, MF= 3, MT=204
-     MT= 204 ALLOWED IN DERIVED FILES                 RECORD NUMBER     255
+     MT= 204 ALLOWED IN DERIVED FILES                 RECORD NUMBER     294
 
 
   WARNING(S)     IN MAT=1325, MF= 3, MT=205
-     MT= 205 ALLOWED IN DERIVED FILES                 RECORD NUMBER     286
+     MT= 205 ALLOWED IN DERIVED FILES                 RECORD NUMBER     325
 
 
   WARNING(S)     IN MAT=1325, MF= 3, MT=206
-     MT= 206 ALLOWED IN DERIVED FILES                 RECORD NUMBER     317
+     MT= 206 ALLOWED IN DERIVED FILES                 RECORD NUMBER     356
 
 
   WARNING(S)     IN MAT=1325, MF= 3, MT=207
-     MT= 207 ALLOWED IN DERIVED FILES                 RECORD NUMBER     344
+     MT= 207 ALLOWED IN DERIVED FILES                 RECORD NUMBER     383
 
      Encountered     1 errors,       6 warnings
  Done CHECKR

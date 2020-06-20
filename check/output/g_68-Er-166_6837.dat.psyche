@@ -1,7 +1,7 @@
 
 
 
-PROGRAM PSYCHE VERSION 8.10                              Run on 13-Mar-2020
+PROGRAM PSYCHE VERSION 8.10                              Run on 19-Jun-2020
 
 Input File Specification------------------------../data/g-iaea-pd-2019/g_68-Er-166_6837.dat
 Check the Entire File
@@ -16,7 +16,7 @@ TAPE BEING PROCESSED IS NUMBERED    1
 FILE  1
    SECTION 451
       68-Er-166 JAEA       EVAL-APR19 N.Iwamoto                        
-     NDS 163 109 (2020)    DIST-JAN20                                  
+     NDS 163 109 (2020)    DIST-JUN20                                  
      ----IAEA/PD-2019      MATERIAL 6837                               
      -----PHOTO-NUCLEAR DATA                                           
      ------ENDF-6 FORMAT                                               

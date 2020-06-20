@@ -46,26 +46,12 @@
  ------------------------------------------------------------------------------
  E= 1.8000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
  ------------------------------------------------------------------------------
- E= 1.8000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 1.8000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 1.8000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
  E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
  ------------------------------------------------------------------------------
  E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
  ------------------------------------------------------------------------------
  E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
   Photon     27-Co-59    2-He-3   2725   5 cm    0   1    1    2      
- ------------------------------------------------------------------------------
- E= 1.8000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
   Photon     27-Co-59    2-He-4   2725   5 cm    0   1    1    2      
   Photon     27-Co-59   Photon    2725   5 cm    0   1    1    2      
   Photon     27-Co-59   Neutron   2725  11 cm    0   1    1    2      
@@ -85,43 +71,9 @@
   Photon     27-Co-59   Photon    2725  32 cm    0   1    1    2      
   Photon     27-Co-59   Neutron   2725  33 cm    0   1    1    2      
   Photon     27-Co-59    1-H -3   2725  33 cm    0   1    1    2      
- ------------------------------------------------------------------------------
- E= 1.8000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 1.8000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 1.8000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 1.8000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 1.8000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
   Photon     27-Co-59   Photon    2725  33 cm    0   1    1    2      
   Photon     27-Co-59   Neutron   2725  34 cm    0   1    1    2      
   Photon     27-Co-59    2-He-3   2725  34 cm    0   1    1    2      
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
   Photon     27-Co-59   Photon    2725  34 cm    0   1    1    2      
   Photon     27-Co-59   Neutron   2725  41 cm    0   1    1    2      
   Photon     27-Co-59    1-H -1   2725  41 cm    0   1    1    2      
@@ -132,66 +84,54 @@
   Photon     27-Co-59   Neutron   2725  44 cm    0   1    1    2      
   Photon     27-Co-59    1-H -1   2725  44 cm    0   1    1    2      
   Photon     27-Co-59   Photon    2725  44 cm    0   1    1    2      
+  Photon     27-Co-59   Neutron   2725  50 cm    0   2    0           
+  Photon     27-Co-59   Neutron   2725  51 cm    0   2    0           
+  Photon     27-Co-59   Neutron   2725  52 cm    0   2    0           
+  Photon     27-Co-59   Neutron   2725  53 cm    0   2    0           
+  Photon     27-Co-59   Neutron   2725  54 cm    0   2    0           
+  Photon     27-Co-59   Neutron   2725  55 cm    0   2    0           
+  Photon     27-Co-59   Neutron   2725  56 cm    0   2    0           
+  Photon     27-Co-59   Neutron   2725  57 cm    0   2    0           
+  Photon     27-Co-59   Neutron   2725  58 cm    0   2    0           
+  Photon     27-Co-59   Neutron   2725  59 cm    0   2    0           
+  Photon     27-Co-59   Neutron   2725  60 cm    0   2    0           
+  Photon     27-Co-59   Neutron   2725  61 cm    0   2    0           
+  Photon     27-Co-59   Neutron   2725  62 cm    0   2    0           
+  Photon     27-Co-59   Neutron   2725  63 cm    0   2    0           
+  Photon     27-Co-59   Neutron   2725  64 cm    0   2    0           
+  Photon     27-Co-59   Neutron   2725  65 cm    0   2    0           
+  Photon     27-Co-59   Neutron   2725  66 cm    0   2    0           
+  Photon     27-Co-59   Neutron   2725  67 cm    0   2    0           
+  Photon     27-Co-59   Neutron   2725  68 cm    0   2    0           
+  Photon     27-Co-59   Neutron   2725  69 cm    0   2    0           
+  Photon     27-Co-59   Neutron   2725  70 cm    0   2    0           
+  Photon     27-Co-59   Neutron   2725  71 cm    0   2    0           
+  Photon     27-Co-59   Neutron   2725  72 cm    0   2    0           
+  Photon     27-Co-59   Neutron   2725  73 cm    0   2    0           
+  Photon     27-Co-59   Neutron   2725  74 cm    0   2    0           
+  Photon     27-Co-59   Neutron   2725  75 cm    0   2    0           
+  Photon     27-Co-59   Neutron   2725  76 cm    0   2    0           
+  Photon     27-Co-59   Neutron   2725  77 cm    0   2    0           
+  Photon     27-Co-59   Neutron   2725  78 cm    0   2    0           
+  Photon     27-Co-59   Neutron   2725  79 cm    0   2    0           
+  Photon     27-Co-59   Neutron   2725  80 cm    0   2    0           
+  Photon     27-Co-59   Neutron   2725  81 cm    0   2    0           
+  Photon     27-Co-59   Neutron   2725  82 cm    0   2    0           
+  Photon     27-Co-59   Neutron   2725  83 cm    0   2    0           
+  Photon     27-Co-59   Neutron   2725  84 cm    0   2    0           
+  Photon     27-Co-59   Neutron   2725  85 cm    0   2    0           
+  Photon     27-Co-59   Neutron   2725  86 cm    0   2    0           
+  Photon     27-Co-59   Neutron   2725  87 cm    0   2    0           
+  Photon     27-Co-59   Neutron   2725  88 cm    0   2    0           
+  Photon     27-Co-59   Neutron   2725  89 cm    0   2    0           
   Photon     27-Co-59   Neutron   2725  91 cm    0   1    1    2      
   Photon     27-Co-59   Photon    2725  91 cm    0   1    1    2      
   Photon     27-Co-59   Photon    2725 102 cm    0   1    1    2      
   Photon     27-Co-59    1-H -2   2725 104 cm    0   1    1    2      
   Photon     27-Co-59   Photon    2725 104 cm    0   1    1    2      
   Photon     27-Co-59    1-H -3   2725 105 cm    0   1    1    2      
- ------------------------------------------------------------------------------
- E= 1.6000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 1.8000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 1.8000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 1.8000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 1.8000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 1.8000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 1.8000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 1.8000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 1.8000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 1.8000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
   Photon     27-Co-59   Photon    2725 105 cm    0   1    1    2      
   Photon     27-Co-59    2-He-3   2725 106 cm    0   1    1    2      
- ------------------------------------------------------------------------------
- E= 1.8000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
   Photon     27-Co-59   Photon    2725 106 cm    0   1    1    2      
   Photon     27-Co-59    1-H -1   2725 111 cm    0   1    1    2      
   Photon     27-Co-59   Photon    2725 111 cm    0   1    1    2      
@@ -203,43 +143,91 @@
   Photon     27-Co-59   Photon    2725 115 cm    0   1    1    2      
   Photon     27-Co-59    1-H -1   2725 116 cm    0   1    1    2      
   Photon     27-Co-59    1-H -3   2725 116 cm    0   1    1    2      
- ------------------------------------------------------------------------------
- E= 1.8000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 1.8000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 1.8000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 1.8000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 1.8000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 1.8000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 1.8000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
- ------------------------------------------------------------------------------
- E= 2.0000E+08 EP= 0.0000E+00 Angular Distribution Negative at Cos=-1  
   Photon     27-Co-59   Photon    2725 116 cm    0   1    1    2      
+  Photon     27-Co-59    1-H -1   2725 600 cm    0   2    0           
+  Photon     27-Co-59    1-H -1   2725 601 cm    0   2    0           
+  Photon     27-Co-59    1-H -1   2725 602 cm    0   2    0           
+  Photon     27-Co-59    1-H -1   2725 603 cm    0   2    0           
+  Photon     27-Co-59    1-H -1   2725 604 cm    0   2    0           
+  Photon     27-Co-59    1-H -1   2725 605 cm    0   2    0           
+  Photon     27-Co-59    1-H -1   2725 606 cm    0   2    0           
+  Photon     27-Co-59    1-H -1   2725 607 cm    0   2    0           
+  Photon     27-Co-59    1-H -1   2725 608 cm    0   2    0           
+  Photon     27-Co-59    1-H -1   2725 609 cm    0   2    0           
+  Photon     27-Co-59    1-H -1   2725 610 cm    0   2    0           
+  Photon     27-Co-59    1-H -1   2725 611 cm    0   2    0           
+  Photon     27-Co-59    1-H -1   2725 612 cm    0   2    0           
+  Photon     27-Co-59    1-H -1   2725 613 cm    0   2    0           
+  Photon     27-Co-59    1-H -1   2725 614 cm    0   2    0           
+  Photon     27-Co-59    1-H -1   2725 615 cm    0   2    0           
+  Photon     27-Co-59    1-H -1   2725 616 cm    0   2    0           
+  Photon     27-Co-59    1-H -1   2725 617 cm    0   2    0           
+  Photon     27-Co-59    1-H -1   2725 618 cm    0   2    0           
+  Photon     27-Co-59    1-H -1   2725 619 cm    0   2    0           
+  Photon     27-Co-59    1-H -1   2725 620 cm    0   2    0           
+  Photon     27-Co-59    1-H -1   2725 621 cm    0   2    0           
+  Photon     27-Co-59    1-H -1   2725 622 cm    0   2    0           
+  Photon     27-Co-59    1-H -1   2725 623 cm    0   2    0           
+  Photon     27-Co-59    1-H -1   2725 624 cm    0   2    0           
+  Photon     27-Co-59    1-H -1   2725 625 cm    0   2    0           
+  Photon     27-Co-59    1-H -1   2725 626 cm    0   2    0           
+  Photon     27-Co-59    1-H -1   2725 627 cm    0   2    0           
+  Photon     27-Co-59    1-H -1   2725 628 cm    0   2    0           
+  Photon     27-Co-59    1-H -1   2725 629 cm    0   2    0           
+  Photon     27-Co-59    1-H -1   2725 630 cm    0   2    0           
+  Photon     27-Co-59    1-H -1   2725 631 cm    0   2    0           
+  Photon     27-Co-59    1-H -1   2725 632 cm    0   2    0           
+  Photon     27-Co-59    1-H -1   2725 633 cm    0   2    0           
+  Photon     27-Co-59    1-H -1   2725 634 cm    0   2    0           
+  Photon     27-Co-59    1-H -1   2725 635 cm    0   2    0           
+  Photon     27-Co-59    1-H -1   2725 636 cm    0   2    0           
+  Photon     27-Co-59    1-H -1   2725 637 cm    0   2    0           
+  Photon     27-Co-59    1-H -1   2725 638 cm    0   2    0           
+  Photon     27-Co-59    1-H -1   2725 639 cm    0   2    0           
+  Photon     27-Co-59    1-H -1   2725 649 cm    0   1    1    2      
+  Photon     27-Co-59   Photon    2725 649 cm    0   1    1    2      
+  Photon     27-Co-59    2-He-4   2725 800 cm    0   2    0           
+  Photon     27-Co-59    2-He-4   2725 801 cm    0   2    0           
+  Photon     27-Co-59    2-He-4   2725 802 cm    0   2    0           
+  Photon     27-Co-59    2-He-4   2725 803 cm    0   2    0           
+  Photon     27-Co-59    2-He-4   2725 804 cm    0   2    0           
+  Photon     27-Co-59    2-He-4   2725 805 cm    0   2    0           
+  Photon     27-Co-59    2-He-4   2725 806 cm    0   2    0           
+  Photon     27-Co-59    2-He-4   2725 807 cm    0   2    0           
+  Photon     27-Co-59    2-He-4   2725 808 cm    0   2    0           
+  Photon     27-Co-59    2-He-4   2725 809 cm    0   2    0           
+  Photon     27-Co-59    2-He-4   2725 810 cm    0   2    0           
+  Photon     27-Co-59    2-He-4   2725 811 cm    0   2    0           
+  Photon     27-Co-59    2-He-4   2725 812 cm    0   2    0           
+  Photon     27-Co-59    2-He-4   2725 813 cm    0   2    0           
+  Photon     27-Co-59    2-He-4   2725 814 cm    0   2    0           
+  Photon     27-Co-59    2-He-4   2725 815 cm    0   2    0           
+  Photon     27-Co-59    2-He-4   2725 816 cm    0   2    0           
+  Photon     27-Co-59    2-He-4   2725 817 cm    0   2    0           
+  Photon     27-Co-59    2-He-4   2725 818 cm    0   2    0           
+  Photon     27-Co-59    2-He-4   2725 819 cm    0   2    0           
+  Photon     27-Co-59    2-He-4   2725 820 cm    0   2    0           
+  Photon     27-Co-59    2-He-4   2725 821 cm    0   2    0           
+  Photon     27-Co-59    2-He-4   2725 822 cm    0   2    0           
+  Photon     27-Co-59    2-He-4   2725 823 cm    0   2    0           
+  Photon     27-Co-59    2-He-4   2725 824 cm    0   2    0           
+  Photon     27-Co-59    2-He-4   2725 825 cm    0   2    0           
+  Photon     27-Co-59    2-He-4   2725 826 cm    0   2    0           
+  Photon     27-Co-59    2-He-4   2725 827 cm    0   2    0           
+  Photon     27-Co-59    2-He-4   2725 828 cm    0   2    0           
+  Photon     27-Co-59    2-He-4   2725 829 cm    0   2    0           
+  Photon     27-Co-59    2-He-4   2725 830 cm    0   2    0           
+  Photon     27-Co-59    2-He-4   2725 831 cm    0   2    0           
+  Photon     27-Co-59    2-He-4   2725 832 cm    0   2    0           
+  Photon     27-Co-59    2-He-4   2725 833 cm    0   2    0           
+  Photon     27-Co-59    2-He-4   2725 834 cm    0   2    0           
+  Photon     27-Co-59    2-He-4   2725 835 cm    0   2    0           
+  Photon     27-Co-59    2-He-4   2725 836 cm    0   2    0           
+  Photon     27-Co-59    2-He-4   2725 837 cm    0   2    0           
+  Photon     27-Co-59    2-He-4   2725 838 cm    0   2    0           
+  Photon     27-Co-59    2-He-4   2725 839 cm    0   2    0           
+  Photon     27-Co-59    2-He-4   2725 849 cm    0   1    1    2      
+  Photon     27-Co-59   Photon    2725 849 cm    0   1    1    2      
  ------------------------------------------------------------------------------
  All Cross Sections Read. Maximum Tabulated Energy =  200000000. eV
  ------------------------------------------------------------------------------
@@ -250,11 +238,11 @@
  ------------------------------------------------------------------------------
  (0) Unknown................     0     0     0     0     0     0     0     0
  (1) Continuum Energy-Angle
-      Legendre..............    57     0     0     0     0     0     0     0
+      Legendre..............    61     0     0     0     0     0     0     0
       Kalbach-Mann..........     0     0     0     0     0     0     0     0
       Tabulated.............     0     0     0     0     0     0     0     0
  (2) Discrete 2 Body
-      Legendre..............     0     0     0     0     0     0     0     0
+      Legendre..............   120     0     0     0     0     0     0     0
       Tabulated.............     0     0     0     0     0     0     0     0
  (3) Isotropic Discrete.....     0     0     0     0     0     0     0     0
  (4) Discrete 2 Body Recoil.     0     0     0     0     0     0     0     0
@@ -271,11 +259,11 @@
  ------------------------------------------------------------------------------
  (0) Unknown................     0     0     0     0     0     0     0     0
  (1) Continuum Energy-Angle
-      Legendre..............    20    13     9     5     4     3     3     0
+      Legendre..............    22    13    10     5     4     3     4     0
       Kalbach-Mann..........     0     0     0     0     0     0     0     0
       Tabulated.............     0     0     0     0     0     0     0     0
  (2) Discrete 2 Body
-      Legendre..............     0     0     0     0     0     0     0     0
+      Legendre..............     0    40    40     0     0     0    40     0
       Tabulated.............     0     0     0     0     0     0     0     0
  (3) Isotropic Discrete.....     0     0     0     0     0     0     0     0
  (4) Discrete 2 Body Recoil.     0     0     0     0     0     0     0     0
@@ -288,21 +276,21 @@
  ------------------------------------------------------------------------------
  Summary of Emitted Particle Yields
  ------------------------------------------------------------------------------
- Energy Independent.........     0    12     8     4     3     2     2     0
- Energy Dependent...........    20     1     1     1     1     1     1     0
+ Energy Independent.........     0    52    49     4     3     2    43     0
+ Energy Dependent...........    22     1     1     1     1     1     1     0
  ------------------------------------------------------------------------------
  Summary of Angular Distributions
  ------------------------------------------------------------------------------
- Isotropic..................    20     0     0     0     0     0     0     0
+ Isotropic..................    22     0     0     0     0     0     0     0
  Nonisotropic...............     0     0     0     0     0     0     0     0
- Mixed......................     0    13     9     5     4     3     3     0
+ Mixed......................     0    13    10     5     4     3     4     0
  ------------------------------------------------------------------------------
  Maximum Legendre Order.....     0     6     6     6     6     6     7     0
  Maximum Number of Cosines..     0     0     0     0     0     0     0     0
  ------------------------------------------------------------------------------
  Summary of Energy Distributions
  ------------------------------------------------------------------------------
- Continuous.................    20    13     9     5     4     3     3     0
+ Continuous.................    22    13    10     5     4     3     4     0
  Discrete...................     0     0     0     0     0     0     0     0
  Mixed......................     0     0     0     0     0     0     0     0
  ------------------------------------------------------------------------------
@@ -332,5 +320,5 @@
  ==============================================================================
  End of Run
  ===============================================================================
- SIXPAK   Total Execution Time                0.25 Seconds
+ SIXPAK   Total Execution Time                0.36 Seconds
  ===============================================================================

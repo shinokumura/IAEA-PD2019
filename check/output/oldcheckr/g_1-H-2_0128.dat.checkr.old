@@ -1,24 +1,0 @@
-
-
-
-PROGRAM CHECKR VERSION 8.21                              Run on 13-Mar-2020
-
-Input File Specification------------------------../data/g-iaea-pd-2019/g_1-H-2_0128.dat
-Check the Entire File
-
-
-FILE IS UNSEQUENCED. NO SEQUENCE TESTS WILL BE DONE
-
-
-
-
- Check material   1-H -  2  MAT  128
-
-
-  ERROR(S) FOUND IN MAT= 128, MF= 4, MT= 28
-     FILE  4 ALLOWED ONLY IN A NEUTRON DATA SUBLIBRARYRECORD NUMBER     110
-     SECTION CANNOT BE CHECKED FROM SEQUENCE NUMBER      110 TO     170
-     SECTION MAT=  128   MF=  4   MT=  28   IS MISSING
-
-     Encountered     3 errors,       0 warnings
- Done CHECKR

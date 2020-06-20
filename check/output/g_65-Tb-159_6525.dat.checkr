@@ -1,7 +1,7 @@
 
 
 
-PROGRAM CHECKR VERSION 8.24                              Run on 13-Mar-2020
+PROGRAM CHECKR VERSION 8.24                              Run on 19-Jun-2020
 
 Input File Specification------------------------../data/g-iaea-pd-2019/g_65-Tb-159_6525.dat
 Check the Entire File
@@ -16,7 +16,7 @@ FILE IS UNSEQUENCED. NO SEQUENCE TESTS WILL BE DONE
 
 
   ERROR(S) FOUND IN MAT=6525, MF= 3, MT=  1
-     MT=   1 INVALID                                  RECORD NUMBER     873
+     MT=   1 INVALID                                  RECORD NUMBER     923
 
      Encountered     1 errors,       0 warnings
  Done CHECKR

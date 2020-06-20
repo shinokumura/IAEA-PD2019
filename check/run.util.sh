@@ -7,8 +7,8 @@ CODEPATH=/Users/okumuras/Documents/codes/utility/utility-8.2x/
 #DATAPATH=/Users/okumuras/Documents/nucleardata/IAEA/g-iaea-pd-2019/
 #DATAPATH=/Users/okumuras/Documents/nucleardata/IAEA/update/
 #DATAPATH=../iaea-photonuclear-2019/data/jendlupdates/
-DATAPATH=../data/empireupdate/mod/
-#DATAPATH=../data/g-iaea-pd-2019/
+#DATAPATH=../data/empireupdate/mod/
+DATAPATH=../data/g-iaea-pd-2019/
 
 #filename=g_73-Ta-181_7328.dat
 
@@ -17,8 +17,8 @@ for file in `\find $DATAPATH -maxdepth 1 -type f`; do
 #    filename=${file##*/}
     filename=`basename $file`
 #outfile=output/jendlupdate/$filename
-outfile=output/empireupdate/$filename
-#outfile=output/$filename
+#outfile=output/empireupdate/$filename
+outfile=output/$filename
 
 ######
 # create input file
