@@ -1,0 +1,11 @@
+# delpoint  MFnumber MTnumber X-min X-max
+
+# for Al
+#delpoint 3 3 1.000000e-5 1.999000e+6
+#delpoint 3 5 1.000000e-5 1.999000e+6
+delpoint 6 5 1.000000e-5 1.999000e+6
+
+#for Cr isotopes
+#delpoint 3 5 1.000000e-5 9.990000e+5
+
+quit

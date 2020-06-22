@@ -26,176 +26,28 @@
  ==============================================================================
  Tape Label
  ------------------------------------------------------------------------------
- Retrieved by E4-util: 2019/11/11,14:57:25                            1
- ------------------------------------------------------------------------------
- WARNING: MT=5 is ALLOWED in MF=6, but NOT in MF=4 or 5.
-          see ENDF-102 - Strictly for diagnostic purposes
-          this code will Translate MF=6 Data - but be
-          WARNED - the results should not be used in ANY          APPLICATIONS.
- ------------------------------------------------------------------------------
+  IAEA/PD-2019  H -  2                                                1
  ==============================================================================
  Projectile   Target    Emitted    MAT  MT LCT LIP LAW LANG  LEP  ENDF/B
                                                         LTP       Output
  ==============================================================================
-  Photon     34-Se-76   Neutron   3431   5 cm    0   1    2    1      
- ------------------------------------------------------------------------------
- Projectile=      0 Emitted=      1 Cannot Define Kalbach-Mann
- Parameters for this Combination - Will use Neutron Parameters
- ------------------------------------------------------------------------------
-  Photon     34-Se-76    1-H -1   3431   5 cm    0   1    2    1      
- ------------------------------------------------------------------------------
- Projectile=      0 Emitted=   1001 Cannot Define Kalbach-Mann
- Parameters for this Combination - Will use Neutron Parameters
- ------------------------------------------------------------------------------
-  Photon     34-Se-76    1-H -2   3431   5 cm    0   1    2    1      
- ------------------------------------------------------------------------------
- Projectile=      0 Emitted=   1002 Cannot Define Kalbach-Mann
- Parameters for this Combination - Will use Neutron Parameters
- ------------------------------------------------------------------------------
-  Photon     34-Se-76    1-H -3   3431   5 cm    0   1    2    1      
- ------------------------------------------------------------------------------
- Projectile=      0 Emitted=   1003 Cannot Define Kalbach-Mann
- Parameters for this Combination - Will use Neutron Parameters
- ------------------------------------------------------------------------------
-  Photon     34-Se-76    2-He-3   3431   5 cm    0   1    2    1      
- ------------------------------------------------------------------------------
- Projectile=      0 Emitted=   2003 Cannot Define Kalbach-Mann
- Parameters for this Combination - Will use Neutron Parameters
- ------------------------------------------------------------------------------
-  Photon     34-Se-76    2-He-4   3431   5 cm    0   1    2    1      
- ------------------------------------------------------------------------------
- Projectile=      0 Emitted=   2004 Cannot Define Kalbach-Mann
- Parameters for this Combination - Will use Neutron Parameters
- ------------------------------------------------------------------------------
-  Photon     34-Se-76   24-Cr-48  3431   5 cm    0   0                
-  Photon     34-Se-76   24-Cr-49  3431   5 cm    0   0                
-  Photon     34-Se-76   24-Cr-50  3431   5 cm    0   0                
-  Photon     34-Se-76   24-Cr-51  3431   5 cm    0   0                
-  Photon     34-Se-76   24-Cr-52  3431   5 cm    0   0                
-  Photon     34-Se-76   24-Cr-53  3431   5 cm    0   0                
-  Photon     34-Se-76   24-Cr-54  3431   5 cm    0   0                
-  Photon     34-Se-76   24-Cr-55  3431   5 cm    0   0                
-  Photon     34-Se-76   25-Mn-49  3431   5 cm    0   0                
-  Photon     34-Se-76   25-Mn-50  3431   5 cm    0   0                
-  Photon     34-Se-76   25-Mn-50  3431   5 cm    1   0                
-  Photon     34-Se-76   25-Mn-51  3431   5 cm    0   0                
-  Photon     34-Se-76   25-Mn-52  3431   5 cm    0   0                
-  Photon     34-Se-76   25-Mn-52  3431   5 cm    1   0                
-  Photon     34-Se-76   25-Mn-53  3431   5 cm    0   0                
-  Photon     34-Se-76   25-Mn-54  3431   5 cm    0   0                
-  Photon     34-Se-76   25-Mn-55  3431   5 cm    0   0                
-  Photon     34-Se-76   25-Mn-56  3431   5 cm    0   0                
-  Photon     34-Se-76   25-Mn-57  3431   5 cm    0   0                
-  Photon     34-Se-76   26-Fe-52  3431   5 cm    0   0                
-  Photon     34-Se-76   26-Fe-52  3431   5 cm    1   0                
-  Photon     34-Se-76   26-Fe-53  3431   5 cm    0   0                
-  Photon     34-Se-76   26-Fe-53  3431   5 cm    1   0                
-  Photon     34-Se-76   26-Fe-54  3431   5 cm    0   0                
-  Photon     34-Se-76   26-Fe-55  3431   5 cm    0   0                
-  Photon     34-Se-76   26-Fe-56  3431   5 cm    0   0                
-  Photon     34-Se-76   26-Fe-57  3431   5 cm    0   0                
-  Photon     34-Se-76   26-Fe-58  3431   5 cm    0   0                
-  Photon     34-Se-76   26-Fe-59  3431   5 cm    0   0                
-  Photon     34-Se-76   27-Co-54  3431   5 cm    0   0                
-  Photon     34-Se-76   27-Co-54  3431   5 cm    1   0                
-  Photon     34-Se-76   27-Co-55  3431   5 cm    0   0                
-  Photon     34-Se-76   27-Co-56  3431   5 cm    0   0                
-  Photon     34-Se-76   27-Co-57  3431   5 cm    0   0                
-  Photon     34-Se-76   27-Co-58  3431   5 cm    0   0                
-  Photon     34-Se-76   27-Co-58  3431   5 cm    1   0                
-  Photon     34-Se-76   27-Co-59  3431   5 cm    0   0                
-  Photon     34-Se-76   27-Co-60  3431   5 cm    0   0                
-  Photon     34-Se-76   27-Co-60  3431   5 cm    1   0                
-  Photon     34-Se-76   27-Co-61  3431   5 cm    0   0                
-  Photon     34-Se-76   27-Co-62  3431   5 cm    0   0                
-  Photon     34-Se-76   27-Co-62  3431   5 cm    1   0                
-  Photon     34-Se-76   28-Ni-56  3431   5 cm    0   0                
-  Photon     34-Se-76   28-Ni-57  3431   5 cm    0   0                
-  Photon     34-Se-76   28-Ni-58  3431   5 cm    0   0                
-  Photon     34-Se-76   28-Ni-59  3431   5 cm    0   0                
-  Photon     34-Se-76   28-Ni-60  3431   5 cm    0   0                
-  Photon     34-Se-76   28-Ni-61  3431   5 cm    0   0                
-  Photon     34-Se-76   28-Ni-62  3431   5 cm    0   0                
-  Photon     34-Se-76   28-Ni-63  3431   5 cm    0   0                
-  Photon     34-Se-76   28-Ni-64  3431   5 cm    0   0                
-  Photon     34-Se-76   29-Cu-59  3431   5 cm    0   0                
-  Photon     34-Se-76   29-Cu-60  3431   5 cm    0   0                
-  Photon     34-Se-76   29-Cu-61  3431   5 cm    0   0                
-  Photon     34-Se-76   29-Cu-62  3431   5 cm    0   0                
-  Photon     34-Se-76   29-Cu-63  3431   5 cm    0   0                
-  Photon     34-Se-76   29-Cu-64  3431   5 cm    0   0                
-  Photon     34-Se-76   29-Cu-65  3431   5 cm    0   0                
-  Photon     34-Se-76   29-Cu-66  3431   5 cm    0   0                
-  Photon     34-Se-76   29-Cu-67  3431   5 cm    0   0                
-  Photon     34-Se-76   30-Zn-60  3431   5 cm    0   0                
-  Photon     34-Se-76   30-Zn-61  3431   5 cm    0   0                
-  Photon     34-Se-76   30-Zn-62  3431   5 cm    0   0                
-  Photon     34-Se-76   30-Zn-63  3431   5 cm    0   0                
-  Photon     34-Se-76   30-Zn-64  3431   5 cm    0   0                
-  Photon     34-Se-76   30-Zn-65  3431   5 cm    0   0                
-  Photon     34-Se-76   30-Zn-66  3431   5 cm    0   0                
-  Photon     34-Se-76   30-Zn-67  3431   5 cm    0   0                
-  Photon     34-Se-76   30-Zn-68  3431   5 cm    0   0                
-  Photon     34-Se-76   30-Zn-69  3431   5 cm    0   0                
-  Photon     34-Se-76   30-Zn-69  3431   5 cm    1   0                
-  Photon     34-Se-76   30-Zn-70  3431   5 cm    0   0                
-  Photon     34-Se-76   31-Ga-63  3431   5 cm    0   0                
-  Photon     34-Se-76   31-Ga-64  3431   5 cm    0   0                
-  Photon     34-Se-76   31-Ga-65  3431   5 cm    0   0                
-  Photon     34-Se-76   31-Ga-66  3431   5 cm    0   0                
-  Photon     34-Se-76   31-Ga-67  3431   5 cm    0   0                
-  Photon     34-Se-76   31-Ga-68  3431   5 cm    0   0                
-  Photon     34-Se-76   31-Ga-69  3431   5 cm    0   0                
-  Photon     34-Se-76   31-Ga-70  3431   5 cm    0   0                
-  Photon     34-Se-76   31-Ga-71  3431   5 cm    0   0                
-  Photon     34-Se-76   31-Ga-72  3431   5 cm    0   0                
-  Photon     34-Se-76   31-Ga-73  3431   5 cm    0   0                
-  Photon     34-Se-76   32-Ge-65  3431   5 cm    0   0                
-  Photon     34-Se-76   32-Ge-66  3431   5 cm    0   0                
-  Photon     34-Se-76   32-Ge-67  3431   5 cm    0   0                
-  Photon     34-Se-76   32-Ge-68  3431   5 cm    0   0                
-  Photon     34-Se-76   32-Ge-69  3431   5 cm    0   0                
-  Photon     34-Se-76   32-Ge-70  3431   5 cm    0   0                
-  Photon     34-Se-76   32-Ge-71  3431   5 cm    0   0                
-  Photon     34-Se-76   32-Ge-72  3431   5 cm    0   0                
-  Photon     34-Se-76   32-Ge-73  3431   5 cm    0   0                
-  Photon     34-Se-76   32-Ge-74  3431   5 cm    0   0                
-  Photon     34-Se-76   33-As-67  3431   5 cm    0   0                
-  Photon     34-Se-76   33-As-68  3431   5 cm    0   0                
-  Photon     34-Se-76   33-As-69  3431   5 cm    0   0                
-  Photon     34-Se-76   33-As-70  3431   5 cm    0   0                
-  Photon     34-Se-76   33-As-71  3431   5 cm    0   0                
-  Photon     34-Se-76   33-As-72  3431   5 cm    0   0                
-  Photon     34-Se-76   33-As-73  3431   5 cm    0   0                
-  Photon     34-Se-76   33-As-74  3431   5 cm    0   0                
-  Photon     34-Se-76   33-As-75  3431   5 cm    0   0                
-  Photon     34-Se-76   34-Se-70  3431   5 cm    0   0                
-  Photon     34-Se-76   34-Se-71  3431   5 cm    0   0                
-  Photon     34-Se-76   34-Se-72  3431   5 cm    0   0                
-  Photon     34-Se-76   34-Se-73  3431   5 cm    0   0                
-  Photon     34-Se-76   34-Se-73  3431   5 cm    1   0                
-  Photon     34-Se-76   34-Se-74  3431   5 cm    0   0                
-  Photon     34-Se-76   34-Se-75  3431   5 cm    0   0                
-  Photon     34-Se-76   34-Se-76  3431   5 cm    0   0                
-  Photon     34-Se-76   Photon    3431   5 cm    0   1    1    1      
- ------------------------------------------------------------------------------
- All Cross Sections Read. Maximum Tabulated Energy =  200000000. eV
- ------------------------------------------------------------------------------
+  Photon      1-H -2    Neutron    128  50 cm    0   2    0           
+  Photon      1-H -2     1-H -1    128  50 cm    0   4                
  ==============================================================================
  Laws by Incident Particle
  ------------------------------------------------------------------------------
  Law Number and Definition   Photon    n     p     d     t  He-3  He-4 Other
  ------------------------------------------------------------------------------
- (0) Unknown................   110     0     0     0     0     0     0     0
+ (0) Unknown................     0     0     0     0     0     0     0     0
  (1) Continuum Energy-Angle
-      Legendre..............     1     0     0     0     0     0     0     0
-      Kalbach-Mann..........     6     0     0     0     0     0     0     0
+      Legendre..............     0     0     0     0     0     0     0     0
+      Kalbach-Mann..........     0     0     0     0     0     0     0     0
       Tabulated.............     0     0     0     0     0     0     0     0
  (2) Discrete 2 Body
-      Legendre..............     0     0     0     0     0     0     0     0
+      Legendre..............     1     0     0     0     0     0     0     0
       Tabulated.............     0     0     0     0     0     0     0     0
  (3) Isotropic Discrete.....     0     0     0     0     0     0     0     0
- (4) Discrete 2 Body Recoil.     0     0     0     0     0     0     0     0
+ (4) Discrete 2 Body Recoil.     1     0     0     0     0     0     0     0
  (5) Charged Particle Elastic
       Legendre..............     0     0     0     0     0     0     0     0
       Tabulated.............     0     0     0     0     0     0     0     0
@@ -207,16 +59,16 @@
  ------------------------------------------------------------------------------
  Law Number and Definition   Photon    n     p     d     t  He-3  He-4 Other
  ------------------------------------------------------------------------------
- (0) Unknown................     0     0     0     0     0     0     0   110
+ (0) Unknown................     0     0     0     0     0     0     0     0
  (1) Continuum Energy-Angle
-      Legendre..............     1     0     0     0     0     0     0     0
-      Kalbach-Mann..........     0     1     1     1     1     1     1     0
+      Legendre..............     0     0     0     0     0     0     0     0
+      Kalbach-Mann..........     0     0     0     0     0     0     0     0
       Tabulated.............     0     0     0     0     0     0     0     0
  (2) Discrete 2 Body
-      Legendre..............     0     0     0     0     0     0     0     0
+      Legendre..............     0     1     0     0     0     0     0     0
       Tabulated.............     0     0     0     0     0     0     0     0
  (3) Isotropic Discrete.....     0     0     0     0     0     0     0     0
- (4) Discrete 2 Body Recoil.     0     0     0     0     0     0     0     0
+ (4) Discrete 2 Body Recoil.     0     0     1     0     0     0     0     0
  (5) Charged Particle Elastic
       Legendre..............     0     0     0     0     0     0     0     0
       Tabulated.............     0     0     0     0     0     0     0     0
@@ -226,21 +78,21 @@
  ------------------------------------------------------------------------------
  Summary of Emitted Particle Yields
  ------------------------------------------------------------------------------
- Energy Independent.........     0     0     0     0     0     0     0     0
- Energy Dependent...........     1     1     1     1     1     1     1   110
+ Energy Independent.........     0     1     1     0     0     0     0     0
+ Energy Dependent...........     0     0     0     0     0     0     0     0
  ------------------------------------------------------------------------------
  Summary of Angular Distributions
  ------------------------------------------------------------------------------
- Isotropic..................     1     0     0     0     0     0     0     0
- Nonisotropic...............     0     1     1     1     1     1     1     0
+ Isotropic..................     0     0     0     0     0     0     0     0
+ Nonisotropic...............     0     0     0     0     0     0     0     0
  Mixed......................     0     0     0     0     0     0     0     0
  ------------------------------------------------------------------------------
- Maximum Legendre Order.....     0     0     0     0     0     0     0     0
+ Maximum Legendre Order.....     0     4     0     0     0     0     0     0
  Maximum Number of Cosines..     0     0     0     0     0     0     0     0
  ------------------------------------------------------------------------------
  Summary of Energy Distributions
  ------------------------------------------------------------------------------
- Continuous.................     1     1     1     1     1     1     1     0
+ Continuous.................     0     0     0     0     0     0     0     0
  Discrete...................     0     0     0     0     0     0     0     0
  Mixed......................     0     0     0     0     0     0     0     0
  ------------------------------------------------------------------------------
@@ -270,5 +122,5 @@
  ==============================================================================
  End of Run
  ===============================================================================
- SIXPAK   Total Execution Time                0.07 Seconds
+ SIXPAK   Total Execution Time                0.11 Seconds
  ===============================================================================

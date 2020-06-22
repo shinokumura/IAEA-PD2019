@@ -64,35 +64,33 @@
  ------------------------------------------------------------------------------
  ENDF/B Tape Label
  ------------------------------------------------------------------------------
- Retrieved by E4-util: 2019/11/11,14:57:25                            1
+  IAEA/PD-2019  H -  2                                                1
  ------------------------------------------------------------------------------
  Isotope    MAT MF Fmt Kelvin      Total Elastic Capture Fission   Other
                                   Points  Points  Points  Points  Points
  ------------------------------------------------------------------------------
  ------------------------------------------------------------------------------
- Resonance Region for  34-Se-76 
+ Resonance Region for   1-H -2  
  Resolved Resonance Region..... NONE
  Unresolved Resonance Region... NONE
  WARNING - NO Unresolved Self-Shielding
  ------------------------------------------------------------------------------
  ------------------------------------------------------------------------------
- 34-Se-76  3431  3  6 0.0              0       0       0       0     176
+  1-H -2    128  3  6 0.0              0       0       0       0  495148
  WARNING...Total Cross Section is Not Given for Above Material.
  Self-Shielding and Multiband Calculation Skipped (i.e. Impossible)
  ------------------------------------------------------------------------------
- 34-Se-76  3431 10  6 0.0              0       0       0       0   10296
- ------------------------------------------------------------------------------
- All Cross Sections Read. Maximum Tabulated Energy =  200000000. eV
+ All Cross Sections Read. Maximum Tabulated Energy =  140000000. eV
  ------------------------------------------------------------------------------
  ------------------------------------------------------------------------------
- All Cross Sections Read. Maximum Tabulated Energy =  200000000. eV
+ All Cross Sections Read. Maximum Tabulated Energy =  140000000. eV
  ------------------------------------------------------------------------------
  ------------------------------------------------------------------------------
-                         Totals        0       0       0       0   10472
+                         Totals        0       0       0       0  495148
  ------------------------------------------------------------------------------
  Other Points = Points Other Than Total, Elastic, Capture or Fission.
  This Will Always be Zero Unless Unshielded Output is Requested.
  ------------------------------------------------------------------------------
  ===============================================================================
- GROUPIE  Total Execution Time                0.09 Seconds
+ GROUPIE  Total Execution Time                0.68 Seconds
  ===============================================================================

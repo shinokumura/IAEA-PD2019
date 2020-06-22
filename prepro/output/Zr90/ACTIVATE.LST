@@ -12,579 +12,66 @@
    Material  MAT  MF  MT  ENDF    ZAP Final      Q-Value Points Points
                           Format      State           eV     In    Out
  ------------------------------------------------------------------------------
- WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.00000D-05
- WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 2.53000D-02
- WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.99900D+06
-  40-Zr-90  4025  10   5   6        1     0   0.0           102    102
- WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.00000D-05
- WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 2.53000D-02
- WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.99900D+06
-  40-Zr-90  4025  10   5   6     1001     0   0.0           102    102
- WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.00000D-05
- WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 2.53000D-02
- WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.99900D+06
-  40-Zr-90  4025  10   5   6     1002     0   0.0           102    102
- WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.00000D-05
- WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 2.53000D-02
- WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.99900D+06
-  40-Zr-90  4025  10   5   6     1003     0   0.0           102    102
- WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.00000D-05
- WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 2.53000D-02
- WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.99900D+06
-  40-Zr-90  4025  10   5   6     2003     0   0.0           102    102
- WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.00000D-05
- WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 2.53000D-02
- WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.99900D+06
-  40-Zr-90  4025  10   5   6     2004     0   0.0           102    102
- WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.00000D-05
- WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 2.53000D-02
- WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.99900D+06
-  40-Zr-90  4025  10   5   6    33074     0   0.0           102    102
- WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.00000D-05
- WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 2.53000D-02
- WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.99900D+06
-  40-Zr-90  4025  10   5   6    33075     0   0.0           102    102
- WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.00000D-05
- WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 2.53000D-02
- WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.99900D+06
-  40-Zr-90  4025  10   5   6    33076     0   0.0           102    102
- WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.00000D-05
- WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 2.53000D-02
- WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.99900D+06
-  40-Zr-90  4025  10   5   6    34075     0   0.0           102    102
- WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.00000D-05
- WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 2.53000D-02
- WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.99900D+06
-  40-Zr-90  4025  10   5   6    34076     0   0.0           102    102
- WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.00000D-05
- WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 2.53000D-02
- WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.99900D+06
-  40-Zr-90  4025  10   5   6    34077     0   0.0           102    102
- WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.00000D-05
- WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 2.53000D-02
- WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.99900D+06
-  40-Zr-90  4025  10   5   6    34078     0   0.0           102    102
- WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.00000D-05
- WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 2.53000D-02
- WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.99900D+06
-  40-Zr-90  4025  10   5   6    34079     0   0.0           102    102
- WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.00000D-05
- WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 2.53000D-02
- WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.99900D+06
-  40-Zr-90  4025  10   5   6    35077     0   0.0           102    102
- WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.00000D-05
- WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 2.53000D-02
- WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.99900D+06
-  40-Zr-90  4025  10   5   6    35078     0   0.0           102    102
- WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.00000D-05
- WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 2.53000D-02
- WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.99900D+06
-  40-Zr-90  4025  10   5   6    35079     0   0.0           102    102
- WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.00000D-05
- WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 2.53000D-02
- WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.99900D+06
-  40-Zr-90  4025  10   5   6    35080     0   0.0           102    102
- WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.00000D-05
- WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 2.53000D-02
- WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.99900D+06
-  40-Zr-90  4025  10   5   6    35081     0   0.0           102    102
- WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.00000D-05
- WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 2.53000D-02
- WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.99900D+06
-  40-Zr-90  4025  10   5   6    35082     0   0.0           102    102
- WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.00000D-05
- WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 2.53000D-02
- WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.99900D+06
-  40-Zr-90  4025  10   5   6    36078     0   0.0           102    102
- WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.00000D-05
- WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 2.53000D-02
- WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.99900D+06
-  40-Zr-90  4025  10   5   6    36079     0   0.0           102    102
- WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.00000D-05
- WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 2.53000D-02
- WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.99900D+06
-  40-Zr-90  4025  10   5   6    36080     0   0.0           102    102
- WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.00000D-05
- WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 2.53000D-02
- WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.99900D+06
-  40-Zr-90  4025  10   5   6    36081     0   0.0           102    102
- WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.00000D-05
- WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 2.53000D-02
- WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.99900D+06
-  40-Zr-90  4025  10   5   6    36082     0   0.0           102    102
- WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.00000D-05
- WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 2.53000D-02
- WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.99900D+06
-  40-Zr-90  4025  10   5   6    36083     0   0.0           102    102
- WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.00000D-05
- WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 2.53000D-02
- WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.99900D+06
-  40-Zr-90  4025  10   5   6    36084     0   0.0           102    102
- WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.00000D-05
- WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 2.53000D-02
- WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.99900D+06
-  40-Zr-90  4025  10   5   6    36085     0   0.0           102    102
- WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.00000D-05
- WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 2.53000D-02
- WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.99900D+06
-  40-Zr-90  4025  10   5   6    37080     0   0.0           102    102
- WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.00000D-05
- WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 2.53000D-02
- WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.99900D+06
-  40-Zr-90  4025  10   5   6    37081     0   0.0           102    102
- WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.00000D-05
- WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 2.53000D-02
- WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.99900D+06
-  40-Zr-90  4025  10   5   6    37082     0   0.0           102    102
- WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.00000D-05
- WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 2.53000D-02
- WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.99900D+06
-  40-Zr-90  4025  10   5   6    37083     0   0.0           102    102
- WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.00000D-05
- WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 2.53000D-02
- WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.99900D+06
-  40-Zr-90  4025  10   5   6    37084     0   0.0           102    102
- WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.00000D-05
- WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 2.53000D-02
- WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.99900D+06
-  40-Zr-90  4025  10   5   6    37085     0   0.0           102    102
- WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.00000D-05
- WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 2.53000D-02
- WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.99900D+06
-  40-Zr-90  4025  10   5   6    37086     0   0.0           102    102
- WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.00000D-05
- WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 2.53000D-02
- WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.99900D+06
-  40-Zr-90  4025  10   5   6    37087     0   0.0           102    102
- WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.00000D-05
- WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 2.53000D-02
- WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.99900D+06
-  40-Zr-90  4025  10   5   6    38081     0   0.0           102    102
- WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.00000D-05
- WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 2.53000D-02
- WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.99900D+06
-  40-Zr-90  4025  10   5   6    38082     0   0.0           102    102
- WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.00000D-05
- WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 2.53000D-02
- WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.99900D+06
-  40-Zr-90  4025  10   5   6    38083     0   0.0           102    102
- WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.00000D-05
- WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 2.53000D-02
- WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.99900D+06
-  40-Zr-90  4025  10   5   6    38084     0   0.0           102    102
- WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.00000D-05
- WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 2.53000D-02
- WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.99900D+06
-  40-Zr-90  4025  10   5   6    38085     0   0.0           102    102
- WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.00000D-05
- WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 2.53000D-02
- WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.99900D+06
-  40-Zr-90  4025  10   5   6    38086     0   0.0           102    102
- WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.00000D-05
- WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 2.53000D-02
- WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.99900D+06
-  40-Zr-90  4025  10   5   6    38087     0   0.0           102    102
- WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.00000D-05
- WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 2.53000D-02
- WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.99900D+06
-  40-Zr-90  4025  10   5   6    38088     0   0.0           102    102
- WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.00000D-05
- WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 2.53000D-02
- WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.99900D+06
-  40-Zr-90  4025  10   5   6    39083     0   0.0           102    102
- WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.00000D-05
- WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 2.53000D-02
- WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.99900D+06
-  40-Zr-90  4025  10   5   6    39084     0   0.0           102    102
- WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.00000D-05
- WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 2.53000D-02
- WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.99900D+06
-  40-Zr-90  4025  10   5   6    39085     0   0.0           102    102
- WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.00000D-05
- WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 2.53000D-02
- WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.99900D+06
-  40-Zr-90  4025  10   5   6    39086     0   0.0           102    102
- WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.00000D-05
- WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 2.53000D-02
- WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.99900D+06
-  40-Zr-90  4025  10   5   6    39087     0   0.0           102    102
- WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.00000D-05
- WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 2.53000D-02
- WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.99900D+06
-  40-Zr-90  4025  10   5   6    39088     0   0.0           102    102
- WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.00000D-05
- WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 2.53000D-02
- WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.99900D+06
-  40-Zr-90  4025  10   5   6    39089     0   0.0           102    102
- WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.00000D-05
- WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 2.53000D-02
- WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.99900D+06
-  40-Zr-90  4025  10   5   6    40084     0   0.0           102    102
- WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.00000D-05
- WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 2.53000D-02
- WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.99900D+06
-  40-Zr-90  4025  10   5   6    40085     0   0.0           102    102
- WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.00000D-05
- WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 2.53000D-02
- WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.99900D+06
-  40-Zr-90  4025  10   5   6    40086     0   0.0           102    102
- WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.00000D-05
- WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 2.53000D-02
- WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.99900D+06
-  40-Zr-90  4025  10   5   6    40087     0   0.0           102    102
- WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.00000D-05
- WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 2.53000D-02
- WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.99900D+06
-  40-Zr-90  4025  10   5   6    40088     0   0.0           102    102
- WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.00000D-05
- WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 2.53000D-02
- WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
-           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
-           Will Assume MF9 Data = 0 at E= 1.99900D+06
-  40-Zr-90  4025  10   5   6    40089     0   0.0           102    102
-  40-Zr-90  4025  10   5   6        0     0   0.0           102    102
+  40-Zr-90  4025  10   5   6        1     0   0.0            99     99
+  40-Zr-90  4025  10   5   6     1001     0   0.0            99     99
+  40-Zr-90  4025  10   5   6     1002     0   0.0            99     99
+  40-Zr-90  4025  10   5   6     1003     0   0.0            99     99
+  40-Zr-90  4025  10   5   6     2003     0   0.0            99     99
+  40-Zr-90  4025  10   5   6     2004     0   0.0            99     99
+  40-Zr-90  4025  10   5   6    33074     0   0.0            99     99
+  40-Zr-90  4025  10   5   6    33075     0   0.0            99     99
+  40-Zr-90  4025  10   5   6    33076     0   0.0            99     99
+  40-Zr-90  4025  10   5   6    34075     0   0.0            99     99
+  40-Zr-90  4025  10   5   6    34076     0   0.0            99     99
+  40-Zr-90  4025  10   5   6    34077     0   0.0            99     99
+  40-Zr-90  4025  10   5   6    34078     0   0.0            99     99
+  40-Zr-90  4025  10   5   6    34079     0   0.0            99     99
+  40-Zr-90  4025  10   5   6    35077     0   0.0            99     99
+  40-Zr-90  4025  10   5   6    35078     0   0.0            99     99
+  40-Zr-90  4025  10   5   6    35079     0   0.0            99     99
+  40-Zr-90  4025  10   5   6    35080     0   0.0            99     99
+  40-Zr-90  4025  10   5   6    35081     0   0.0            99     99
+  40-Zr-90  4025  10   5   6    35082     0   0.0            99     99
+  40-Zr-90  4025  10   5   6    36078     0   0.0            99     99
+  40-Zr-90  4025  10   5   6    36079     0   0.0            99     99
+  40-Zr-90  4025  10   5   6    36080     0   0.0            99     99
+  40-Zr-90  4025  10   5   6    36081     0   0.0            99     99
+  40-Zr-90  4025  10   5   6    36082     0   0.0            99     99
+  40-Zr-90  4025  10   5   6    36083     0   0.0            99     99
+  40-Zr-90  4025  10   5   6    36084     0   0.0            99     99
+  40-Zr-90  4025  10   5   6    36085     0   0.0            99     99
+  40-Zr-90  4025  10   5   6    37080     0   0.0            99     99
+  40-Zr-90  4025  10   5   6    37081     0   0.0            99     99
+  40-Zr-90  4025  10   5   6    37082     0   0.0            99     99
+  40-Zr-90  4025  10   5   6    37083     0   0.0            99     99
+  40-Zr-90  4025  10   5   6    37084     0   0.0            99     99
+  40-Zr-90  4025  10   5   6    37085     0   0.0            99     99
+  40-Zr-90  4025  10   5   6    37086     0   0.0            99     99
+  40-Zr-90  4025  10   5   6    37087     0   0.0            99     99
+  40-Zr-90  4025  10   5   6    38081     0   0.0            99     99
+  40-Zr-90  4025  10   5   6    38082     0   0.0            99     99
+  40-Zr-90  4025  10   5   6    38083     0   0.0            99     99
+  40-Zr-90  4025  10   5   6    38084     0   0.0            99     99
+  40-Zr-90  4025  10   5   6    38085     0   0.0            99     99
+  40-Zr-90  4025  10   5   6    38086     0   0.0            99     99
+  40-Zr-90  4025  10   5   6    38087     0   0.0            99     99
+  40-Zr-90  4025  10   5   6    38088     0   0.0            99     99
+  40-Zr-90  4025  10   5   6    39083     0   0.0            99     99
+  40-Zr-90  4025  10   5   6    39084     0   0.0            99     99
+  40-Zr-90  4025  10   5   6    39085     0   0.0            99     99
+  40-Zr-90  4025  10   5   6    39086     0   0.0            99     99
+  40-Zr-90  4025  10   5   6    39087     0   0.0            99     99
+  40-Zr-90  4025  10   5   6    39088     0   0.0            99     99
+  40-Zr-90  4025  10   5   6    39089     0   0.0            99     99
+  40-Zr-90  4025  10   5   6    40084     0   0.0            99     99
+  40-Zr-90  4025  10   5   6    40085     0   0.0            99     99
+  40-Zr-90  4025  10   5   6    40086     0   0.0            99     99
+  40-Zr-90  4025  10   5   6    40087     0   0.0            99     99
+  40-Zr-90  4025  10   5   6    40088     0   0.0            99     99
+  40-Zr-90  4025  10   5   6    40089     0   0.0            99     99
+  40-Zr-90  4025  10   5   6        0     0   0.0            99     99
  ------------------------------------------------------------------------------
-                                              MAT Totals   5916   5916
+                                              MAT Totals   5742   5742
  ------------------------------------------------------------------------------
  ------------------------------------------------------------------------------
  All Cross Sections Read. Maximum Tabulated Energy =  200000000. eV
@@ -593,7 +80,7 @@
       MAT Total Execution Time                0.22 Seconds
  ===============================================================================
  ------------------------------------------------------------------------------
-                                             Tape Totals   5916   5916
+                                             Tape Totals   5742   5742
  ------------------------------------------------------------------------------
  ===============================================================================
  ACTIVATE Total Execution Time                0.22 Seconds
