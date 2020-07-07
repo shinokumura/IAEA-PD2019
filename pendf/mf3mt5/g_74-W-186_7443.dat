@@ -3,8 +3,11 @@
 #           QM 0.0000000e+00  mass difference Q-value
 #           QI 0.0000000e+00  reaction Q-value
 #           NR             1  number of interpolation range
-#           NP            99  lin-lin  interpolation
+#           NP           102  lin-lin  interpolation
 # Energy        CrossSection
+  1.000000e-05  0.000000e+00
+  2.530000e-02  0.000000e+00
+  1.999000e+06  0.000000e+00
   2.000000e+06  1.252940e-04
   2.450000e+06  2.401720e-04
   2.900000e+06  4.093150e-04

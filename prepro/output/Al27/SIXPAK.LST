@@ -37,69 +37,89 @@
  Projectile   Target    Emitted    MAT  MT LCT LIP LAW LANG  LEP  ENDF/B
                                                         LTP       Output
  ==============================================================================
-  Neutron    13-Al-27   Neutron   1325   5 Lab   0   1    2    2  Yes 
- ------------------------------------------------------------------------------
- WARNING - Energy Dependent Yield= 0.0000E+00 to  2.5946E+00
-           Expect Constant
- ------------------------------------------------------------------------------
+  Photon     13-Al-27   Neutron   1325   5 Lab   0   1    2    2      
  ------------------------------------------------------------------------------
  Expect Kalbach-Mann ONLY in c.m. System
  ------------------------------------------------------------------------------
-  Neutron    13-Al-27    1-H -1   1325   5 Lab   0   1    2    2      
+ ------------------------------------------------------------------------------
+ Projectile=      0 Emitted=      1 Cannot Define Kalbach-Mann
+ Parameters for this Combination - Will use Neutron Parameters
+ ------------------------------------------------------------------------------
+  Photon     13-Al-27    1-H -1   1325   5 Lab   0   1    2    2      
  ------------------------------------------------------------------------------
  Expect Kalbach-Mann ONLY in c.m. System
  ------------------------------------------------------------------------------
-  Neutron    13-Al-27    1-H -2   1325   5 Lab   0   1    2    2      
+ ------------------------------------------------------------------------------
+ Projectile=      0 Emitted=   1001 Cannot Define Kalbach-Mann
+ Parameters for this Combination - Will use Neutron Parameters
+ ------------------------------------------------------------------------------
+  Photon     13-Al-27    1-H -2   1325   5 Lab   0   1    2    2      
  ------------------------------------------------------------------------------
  Expect Kalbach-Mann ONLY in c.m. System
  ------------------------------------------------------------------------------
-  Neutron    13-Al-27    1-H -3   1325   5 Lab   0   1    2    2      
+ ------------------------------------------------------------------------------
+ Projectile=      0 Emitted=   1002 Cannot Define Kalbach-Mann
+ Parameters for this Combination - Will use Neutron Parameters
+ ------------------------------------------------------------------------------
+  Photon     13-Al-27    1-H -3   1325   5 Lab   0   1    2    2      
  ------------------------------------------------------------------------------
  Expect Kalbach-Mann ONLY in c.m. System
  ------------------------------------------------------------------------------
-  Neutron    13-Al-27    2-He-3   1325   5 Lab   0   1    2    2      
+ ------------------------------------------------------------------------------
+ Projectile=      0 Emitted=   1003 Cannot Define Kalbach-Mann
+ Parameters for this Combination - Will use Neutron Parameters
+ ------------------------------------------------------------------------------
+  Photon     13-Al-27    2-He-3   1325   5 Lab   0   1    2    2      
  ------------------------------------------------------------------------------
  Expect Kalbach-Mann ONLY in c.m. System
  ------------------------------------------------------------------------------
-  Neutron    13-Al-27    2-He-4   1325   5 Lab   0   1    2    2      
+ ------------------------------------------------------------------------------
+ Projectile=      0 Emitted=   2003 Cannot Define Kalbach-Mann
+ Parameters for this Combination - Will use Neutron Parameters
+ ------------------------------------------------------------------------------
+  Photon     13-Al-27    2-He-4   1325   5 Lab   0   1    2    2      
  ------------------------------------------------------------------------------
  Expect Kalbach-Mann ONLY in c.m. System
  ------------------------------------------------------------------------------
-  Neutron    13-Al-27    4-Be-8   1325   5 Lab   0   1    1    2      
-  Neutron    13-Al-27    6-C -12  1325   5 Lab   0   1    1    2      
-  Neutron    13-Al-27    6-C -13  1325   5 Lab   0   1    1    2      
-  Neutron    13-Al-27    7-N -13  1325   5 Lab   0   1    1    2      
-  Neutron    13-Al-27    7-N -14  1325   5 Lab   0   1    1    2      
-  Neutron    13-Al-27    7-N -15  1325   5 Lab   0   1    1    2      
-  Neutron    13-Al-27    7-N -16  1325   5 Lab   0   1    1    2      
-  Neutron    13-Al-27    8-O -15  1325   5 Lab   0   1    1    2      
-  Neutron    13-Al-27    8-O -16  1325   5 Lab   0   1    1    2      
-  Neutron    13-Al-27    8-O -17  1325   5 Lab   0   1    1    2      
-  Neutron    13-Al-27    8-O -18  1325   5 Lab   0   1    1    2      
-  Neutron    13-Al-27    9-F -17  1325   5 Lab   0   1    1    2      
-  Neutron    13-Al-27    9-F -18  1325   5 Lab   0   1    1    2      
-  Neutron    13-Al-27    9-F -19  1325   5 Lab   0   1    1    2      
-  Neutron    13-Al-27    9-F -20  1325   5 Lab   0   1    1    2      
-  Neutron    13-Al-27    9-F -21  1325   5 Lab   0   1    1    2      
-  Neutron    13-Al-27    9-F -22  1325   5 Lab   0   1    1    2      
-  Neutron    13-Al-27   10-Ne-19  1325   5 Lab   0   1    1    2      
-  Neutron    13-Al-27   10-Ne-20  1325   5 Lab   0   1    1    2      
-  Neutron    13-Al-27   10-Ne-21  1325   5 Lab   0   1    1    2      
-  Neutron    13-Al-27   10-Ne-22  1325   5 Lab   0   1    1    2      
-  Neutron    13-Al-27   10-Ne-23  1325   5 Lab   0   1    1    2      
-  Neutron    13-Al-27   11-Na-21  1325   5 Lab   0   1    1    2      
-  Neutron    13-Al-27   11-Na-22  1325   5 Lab   0   1    1    2      
-  Neutron    13-Al-27   11-Na-23  1325   5 Lab   0   1    1    2      
-  Neutron    13-Al-27   11-Na-24  1325   5 Lab   0   1    1    2      
-  Neutron    13-Al-27   11-Na-25  1325   5 Lab   0   1    1    2      
-  Neutron    13-Al-27   12-Mg-23  1325   5 Lab   0   1    1    2      
-  Neutron    13-Al-27   12-Mg-24  1325   5 Lab   0   1    1    2      
-  Neutron    13-Al-27   12-Mg-25  1325   5 Lab   0   1    1    2      
-  Neutron    13-Al-27   12-Mg-26  1325   5 Lab   0   1    1    2      
-  Neutron    13-Al-27   13-Al-24  1325   5 Lab   0   1    1    2      
-  Neutron    13-Al-27   13-Al-25  1325   5 Lab   0   1    1    2      
-  Neutron    13-Al-27   13-Al-26  1325   5 Lab   0   1    1    2      
-  Neutron    13-Al-27   Photon    1325   5 Lab   0   1    1    1  Yes 
+ ------------------------------------------------------------------------------
+ Projectile=      0 Emitted=   2004 Cannot Define Kalbach-Mann
+ Parameters for this Combination - Will use Neutron Parameters
+ ------------------------------------------------------------------------------
+  Photon     13-Al-27    4-Be-8   1325   5 Lab   0   1    1    2      
+  Photon     13-Al-27    6-C -12  1325   5 Lab   0   1    1    2      
+  Photon     13-Al-27    6-C -13  1325   5 Lab   0   1    1    2      
+  Photon     13-Al-27    7-N -13  1325   5 Lab   0   1    1    2      
+  Photon     13-Al-27    7-N -14  1325   5 Lab   0   1    1    2      
+  Photon     13-Al-27    7-N -15  1325   5 Lab   0   1    1    2      
+  Photon     13-Al-27    7-N -16  1325   5 Lab   0   1    1    2      
+  Photon     13-Al-27    8-O -15  1325   5 Lab   0   1    1    2      
+  Photon     13-Al-27    8-O -16  1325   5 Lab   0   1    1    2      
+  Photon     13-Al-27    8-O -17  1325   5 Lab   0   1    1    2      
+  Photon     13-Al-27    8-O -18  1325   5 Lab   0   1    1    2      
+  Photon     13-Al-27    9-F -17  1325   5 Lab   0   1    1    2      
+  Photon     13-Al-27    9-F -18  1325   5 Lab   0   1    1    2      
+  Photon     13-Al-27    9-F -19  1325   5 Lab   0   1    1    2      
+  Photon     13-Al-27    9-F -20  1325   5 Lab   0   1    1    2      
+  Photon     13-Al-27    9-F -21  1325   5 Lab   0   1    1    2      
+  Photon     13-Al-27    9-F -22  1325   5 Lab   0   1    1    2      
+  Photon     13-Al-27   10-Ne-19  1325   5 Lab   0   1    1    2      
+  Photon     13-Al-27   10-Ne-20  1325   5 Lab   0   1    1    2      
+  Photon     13-Al-27   10-Ne-21  1325   5 Lab   0   1    1    2      
+  Photon     13-Al-27   10-Ne-22  1325   5 Lab   0   1    1    2      
+  Photon     13-Al-27   10-Ne-23  1325   5 Lab   0   1    1    2      
+  Photon     13-Al-27   11-Na-21  1325   5 Lab   0   1    1    2      
+  Photon     13-Al-27   11-Na-22  1325   5 Lab   0   1    1    2      
+  Photon     13-Al-27   11-Na-23  1325   5 Lab   0   1    1    2      
+  Photon     13-Al-27   11-Na-24  1325   5 Lab   0   1    1    2      
+  Photon     13-Al-27   11-Na-25  1325   5 Lab   0   1    1    2      
+  Photon     13-Al-27   12-Mg-23  1325   5 Lab   0   1    1    2      
+  Photon     13-Al-27   12-Mg-24  1325   5 Lab   0   1    1    2      
+  Photon     13-Al-27   12-Mg-25  1325   5 Lab   0   1    1    2      
+  Photon     13-Al-27   12-Mg-26  1325   5 Lab   0   1    1    2      
+  Photon     13-Al-27   13-Al-24  1325   5 Lab   0   1    1    2      
+  Photon     13-Al-27   13-Al-25  1325   5 Lab   0   1    1    2      
+  Photon     13-Al-27   13-Al-26  1325   5 Lab   0   1    1    2      
+  Photon     13-Al-27   Photon    1325   5 Lab   0   1    1    1      
  ------------------------------------------------------------------------------
  All Cross Sections Read. Maximum Tabulated Energy =  200000000. eV
  ------------------------------------------------------------------------------
@@ -110,8 +130,8 @@
  ------------------------------------------------------------------------------
  (0) Unknown................     0     0     0     0     0     0     0     0
  (1) Continuum Energy-Angle
-      Legendre..............     0    35     0     0     0     0     0     0
-      Kalbach-Mann..........     0     6     0     0     0     0     0     0
+      Legendre..............    35     0     0     0     0     0     0     0
+      Kalbach-Mann..........     6     0     0     0     0     0     0     0
       Tabulated.............     0     0     0     0     0     0     0     0
  (2) Discrete 2 Body
       Legendre..............     0     0     0     0     0     0     0     0
@@ -175,8 +195,8 @@
  ------------------------------------------------------------------------------
  (0) Unknown................     0     0       0     0
  (1) Continuum Energy-Angle
-      Legendre..............     1     0       0     0
-      Kalbach-Mann..........     0     1       0     0
+      Legendre..............     0     0       0     0
+      Kalbach-Mann..........     0     0       0     0
       Tabulated.............     0     0       0     0
  (2) Discrete 2 Body
       Legendre..............     0     0       0     0
@@ -192,5 +212,5 @@
  ==============================================================================
  End of Run
  ===============================================================================
- SIXPAK   Total Execution Time                0.29 Seconds
+ SIXPAK   Total Execution Time                0.25 Seconds
  ===============================================================================

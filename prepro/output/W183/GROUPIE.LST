@@ -76,11 +76,11 @@
  WARNING - NO Unresolved Self-Shielding
  ------------------------------------------------------------------------------
  ------------------------------------------------------------------------------
- 74-W -183 7434  3  6 0.0              0       0       0       0     443
+ 74-W -183 7434  3  6 0.0              0       0       0       0     446
  WARNING...Total Cross Section is Not Given for Above Material.
  Self-Shielding and Multiband Calculation Skipped (i.e. Impossible)
  ------------------------------------------------------------------------------
- 74-W -183 7434 10  6 0.0              0       0       0       0     693
+ 74-W -183 7434 10  6 0.0              0       0       0       0     714
  ------------------------------------------------------------------------------
  All Cross Sections Read. Maximum Tabulated Energy =  200000000. eV
  ------------------------------------------------------------------------------
@@ -88,7 +88,7 @@
  All Cross Sections Read. Maximum Tabulated Energy =  200000000. eV
  ------------------------------------------------------------------------------
  ------------------------------------------------------------------------------
-                         Totals        0       0       0       0    1136
+                         Totals        0       0       0       0    1160
  ------------------------------------------------------------------------------
  Other Points = Points Other Than Total, Elastic, Capture or Fission.
  This Will Always be Zero Unless Unshielded Output is Requested.

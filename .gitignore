@@ -22,6 +22,17 @@
 *converted-to.pdf
 tape*
 
+# Emacs
+\#*#
+
+# tempdir
+/pendf/eps/
+/pendf/eps-log/
+/pendf/mf3mt3/
+/pendf/mf3mt5/
+/pendf/mf6mt5/
+/processing/inout-ace/
+
 # Automatically generated eps and convert outputs
 *-eps-converted-to.pdf
 

@@ -76,11 +76,11 @@
  WARNING - NO Unresolved Self-Shielding
  ------------------------------------------------------------------------------
  ------------------------------------------------------------------------------
- 40-Zr-90  4025  3  6 0.0              0       0       0       0     464
+ 40-Zr-90  4025  3  6 0.0              0       0       0       0     467
  WARNING...Total Cross Section is Not Given for Above Material.
  Self-Shielding and Multiband Calculation Skipped (i.e. Impossible)
  ------------------------------------------------------------------------------
- 40-Zr-90  4025 10  6 0.0              0       0       0       0    5742
+ 40-Zr-90  4025 10  6 0.0              0       0       0       0    5916
  ------------------------------------------------------------------------------
  All Cross Sections Read. Maximum Tabulated Energy =  200000000. eV
  ------------------------------------------------------------------------------
@@ -88,7 +88,7 @@
  All Cross Sections Read. Maximum Tabulated Energy =  200000000. eV
  ------------------------------------------------------------------------------
  ------------------------------------------------------------------------------
-                         Totals        0       0       0       0    6206
+                         Totals        0       0       0       0    6383
  ------------------------------------------------------------------------------
  Other Points = Points Other Than Total, Elastic, Capture or Fission.
  This Will Always be Zero Unless Unshielded Output is Requested.

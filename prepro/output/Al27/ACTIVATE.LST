@@ -12,59 +12,419 @@
    Material  MAT  MF  MT  ENDF    ZAP Final      Q-Value Points Points
                           Format      State           eV     In    Out
  ------------------------------------------------------------------------------
-  13-Al-27  1325  10   5   6        1     0   0.0            99     99
-  13-Al-27  1325  10   5   6     1001     0   0.0            99     99
-  13-Al-27  1325  10   5   6     1002     0   0.0            99     99
-  13-Al-27  1325  10   5   6     1003     0   0.0            99     99
-  13-Al-27  1325  10   5   6     2003     0   0.0            99     99
-  13-Al-27  1325  10   5   6     2004     0   0.0            99     99
-  13-Al-27  1325  10   5   6     4008     0   0.0            99     99
-  13-Al-27  1325  10   5   6     6012     0   0.0            99     99
-  13-Al-27  1325  10   5   6     6013     0   0.0            99     99
-  13-Al-27  1325  10   5   6     7013     0   0.0            99     99
-  13-Al-27  1325  10   5   6     7014     0   0.0            99     99
-  13-Al-27  1325  10   5   6     7015     0   0.0            99     99
-  13-Al-27  1325  10   5   6     7016     0   0.0            99     99
-  13-Al-27  1325  10   5   6     8015     0   0.0            99     99
-  13-Al-27  1325  10   5   6     8016     0   0.0            99     99
-  13-Al-27  1325  10   5   6     8017     0   0.0            99     99
-  13-Al-27  1325  10   5   6     8018     0   0.0            99     99
-  13-Al-27  1325  10   5   6     9017     0   0.0            99     99
-  13-Al-27  1325  10   5   6     9018     0   0.0            99     99
-  13-Al-27  1325  10   5   6     9019     0   0.0            99     99
-  13-Al-27  1325  10   5   6     9020     0   0.0            99     99
-  13-Al-27  1325  10   5   6     9021     0   0.0            99     99
-  13-Al-27  1325  10   5   6     9022     0   0.0            99     99
-  13-Al-27  1325  10   5   6    10019     0   0.0            99     99
-  13-Al-27  1325  10   5   6    10020     0   0.0            99     99
-  13-Al-27  1325  10   5   6    10021     0   0.0            99     99
-  13-Al-27  1325  10   5   6    10022     0   0.0            99     99
-  13-Al-27  1325  10   5   6    10023     0   0.0            99     99
-  13-Al-27  1325  10   5   6    11021     0   0.0            99     99
-  13-Al-27  1325  10   5   6    11022     0   0.0            99     99
-  13-Al-27  1325  10   5   6    11023     0   0.0            99     99
-  13-Al-27  1325  10   5   6    11024     0   0.0            99     99
-  13-Al-27  1325  10   5   6    11025     0   0.0            99     99
-  13-Al-27  1325  10   5   6    12023     0   0.0            99     99
-  13-Al-27  1325  10   5   6    12024     0   0.0            99     99
-  13-Al-27  1325  10   5   6    12025     0   0.0            99     99
-  13-Al-27  1325  10   5   6    12026     0   0.0            99     99
-  13-Al-27  1325  10   5   6    13024     0   0.0            99     99
-  13-Al-27  1325  10   5   6    13025     0   0.0            99     99
-  13-Al-27  1325  10   5   6    13026     0   0.0            99     99
-  13-Al-27  1325  10   5   6        0     0   0.0            99     99
+ WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.00000D-05
+ WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 2.53000D-02
+ WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.99900D+06
+  13-Al-27  1325  10   5   6        1     0   0.0           102    102
+ WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.00000D-05
+ WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 2.53000D-02
+ WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.99900D+06
+  13-Al-27  1325  10   5   6     1001     0   0.0           102    102
+ WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.00000D-05
+ WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 2.53000D-02
+ WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.99900D+06
+  13-Al-27  1325  10   5   6     1002     0   0.0           102    102
+ WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.00000D-05
+ WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 2.53000D-02
+ WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.99900D+06
+  13-Al-27  1325  10   5   6     1003     0   0.0           102    102
+ WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.00000D-05
+ WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 2.53000D-02
+ WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.99900D+06
+  13-Al-27  1325  10   5   6     2003     0   0.0           102    102
+ WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.00000D-05
+ WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 2.53000D-02
+ WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.99900D+06
+  13-Al-27  1325  10   5   6     2004     0   0.0           102    102
+ WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.00000D-05
+ WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 2.53000D-02
+ WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.99900D+06
+  13-Al-27  1325  10   5   6     4008     0   0.0           102    102
+ WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.00000D-05
+ WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 2.53000D-02
+ WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.99900D+06
+  13-Al-27  1325  10   5   6     6012     0   0.0           102    102
+ WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.00000D-05
+ WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 2.53000D-02
+ WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.99900D+06
+  13-Al-27  1325  10   5   6     6013     0   0.0           102    102
+ WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.00000D-05
+ WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 2.53000D-02
+ WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.99900D+06
+  13-Al-27  1325  10   5   6     7013     0   0.0           102    102
+ WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.00000D-05
+ WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 2.53000D-02
+ WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.99900D+06
+  13-Al-27  1325  10   5   6     7014     0   0.0           102    102
+ WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.00000D-05
+ WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 2.53000D-02
+ WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.99900D+06
+  13-Al-27  1325  10   5   6     7015     0   0.0           102    102
+ WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.00000D-05
+ WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 2.53000D-02
+ WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.99900D+06
+  13-Al-27  1325  10   5   6     7016     0   0.0           102    102
+ WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.00000D-05
+ WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 2.53000D-02
+ WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.99900D+06
+  13-Al-27  1325  10   5   6     8015     0   0.0           102    102
+ WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.00000D-05
+ WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 2.53000D-02
+ WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.99900D+06
+  13-Al-27  1325  10   5   6     8016     0   0.0           102    102
+ WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.00000D-05
+ WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 2.53000D-02
+ WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.99900D+06
+  13-Al-27  1325  10   5   6     8017     0   0.0           102    102
+ WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.00000D-05
+ WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 2.53000D-02
+ WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.99900D+06
+  13-Al-27  1325  10   5   6     8018     0   0.0           102    102
+ WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.00000D-05
+ WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 2.53000D-02
+ WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.99900D+06
+  13-Al-27  1325  10   5   6     9017     0   0.0           102    102
+ WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.00000D-05
+ WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 2.53000D-02
+ WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.99900D+06
+  13-Al-27  1325  10   5   6     9018     0   0.0           102    102
+ WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.00000D-05
+ WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 2.53000D-02
+ WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.99900D+06
+  13-Al-27  1325  10   5   6     9019     0   0.0           102    102
+ WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.00000D-05
+ WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 2.53000D-02
+ WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.99900D+06
+  13-Al-27  1325  10   5   6     9020     0   0.0           102    102
+ WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.00000D-05
+ WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 2.53000D-02
+ WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.99900D+06
+  13-Al-27  1325  10   5   6     9021     0   0.0           102    102
+ WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.00000D-05
+ WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 2.53000D-02
+ WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.99900D+06
+  13-Al-27  1325  10   5   6     9022     0   0.0           102    102
+ WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.00000D-05
+ WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 2.53000D-02
+ WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.99900D+06
+  13-Al-27  1325  10   5   6    10019     0   0.0           102    102
+ WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.00000D-05
+ WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 2.53000D-02
+ WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.99900D+06
+  13-Al-27  1325  10   5   6    10020     0   0.0           102    102
+ WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.00000D-05
+ WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 2.53000D-02
+ WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.99900D+06
+  13-Al-27  1325  10   5   6    10021     0   0.0           102    102
+ WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.00000D-05
+ WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 2.53000D-02
+ WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.99900D+06
+  13-Al-27  1325  10   5   6    10022     0   0.0           102    102
+ WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.00000D-05
+ WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 2.53000D-02
+ WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.99900D+06
+  13-Al-27  1325  10   5   6    10023     0   0.0           102    102
+ WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.00000D-05
+ WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 2.53000D-02
+ WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.99900D+06
+  13-Al-27  1325  10   5   6    11021     0   0.0           102    102
+ WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.00000D-05
+ WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 2.53000D-02
+ WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.99900D+06
+  13-Al-27  1325  10   5   6    11022     0   0.0           102    102
+ WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.00000D-05
+ WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 2.53000D-02
+ WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.99900D+06
+  13-Al-27  1325  10   5   6    11023     0   0.0           102    102
+ WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.00000D-05
+ WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 2.53000D-02
+ WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.99900D+06
+  13-Al-27  1325  10   5   6    11024     0   0.0           102    102
+ WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.00000D-05
+ WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 2.53000D-02
+ WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.99900D+06
+  13-Al-27  1325  10   5   6    11025     0   0.0           102    102
+ WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.00000D-05
+ WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 2.53000D-02
+ WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.99900D+06
+  13-Al-27  1325  10   5   6    12023     0   0.0           102    102
+ WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.00000D-05
+ WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 2.53000D-02
+ WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.99900D+06
+  13-Al-27  1325  10   5   6    12024     0   0.0           102    102
+ WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.00000D-05
+ WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 2.53000D-02
+ WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.99900D+06
+  13-Al-27  1325  10   5   6    12025     0   0.0           102    102
+ WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.00000D-05
+ WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 2.53000D-02
+ WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.99900D+06
+  13-Al-27  1325  10   5   6    12026     0   0.0           102    102
+ WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.00000D-05
+ WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 2.53000D-02
+ WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.99900D+06
+  13-Al-27  1325  10   5   6    13024     0   0.0           102    102
+ WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.00000D-05
+ WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 2.53000D-02
+ WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.99900D+06
+  13-Al-27  1325  10   5   6    13025     0   0.0           102    102
+ WARNING - MF3 E= 1.00000D-05 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.00000D-05
+ WARNING - MF3 E= 2.53000D-02 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 2.53000D-02
+ WARNING - MF3 E= 1.99900D+06 Not in Energy Range of
+           MF9 E= 2.00000D+06 2.00000D+08 eV Data.
+           Will Assume MF9 Data = 0 at E= 1.99900D+06
+  13-Al-27  1325  10   5   6    13026     0   0.0           102    102
+  13-Al-27  1325  10   5   6        0     0   0.0           102    102
  ------------------------------------------------------------------------------
-                                              MAT Totals   4059   4059
+                                              MAT Totals   4182   4182
  ------------------------------------------------------------------------------
  ------------------------------------------------------------------------------
  All Cross Sections Read. Maximum Tabulated Energy =  200000000. eV
  ------------------------------------------------------------------------------
  ===============================================================================
-      MAT Total Execution Time                0.43 Seconds
+      MAT Total Execution Time                0.42 Seconds
  ===============================================================================
  ------------------------------------------------------------------------------
-                                             Tape Totals   4059   4059
+                                             Tape Totals   4182   4182
  ------------------------------------------------------------------------------
  ===============================================================================
- ACTIVATE Total Execution Time                0.43 Seconds
+ ACTIVATE Total Execution Time                0.42 Seconds
  ===============================================================================

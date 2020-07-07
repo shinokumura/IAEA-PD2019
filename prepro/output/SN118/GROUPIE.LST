@@ -76,11 +76,11 @@
  WARNING - NO Unresolved Self-Shielding
  ------------------------------------------------------------------------------
  ------------------------------------------------------------------------------
- 50-Sn-118 5043  3  6 0.0              0       0       0       0     493
+ 50-Sn-118 5043  3  6 0.0              0       0       0       0     496
  WARNING...Total Cross Section is Not Given for Above Material.
  Self-Shielding and Multiband Calculation Skipped (i.e. Impossible)
  ------------------------------------------------------------------------------
- 50-Sn-118 5043 10  6 0.0              0       0       0       0    5940
+ 50-Sn-118 5043 10  6 0.0              0       0       0       0    6120
  ------------------------------------------------------------------------------
  All Cross Sections Read. Maximum Tabulated Energy =  200000000. eV
  ------------------------------------------------------------------------------
@@ -88,7 +88,7 @@
  All Cross Sections Read. Maximum Tabulated Energy =  200000000. eV
  ------------------------------------------------------------------------------
  ------------------------------------------------------------------------------
-                         Totals        0       0       0       0    6433
+                         Totals        0       0       0       0    6616
  ------------------------------------------------------------------------------
  Other Points = Points Other Than Total, Elastic, Capture or Fission.
  This Will Always be Zero Unless Unshielded Output is Requested.
