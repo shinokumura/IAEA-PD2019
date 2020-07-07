@@ -4,10 +4,6 @@
 # run BNL cheking code
 ##################
 CODEPATH=/Users/okumuras/Documents/codes/utility/utility-8.2x/
-#DATAPATH=/Users/okumuras/Documents/nucleardata/IAEA/g-iaea-pd-2019/
-#DATAPATH=/Users/okumuras/Documents/nucleardata/IAEA/update/
-#DATAPATH=../iaea-photonuclear-2019/data/jendlupdates/
-#DATAPATH=../data/empireupdate/mod/
 DATAPATH=../data/g-iaea-pd-2019/
 
 #filename=g_73-Ta-181_7328.dat
@@ -70,3 +66,5 @@ echo " Running psyche for $filename "
 ${CODEPATH}psyche < psyche.inp
 
 done
+
+rm *.inp

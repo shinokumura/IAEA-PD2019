@@ -1,7 +1,7 @@
 
 
 
-PROGRAM FIZCON VERSION 8.18                              Run on 19-Jun-2020
+PROGRAM FIZCON VERSION 8.18                              Run on 07-Jul-2020
 
 Input File Specification------------------------../data/g-iaea-pd-2019/g_8-O-16_0825.dat
 Check the Entire File
@@ -11,13 +11,6 @@ Consecutive Equal Value Check will be Omitted
 
 TAPE BEING PROCESSED IS NUMBERED    1
    LABEL IS                                                                    
-
-
- Check material             MAT  825
-
-
-  ERROR(S) FOUND IN MAT= 825, MF= 1, MT=451
-      AWI SHOULD BE SET TO  0.00000E+00
 
  No problems to report
  Done FIZCON
