@@ -8,6 +8,6 @@ do
 
     file="../data/g-iaea-pd-2019/g_"$charge"-"$elem"-"$mass"_"$mat".dat"
     echo "$file"
-    dece -s  $file > temp/"$charge"-"$elem"-"$mass".dat
+    dece -s  $file 
     
 done < ../processing/iso-mat.iaea-g19
