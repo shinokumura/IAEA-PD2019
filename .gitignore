@@ -17,8 +17,8 @@
 *.spl
 *~
 *.swp
-*.pl
-*.plt
+#*.pl
+#*.plt
 *converted-to.pdf
 tape*
 
