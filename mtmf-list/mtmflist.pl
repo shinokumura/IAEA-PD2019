@@ -5,7 +5,7 @@ use File::Basename;
 
 $j=0;
 
-=pod
+#=pod
 open(OUT, ">result.dat");
 my @files         =  glob '../data/g-iaea-pd-2019/*.dat';
 
@@ -29,7 +29,7 @@ foreach my $file (@files){
        $pattern = "pattern/" . $i . ".dat";
        if (compare($pattern,"current.dat") == 0) {
 	    $found = 1;
-	    print OUT "$elemmass   $i \n";
+	    print OUT "$elemmass   $i\n";
 	    next;
     	}
     }
@@ -41,7 +41,7 @@ foreach my $file (@files){
     }
 }
 close(OUT);
-=cut
+#=cut
 
 open (OUT,"result.dat") or die "no result.dat";
 while (<OUT>){
@@ -59,7 +59,7 @@ foreach $string (keys %hash){
     print "$string:\n";
     #print "@{$hash{$string}}\n";
     #print join ("\n", @{$hash{$string}}, "\n");
-    print join (",", @{$hash{$string}}, "\n");
+    print join (",", @{$hash{$string}},"\n");
 }
 #=cut
 
