@@ -10,11 +10,13 @@
 
 use warnings;
 use strict;
+use Sort::Key::Natural qw(natsort);
+use File::Basename;
 
 # Run DeCE command to extract cross section data from ENDF format file
 # Only for the cases that contains MF3-MT5 and MF6-MT5
 
-my $mode = 0  ;# mode: 0 All, mode: 1 plot only
+my $mode = 1  ;# mode: 0 All, mode: 1 plot only
 
 # Run DeCE code
 if ($mode == 0){
@@ -29,7 +31,7 @@ if ($mode == 0){
 	else{
 	my $comd = "dece -f3 -t5 " . $files . "> mf3mt5/" . $filename;
 	system($comd);
-	my $comd = "dece -f6 -t5 " . $files . "> mf6mt5/" . $filename;
+	$comd = "dece -f6 -t5 " . $files . "> mf6mt5/" . $filename;
 	system($comd);
 	}
     }
@@ -42,9 +44,12 @@ open (TEX, ">$tex");
 
 # Extract non LAW=0 data from MF6-MT5 and create gnuplot input file and compile it
 # Iterate for all data in mf6mt5 folder
-my @file         =  glob 'mf6mt5/*.dat';
+#my @file         = glob 'mf6mt5/*.dat';
+my @file = map basename($_), <mf6mt5/*.dat>;
+my @sorted = natsort @file;
 my $mf3;
-foreach my $files (@file){
+foreach my $files (@sorted){
+    $files = "mf6mt5/" . $files;
 # if($files =~ /0128/){
     my $nucl   =substr($files,7,-3); $nucl =~ s/_/-/g;
     my ($zap, $law, $np, $npl, $nk);
@@ -84,14 +89,16 @@ foreach my $files (@file){
 	if(/ZAP/){ $zap = substr($line,15,13); $zap = trim($zap);}
 	if(/LAW/){ $law = substr($line,15,13); $law = trim($law);}
 	if(/NP/) { $np  = substr($line,15,13); $np  = trim($np) ; $npl = $. ;
-		if($law >= 1){
+		   
+		# select $law == 1 or 0 in line 93 and 100.
+		if($law == 0){
 		    $index ++;
 		    print OUT "\n\n\n#     $index\n#     ZAP    $zap\n#     LAW    $law\n#     NP    $np\n";
 		    # Write gnuplot input for MF6 part
 		    print PLT "'$out' i $index u 1:4 ti '$zap' w l,";
 		}
 	}
-	if($line =~ /^\s[0-9]/ && $law >= 1 && $. > $npl+1 && $. < $npl+1+$np ) {print OUT "$line";}
+	if($line =~ /^\s[0-9]/ && $law == 0 && $. > $npl+1 && $. < $npl+1+$np ) {print OUT "$line";}
     }
     # Write gnuplot input with y axis in log scale
     print PLT "\n\nset output '$epsl'\n";
@@ -104,7 +111,7 @@ foreach my $files (@file){
 #    }
 }
 # Run tex compile
- my $return_value = `pdflatex main.tex`;
+my $return_value = `pdflatex main.tex`;
 # my $return_value = `open main.pdf`;
 close(MF6);
 close(OUT);
