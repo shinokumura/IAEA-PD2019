@@ -25,11 +25,14 @@ open (TEST, "zap");
 	my ($s, $p, $zap)  = split(/\s+/,$line);
 	my $elem_name  = zaptoelem($zap);
 	print "$zap, $elem_name\n";
-}
+    }
 }
 
 # Run DeCE code
 if ($mode == 0){
+    unlink glob('mf3mt3/*');
+    unlink glob('mf3mt5/*');
+    unlink glob('mf6mt5/*');
     my @file         =  glob '../data/g-iaea-pd-2019/*.dat';
     foreach my $files (@file){
 	$files =~ /([g][_].*?[t]$)/;
@@ -49,8 +52,11 @@ if ($mode == 0){
 
 #my $files = "mf6mt5/g_65-Tb-159_6525.dat";
 if ($mode >= 0){
-my $tex    = "alleps.tex";
-open (TEX, ">$tex");
+    unlink glob('eps/*');
+    unlink glob('eps-law0/*');
+    unlink glob('eps-log/*');
+    my $tex    = "alleps.tex";
+    open (TEX, ">$tex");
 
 # Extract non LAW=0 data from MF6-MT5 and create gnuplot input file and compile it
 # Iterate for all data in mf6mt5 folder
@@ -60,10 +66,11 @@ my @sorted = natsort @file;
 my $mf3;
 foreach my $files (@sorted){
     $files = "mf6mt5/" . $files;
-#if($files =~ /1325/){
+    #if($files =~ /1325/){
     my $nucl   =substr($files,7,-3); $nucl =~ s/_/-/g;
     my ($zap, $law, $np, $npl, $nk, $residual);
-    my ($index1,$index0)  = -1.0;
+    my $index1   = -1.0;
+    my $index0   = -1.0;
     my $law1    = substr($files,0,-3) . "law1";
     my $law0    = substr($files,0,-3) . "law0";
     #my $plot   = substr($files,7,-3) . "plt";
@@ -134,10 +141,10 @@ foreach my $files (@sorted){
 	if($line =~ /^\s[0-9]/ && $law == 1 && $. > $npl+1 && $. < $npl+1+$np ) {print LAW1 "$line";}
 	if($line =~ /^\s[0-9]/ && $law == 0 && $. > $npl+1 && $. < $npl+1+$np ) {print LAW0 "$line";}
     }
-
+    close(MF6);
     
     my $i;
-    if ($index1 != -1){
+    if ($index1 >= 0){
        for ($i = 0; $i <= $index1; $i++){
 	   print PLT "'$law1' i $i u (\$1\/1E+6):3 ti '$dataset1[$i]' w l dt (10,5) axes x1y2,\\\n";
        }
@@ -147,7 +154,7 @@ foreach my $files (@sorted){
     print PLT "plot '$mf3' u (\$1\/1E+6):2 ti 'MF3 MT5 (Photo-absorption)' w l lw 2 lc rgb 'red',\\\n";
     
     my $j;
-    if ($index0 != -1){
+    if ($index0 >= 0){
 	for ($j = 0; $j <= $index0; $j++){
 	    print PLT "'$law0' i $j u (\$1\/1E+6):3 ti '$dataset0[$j]' w l dt (10,5) axes x1y2,\\\n";
 	}
@@ -162,16 +169,17 @@ foreach my $files (@sorted){
     
     # Write tex file
     print TEX "\\begin{figure}\n \\includegraphics[width=\\linewidth]{$eps}\n  \\caption{$nucl}\n\\end{figure}\n";
-    print TEX "\\begin{figure}\n \\includegraphics[width=\\linewidth]{$epsl}\n \\caption{$nucl}\n\\end{figure}\n\\newpage \\clearpage\n\n";
+    print TEX "\\begin{figure}\n \\includegraphics[width=\\linewidth]{$epslaw0}\n \\caption{$nucl}\n\\end{figure}\n\\newpage \\clearpage\n\n";
+    #print TEX "\\begin{figure}\n \\includegraphics[width=\\linewidth]{$epsl}\n \\caption{$nucl}\n\\end{figure}\n\\newpage \\clearpage\n\n";
 #    }
 }
 # Run tex compile
-# my $return_value = `pdflatex main.tex`;
+my $return_value = `pdflatex main.tex`;
 # my $return_value = `open main.pdf`;
-close(MF6);
-close(OUT);
-close(PLT);
-close(TEX);
+    close(LAW1);
+    close(LAW0);
+    close(PLT);
+    close(TEX);
 }
 
 sub trim {
