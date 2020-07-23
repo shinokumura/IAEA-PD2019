@@ -1,6 +1,8 @@
 #    [  225 :  6 :   5 ]     2 -   3
 # Energy and angle distribution
 #           NK             3  number of subsections
+
+#   Subsection             0
 #          ZAP             1
 #          LIP             0  product modifier
 #          LAW             1  distribution law
@@ -53,6 +55,7 @@
 #          NEP             2  number of secondary energy points
 #           ND             0  number of discrete lines
 #           NA             1  number of angular parameters
+# Energy       PL( 0)        PL( 1)       
  0.0000000e+00 1.0000000e+05 0.0000000e+00
  1.0000000e-05 0.0000000e+00 0.0000000e+00
 
@@ -61,6 +64,7 @@
 #          NEP            35  number of secondary energy points
 #           ND             0  number of discrete lines
 #           NA             1  number of angular parameters
+# Energy       PL( 0)        PL( 1)       
  0.0000000e+00 0.0000000e+00 0.0000000e+00
  5.6400000e+03 2.1434670e-06 0.0000000e+00
  1.1280000e+04 2.9840570e-06 0.0000000e+00
@@ -102,6 +106,7 @@
 #          NEP            35  number of secondary energy points
 #           ND             0  number of discrete lines
 #           NA             1  number of angular parameters
+# Energy       PL( 0)        PL( 1)       
  0.0000000e+00 0.0000000e+00 0.0000000e+00
  2.5640000e+04 4.6482770e-07 0.0000000e+00
  5.1280000e+04 6.4712650e-07 0.0000000e+00
@@ -143,6 +148,7 @@
 #          NEP            35  number of secondary energy points
 #           ND             0  number of discrete lines
 #           NA             1  number of angular parameters
+# Energy       PL( 0)        PL( 1)       
  0.0000000e+00 0.0000000e+00 0.0000000e+00
  4.5640000e+04 2.5749630e-07 0.0000000e+00
  9.1280000e+04 3.5846880e-07 0.0000000e+00
@@ -184,6 +190,7 @@
 #          NEP            35  number of secondary energy points
 #           ND             0  number of discrete lines
 #           NA             1  number of angular parameters
+# Energy       PL( 0)        PL( 1)       
  0.0000000e+00 0.0000000e+00 0.0000000e+00
  6.5640000e+04 1.7657010e-07 0.0000000e+00
  1.3128000e+05 2.4582610e-07 0.0000000e+00
@@ -225,6 +232,7 @@
 #          NEP            35  number of secondary energy points
 #           ND             0  number of discrete lines
 #           NA             1  number of angular parameters
+# Energy       PL( 0)        PL( 1)       
  0.0000000e+00 0.0000000e+00 0.0000000e+00
  8.5640000e+04 1.3350180e-07 0.0000000e+00
  1.7128000e+05 1.8586050e-07 0.0000000e+00
@@ -266,6 +274,7 @@
 #          NEP            35  number of secondary energy points
 #           ND             0  number of discrete lines
 #           NA             1  number of angular parameters
+# Energy       PL( 0)        PL( 1)       
  0.0000000e+00 0.0000000e+00 0.0000000e+00
  1.0564000e+05 1.0678390e-07 0.0000000e+00
  2.1128000e+05 1.4865630e-07 0.0000000e+00
@@ -307,6 +316,7 @@
 #          NEP            35  number of secondary energy points
 #           ND             0  number of discrete lines
 #           NA             1  number of angular parameters
+# Energy       PL( 0)        PL( 1)       
  0.0000000e+00 0.0000000e+00 0.0000000e+00
  1.2564000e+05 8.8595670e-08 0.0000000e+00
  2.5128000e+05 1.2333900e-07 0.0000000e+00
@@ -348,6 +358,7 @@
 #          NEP            35  number of secondary energy points
 #           ND             0  number of discrete lines
 #           NA             1  number of angular parameters
+# Energy       PL( 0)        PL( 1)       
  0.0000000e+00 0.0000000e+00 0.0000000e+00
  1.4564000e+05 7.5433040e-08 0.0000000e+00
  2.9128000e+05 1.0501950e-07 0.0000000e+00
@@ -389,6 +400,7 @@
 #          NEP            35  number of secondary energy points
 #           ND             0  number of discrete lines
 #           NA             1  number of angular parameters
+# Energy       PL( 0)        PL( 1)       
  0.0000000e+00 0.0000000e+00 0.0000000e+00
  1.6564000e+05 6.5472190e-08 0.0000000e+00
  3.3128000e+05 9.1149260e-08 0.0000000e+00
@@ -430,6 +442,7 @@
 #          NEP            35  number of secondary energy points
 #           ND             0  number of discrete lines
 #           NA             1  number of angular parameters
+# Energy       PL( 0)        PL( 1)       
  0.0000000e+00 0.0000000e+00 0.0000000e+00
  1.8564000e+05 5.7676200e-08 0.0000000e+00
  3.7128000e+05 8.0295310e-08 0.0000000e+00
@@ -471,6 +484,7 @@
 #          NEP            35  number of secondary energy points
 #           ND             0  number of discrete lines
 #           NA             1  number of angular parameters
+# Energy       PL( 0)        PL( 1)       
  0.0000000e+00 0.0000000e+00 0.0000000e+00
  2.0564000e+05 5.1413690e-08 0.0000000e+00
  4.1128000e+05 7.1577500e-08 0.0000000e+00
@@ -512,6 +526,7 @@
 #          NEP            35  number of secondary energy points
 #           ND             0  number of discrete lines
 #           NA             1  number of angular parameters
+# Energy       PL( 0)        PL( 1)       
  0.0000000e+00 0.0000000e+00 0.0000000e+00
  2.2564000e+05 4.6275910e-08 0.0000000e+00
  4.5128000e+05 6.4424580e-08 0.0000000e+00
@@ -553,6 +568,7 @@
 #          NEP            35  number of secondary energy points
 #           ND             0  number of discrete lines
 #           NA             1  number of angular parameters
+# Energy       PL( 0)        PL( 1)       
  0.0000000e+00 0.0000000e+00 0.0000000e+00
  2.4564000e+05 4.1988270e-08 0.0000000e+00
  4.9128000e+05 5.8454880e-08 0.0000000e+00
@@ -594,6 +610,7 @@
 #          NEP            35  number of secondary energy points
 #           ND             0  number of discrete lines
 #           NA             1  number of angular parameters
+# Energy       PL( 0)        PL( 1)       
  0.0000000e+00 0.0000000e+00 0.0000000e+00
  2.8564000e+05 3.5245490e-08 0.0000000e+00
  5.7128000e+05 4.9068490e-08 0.0000000e+00
@@ -635,6 +652,7 @@
 #          NEP            35  number of secondary energy points
 #           ND             0  number of discrete lines
 #           NA             1  number of angular parameters
+# Energy       PL( 0)        PL( 1)       
  0.0000000e+00 0.0000000e+00 0.0000000e+00
  3.2564000e+05 3.0194970e-08 0.0000000e+00
  6.5128000e+05 4.2037520e-08 0.0000000e+00
@@ -676,6 +694,7 @@
 #          NEP            35  number of secondary energy points
 #           ND             0  number of discrete lines
 #           NA             1  number of angular parameters
+# Energy       PL( 0)        PL( 1)       
  0.0000000e+00 0.0000000e+00 0.0000000e+00
  3.6564000e+05 2.6279240e-08 0.0000000e+00
  7.3128000e+05 3.6584540e-08 0.0000000e+00
@@ -717,6 +736,7 @@
 #          NEP            35  number of secondary energy points
 #           ND             0  number of discrete lines
 #           NA             1  number of angular parameters
+# Energy       PL( 0)        PL( 1)       
  0.0000000e+00 0.0000000e+00 0.0000000e+00
  4.0564000e+05 2.3159780e-08 0.0000000e+00
  8.1128000e+05 3.2241950e-08 0.0000000e+00
@@ -758,6 +778,7 @@
 #          NEP            35  number of secondary energy points
 #           ND             0  number of discrete lines
 #           NA             1  number of angular parameters
+# Energy       PL( 0)        PL( 1)       
  0.0000000e+00 0.0000000e+00 0.0000000e+00
  4.4564000e+05 2.0620850e-08 0.0000000e+00
  8.9128000e+05 2.8708530e-08 0.0000000e+00
@@ -799,6 +820,7 @@
 #          NEP            35  number of secondary energy points
 #           ND             0  number of discrete lines
 #           NA             1  number of angular parameters
+# Energy       PL( 0)        PL( 1)       
  0.0000000e+00 0.0000000e+00 0.0000000e+00
  5.4564000e+05 1.5970990e-08 0.0000000e+00
  1.0913000e+06 2.2234530e-08 0.0000000e+00
@@ -840,6 +862,7 @@
 #          NEP            35  number of secondary energy points
 #           ND             0  number of discrete lines
 #           NA             1  number of angular parameters
+# Energy       PL( 0)        PL( 1)       
  0.0000000e+00 0.0000000e+00 0.0000000e+00
  6.4564000e+05 1.2834600e-08 0.0000000e+00
  1.2913000e+06 1.7867660e-08 0.0000000e+00
@@ -881,6 +904,7 @@
 #          NEP            35  number of secondary energy points
 #           ND             0  number of discrete lines
 #           NA             1  number of angular parameters
+# Energy       PL( 0)        PL( 1)       
  0.0000000e+00 0.0000000e+00 0.0000000e+00
  7.4564000e+05 1.0592010e-08 0.0000000e+00
  1.4913000e+06 1.4746540e-08 0.0000000e+00
@@ -922,6 +946,7 @@
 #          NEP            35  number of secondary energy points
 #           ND             0  number of discrete lines
 #           NA             1  number of angular parameters
+# Energy       PL( 0)        PL( 1)       
  0.0000000e+00 0.0000000e+00 0.0000000e+00
  8.4564000e+05 8.9217010e-09 0.0000000e+00
  1.6913000e+06 1.2420940e-08 0.0000000e+00
@@ -963,6 +988,7 @@
 #          NEP            35  number of secondary energy points
 #           ND             0  number of discrete lines
 #           NA             1  number of angular parameters
+# Energy       PL( 0)        PL( 1)       
  0.0000000e+00 0.0000000e+00 0.0000000e+00
  1.0456000e+06 6.6225860e-09 0.0000000e+00
  2.0913000e+06 9.2197610e-09 0.0000000e+00
@@ -1004,6 +1030,7 @@
 #          NEP            35  number of secondary energy points
 #           ND             0  number of discrete lines
 #           NA             1  number of angular parameters
+# Energy       PL( 0)        PL( 1)       
  0.0000000e+00 0.0000000e+00 0.0000000e+00
  1.2456000e+06 5.1372050e-09 0.0000000e+00
  2.4913000e+06 7.1518370e-09 0.0000000e+00
@@ -1045,6 +1072,7 @@
 #          NEP            35  number of secondary energy points
 #           ND             0  number of discrete lines
 #           NA             1  number of angular parameters
+# Energy       PL( 0)        PL( 1)       
  0.0000000e+00 0.0000000e+00 0.0000000e+00
  1.4456000e+06 4.1141400e-09 0.0000000e+00
  2.8913000e+06 5.7276320e-09 0.0000000e+00
@@ -1086,6 +1114,7 @@
 #          NEP            35  number of secondary energy points
 #           ND             0  number of discrete lines
 #           NA             1  number of angular parameters
+# Energy       PL( 0)        PL( 1)       
  0.0000000e+00 0.0000000e+00 0.0000000e+00
  1.6456000e+06 3.3759740e-09 0.0000000e+00
  3.2913000e+06 4.6998770e-09 0.0000000e+00
@@ -1127,6 +1156,7 @@
 #          NEP            35  number of secondary energy points
 #           ND             0  number of discrete lines
 #           NA             1  number of angular parameters
+# Energy       PL( 0)        PL( 1)       
  0.0000000e+00 0.0000000e+00 0.0000000e+00
  1.8456000e+06 2.8240180e-09 0.0000000e+00
  3.6913000e+06 3.9315230e-09 0.0000000e+00
@@ -1168,6 +1198,7 @@
 #          NEP            35  number of secondary energy points
 #           ND             0  number of discrete lines
 #           NA             1  number of angular parameters
+# Energy       PL( 0)        PL( 1)       
  0.0000000e+00 0.0000000e+00 0.0000000e+00
  2.0456000e+06 2.3995000e-09 0.0000000e+00
  4.0913000e+06 3.3405860e-09 0.0000000e+00
@@ -1209,6 +1240,7 @@
 #          NEP            35  number of secondary energy points
 #           ND             0  number of discrete lines
 #           NA             1  number of angular parameters
+# Energy       PL( 0)        PL( 1)       
  0.0000000e+00 0.0000000e+00 0.0000000e+00
  2.2456000e+06 2.0654920e-09 0.0000000e+00
  4.4913000e+06 2.8756060e-09 0.0000000e+00
@@ -1250,6 +1282,7 @@
 #          NEP            35  number of secondary energy points
 #           ND             0  number of discrete lines
 #           NA             1  number of angular parameters
+# Energy       PL( 0)        PL( 1)       
  0.0000000e+00 0.0000000e+00 0.0000000e+00
  2.4456000e+06 1.7977390e-09 0.0000000e+00
  4.8913000e+06 2.5026860e-09 0.0000000e+00
@@ -1291,6 +1324,7 @@
 #          NEP            35  number of secondary energy points
 #           ND             0  number of discrete lines
 #           NA             1  number of angular parameters
+# Energy       PL( 0)        PL( 1)       
  0.0000000e+00 0.0000000e+00 0.0000000e+00
  2.6456000e+06 1.5793880e-09 0.0000000e+00
  5.2913000e+06 2.1987890e-09 0.0000000e+00
@@ -1329,6 +1363,7 @@
 
 
 
+#   Subsection             1
 #          ZAP          1001
 #          LIP             0  product modifier
 #          LAW             1  distribution law
@@ -1386,6 +1421,7 @@
 #          NEP             2  number of secondary energy points
 #           ND             0  number of discrete lines
 #           NA             1  number of angular parameters
+# Energy       PL( 0)        PL( 1)       
  0.0000000e+00 1.0000000e-03 0.0000000e+00
  1.0000000e+03 0.0000000e+00 0.0000000e+00
 
@@ -1394,6 +1430,7 @@
 #          NEP            35  number of secondary energy points
 #           ND             0  number of discrete lines
 #           NA             1  number of angular parameters
+# Energy       PL( 0)        PL( 1)       
  0.0000000e+00 0.0000000e+00 0.0000000e+00
  5.0130000e+04 2.6035970e-07 0.0000000e+00
  1.0026000e+05 3.6245900e-07 0.0000000e+00
@@ -1435,6 +1472,7 @@
 #          NEP            35  number of secondary energy points
 #           ND             0  number of discrete lines
 #           NA             1  number of angular parameters
+# Energy       PL( 0)        PL( 1)       
  0.0000000e+00 0.0000000e+00 0.0000000e+00
  7.0130000e+04 1.8610740e-07 0.0000000e+00
  1.4026000e+05 2.5909780e-07 0.0000000e+00
@@ -1476,6 +1514,7 @@
 #          NEP            35  number of secondary energy points
 #           ND             0  number of discrete lines
 #           NA             1  number of angular parameters
+# Energy       PL( 0)        PL( 1)       
  0.0000000e+00 0.0000000e+00 0.0000000e+00
  9.0130000e+04 1.4480850e-07 0.0000000e+00
  1.8026000e+05 2.0160530e-07 0.0000000e+00
@@ -1517,6 +1556,7 @@
 #          NEP            35  number of secondary energy points
 #           ND             0  number of discrete lines
 #           NA             1  number of angular parameters
+# Energy       PL( 0)        PL( 1)       
  0.0000000e+00 0.0000000e+00 0.0000000e+00
  1.1013000e+05 1.1851170e-07 0.0000000e+00
  2.2026000e+05 1.6498640e-07 0.0000000e+00
@@ -1558,6 +1598,7 @@
 #          NEP            35  number of secondary energy points
 #           ND             0  number of discrete lines
 #           NA             1  number of angular parameters
+# Energy       PL( 0)        PL( 1)       
  0.0000000e+00 0.0000000e+00 0.0000000e+00
  1.3013000e+05 1.0030090e-07 0.0000000e+00
  2.6026000e+05 1.3963240e-07 0.0000000e+00
@@ -1599,6 +1640,7 @@
 #          NEP            35  number of secondary energy points
 #           ND             0  number of discrete lines
 #           NA             1  number of angular parameters
+# Energy       PL( 0)        PL( 1)       
  0.0000000e+00 0.0000000e+00 0.0000000e+00
  1.5013000e+05 8.6936070e-08 0.0000000e+00
  3.0026000e+05 1.2103510e-07 0.0000000e+00
@@ -1640,6 +1682,7 @@
 #          NEP            35  number of secondary energy points
 #           ND             0  number of discrete lines
 #           NA             1  number of angular parameters
+# Energy       PL( 0)        PL( 1)       
  0.0000000e+00 0.0000000e+00 0.0000000e+00
  1.7013000e+05 7.6716200e-08 0.0000000e+00
  3.4026000e+05 1.0679860e-07 0.0000000e+00
@@ -1681,6 +1724,7 @@
 #          NEP            35  number of secondary energy points
 #           ND             0  number of discrete lines
 #           NA             1  number of angular parameters
+# Energy       PL( 0)        PL( 1)       
  0.0000000e+00 0.0000000e+00 0.0000000e+00
  1.9013000e+05 6.8646030e-08 0.0000000e+00
  3.8026000e+05 9.5568160e-08 0.0000000e+00
@@ -1722,6 +1766,7 @@
 #          NEP            35  number of secondary energy points
 #           ND             0  number of discrete lines
 #           NA             1  number of angular parameters
+# Energy       PL( 0)        PL( 1)       
  0.0000000e+00 0.0000000e+00 0.0000000e+00
  2.1013000e+05 6.2112880e-08 0.0000000e+00
  4.2026000e+05 8.6471820e-08 0.0000000e+00
@@ -1763,6 +1808,7 @@
 #          NEP            35  number of secondary energy points
 #           ND             0  number of discrete lines
 #           NA             1  number of angular parameters
+# Energy       PL( 0)        PL( 1)       
  0.0000000e+00 0.0000000e+00 0.0000000e+00
  2.3013000e+05 5.6714350e-08 0.0000000e+00
  4.6026000e+05 7.8956210e-08 0.0000000e+00
@@ -1804,6 +1850,7 @@
 #          NEP            35  number of secondary energy points
 #           ND             0  number of discrete lines
 #           NA             1  number of angular parameters
+# Energy       PL( 0)        PL( 1)       
  0.0000000e+00 0.0000000e+00 0.0000000e+00
  2.5013000e+05 5.2180190e-08 0.0000000e+00
  5.0026000e+05 7.2643740e-08 0.0000000e+00
@@ -1845,6 +1892,7 @@
 #          NEP            35  number of secondary energy points
 #           ND             0  number of discrete lines
 #           NA             1  number of angular parameters
+# Energy       PL( 0)        PL( 1)       
  0.0000000e+00 0.0000000e+00 0.0000000e+00
  2.7013000e+05 4.8316720e-08 0.0000000e+00
  5.4026000e+05 6.7265290e-08 0.0000000e+00
@@ -1886,6 +1934,7 @@
 #          NEP            35  number of secondary energy points
 #           ND             0  number of discrete lines
 #           NA             1  number of angular parameters
+# Energy       PL( 0)        PL( 1)       
  0.0000000e+00 0.0000000e+00 0.0000000e+00
  2.9013000e+05 4.4985280e-08 0.0000000e+00
  5.8026000e+05 6.2628300e-08 0.0000000e+00
@@ -1927,6 +1976,7 @@
 #          NEP            35  number of secondary energy points
 #           ND             0  number of discrete lines
 #           NA             1  number of angular parameters
+# Energy       PL( 0)        PL( 1)       
  0.0000000e+00 0.0000000e+00 0.0000000e+00
  3.3013000e+05 3.9536050e-08 0.0000000e+00
  6.6026000e+05 5.5040490e-08 0.0000000e+00
@@ -1968,6 +2018,7 @@
 #          NEP            35  number of secondary energy points
 #           ND             0  number of discrete lines
 #           NA             1  number of angular parameters
+# Energy       PL( 0)        PL( 1)       
  0.0000000e+00 0.0000000e+00 0.0000000e+00
  3.7013000e+05 3.5262930e-08 0.0000000e+00
  7.4026000e+05 4.9092310e-08 0.0000000e+00
@@ -2009,6 +2060,7 @@
 #          NEP            35  number of secondary energy points
 #           ND             0  number of discrete lines
 #           NA             1  number of angular parameters
+# Energy       PL( 0)        PL( 1)       
  0.0000000e+00 0.0000000e+00 0.0000000e+00
  4.1013000e+05 3.1824320e-08 0.0000000e+00
  8.2026000e+05 4.4304480e-08 0.0000000e+00
@@ -2050,6 +2102,7 @@
 #          NEP            35  number of secondary energy points
 #           ND             0  number of discrete lines
 #           NA             1  number of angular parameters
+# Energy       PL( 0)        PL( 1)       
  0.0000000e+00 0.0000000e+00 0.0000000e+00
  4.5013000e+05 2.8995840e-08 0.0000000e+00
  9.0026000e+05 4.0367270e-08 0.0000000e+00
@@ -2091,6 +2144,7 @@
 #          NEP            35  number of secondary energy points
 #           ND             0  number of discrete lines
 #           NA             1  number of angular parameters
+# Energy       PL( 0)        PL( 1)       
  0.0000000e+00 0.0000000e+00 0.0000000e+00
  4.9013000e+05 2.6629320e-08 0.0000000e+00
  9.8026000e+05 3.7072820e-08 0.0000000e+00
@@ -2132,6 +2186,7 @@
 #          NEP            35  number of secondary energy points
 #           ND             0  number of discrete lines
 #           NA             1  number of angular parameters
+# Energy       PL( 0)        PL( 1)       
  0.0000000e+00 0.0000000e+00 0.0000000e+00
  5.9013000e+05 2.2116910e-08 0.0000000e+00
  1.1803000e+06 3.0791010e-08 0.0000000e+00
@@ -2173,6 +2228,7 @@
 #          NEP            35  number of secondary energy points
 #           ND             0  number of discrete lines
 #           NA             1  number of angular parameters
+# Energy       PL( 0)        PL( 1)       
  0.0000000e+00 0.0000000e+00 0.0000000e+00
  6.9013000e+05 1.8911900e-08 0.0000000e+00
  1.3803000e+06 2.6329230e-08 0.0000000e+00
@@ -2214,6 +2270,7 @@
 #          NEP            35  number of secondary energy points
 #           ND             0  number of discrete lines
 #           NA             1  number of angular parameters
+# Energy       PL( 0)        PL( 1)       
  0.0000000e+00 0.0000000e+00 0.0000000e+00
  7.9013000e+05 1.6518610e-08 0.0000000e+00
  1.5803000e+06 2.2997100e-08 0.0000000e+00
@@ -2255,6 +2312,7 @@
 #          NEP            35  number of secondary energy points
 #           ND             0  number of discrete lines
 #           NA             1  number of angular parameters
+# Energy       PL( 0)        PL( 1)       
  0.0000000e+00 0.0000000e+00 0.0000000e+00
  8.9013000e+05 1.4662760e-08 0.0000000e+00
  1.7803000e+06 2.0413020e-08 0.0000000e+00
@@ -2296,6 +2354,7 @@
 #          NEP            35  number of secondary energy points
 #           ND             0  number of discrete lines
 #           NA             1  number of angular parameters
+# Energy       PL( 0)        PL( 1)       
  0.0000000e+00 0.0000000e+00 0.0000000e+00
  1.0901000e+06 1.1972370e-08 0.0000000e+00
  2.1803000e+06 1.6668520e-08 0.0000000e+00
@@ -2337,6 +2396,7 @@
 #          NEP            35  number of secondary energy points
 #           ND             0  number of discrete lines
 #           NA             1  number of angular parameters
+# Energy       PL( 0)        PL( 1)       
  0.0000000e+00 0.0000000e+00 0.0000000e+00
  1.2901000e+06 1.0116600e-08 0.0000000e+00
  2.5803000e+06 1.4084560e-08 0.0000000e+00
@@ -2378,6 +2438,7 @@
 #          NEP            35  number of secondary energy points
 #           ND             0  number of discrete lines
 #           NA             1  number of angular parameters
+# Energy       PL( 0)        PL( 1)       
  0.0000000e+00 0.0000000e+00 0.0000000e+00
  1.4901000e+06 8.7587630e-09 0.0000000e+00
  2.9803000e+06 1.2193900e-08 0.0000000e+00
@@ -2419,6 +2480,7 @@
 #          NEP            35  number of secondary energy points
 #           ND             0  number of discrete lines
 #           NA             1  number of angular parameters
+# Energy       PL( 0)        PL( 1)       
  0.0000000e+00 0.0000000e+00 0.0000000e+00
  1.6901000e+06 7.7223940e-09 0.0000000e+00
  3.3803000e+06 1.0750410e-08 0.0000000e+00
@@ -2460,6 +2522,7 @@
 #          NEP            35  number of secondary energy points
 #           ND             0  number of discrete lines
 #           NA             1  number of angular parameters
+# Energy       PL( 0)        PL( 1)       
  0.0000000e+00 0.0000000e+00 0.0000000e+00
  1.8901000e+06 6.9052700e-09 0.0000000e+00
  3.7803000e+06 9.6132930e-09 0.0000000e+00
@@ -2501,6 +2564,7 @@
 #          NEP            35  number of secondary energy points
 #           ND             0  number of discrete lines
 #           NA             1  number of angular parameters
+# Energy       PL( 0)        PL( 1)       
  0.0000000e+00 0.0000000e+00 0.0000000e+00
  2.0901000e+06 6.2444740e-09 0.0000000e+00
  4.1803000e+06 8.6933850e-09 0.0000000e+00
@@ -2542,6 +2606,7 @@
 #          NEP            35  number of secondary energy points
 #           ND             0  number of discrete lines
 #           NA             1  number of angular parameters
+# Energy       PL( 0)        PL( 1)       
  0.0000000e+00 0.0000000e+00 0.0000000e+00
  2.2901000e+06 5.6991770e-09 0.0000000e+00
  4.5803000e+06 7.9342010e-09 0.0000000e+00
@@ -2583,6 +2648,7 @@
 #          NEP            35  number of secondary energy points
 #           ND             0  number of discrete lines
 #           NA             1  number of angular parameters
+# Energy       PL( 0)        PL( 1)       
  0.0000000e+00 0.0000000e+00 0.0000000e+00
  2.4901000e+06 5.2413790e-09 0.0000000e+00
  4.9803000e+06 7.2969800e-09 0.0000000e+00
@@ -2624,6 +2690,7 @@
 #          NEP            35  number of secondary energy points
 #           ND             0  number of discrete lines
 #           NA             1  number of angular parameters
+# Energy       PL( 0)        PL( 1)       
  0.0000000e+00 0.0000000e+00 0.0000000e+00
  2.6901000e+06 4.8517680e-09 0.0000000e+00
  5.3803000e+06 6.7544840e-09 0.0000000e+00
@@ -2662,6 +2729,7 @@
 
 
 
+#   Subsection             2
 #          ZAP          1002
 #          LIP             0  product modifier
 #          LAW             2  distribution law

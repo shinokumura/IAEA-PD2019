@@ -16,7 +16,7 @@ use File::Basename;
 # Run DeCE command to extract cross section data from ENDF format file
 # Only for the cases that contains MF3-MT5 and MF6-MT5
 
-my $mode = 1  ;# mode: 0 All, mode: 1 plot only, mode: -1 debug
+my $mode = 0  ;# mode: 0 All, mode: 1 plot only, mode: -1 debug
 
 if ($mode == -1){
 open (TEST, "zap");
@@ -66,7 +66,7 @@ my @sorted = natsort @file;
 my $mf3;
 foreach my $files (@sorted){
     $files = "mf6mt5/" . $files;
-    #if($files =~ /1325/){
+#    if($files =~ /0128/){
     my $nucl   =substr($files,7,-3); $nucl =~ s/_/-/g;
     my ($zap, $law, $np, $npl, $nk, $residual);
     my $index1   = -1.0;
@@ -99,7 +99,7 @@ foreach my $files (@sorted){
     print PLT "set xrange [9E-1:]\nset format x '10^{%L}'\nset xtics 10\nset log x\n";
 #    print PLT "set key top left reverse spacing 0.8\n";
     print PLT "set xlabel 'Incident photon energy [MeV]'\nset ylabel 'Cross section [b]'\n";
-    print PLT "set y2label 'Residual multiplicity'\nset ytics nomirror\nset y2tics 1\n";
+    print PLT "set y2label 'Residual multiplicity (LAW=1)'\nset ytics nomirror\nset y2tics 1\n";
     if ($nucl =~ /0128|0425|0625|0725|0825/){
          print PLT "plot '$mf3' u (\$1\/1E+6):2 ti 'MF3 MT3' w l lw 2 lc rgb 'red',";
     }
@@ -149,12 +149,13 @@ foreach my $files (@sorted){
 	   print PLT "'$law1' i $i u (\$1\/1E+6):3 ti '$dataset1[$i]' w l dt (10,5) axes x1y2,\\\n";
        }
     }
-
-    print PLT "\n\nset output '$epslaw0'\n";
-    print PLT "plot '$mf3' u (\$1\/1E+6):2 ti 'MF3 MT5 (Photo-absorption)' w l lw 2 lc rgb 'red',\\\n";
     
     my $j;
     if ($index0 >= 0){
+	print PLT "\n\nset output '$epslaw0'\n";
+	print PLT "set y2label 'Residual multiplicity (LAW=0)'\n";
+	print PLT "plot '$mf3' u (\$1\/1E+6):2 ti 'MF3 MT5 (Photo-absorption)' w l lw 2 lc rgb 'red',\\\n";
+	
 	for ($j = 0; $j <= $index0; $j++){
 	    print PLT "'$law0' i $j u (\$1\/1E+6):3 ti '$dataset0[$j]' w l dt (10,5) axes x1y2,\\\n";
 	}
@@ -169,19 +170,24 @@ foreach my $files (@sorted){
     
     # Write tex file
     print TEX "\\begin{figure}\n \\includegraphics[width=\\linewidth]{$eps}\n  \\caption{$nucl}\n\\end{figure}\n";
-    print TEX "\\begin{figure}\n \\includegraphics[width=\\linewidth]{$epslaw0}\n \\caption{$nucl}\n\\end{figure}\n\\newpage \\clearpage\n\n";
+    if ($index0 == -1){
+	print PLT "\n\n\n\\newpage";
+    }
+    if ($index0 >= 0){
+	print TEX "\\begin{figure}\n \\includegraphics[width=\\linewidth]{$epslaw0}\n \\caption{$nucl}\n\\end{figure}\n\\newpage \\clearpage\n\n";
+    }
     #print TEX "\\begin{figure}\n \\includegraphics[width=\\linewidth]{$epsl}\n \\caption{$nucl}\n\\end{figure}\n\\newpage \\clearpage\n\n";
 #    }
 }
 # Run tex compile
-my $return_value = `pdflatex main.tex`;
+#my $return_value = `pdflatex main.tex`;
 # my $return_value = `open main.pdf`;
     close(LAW1);
     close(LAW0);
     close(PLT);
     close(TEX);
+#}
 }
-
 sub trim {
 	my $val = shift;
 	$val =~ s/^ *(.*?) *$/$1/;

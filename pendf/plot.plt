@@ -6,7 +6,7 @@ set xtics 10
 set log x
 set xlabel 'Incident photon energy [MeV]'
 set ylabel 'Cross section [b]'
-set y2label 'Residual multiplicity'
+set y2label 'Residual multiplicity (LAW=1)'
 set ytics nomirror
 set y2tics 1
 plot 'mf3mt5/g_94-Pu-241_9443.dat' u ($1/1E+6):2 ti 'MF3 MT5 (Photo-absorption)' w l lw 2 lc rgb 'red',\
@@ -20,6 +20,7 @@ plot 'mf3mt5/g_94-Pu-241_9443.dat' u ($1/1E+6):2 ti 'MF3 MT5 (Photo-absorption)'
 
 
 set output 'eps-law0/g_94-Pu-241_9443.eps'
+set y2label 'Residual multiplicity (LAW=0)'
 plot 'mf3mt5/g_94-Pu-241_9443.dat' u ($1/1E+6):2 ti 'MF3 MT5 (Photo-absorption)' w l lw 2 lc rgb 'red',\
 'mf6mt5/g_94-Pu-241_9443.law0' i 0 u ($1/1E+6):3 ti 'Au-208' w l dt (10,5) axes x1y2,\
 'mf6mt5/g_94-Pu-241_9443.law0' i 1 u ($1/1E+6):3 ti 'Au-209' w l dt (10,5) axes x1y2,\

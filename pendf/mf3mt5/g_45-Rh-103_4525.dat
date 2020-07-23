@@ -4,6 +4,7 @@
 #           QI -2.834000e+06  reaction Q-value
 #           NR             1  number of interpolation range
 #           NP           194  lin-lin  interpolation
+# Energy        CrossSection
   5.000000e+06  0.000000e+00
   5.250000e+06  0.000000e+00
   5.500000e+06  0.000000e+00
