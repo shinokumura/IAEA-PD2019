@@ -20,6 +20,9 @@ my $mode = 1  ;# mode: 0 All, mode: 1 plot only
 
 # Run DeCE code
 if ($mode == 0){
+    unlink glob('mf3mt3/*');
+    unlink glob('mf3mt5/*');
+    unlink glob('mf6mt5/*');
     my @file         =  glob '../data/g-iaea-pd-2019/*.dat';
     foreach my $files (@file){
 	$files =~ /([g][_].*?[t]$)/;
@@ -39,6 +42,10 @@ if ($mode == 0){
 
 
 #my $files = "mf6mt5/g_65-Tb-159_6525.dat";
+if ($mode >= 0){
+    unlink glob('eps/*');
+    unlink glob('eps-law0/*');
+    unlink glob('eps-log/*');
 my $tex    = "alleps.tex";
 open (TEX, ">$tex");
 
@@ -52,7 +59,7 @@ foreach my $files (@sorted){
     $files = "mf6mt5/" . $files;
 # if($files =~ /0128/){
     my $nucl   =substr($files,7,-3); $nucl =~ s/_/-/g;
-    my ($zap, $law, $np, $npl, $nk);
+    my ($zap, $law, $np, $npl, $nk, $residual);
     my $index  = -1.0;
     my $out    = substr($files,0,-3) . "resid";
     #my $plot   = substr($files,7,-3) . "plt";
@@ -65,6 +72,7 @@ foreach my $files (@sorted){
     my $eps    = "eps/"    . substr($files,7,-3) . "eps";
     my $epsl   = "eps-log/". substr($files,7,-3) . "eps";
     my $plot   = "plot.plt";
+    my @dataset = ();
 
     open (MF6,  "$files") or die "No MF6 file";
     open (OUT,  ">$out");
@@ -75,14 +83,18 @@ foreach my $files (@sorted){
     print PLT "set term postsc enhanced eps color solid font 'Helvetica,18'\n";
     print PLT "set output '$eps'\n";
     print PLT "set format x '10^{%L}'\nset xtics 10\nset log x\n";
-    print PLT "set xlabel 'Incident photon energy [eV]'\nset ylabel 'Cross section [b]'\n";
-    print PLT "set format y '10^{%L}'\nset ytics 10\nset key bottom\nset log y\n replot\n";
+    print PLT "set yrange [1E-10:]\nset xrange [9E-5:]\n\n";
+    print PLT "set xlabel 'Incident photon energy [MeV]'\nset ylabel 'Cross section [b]'\n";
+    print PLT "set y2label 'Residual multiplicity'\nset ytics nomirror\nset y2tics 1\n";
+    print PLT "set key font 'Helvetica,12'\n\n";
+    print PLT "set key outside samplen 3\n\n";
+    #print PLT "set format y '10^{%L}'\nset ytics 10\nset key bottom\nset log y\n\n";
     
     if ($nucl =~ /0128|0425|0625|0725|0825/){
-         print PLT "plot '$mf3' u 1:2 ti 'MF3 MT3' w l lw 2 lc rgb 'black',";
+         print PLT "plot '$mf3' u (\$1\/1E+6):2 ti 'MF3 MT3' w l lw 2 lc rgb 'black',";
     }
     else{
-         print PLT "plot '$mf3' u 1:2 ti 'MF3 MT5' w l lw 2 lc rgb 'black',";
+         print PLT "plot '$mf3' u (\$1\/1E+6):2 ti 'MF3 MT5 (Photo-absorption)' w l lw 2 lc rgb 'red',";
     }
 
     # Find non LAW=0 data from MF6 file and write them to another file with an extention .resid
@@ -100,34 +112,49 @@ foreach my $files (@sorted){
 	if(/LAW/){ $law = substr($line,15,13); $law = trim($law);}
 	if(/NP/) { $np  = substr($line,15,13); $np  = trim($np) ; $npl = $. ;
 		# select $law == 1 or 0 in line 93 and 100.
-		# if($law == 0){
+		if($law >= 0){
 		    $index ++;
+		    $dataset[$index]   =  $residual;
 		    print OUT "\n\n\n#     $index\n#     ZAP    $zap\n#     LAW    $law\n#     NP    $np\n";
+		   
 		    # Write gnuplot input for MF6 part
-		    print PLT "'$out' i $index u 1:4 ti '$zap' w l,";
-	        # }
+		    if ($index <= 30 || $zap == "0"){
+			print PLT "'$out' i $index u (\$1\/1E+6):3 ti '$residual' w l dt (10,5) axes x1y2,";
+		    }
+		    else{
+			print PLT "'$out' i $index u (\$1\/1E+6):3 noti w l dt (10,5) axes x1y2,";
+		    }
+		    
+	        }
 	}
 	if($line =~ /^\s[0-9]/ && $law >= 0 && $. > $npl+1 && $. < $npl+1+$np ) {print OUT "$line";}
     }
     
-    # Write gnuplot input with y axis in log scale
-    
-    # print PLT "\n\nset output '$epsl'\n";
-    # print PLT "set format y '10^{%L}'\nset ytics 10\nset key bottom\nset log y\n replot\n";
-    
+    # Write gnuplot input with y axis in log scal
+    print PLT "\n\nset output '$epsl'\n";
+    print PLT "set format y '10^{%L}'\nset ytics 10\nset log y\n\n";
+    print PLT "unset y2label\nunset y2tics\nset ytics mirror\n\n";
+    print PLT "plot '$mf3' u (\$1\/1E+6):2 w l lw 2 lc rgb 'red' noti,";
+    my $i;
+    for ($i =0; $i <= $index; $i++){
+	 # Write gnuplot input for MF6 part again for cs
+	print PLT "'$out' i $i u (\$1\/1E+6):4 w l dt (10,5) noti,";
+    }
+   
     # Run gnuplot
     my $return_value = `gnuplot "$plot"`;
     # Write tex file
     #    print TEX "\\begin{figure}\n \\includegraphics[width=\\linewidth]{$eps}\n  \\caption{$residual}\n\\end{figure}\n";
     
-    print TEX "\\begin{figure}\n \\includegraphics[width=\\linewidth]{$eps}\n  \\caption{$residual}\n\\end{figure}\n";
-    print TEX "\\begin{figure}\n \\includegraphics[width=\\linewidth]{$epsl}\n \\caption{$residual}\n\\end{figure}\n\\newpage \\clearpage\n\n";
+    print TEX "\\begin{figure}\n \\includegraphics[width=\\linewidth]{$eps}\n  \\caption{$nucl}\n\\end{figure}\n";
+    print TEX "\\begin{figure}\n \\includegraphics[width=\\linewidth]{$epsl}\n \\caption{$nucl}\n\\end{figure}\n\\newpage \\clearpage\n\n";
     
 #    }
 }
+}
 # Run tex compile
 my $return_value = `pdflatex main.tex`;
-# my $return_value = `open main.pdf`;
+my $return_value = `open main.pdf`;
 close(MF6);
 close(OUT);
 close(PLT);
