@@ -59,6 +59,7 @@ foreach my $files (@sorted){
     $files = "mf6mt5/" . $files;
 # if($files =~ /0128/){
     my $nucl   =substr($files,7,-3); $nucl =~ s/_/-/g;
+    my $title = substr($nucl,2,);
     my ($zap, $law, $np, $npl, $nk, $residual);
     my $index  = -1.0;
     my $out    = substr($files,0,-3) . "resid";
@@ -80,21 +81,25 @@ foreach my $files (@sorted){
     print "$files\n";
     
     # Write gnuplot input, command and MF3 part
-    print PLT "set term postsc enhanced eps color solid font 'Helvetica,18'\n";
+    print PLT "set term postsc portrait color solid font 'Helvetica,10'\n";
     print PLT "set output '$eps'\n";
-    print PLT "set format x '10^{%L}'\nset xtics 10\nset log x\n";
-    print PLT "set yrange [1E-10:]\nset xrange [9E-5:]\n\n";
-    print PLT "set xlabel 'Incident photon energy [MeV]'\nset ylabel 'Cross section [b]'\n";
-    print PLT "set y2label 'Residual multiplicity'\nset ytics nomirror\nset y2tics 1\n";
-    print PLT "set key font 'Helvetica,12'\n\n";
-    print PLT "set key outside samplen 3\n\n";
+    print PLT "set size ratio 0.65\n";
+    #print PLT "set format x '10^{%L}'\nset xtics 10\nset log x\n";
+    print PLT "set format y '10^{%L}'\nset ytics 10\nset log y\n\n";
+    print PLT "set format y2 '10^{%L}'\nset log y2\nset y2tics\n\n";
+    print PLT "set yrange [1E-10:]\nset xrange [9E-1:]\n\n";
+    print PLT "set xlabel 'Incident photon energy [MeV]' offset 0,0.5\nset ylabel 'Cross section [b]'\n";
+    print PLT "set y2label 'Residual multiplicity'\nset ytics nomirror\n";
+    print PLT "set title '$title' offset 0,-0.7\n";
+    print PLT "set key font 'Helvetica,10'\n\n";
+    print PLT "set key outside below samplen 2 vertical maxrows 50 spacing 0.8\n\n";
     #print PLT "set format y '10^{%L}'\nset ytics 10\nset key bottom\nset log y\n\n";
     
     if ($nucl =~ /0128|0425|0625|0725|0825/){
          print PLT "plot '$mf3' u (\$1\/1E+6):2 ti 'MF3 MT3' w l lw 2 lc rgb 'black',";
     }
     else{
-         print PLT "plot '$mf3' u (\$1\/1E+6):2 ti 'MF3 MT5 (Photo-absorption)' w l lw 2 lc rgb 'red',";
+         print PLT "plot '$mf3' u (\$1\/1E+6):2 ti 'MF3 MT5' w l lw 2 lc rgb 'red',";
     }
 
     # Find non LAW=0 data from MF6 file and write them to another file with an extention .resid
@@ -118,12 +123,12 @@ foreach my $files (@sorted){
 		    print OUT "\n\n\n#     $index\n#     ZAP    $zap\n#     LAW    $law\n#     NP    $np\n";
 		   
 		    # Write gnuplot input for MF6 part
-		    if ($index <= 30 || $zap == "0"){
-			print PLT "'$out' i $index u (\$1\/1E+6):3 ti '$residual' w l dt (10,5) axes x1y2,";
-		    }
-		    else{
-			print PLT "'$out' i $index u (\$1\/1E+6):3 noti w l dt (10,5) axes x1y2,";
-		    }
+		    #if ($index <= 200 || $zap == "0"){
+		    print PLT "'$out' i $index u (\$1\/1E+6):3 ti '$residual' w l dt $index axes x1y2,";
+		    #}
+		    #else{
+		    #print PLT "'$out' i $index u (\$1\/1E+6):3 noti w l dt (10,5) axes x1y2,";
+		    #}
 		    
 	        }
 	}
@@ -131,6 +136,7 @@ foreach my $files (@sorted){
     }
     
     # Write gnuplot input with y axis in log scal
+
     print PLT "\n\nset output '$epsl'\n";
     print PLT "set format y '10^{%L}'\nset ytics 10\nset log y\n\n";
     print PLT "unset y2label\nunset y2tics\nset ytics mirror\n\n";
@@ -138,23 +144,24 @@ foreach my $files (@sorted){
     my $i;
     for ($i =0; $i <= $index; $i++){
 	 # Write gnuplot input for MF6 part again for cs
-	print PLT "'$out' i $i u (\$1\/1E+6):4 w l dt (10,5) noti,";
+	print PLT "'$out' i $i u (\$1\/1E+6):4 w l dt $i ti '$dataset[$i]',";
     }
    
     # Run gnuplot
     my $return_value = `gnuplot "$plot"`;
+    my $return_value = `mv "$plot" inp/"$nucl"plt`;
     # Write tex file
     #    print TEX "\\begin{figure}\n \\includegraphics[width=\\linewidth]{$eps}\n  \\caption{$residual}\n\\end{figure}\n";
+    if ($nucl !~ /0128|0425|0625|0725|0825|6925|6725|6525|3925|2725|4525|7328/){
+	print TEX "\\begin{figure}\n \\includegraphics[width=\\linewidth]{$eps}\n  \\caption{$nucl}\n\\end{figure}\n\\newpage \\clearpage\n\n";
+	print TEX "\\begin{figure}\n \\includegraphics[width=\\linewidth]{$epsl}\n \\caption{$nucl}\n\\end{figure}\n\\newpage \\clearpage\n\n";
+    }
     
-    print TEX "\\begin{figure}\n \\includegraphics[width=\\linewidth]{$eps}\n  \\caption{$nucl}\n\\end{figure}\n";
-    print TEX "\\begin{figure}\n \\includegraphics[width=\\linewidth]{$epsl}\n \\caption{$nucl}\n\\end{figure}\n\\newpage \\clearpage\n\n";
-    
-#    }
 }
 }
 # Run tex compile
-my $return_value = `pdflatex main.tex`;
-my $return_value = `open main.pdf`;
+#my $return_value = `pdflatex main.tex`;
+#my $return_value = `open main.pdf`;
 close(MF6);
 close(OUT);
 close(PLT);
